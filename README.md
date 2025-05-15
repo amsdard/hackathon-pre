@@ -1,5 +1,4 @@
 # 🚀 PRe Hackathon
-A ready-to-code Python environment for hackathons with everything you need to start building immediately.
 
 ## Getting Ready
 
@@ -39,7 +38,7 @@ Each team can find their project directory and README below:
   - `TeamA/`, `TeamB/`, `TeamC/`, `TeamD/` - Team-specific container configurations
 - `hackathon/` - Team-specific project directories. Each team folder contains README.md file with introduction for your project.
   - `TeamA_AI_Powered_Scenario_Analysis/`
-  - `TeamB_Bill_of_Material_Estimation/`
+  - `TeamB_BoM_Enrichment_And_Generation/`
   - `TeamC_Data_Import_Export_Transformation/`
   - `TeamD_AI_Assisted_Data_Mapping/`
 - `docs/` - Documentation and setup guides
