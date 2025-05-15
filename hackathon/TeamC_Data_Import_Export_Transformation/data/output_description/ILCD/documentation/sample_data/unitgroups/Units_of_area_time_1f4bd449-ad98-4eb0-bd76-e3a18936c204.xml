@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet version="1.0" href="../../stylesheets/unitgroup2html.xsl" type="text/xsl"?>
+<unitGroupDataSet xmlns="http://lca.jrc.it/ILCD/UnitGroup"
+                  xmlns:common="http://lca.jrc.it/ILCD/Common"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="http://lca.jrc.it/ILCD/UnitGroup ../../schemas/ILCD_UnitGroupDataSet.xsd"
+                  version="1.1">
+   <unitGroupInformation>
+      <dataSetInformation>
+         <common:UUID>1f4bd449-ad98-4eb0-bd76-e3a18936c204</common:UUID>
+         <common:name xml:lang="en">Units of area*time</common:name>
+         <classificationInformation>
+            <common:classification>
+               <common:class level="0">Technical unit groups</common:class>
+            </common:classification>
+         </classificationInformation>
+         <common:generalComment xml:lang="en">Purely illustrative sample data set. NOT TO BE USED FOR LCA WORK.</common:generalComment>
+      </dataSetInformation>
+      <quantitativeReference>
+         <referenceToReferenceUnit>0</referenceToReferenceUnit>
+      </quantitativeReference>
+   </unitGroupInformation>
+   <administrativeInformation>
+      <dataEntryBy>
+         <common:timeStamp>2006-02-01T00:00:00+01:00</common:timeStamp>
+         <common:referenceToDataSetFormat type="source data set"
+                                          uri="../sources/ILCD_Format_a97a0155-0234-4b87-b4ce-a45da52f2a40.xml"
+                                          refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40">
+            <common:shortDescription>ILCD format</common:shortDescription>
+         </common:referenceToDataSetFormat>
+      </dataEntryBy>
+      <publicationAndOwnership>
+         <common:dataSetVersion>01.00.000</common:dataSetVersion>
+         <common:permanentDataSetURI>http://lca.jrc.ec.europa.eu/lcainfohub/SAMPLEdatasets/ilcd/unitgroups/Units_of_area_time_1f4bd449-ad98-4eb0-bd76-e3a18936c204.xml</common:permanentDataSetURI>
+      </publicationAndOwnership>
+   </administrativeInformation>
+   <units>
+      <unit dataSetInternalID="0">
+         <name>m2*a</name>
+         <meanValue>1</meanValue>
+         <generalComment xml:lang="en">Square meters times years</generalComment>
+      </unit>
+      <unit dataSetInternalID="1">
+         <name>km2*a</name>
+         <meanValue>1000000</meanValue>
+         <generalComment xml:lang="en">Square kilometers times years</generalComment>
+      </unit>
+      <unit dataSetInternalID="2">
+         <name>ha*a</name>
+         <meanValue>10000</meanValue>
+         <generalComment xml:lang="en">Hectars times years</generalComment>
+      </unit>
+      <unit dataSetInternalID="3">
+         <name>ft2*a</name>
+         <meanValue>0.09290304</meanValue>
+         <generalComment xml:lang="en">British square feet times years</generalComment>
+      </unit>
+      <unit dataSetInternalID="4">
+         <name>mi2*a</name>
+         <meanValue>2589988.110336</meanValue>
+         <generalComment xml:lang="en">British square miles times years</generalComment>
+      </unit>
+   </units>
+</unitGroupDataSet>

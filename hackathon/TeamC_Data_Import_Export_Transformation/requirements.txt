@@ -1,0 +1,5 @@
+# Team A Specific Libraries
+
+# Jupyter
+jupyter>=1.1.1
+notebook>=7.4.2

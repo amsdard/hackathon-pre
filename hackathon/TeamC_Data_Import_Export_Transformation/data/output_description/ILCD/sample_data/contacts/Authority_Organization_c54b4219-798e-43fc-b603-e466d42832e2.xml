@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet version="1.0" href="../../stylesheets/contact2html.xsl" type="text/xsl"?>
+<contact:contactDataSet xmlns:contact="http://lca.jrc.it/ILCD/Contact"
+                        xmlns:common="http://lca.jrc.it/ILCD/Common"
+                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        version="1.1"
+                        xsi:schemaLocation="http://lca.jrc.it/ILCD/Contact ../../schemas/ILCD_ContactDataSet.xsd">
+   <contact:contactInformation>
+      <contact:dataSetInformation>
+         <common:UUID>c54b4219-798e-43fc-b603-e466d42832e2</common:UUID>
+         <common:shortName xml:lang="en">AO [for example data set]</common:shortName>
+         <common:name xml:lang="en">Authority Organization </common:name>
+         <contact:classificationInformation>
+            <common:classification classes="../ILCDClassification.xml" name="ILCD">
+               <common:class classId="String" level="0">Organisations</common:class>
+               <common:class classId="String" level="1">Governmental organisations</common:class>
+            </common:classification>
+         </contact:classificationInformation>
+         <contact:contactAddress xml:lang="en">some contact address information</contact:contactAddress>
+         <contact:telephone>Some phone number</contact:telephone>
+         <contact:telefax>Some fax number</contact:telefax>
+         <contact:email>Some email address</contact:email>
+         <contact:WWWAddress>http://ec.europa.eu/authority_organization/index_en.htm</contact:WWWAddress>
+         <contact:centralContactPoint xml:lang="en">AO; Avenue de Beaulieu 25; 1049 Brussels, Belgium</contact:centralContactPoint>
+         <contact:contactDescriptionOrComment xml:lang="en">Some description of contact here</contact:contactDescriptionOrComment>
+         <contact:contactDescriptionOrComment xml:lang="de">Maybe description also in Deutsch?</contact:contactDescriptionOrComment>
+         <contact:referenceToLogo type="source data set" uri=""
+                                  refObjectId="00000000-0000-0000-0000-000000000000">
+            <common:shortDescription xml:lang="en">reference to logo here</common:shortDescription>
+         </contact:referenceToLogo>
+      </contact:dataSetInformation>
+   </contact:contactInformation>
+   <contact:administrativeInformation>
+      <contact:dataEntryBy>
+         <common:timeStamp>2006-02-01T00:00:00+01:00</common:timeStamp>
+         <common:referenceToDataSetFormat type="source data set"
+                                          uri="../sources/ILCD_Format_1_1_a97a0155-0234-4b87-b4ce-a45da52f2a40.xml"
+                                          refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40">
+            <common:shortDescription>ILCD format </common:shortDescription>
+         </common:referenceToDataSetFormat>
+      </contact:dataEntryBy>
+      <contact:publicationAndOwnership>
+         <common:dataSetVersion>01.00.000</common:dataSetVersion>
+         <common:permanentDataSetURI>http://www.ilcd-network.org/datasets/contacts/Organisations/SomeOne in this world</common:permanentDataSetURI>
+      </contact:publicationAndOwnership>
+   </contact:administrativeInformation>
+</contact:contactDataSet>

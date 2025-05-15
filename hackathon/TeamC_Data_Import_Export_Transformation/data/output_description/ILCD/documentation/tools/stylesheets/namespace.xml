@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:edoc="http://www.iai.fzk.de/lca/edoc" xmlns:process="http://lca.jrc.it/ILCD/Process" xmlns:lciamethod="http://lca.jrc.it/ILCD/LCIAMethod"
+    xmlns:flow="http://lca.jrc.it/ILCD/Flow" xmlns:flowproperty="http://lca.jrc.it/ILCD/FlowProperty" xmlns:unitgroup="http://lca.jrc.it/ILCD/UnitGroup"
+    xmlns:source="http://lca.jrc.it/ILCD/Source" xmlns:contact="http://lca.jrc.it/ILCD/Contact" xmlns:common="http://lca.jrc.it/ILCD/Common"
+    xmlns:old_process="http://lca.jrc.it/ELCD/Process" xmlns:old_lciamethod="http://lca.jrc.it/ELCD/LCIAMethod" xmlns:old_flow="http://lca.jrc.it/ELCD/Flow"
+    xmlns:old_flowproperty="http://lca.jrc.it/ELCD/FlowProperty" xmlns:old_unitgroup="http://lca.jrc.it/ELCD/UnitGroup" xmlns:old_source="http://lca.jrc.it/ELCD/Source"
+    xmlns:old_contact="http://lca.jrc.it/ELCD/Contact" xmlns:old_common="http://lca.jrc.it/ELCD/Common"/>

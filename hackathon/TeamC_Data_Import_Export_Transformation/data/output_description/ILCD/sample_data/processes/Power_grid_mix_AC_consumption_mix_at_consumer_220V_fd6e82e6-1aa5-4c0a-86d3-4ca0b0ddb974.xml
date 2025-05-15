@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../../stylesheets/process2html.xsl' ?>
+<processDataSet xmlns="http://lca.jrc.it/ILCD/Process"
+                xmlns:common="http://lca.jrc.it/ILCD/Common"
+                xmlns:process="http://lca.jrc.it/ILCD/Process"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                locations="../ILCDLocations.xml"
+                metaDataOnly="false"
+                version="1.1"
+                xsi:schemaLocation="http://lca.jrc.it/ILCD/Process ../../schemas/ILCD_ProcessDataSet.xsd">
+   <processInformation>
+      <dataSetInformation>
+         <common:UUID>fd6e82e6-1aa5-4c0a-86d3-4ca0b0ddb974</common:UUID>
+         <name>
+            <baseName xml:lang="en">Fictive dataset: Power grid mix</baseName>
+            <baseName xml:lang="pt">Dados ilustrativos: Electricidade mistura</baseName>
+            <baseName xml:lang="th">ไฟฟ้า ภาพรวมไฟฟ้า</baseName>
+            <baseName xml:lang="de">Fiktiver Datensatz: Strommix</baseName>
+            <treatmentStandardsRoutes xml:lang="en">AC</treatmentStandardsRoutes>
+            <treatmentStandardsRoutes xml:lang="de">Wechselstrom</treatmentStandardsRoutes>
+            <treatmentStandardsRoutes xml:lang="th">AC</treatmentStandardsRoutes>
+            <treatmentStandardsRoutes xml:lang="pt">Currente alternante</treatmentStandardsRoutes>
+            <mixAndLocationTypes xml:lang="en">consumption mix, to consumer</mixAndLocationTypes>
+            <mixAndLocationTypes xml:lang="th">กระแสไฟฟ้าเฉลี่ยยึดตลาด ณ ผู้บริโภค</mixAndLocationTypes>
+            <mixAndLocationTypes xml:lang="de">Verbrauchsmix, beim Verbraucher</mixAndLocationTypes>
+            <mixAndLocationTypes xml:lang="pt">mistura de consumo, ão consumador</mixAndLocationTypes>
+            <functionalUnitFlowProperties xml:lang="en">220 V</functionalUnitFlowProperties>
+            <functionalUnitFlowProperties xml:lang="pt">220 V</functionalUnitFlowProperties>
+            <functionalUnitFlowProperties xml:lang="th">220 V</functionalUnitFlowProperties>
+            <functionalUnitFlowProperties xml:lang="de">220 V</functionalUnitFlowProperties>
+         </name>
+         <identifierOfSubDataSet>Energy conversion</identifierOfSubDataSet>
+         <common:synonyms xml:lang="pt">electricidade; energia eletrica</common:synonyms>
+         <common:synonyms xml:lang="de">Elektrischer Strom; Elektrizität; Strom</common:synonyms>
+         <complementingProcesses>
+            <referenceToComplementingProcess type="process data set"
+                                             uri="../processes/Other_process_cd02618c-3ded-49c7-80c2-d304ba3c4583.xml"
+                                             refObjectId="cd02618c-3ded-49c7-80c2-d304ba3c4583">
+               <common:shortDescription xml:lang="en">any complementing process</common:shortDescription>
+               <common:shortDescription xml:lang="de">irgendein komplementärer Prozess</common:shortDescription>
+            </referenceToComplementingProcess>
+         </complementingProcesses>
+         <classificationInformation>
+            <common:classification>
+               <common:class level="0">Energy carriers and technologies</common:class>
+               <common:class level="1">Electricity</common:class>
+            </common:classification>
+         </classificationInformation>
+         <common:generalComment xml:lang="en">Good overall data quality. Energy carrier mix information based on official statistical information including import/export. Detailed
+        power plant models were used, which combine measured emissions plus calculated values for not measured emissions of e.g. single organics and heavy metals. Energy carrier
+        extraction and processing data is of sufficient to good (e.g. refinery) data quality. Inventory is partly based on primary industry data, partly on secondary literature
+        data.</common:generalComment>
+         <common:generalComment xml:lang="de">Hervorragende Datenqualität.</common:generalComment>
+         <referenceToExternalDocumentation type="source data set"
+                                           uri="../sources/Other_source_b9d23d3f-1865-45e5-8389-20a4e4c09f49.xml"
+                                           refObjectId="b9d23d3f-1865-45e5-8389-20a4e4c09f49">
+            <common:subReference>pp 105 - 113</common:subReference>
+            <common:shortDescription xml:lang="en">XY Consult Electricity Mix DE 1998 LCI report</common:shortDescription>
+            <common:shortDescription xml:lang="de">XY Strommix DE 1998 Lebenszyklusinventar Bericht</common:shortDescription>
+         </referenceToExternalDocumentation>
+      </dataSetInformation>
+      <quantitativeReference type="Reference flow(s)">
+         <referenceToReferenceFlow>0</referenceToReferenceFlow>
+         <functionalUnitOrOther xml:lang="en">Provision of 1 MJ electricity (AC) at 220 V to the consumer</functionalUnitOrOther>
+      </quantitativeReference>
+      <time>
+         <common:referenceYear>1999</common:referenceYear>
+         <common:dataSetValidUntil>2004</common:dataSetValidUntil>
+         <common:timeRepresentativenessDescription xml:lang="en">Whole year; average mix across seasonal variations.</common:timeRepresentativenessDescription>
+         <common:timeRepresentativenessDescription xml:lang="de">Ganzjährig; Durchschnitt über saisonale Variationen</common:timeRepresentativenessDescription>
+      </time>
+      <geography>
+         <locationOfOperationSupplyOrProduction latitudeAndLongitude="0;0" location="DE">
+            <descriptionOfRestrictions xml:lang="en">Average data for Germany. If specific electricity supplier is used (e.g. for site specific modelling), the mix might be different
+          (e.g. if regional wind power electricity is contracted). No further restrictions.</descriptionOfRestrictions>
+            <descriptionOfRestrictions xml:lang="de">Durschschnittliche Daten für Deutschland</descriptionOfRestrictions>
+         </locationOfOperationSupplyOrProduction>
+         <subLocationOfOperationSupplyOrProduction latitudeAndLongitude="0;0" subLocation="DE">
+            <descriptionOfRestrictions xml:lang="en">Average data for Germany, no individual sub-locations explicitely considered and combined.</descriptionOfRestrictions>
+            <descriptionOfRestrictions xml:lang="de">Durchschnittliche Daten für Deutschland, keine speziellen Daten für inviduelle Unterregionen</descriptionOfRestrictions>
+         </subLocationOfOperationSupplyOrProduction>
+      </geography>
+      <technology>
+         <technologyDescriptionAndIncludedProcesses xml:lang="en">The electricity consumption mix consists of 25.57 % Hard coal power plant, 27.57 % Lignite power plant, 35.91 %
+        Nuclear power plant, 5.84 % Natural gas power plant, 0.54 % Crude oil power plant, 4.09 % Hydro power plant, 0.31 % Wind power plant, 0.46 % Waste incineration plant, 0.13
+        % Biomass power plant. Other relevant included process are the refinery and the energy carrier exploitation and extraction processes (the latter ones are not separately
+        available).</technologyDescriptionAndIncludedProcesses>
+         <technologyDescriptionAndIncludedProcesses xml:lang="de">Der Elektrizitätskonsummix besteht aus 25,57 % Steinkohlekraftwerke, 27,57 Braunkohle-Kraftwerke, 35,91 %
+        Kernkraftwerke, 5,84 % Gaskraftwerke, 0.54 % Erdölkraftwerke, 4,09 % Wasserkraftwerke, 0,31 % Windkraftwerke, 0,46 % Müllverbrennungsanlagen und 0,13 % Biomassekraftwerke.
+        Andere relevante und inkludierte Prozesse sind Raffinerieprozesse, Energietransport und Extraktionsprozesse</technologyDescriptionAndIncludedProcesses>
+         <referenceToIncludedProcesses type="process data set" uri=""
+                                       refObjectId="00000000-0000-0000-0000-000000000000">
+            <common:shortDescription xml:lang="en">Hard coal power plant</common:shortDescription>
+            <common:shortDescription xml:lang="de">Steinkohle Kraftwerk</common:shortDescription>
+         </referenceToIncludedProcesses>
+         <referenceToIncludedProcesses type="process data set" uri=""
+                                       refObjectId="00000000-0000-0000-0000-000000000000">
+            <common:shortDescription xml:lang="en">Lignite power plant</common:shortDescription>
+            <common:shortDescription xml:lang="de">Braunkohle Kraftwerk</common:shortDescription>
+         </referenceToIncludedProcesses>
+         <referenceToIncludedProcesses type="process data set" uri=""
+                                       refObjectId="00000000-0000-0000-0000-000000000000">
+            <common:shortDescription xml:lang="en">Natural gas power plant</common:shortDescription>
+            <common:shortDescription xml:lang="de">Erdgas Kraftwerk</common:shortDescription>
+         </referenceToIncludedProcesses>
+         <referenceToIncludedProcesses type="process data set" uri=""
+                                       refObjectId="00000000-0000-0000-0000-000000000000">
+            <common:shortDescription xml:lang="en">Wind power plant</common:shortDescription>
+            <common:shortDescription xml:lang="de">Wind Kraftwerk</common:shortDescription>
+         </referenceToIncludedProcesses>
+         <referenceToIncludedProcesses type="process data set" uri=""
+                                       refObjectId="00000000-0000-0000-0000-000000000000">
+            <common:shortDescription xml:lang="en">Fuel oil power plant</common:shortDescription>
+            <common:shortDescription xml:lang="de">Heizöl Kraftwerk</common:shortDescription>
+         </referenceToIncludedProcesses>
+         <technologicalApplicability xml:lang="en">Use for (typically small to medium) electrical appliances at 220 V AC.</technologicalApplicability>
+         <technologicalApplicability xml:lang="de">Dieser Energiedatensatz kann für kleine bis mittlere elektrische Anwendungsbereiche bei 220 V Wechselstrom eingesetzt
+        werden.</technologicalApplicability>
+         <referenceToTechnologyPictogramme type="source data set"
+                                           uri="../sources/Electricity_pictogramme_7efb12b9-4e19-4b08-95cc-56805d24efec.xml"
+                                           refObjectId="7efb12b9-4e19-4b08-95cc-56805d24efec">
+            <common:shortDescription xml:lang="en">Electricity-Pictogramme</common:shortDescription>
+            <common:shortDescription xml:lang="de">Elektrizitäts-Piktogramm</common:shortDescription>
+         </referenceToTechnologyPictogramme>
+         <referenceToTechnologyFlowDiagrammOrPicture type="source data set"
+                                                     uri="../sources/Flowchart_Power_grid_mix_DE_1998_e4d50832-85c5-4207-b5c4-c8543e16fa3c.xml"
+                                                     refObjectId="e4d50832-85c5-4207-b5c4-c8543e16fa3c">
+            <common:shortDescription xml:lang="pt">Flowchart de mistura de electricidade alemao de 1998</common:shortDescription>
+            <common:shortDescription xml:lang="de">Fliessbild Stromverbrauchsmix Deutschland 1998</common:shortDescription>
+            <common:shortDescription xml:lang="bg">Hagditen burggdtuy tedescu 1998</common:shortDescription>
+         </referenceToTechnologyFlowDiagrammOrPicture>
+      </technology>
+      <mathematicalRelations>
+         <modelDescription xml:lang="en">Super model for test.</modelDescription>
+         <modelDescription xml:lang="de">Ganz tolles Model nur für den Test.</modelDescription>
+         <variableParameter name="so2">
+            <formula>s*2</formula>
+            <meanValue>3.2E-4</meanValue>
+            <minimumValue>0.0</minimumValue>
+            <maximumValue>0.2</maximumValue>
+            <uncertaintyDistributionType>log-normal</uncertaintyDistributionType>
+            <relativeStandardDeviation95In>20</relativeStandardDeviation95In>
+            <comment xml:lang="en">[kg] Typical range 0.5E-4 to 5E-4kg/MJ electr. Calculates SO2 emissions from a manually entered S-content. Testdummy</comment>
+            <comment xml:lang="de">Kalkuliert die SO2 Emission von einem manuell einzugebenden S-Inhalt.</comment>
+         </variableParameter>
+         <variableParameter name="s">
+            <formula/>
+            <meanValue>1.6E-4</meanValue>
+            <minimumValue>0.0</minimumValue>
+            <maximumValue>0.05</maximumValue>
+            <uncertaintyDistributionType>undefined</uncertaintyDistributionType>
+            <relativeStandardDeviation95In>0.0</relativeStandardDeviation95In>
+            <comment xml:lang="en">[kg/kg] Sulfur content of fuel.</comment>
+            <comment xml:lang="de">Schwefelgehalt des Brennstoffs.</comment>
+         </variableParameter>
+      </mathematicalRelations>
+   </processInformation>
+   <modellingAndValidation>
+      <LCIMethodAndAllocation>
+         <typeOfDataSet>Partly terminated system</typeOfDataSet>
+         <LCIMethodPrinciple>Attributional</LCIMethodPrinciple>
+         <deviationsFromLCIMethodPrinciple xml:lang="en">none</deviationsFromLCIMethodPrinciple>
+         <deviationsFromLCIMethodPrinciple xml:lang="de">Keine</deviationsFromLCIMethodPrinciple>
+         <LCIMethodApproaches>Allocation - market value</LCIMethodApproaches>
+         <LCIMethodApproaches>Allocation - ability to bear</LCIMethodApproaches>
+         <deviationsFromLCIMethodApproaches xml:lang="en">None</deviationsFromLCIMethodApproaches>
+         <deviationsFromLCIMethodApproaches xml:lang="de">Keine</deviationsFromLCIMethodApproaches>
+         <modellingConstants xml:lang="en">All data used in the calculation of the LCI results refer to net calorific value. For the transport of energy carriers average transport
+        processes (ship, pipeline, rail, road) are used.</modellingConstants>
+         <modellingConstants xml:lang="de">Alle Daten, die für die Berechnung des LCI Datensatzes benutzt wurden, beziehen sich auf den Unteren Heizwert. Für den
+        Energieträgertransport wurde Duchschnittswerte für den Transport mit Schiff, Pipeline, Bahn und Straße benutzt.</modellingConstants>
+         <deviationsFromModellingConstants xml:lang="en">None</deviationsFromModellingConstants>
+         <deviationsFromModellingConstants xml:lang="de">Keine</deviationsFromModellingConstants>
+         <referenceToLCAMethodDetails type="source data set"
+                                      uri="../sources/XY_Consult_LCI_method_report_2000_205edc18-8b93-4555-85ea-fa163371d914.xml"
+                                      refObjectId="00000000-0000-0000-0000-000000000000">
+            <common:subReference>pp 15-46</common:subReference>
+            <common:shortDescription xml:lang="en">XY Consult LCI methodology report 2000</common:shortDescription>
+            <common:shortDescription xml:lang="de">Sachinventar Methodologie-Report der Fa. XY Consult, 2000</common:shortDescription>
+         </referenceToLCAMethodDetails>
+         <referenceToLCAMethodDetails type="source data set" uri=""
+                                      refObjectId="00000000-0000-0000-0000-000000000000">
+            <common:shortDescription xml:lang="en">Another LCI methodology report (DOC)</common:shortDescription>
+         </referenceToLCAMethodDetails>
+      </LCIMethodAndAllocation>
+      <dataSourcesTreatmentAndRepresentativeness>
+         <dataCutOffAndCompletenessPrinciples xml:lang="en">Cut-off rules for each unit coverage of at least 95 % of mass and energy of the Input and of the Output flows, and 98 % of
+        their environmental relevance (according to expert judgement).</dataCutOffAndCompletenessPrinciples>
+         <deviationsFromCutOffAndCompletenessPrinciples xml:lang="en">The coverage for the exploration data is only 90% of mass and energy and 95% of the environmental relevance
+        (expert judgement).</deviationsFromCutOffAndCompletenessPrinciples>
+         <dataSelectionAndCombinationPrinciples xml:lang="en">The data sources for the complete product system are sufficiently consistent: The grid mix data is based on national
+        statistics. The key emissions, e.g. carbon dioxide, sulphur dioxide, etc., of the power plants are based on measured operating data. All other emissions from the power
+        plants are based on literature data and/or calculated via energy carrier composition in combination with (literature-based) combustion models. The data on the energy
+        carrier supply chain is based on statistics with country-wise transport distances and energy carrier composition, as well as industry and literature data on the inventory
+        of exploration and extraction. Refinery data are based on measurements of major refineries. Grid losses are taken from national statistics. LCI modelling is fully
+        consistent.</dataSelectionAndCombinationPrinciples>
+         <deviationsFromSelectionAndCombinationPrinciples xml:lang="en">none</deviationsFromSelectionAndCombinationPrinciples>
+         <dataTreatmentAndExtrapolationsPrinciples xml:lang="en">Energy carrier specific power plants are modelled according to national combustion technology mix. Data measured at
+        representative power plants for each of the main power plant types have been upscaled to the country mix of power plant
+        technologies.</dataTreatmentAndExtrapolationsPrinciples>
+         <deviationsFromTreatmentAndExtrapolationPrinciples xml:lang="en">none</deviationsFromTreatmentAndExtrapolationPrinciples>
+         <referenceToDataHandlingPrinciples type="source data set"
+                                            uri="../sources/XY_Consult_LCI_method_report_2000_205edc18-8b93-4555-85ea-fa163371d914.xml"
+                                            refObjectId="205edc18-8b93-4555-85ea-fa163371d914">
+            <common:subReference>pp 25-30</common:subReference>
+            <common:shortDescription xml:lang="en">XY Consult LCI methodology report 2000</common:shortDescription>
+            <common:shortDescription xml:lang="de">Methodologie-Report 2000 der Fa. XY Consult</common:shortDescription>
+         </referenceToDataHandlingPrinciples>
+         <referenceToDataSource type="source data set"
+                                uri="../sources/Electricity_Information_1995_6efb12b9-4e19-4b08-95cc-56805d24efec.xml"
+                                refObjectId="6efb12b9-4e19-4b08-95cc-56805d24efec">
+            <common:subReference>p 107</common:subReference>
+            <common:shortDescription xml:lang="en">Electricity Information 1995 from ELECTRIC Energy association</common:shortDescription>
+            <common:shortDescription xml:lang="de">Information über Elektrizität 1995 des ELECTRIC Elektrizitäts-Verbandes</common:shortDescription>
+         </referenceToDataSource>
+         <referenceToDataSource type="source data set"
+                                uri="../sources/Other_source_928fe95b-3719-4130-8405-46f20bf6f1f1.xml"
+                                refObjectId="928fe95b-3719-4130-8405-46f20bf6f1f1">
+            <common:shortDescription xml:lang="en">Another data source</common:shortDescription>
+            <common:shortDescription xml:lang="de">Eine andere Datenquelle</common:shortDescription>
+         </referenceToDataSource>
+         <percentageSupplyOrProductionCovered>95</percentageSupplyOrProductionCovered>
+         <annualSupplyOrProductionVolume xml:lang="en">15000 MWh</annualSupplyOrProductionVolume>
+         <samplingProcedure xml:lang="en">Energy carriers production total annual production volume; emission factors from 5 samples during the year. Land use from maps of producers.
+        Electric. conversion: total annual production volume measured. Emissions as daily 30 min average values (random sampling time).</samplingProcedure>
+         <samplingProcedure xml:lang="de">Totales jährliches Energietransportvolumen, Emissionsfaktoren von 5 Messungen während des Jahres, Landnutzung über Karten</samplingProcedure>
+         <dataCollectionPeriod xml:lang="en">1999 to 2005</dataCollectionPeriod>
+         <dataCollectionPeriod xml:lang="de">1999 bis 2005</dataCollectionPeriod>
+         <uncertaintyAdjustments xml:lang="en">none</uncertaintyAdjustments>
+         <uncertaintyAdjustments xml:lang="de">keine</uncertaintyAdjustments>
+         <useAdviceForDataSet xml:lang="en">No special use advice; grid losses are included. (This data set is intended exclusively to show the rough use of (almost) all documentation
+        fields, NOT good documentation or LCA practice or a consistent/valid data set.)</useAdviceForDataSet>
+         <useAdviceForDataSet xml:lang="de">Keine besonderen Hinweise, Netzverluste sind eingeschlossen.</useAdviceForDataSet>
+      </dataSourcesTreatmentAndRepresentativeness>
+      <completeness>
+         <completenessProductModel>All relevant flows quantified</completenessProductModel>
+         <referenceToSupportedImpactAssessmentMethods type="LCIA method data set"
+                                                      uri="../lciamethods/Super_LCIA_2007_8b82be1e-c0ce-458f-a55f-113aa51b743a.xml"
+                                                      refObjectId="8b82be1e-c0ce-458f-a55f-113aa51b743a">
+            <common:shortDescription xml:lang="en">SuperLCIA2007</common:shortDescription>
+         </referenceToSupportedImpactAssessmentMethods>
+         <referenceToSupportedImpactAssessmentMethods type="LCIA method data set"
+                                                      uri="../lciamethods/Other_Method_47734133-4ed5-4a96-9692-6b3fe44c1964.xml"
+                                                      refObjectId="47734133-4ed5-4a96-9692-6b3fe44c1964">
+            <common:shortDescription xml:lang="en">Another method</common:shortDescription>
+            <common:shortDescription xml:lang="de">Eine andere Methode</common:shortDescription>
+         </referenceToSupportedImpactAssessmentMethods>
+         <completenessElementaryFlows type="Climate change" value="All relevant flows quantified"/>
+         <completenessElementaryFlows type="Eutrophication" value="Relevant flows missing"/>
+         <completenessElementaryFlows type="Acidification" value="All relevant flows quantified"/>
+         <completenessOtherProblemField xml:lang="en">Noise-XY-Indicator; A. Braun (2005): A novel method for the integration of noise into LCA. SuperPublishing. 12/2005 pp
+        23-35.</completenessOtherProblemField>
+         <completenessOtherProblemField xml:lang="de">Noise-XY-Indicator; A. Braun (2005): A novel method for the integration of noise into LCA. SuperPublishing. 12/2005 pp
+        23-35.</completenessOtherProblemField>
+      </completeness>
+      <validation>
+         <review type="Dependent internal review">
+            <common:scope name="Documentation">
+               <common:method name="Expert judgement"/>
+            </common:scope>
+            <common:scope name="LCI results or Partly terminated system">
+               <common:method name="Cross-check with other source"/>
+               <common:method name="Expert judgement"/>
+               <common:method name="Energy balance"/>
+               <common:method name="Mass balance"/>
+            </common:scope>
+            <common:scope name="LCIA results">
+               <common:method name="Cross-check with other source"/>
+               <common:method name="Expert judgement"/>
+            </common:scope>
+            <common:dataQualityIndicators>
+               <common:dataQualityIndicator value="Very good" name="Technological representativeness"/>
+               <common:dataQualityIndicator value="Very good" name="Geographical representativeness"/>
+            </common:dataQualityIndicators>
+            <common:reviewDetails xml:lang="en">The dataset is of adequate data quality in view of the intended use as well as stated geographical and technology coverage. No other
+          aspect has been reviewed. The LCI method applied is in compliance with ISO 14040 ff. The documentation includes all relevant information in view of data quality and scope
+          of application of the respective LCI result. Dataset represents state of the art in view of the referenced functional unit. The energy balance is closed. The discrepancy
+          in the mass balance fits to the documented method of not considering air input to incineration etc.</common:reviewDetails>
+            <common:reviewDetails xml:lang="de">Hier deutsche Beschreibung der Review Details</common:reviewDetails>
+            <common:referenceToNameOfReviewerAndInstitution type="contact data set"
+                                                            uri="../contacts/XY_Consulting_e4fedd7b-d3bb-46f3-9464-6a0702dc36f9.xml"
+                                                            refObjectId="e4fedd7b-d3bb-46f3-9464-6a0702dc36f9">
+               <common:shortDescription xml:lang="en">XY Consultants Ltd.</common:shortDescription>
+            </common:referenceToNameOfReviewerAndInstitution>
+            <common:referenceToNameOfReviewerAndInstitution type="contact data set"
+                                                            uri="../contacts/Authority_Organization_c54b4219-798e-43fc-b603-e466d42832e2.xml"
+                                                            refObjectId="c54b4219-798e-43fc-b603-e466d42832e2">
+               <common:shortDescription xml:lang="en">LCA-Authority Organization ABC</common:shortDescription>
+            </common:referenceToNameOfReviewerAndInstitution>
+            <common:otherReviewDetails xml:lang="en">no further comments after publication were received/documented</common:otherReviewDetails>
+            <common:referenceToCompleteReviewReport type="source data set" uri=""
+                                                    refObjectId="aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaca">
+               <common:shortDescription xml:lang="en">"Electricity DE 1998" review report LCA-SR 2000</common:shortDescription>
+            </common:referenceToCompleteReviewReport>
+         </review>
+      </validation>
+      <complianceDeclarations>
+         <compliance>
+            <common:referenceToComplianceSystem type="source data set" refObjectId="d92a1a12-2545-49e2-a585-55c259997756">
+               <common:shortDescription xml:lang="en">ILCD Compliance</common:shortDescription>
+               <common:shortDescription xml:lang="de">ILCD Compliance</common:shortDescription>
+            </common:referenceToComplianceSystem>
+            <common:approvalOfOverallCompliance>Fully compliant</common:approvalOfOverallCompliance>
+            <common:nomenclatureCompliance>Fully compliant</common:nomenclatureCompliance>
+            <common:methodologicalCompliance>Fully compliant</common:methodologicalCompliance>
+            <common:reviewCompliance>Fully compliant</common:reviewCompliance>
+            <common:documentationCompliance>Fully compliant</common:documentationCompliance>
+         </compliance>
+      </complianceDeclarations>
+   </modellingAndValidation>
+   <administrativeInformation>
+      <common:commissionerAndGoal>
+         <common:referenceToCommissioner type="contact data set"
+                                         uri="../contacts/Other_organization_4404bae5-e29c-4a7a-a69c-fd36ec2366eb.xml"
+                                         refObjectId="4404bae5-e29c-4a7a-a69c-fd36ec2366eb">
+            <common:shortDescription xml:lang="en">Fictive: ELECTRIC Association</common:shortDescription>
+         </common:referenceToCommissioner>
+         <common:referenceToCommissioner type="contact data set"
+                                         uri="../contacts/Authority_Organization_c54b4219-798e-43fc-b603-e466d42832e2.xml"
+                                         refObjectId="c54b4219-798e-43fc-b603-e466d42832e2">
+            <common:shortDescription xml:lang="en">Fictive example - Authority Organization</common:shortDescription>
+         </common:referenceToCommissioner>
+         <common:project xml:lang="en">Internet Site on Life Cycle Assessment Tools and Services and Life Cycle Inventory Data in support of European Integrated Product Policy,
+        Reference: ENV.A.2/SER/2003/0110</common:project>
+         <common:project xml:lang="de">Internet Site für Life Cycle Assessment Tools und Services und Life Cycle Inventory Data zur Unterstützung der europäischen Integrierten Product
+        Politik (IPP)</common:project>
+         <common:intendedApplications xml:lang="en">Publication as background data for use in LCA studies, except for comparative assertions diclosed to the public, which need an
+        independent external review </common:intendedApplications>
+         <common:intendedApplications xml:lang="de">Publikation als Hintergrunddatensatz für allen Arten von Studien, mit Ausnahme von publizierten Ökobilanzvergleichen, wofür ein
+        Unbhängiges Externes Review benötigt wird.</common:intendedApplications>
+      </common:commissionerAndGoal>
+      <dataGenerator>
+         <common:referenceToPersonOrEntityGeneratingTheDataSet type="contact data set"
+                                                               uri="../contacts/XY_Consulting_e4fedd7b-d3bb-46f3-9464-6a0702dc36f9.xml"
+                                                               refObjectId="e4fedd7b-d3bb-46f3-9464-6a0702dc36f9">
+            <common:shortDescription xml:lang="en">XY consulting Ltd.</common:shortDescription>
+         </common:referenceToPersonOrEntityGeneratingTheDataSet>
+      </dataGenerator>
+      <dataEntryBy>
+         <common:timeStamp>2008-08-11T15:21:15.273+07:00</common:timeStamp>
+         <common:referenceToDataSetFormat type="source data set"
+                                          uri="../sources/ILCD_Format_a97a0155-0234-4b87-b4ce-a45da52f2a40.xml"
+                                          refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40">
+            <common:shortDescription xml:lang="en">ILCD format</common:shortDescription>
+            <common:shortDescription xml:lang="de">ILCD Format</common:shortDescription>
+         </common:referenceToDataSetFormat>
+         <common:referenceToDataSetFormat type="source data set"
+                                          uri="../sources/XY_Consult_format_5.0_e4333ef8-1e21-4470-9319-559f7e03793b.xml"
+                                          refObjectId="e4333ef8-1e21-4470-9319-559f7e03793b">
+            <common:shortDescription xml:lang="en">XY Consultant format 5.0</common:shortDescription>
+         </common:referenceToDataSetFormat>
+         <common:referenceToConvertedOriginalDataSetFrom type="source data set"
+                                                         uri="../sources/XY_Consult_format_5.0_e4333ef8-1e21-4470-9319-559f7e03793b.xml"
+                                                         refObjectId="e4333ef8-1e21-4470-9319-559f7e03793b">
+            <common:shortDescription xml:lang="en">Z Consult database format 2.4</common:shortDescription>
+         </common:referenceToConvertedOriginalDataSetFrom>
+         <common:referenceToPersonOrEntityEnteringTheData type="contact data set" uri="">
+            <common:shortDescription xml:lang="en">Super researchers, University of anywhere</common:shortDescription>
+         </common:referenceToPersonOrEntityEnteringTheData>
+         <common:referenceToDataSetUseApproval type="contact data set"
+                                               uri="../contacts/Other_organization_4404bae5-e29c-4a7a-a69c-fd36ec2366eb.xml"
+                                               refObjectId="4404bae5-e29c-4a7a-a69c-fd36ec2366eb">
+            <common:shortDescription xml:lang="en">ELECTRIC Association</common:shortDescription>
+            <common:shortDescription xml:lang="de">ELECTRIC Verband</common:shortDescription>
+         </common:referenceToDataSetUseApproval>
+      </dataEntryBy>
+      <publicationAndOwnership>
+         <common:dateOfLastRevision>2001-12-17T09:30:47.0Z</common:dateOfLastRevision>
+         <common:dataSetVersion>01.00.000</common:dataSetVersion>
+         <common:referenceToPrecedingDataSetVersion type="process data set"
+                                                    uri="http://www.iai.fzk.de/lca/ILCD/LCA-data/Power_grid_mix_AC_consumption_mix_at_consumer_220V_dd6e82e6-1aa5-4c0a-86d3-4ca0b0ddb974.xml"
+                                                    refObjectId="dd6e82e6-1aa5-4c0a-86d3-4ca0b0ddb974">
+            <common:shortDescription xml:lang="en">DE - Power grid mix AC 220V of 1997</common:shortDescription>
+            <common:shortDescription xml:lang="de">DE - Elektrizitätsnetzmix, Wechselstrom, 200V für 1997</common:shortDescription>
+         </common:referenceToPrecedingDataSetVersion>
+         <common:permanentDataSetURI>http://www.xyconsult.com/lca/processes/Power_grid_mix_AC_consumption_mix_at_consumer_220V_fd6e82e6-1aa5-4c0a-86d3-4ca0b0ddb974.xml</common:permanentDataSetURI>
+         <common:workflowAndPublicationStatus>Data set finalised; entirely published</common:workflowAndPublicationStatus>
+         <common:referenceToUnchangedRepublication type="source data set"
+                                                   uri="../sources/Other_source_b9d23d3f-1865-45e5-8389-20a4e4c09f49.xml"
+                                                   refObjectId="b9d23d3f-1865-45e5-8389-20a4e4c09f49">
+            <common:subReference>Sub database "Energy"</common:subReference>
+            <common:shortDescription xml:lang="en">XY 4.5 database, 2005</common:shortDescription>
+            <common:shortDescription xml:lang="de">XY 4.5 Datenbank, 2005</common:shortDescription>
+         </common:referenceToUnchangedRepublication>
+         <common:referenceToRegistrationAuthority type="contact data set"
+                                                  uri="../contacts/Registration_Authority_4ae407df-4514-45fb-989e-795d4f91fb41.xml"
+                                                  refObjectId="4ae407df-4514-45fb-989e-795d4f91fb41">
+            <common:shortDescription xml:lang="en">German ILCD registration authority</common:shortDescription>
+            <common:shortDescription xml:lang="de">Deutsche ILCD Registrierungsstelle</common:shortDescription>
+         </common:referenceToRegistrationAuthority>
+         <common:registrationNumber>1-2454-341</common:registrationNumber>
+         <common:referenceToOwnershipOfDataSet type="contact data set" uri=""
+                                               refObjectId="aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaa3a">
+            <common:shortDescription xml:lang="en">ELECTRIC Association</common:shortDescription>
+         </common:referenceToOwnershipOfDataSet>
+         <common:copyright>true</common:copyright>
+         <common:referenceToEntitiesWithExclusiveAccess type="contact data set" uri=""
+                                                        refObjectId="aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaa4a">
+            <common:shortDescription xml:lang="en">Fictive: Company A including access to confidential raw data</common:shortDescription>
+         </common:referenceToEntitiesWithExclusiveAccess>
+         <common:licenseType>Free of charge for all users and uses</common:licenseType>
+         <common:accessRestrictions xml:lang="en">None, but when using the data set, reference to the owner of data set is to be provided by citing the entry in the respective
+        "ownership" contact data set.</common:accessRestrictions>
+         <common:accessRestrictions xml:lang="de">Keine, aber wenn der Datensatz benutzt wird, muss eine Referenz auf den Eigentümer gesetzt werden.</common:accessRestrictions>
+      </publicationAndOwnership>
+   </administrativeInformation>
+   <exchanges>
+      <exchange dataSetInternalID="0">
+         <referenceToFlowDataSet type="flow data set"
+                                 uri="../flows/Electrical_power_AC_220V_115433f0-1431-4662-bbbf-abd7453ad92f.xml"
+                                 refObjectId="115433f0-1431-4662-bbbf-abd7453ad92f">
+            <common:shortDescription xml:lang="en">Electricity; AC; 220 V</common:shortDescription>
+            <common:shortDescription xml:lang="de">Strom; Wechselstrom; 220 V</common:shortDescription>
+         </referenceToFlowDataSet>
+         <location/>
+         <exchangeDirection>Output</exchangeDirection>
+         <meanAmount>1.0</meanAmount>
+         <resultingAmount>1.0</resultingAmount>
+         <allocations>
+            <allocation internalReferenceToCoProduct="0" allocatedFraction="100.0"/>
+         </allocations>
+         <dataSourceType>&gt; 90% primary</dataSourceType>
+         <dataDerivationTypeStatus>Measured</dataDerivationTypeStatus>
+      </exchange>
+      <exchange dataSetInternalID="1">
+         <referenceToFlowDataSet type="flow data set"
+                                 uri="../flows/Natural_gas_b6bc902b-4720-4882-9d09-607406c34f88.xml"
+                                 refObjectId="b6bc902b-4720-4882-9d09-607406c34f88">
+            <common:shortDescription xml:lang="en">Natural gas</common:shortDescription>
+            <common:shortDescription xml:lang="de">Erdgas</common:shortDescription>
+         </referenceToFlowDataSet>
+         <location/>
+         <exchangeDirection>Input</exchangeDirection>
+         <meanAmount>0.0041</meanAmount>
+         <resultingAmount>0.0041</resultingAmount>
+         <uncertaintyDistributionType>normal</uncertaintyDistributionType>
+         <relativeStandardDeviation95In>5</relativeStandardDeviation95In>
+         <allocations>
+            <allocation internalReferenceToCoProduct="0" allocatedFraction="50.0"/>
+         </allocations>
+         <dataSourceType>Primary</dataSourceType>
+         <dataDerivationTypeStatus>Measured</dataDerivationTypeStatus>
+      </exchange>
+      <exchange dataSetInternalID="2">
+         <referenceToFlowDataSet type="flow data set"
+                                 uri="../flows/Hard_coal_9e2df226-4ca5-419c-97cf-e329aae78cbf.xml"
+                                 refObjectId="9e2df226-4ca5-419c-97cf-e329aae78cbf">
+            <common:shortDescription xml:lang="en">Hard coal</common:shortDescription>
+            <common:shortDescription xml:lang="de">Steinkohle</common:shortDescription>
+         </referenceToFlowDataSet>
+         <location/>
+         <exchangeDirection>Input</exchangeDirection>
+         <meanAmount>0.0295</meanAmount>
+         <resultingAmount>0.0295</resultingAmount>
+         <minimumAmount>0.027</minimumAmount>
+         <maximumAmount>0.031</maximumAmount>
+         <uncertaintyDistributionType>uniform</uncertaintyDistributionType>
+         <allocations>
+            <allocation internalReferenceToCoProduct="0" allocatedFraction="100.0"/>
+         </allocations>
+         <dataSourceType>Secondary</dataSourceType>
+         <dataDerivationTypeStatus>Estimated</dataDerivationTypeStatus>
+         <referencesToDataSource>
+            <referenceToDataSource type="source data set"
+                                   uri="../sources/Other_source_dd7262d5-e386-4dfc-b6f4-ed14a4714e5b.xml"
+                                   refObjectId="dd7262d5-e386-4dfc-b6f4-ed14a4714e5b">
+               <common:shortDescription xml:lang="en">Other source, page 47. (Reference to corresponding data source for the data of the Uniform distribution min and max
+            values)</common:shortDescription>
+            </referenceToDataSource>
+         </referencesToDataSource>
+         <generalComment xml:lang="en">No usable measured data. Uniformly distributed data had to be assumed, according to "Other source".</generalComment>
+         <generalComment xml:lang="de">Keine brauchbaren Messwerte. Gleichverteilte Werte wurden angenommen, gemäß der Quelle "Other source".</generalComment>
+      </exchange>
+      <exchange dataSetInternalID="3">
+         <referenceToFlowDataSet type="flow data set"
+                                 uri="../flows/Crude_oil_1d3c09d2-7227-4873-97e1-2cfebf633a28.xml"
+                                 refObjectId="1d3c09d2-7227-4873-97e1-2cfebf633a28">
+            <common:shortDescription xml:lang="en">Crude oil</common:shortDescription>
+            <common:shortDescription xml:lang="de">Heizöl</common:shortDescription>
+         </referenceToFlowDataSet>
+         <location/>
+         <exchangeDirection>Input</exchangeDirection>
+         <meanAmount>0.0013</meanAmount>
+         <resultingAmount>0.0013</resultingAmount>
+         <uncertaintyDistributionType>normal</uncertaintyDistributionType>
+         <relativeStandardDeviation95In>4</relativeStandardDeviation95In>
+         <allocations>
+            <allocation internalReferenceToCoProduct="0" allocatedFraction="100.0"/>
+         </allocations>
+         <dataSourceType>Mixed primary / secondary</dataSourceType>
+         <dataDerivationTypeStatus>Measured</dataDerivationTypeStatus>
+      </exchange>
+      <exchange dataSetInternalID="4">
+         <referenceToFlowDataSet type="flow data set"
+                                 uri="../flows/Lignite_a8e14b8f-2fd5-4a1d-bfcc-b4ed3b345798.xml"
+                                 refObjectId="a8e14b8f-2fd5-4a1d-bfcc-b4ed3b345798">
+            <common:shortDescription xml:lang="en">Lignite</common:shortDescription>
+            <common:shortDescription xml:lang="de">Braunkohle</common:shortDescription>
+         </referenceToFlowDataSet>
+         <location/>
+         <exchangeDirection>Input</exchangeDirection>
+         <meanAmount>0.1</meanAmount>
+         <resultingAmount>0.1</resultingAmount>
+         <uncertaintyDistributionType>normal</uncertaintyDistributionType>
+         <relativeStandardDeviation95In>7</relativeStandardDeviation95In>
+         <allocations>
+            <allocation internalReferenceToCoProduct="0" allocatedFraction="100.0"/>
+         </allocations>
+         <dataSourceType>Mixed primary / secondary</dataSourceType>
+         <dataDerivationTypeStatus>Estimated</dataDerivationTypeStatus>
+      </exchange>
+      <exchange dataSetInternalID="5">
+         <referenceToFlowDataSet type="flow data set"
+                                 uri="../flows/Carbon_dioxide_44c600bd-83fc-42ad-aca8-607dd2c1d178.xml"
+                                 refObjectId="44c600bd-83fc-42ad-aca8-607dd2c1d178">
+            <common:shortDescription xml:lang="en">Carbon dioxide - Emissions to air</common:shortDescription>
+            <common:shortDescription xml:lang="de">Kohlendioxyd - Emissionen in Luft</common:shortDescription>
+         </referenceToFlowDataSet>
+         <location/>
+         <exchangeDirection>Output</exchangeDirection>
+         <meanAmount>0.19</meanAmount>
+         <resultingAmount>0.19</resultingAmount>
+         <uncertaintyDistributionType>log-normal</uncertaintyDistributionType>
+         <relativeStandardDeviation95In>4</relativeStandardDeviation95In>
+         <allocations>
+            <allocation internalReferenceToCoProduct="0" allocatedFraction="100.0"/>
+         </allocations>
+         <dataSourceType>&gt; 90% primary</dataSourceType>
+         <dataDerivationTypeStatus>Calculated</dataDerivationTypeStatus>
+      </exchange>
+      <exchange dataSetInternalID="6">
+         <referenceToFlowDataSet type="flow data set"
+                                 uri="../flows/Carbon_monoxide_d7ed3996-c628-4f12-bd89-4831948fd2a0.xml"
+                                 refObjectId="d7ed3996-c628-4f12-bd89-4831948fd2a0">
+            <common:shortDescription xml:lang="en">Carbon monoxide - Emissions to air</common:shortDescription>
+            <common:shortDescription xml:lang="de">Kohlenmonoxid - Emissionen in Luft</common:shortDescription>
+         </referenceToFlowDataSet>
+         <location/>
+         <exchangeDirection>Output</exchangeDirection>
+         <meanAmount>4.0E-5</meanAmount>
+         <resultingAmount>4.0E-5</resultingAmount>
+         <uncertaintyDistributionType>log-normal</uncertaintyDistributionType>
+         <relativeStandardDeviation95In>12</relativeStandardDeviation95In>
+         <allocations>
+            <allocation internalReferenceToCoProduct="0" allocatedFraction="100.0"/>
+         </allocations>
+         <dataSourceType>Mixed primary / secondary</dataSourceType>
+         <dataDerivationTypeStatus>Measured</dataDerivationTypeStatus>
+      </exchange>
+      <exchange dataSetInternalID="7">
+         <referenceToFlowDataSet type="flow data set"
+                                 uri="../flows/Sulfur_dioxide_7ccee5c1-3526-4048-8b12-7461b03b51d3.xml"
+                                 refObjectId="7ccee5c1-3526-4048-8b12-7461b03b51d3">
+            <common:shortDescription xml:lang="en">Sulphur dioxide - Emissions to air</common:shortDescription>
+            <common:shortDescription xml:lang="de">Schwefeldioxid - Emissionen in Luft</common:shortDescription>
+         </referenceToFlowDataSet>
+         <location>RER</location>
+         <exchangeDirection>Output</exchangeDirection>
+         <referenceToVariable>so2</referenceToVariable>
+         <meanAmount>3.2E-4</meanAmount>
+         <resultingAmount>3.2E-4</resultingAmount>
+         <uncertaintyDistributionType>log-normal</uncertaintyDistributionType>
+         <relativeStandardDeviation95In>4</relativeStandardDeviation95In>
+         <allocations>
+            <allocation internalReferenceToCoProduct="0" allocatedFraction="100.0"/>
+         </allocations>
+         <dataSourceType>Mixed primary / secondary</dataSourceType>
+         <dataDerivationTypeStatus>Unknown derivation</dataDerivationTypeStatus>
+         <generalComment xml:lang="en">Example of SO2 calculation in parameterised data set via the variable so2 of the "Mathematical model" section. Note that uncertainty values of
+        the Mathematical model section and those given here overlay each other.</generalComment>
+         <generalComment xml:lang="de">Beispiel für die SO2 Kalkulation in parametrisierten Datensätzen über die Variable so2. ...</generalComment>
+      </exchange>
+      <exchange dataSetInternalID="8">
+         <referenceToFlowDataSet type="flow data set"
+                                 uri="../flows/Nitrogen_oxides_88f98b71-e2f8-4d9a-a202-d8f780c0fdcc.xml"
+                                 refObjectId="88f98b71-e2f8-4d9a-a202-d8f780c0fdcc">
+            <common:shortDescription xml:lang="en">Nitrogen oxides - Emissions to air</common:shortDescription>
+            <common:shortDescription xml:lang="de">Stickoxide - Emissionen in Luft</common:shortDescription>
+         </referenceToFlowDataSet>
+         <location/>
+         <exchangeDirection>Output</exchangeDirection>
+         <meanAmount>1.6E-4</meanAmount>
+         <resultingAmount>1.6E-4</resultingAmount>
+         <uncertaintyDistributionType>log-normal</uncertaintyDistributionType>
+         <relativeStandardDeviation95In>15</relativeStandardDeviation95In>
+         <allocations>
+            <allocation internalReferenceToCoProduct="0" allocatedFraction="100.0"/>
+         </allocations>
+         <dataSourceType>Mixed primary / secondary</dataSourceType>
+         <dataDerivationTypeStatus>Unknown derivation</dataDerivationTypeStatus>
+      </exchange>
+      <exchange dataSetInternalID="9">
+         <referenceToFlowDataSet type="flow data set"
+                                 uri="../flows/Particulates_lt_10_micron_5b2a1ebb-6c0f-480a-a5ee-d134c7763c0a.xml"
+                                 refObjectId="5b2a1ebb-6c0f-480a-a5ee-d134c7763c0a">
+            <common:shortDescription xml:lang="en">Particles 0.2 to 2 µm - Emissions to air</common:shortDescription>
+            <common:shortDescription xml:lang="de">Partikel 0,2 bis 2 µm - Emissionen in Luft</common:shortDescription>
+         </referenceToFlowDataSet>
+         <location/>
+         <exchangeDirection>Output</exchangeDirection>
+         <meanAmount>5.0E-5</meanAmount>
+         <resultingAmount>5.0E-5</resultingAmount>
+         <uncertaintyDistributionType>log-normal</uncertaintyDistributionType>
+         <relativeStandardDeviation95In>20</relativeStandardDeviation95In>
+         <allocations>
+            <allocation internalReferenceToCoProduct="0" allocatedFraction="100.0"/>
+         </allocations>
+         <dataSourceType>Mixed primary / secondary</dataSourceType>
+         <dataDerivationTypeStatus>Estimated</dataDerivationTypeStatus>
+      </exchange>
+      <exchange dataSetInternalID="10">
+         <referenceToFlowDataSet type="flow data set"
+                                 uri="../flows/Electrical_power_AC_220V_115433f0-1431-4662-bbbf-abd7453ad92f.xml"
+                                 refObjectId="115433f0-1431-4662-bbbf-abd7453ad92f">
+            <common:shortDescription xml:lang="en">Electricity; AC; 220 V</common:shortDescription>
+            <common:shortDescription xml:lang="de">Strom; Wechselstrom; 220 V</common:shortDescription>
+         </referenceToFlowDataSet>
+         <location/>
+         <functionType>General reminder flow</functionType>
+         <exchangeDirection>Input</exchangeDirection>
+         <meanAmount>0.06</meanAmount>
+         <resultingAmount>0.06</resultingAmount>
+         <uncertaintyDistributionType>normal</uncertaintyDistributionType>
+         <relativeStandardDeviation95In>15</relativeStandardDeviation95In>
+         <allocations>
+            <allocation internalReferenceToCoProduct="0" allocatedFraction="100.0"/>
+         </allocations>
+         <dataSourceType>Mixed primary / secondary</dataSourceType>
+         <dataDerivationTypeStatus>Estimated</dataDerivationTypeStatus>
+         <generalComment xml:lang="en">Illustrative Reminder flow of power plants' internal electricity consumption over cradle-to-gate.</generalComment>
+         <generalComment xml:lang="de">Illustrativer Reminder flow des Kraftwerks-internen Elektrizitätsverbrauchs über den Lebensweg Elektrizitätsdatensatz.</generalComment>
+      </exchange>
+   </exchanges>
+   <LCIAResults>
+      <LCIAResult>
+         <referenceToLCIAMethodDataSet type="LCIA method data set" uri=""
+                                       refObjectId="00000000-0000-0000-0000-100000000000">
+            <common:shortDescription xml:lang="en">Super2007 LCIA method</common:shortDescription>
+            <common:shortDescription xml:lang="de">Super2007 LCIA Methode</common:shortDescription>
+         </referenceToLCIAMethodDataSet>
+         <meanAmount>3.14159265358979</meanAmount>
+         <uncertaintyDistributionType>log-normal</uncertaintyDistributionType>
+         <relativeStandardDeviation95In>12</relativeStandardDeviation95In>
+         <generalComment xml:lang="en">Super2007 single-indicator cradle-to-gate LCIA result of this unit process data set after completing the inventory with the 2005 inventory data
+        of the SuPi LCA database.</generalComment>
+      </LCIAResult>
+      <LCIAResult>
+         <referenceToLCIAMethodDataSet type="LCIA method data set" uri=""
+                                       refObjectId="00000000-0000-0000-0000-110000000000"
+                                       version="00.00">
+            <common:shortDescription xml:lang="en">another LCIA method</common:shortDescription>
+         </referenceToLCIAMethodDataSet>
+         <meanAmount>3.14159265358979</meanAmount>
+         <uncertaintyDistributionType>log-normal</uncertaintyDistributionType>
+         <relativeStandardDeviation95In>12</relativeStandardDeviation95In>
+      </LCIAResult>
+   </LCIAResults>
+</processDataSet>

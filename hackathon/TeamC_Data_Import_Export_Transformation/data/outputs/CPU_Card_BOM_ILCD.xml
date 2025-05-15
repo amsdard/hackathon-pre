@@ -1,0 +1,282 @@
+<?xml version="1.0" ?>
+<processDataSet xmlns="http://lca.jrc.it/ILCD/Process" xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://lca.jrc.it/ILCD/Process ../../schemas/ILCD_ProcessDataSet.xsd" version="1.1" metaDataOnly="false">
+  <processInformation>
+    <dataSetInformation>
+      <common:UUID>87bc55bf-0826-46d0-a30f-01d6f96a7c06</common:UUID>
+      <name>
+        <baseName xml:lang="en">Intel Core i9-12900K CPU</baseName>
+      </name>
+      <common:synonyms xml:lang="en">This BOM is for reference purposes only. Actual production specifications may vary.</common:synonyms>
+      <common:generalComment xml:lang="en">LCA Analysis</common:generalComment>
+    </dataSetInformation>
+    <quantitativeReference type="Reference flow(s)">
+      <referenceToReferenceFlow>29</referenceToReferenceFlow>
+    </quantitativeReference>
+    <time>
+      <common:referenceYear>2025</common:referenceYear>
+    </time>
+    <geography>
+      <locationOfOperationSupplyOrProduction location="Malaysia"/>
+    </geography>
+    <technology>
+      <technologyDescriptionAndIncludedProcesses xml:lang="en">Manufacturing of Intel Core i9-12900K CPU</technologyDescriptionAndIncludedProcesses>
+      <technologicalApplicability xml:lang="en">LCA Analysis</technologicalApplicability>
+    </technology>
+  </processInformation>
+  <modellingAndValidation>
+    <LCIMethodAndAllocation>
+      <typeOfDataSet>Unit process, single operation</typeOfDataSet>
+    </LCIMethodAndAllocation>
+  </modellingAndValidation>
+  <administrativeInformation>
+    <dataEntryBy>
+      <common:timeStamp>2025-05-14T00:29:01.0Z</common:timeStamp>
+    </dataEntryBy>
+    <publicationAndOwnership>
+      <common:dateOfLastRevision>2025-05-13T00:00:00.0Z</common:dateOfLastRevision>
+      <common:dataSetVersion>1.0</common:dataSetVersion>
+      <common:permanentDataSetURI>http://example.org/datasets/87bc55bf-0826-46d0-a30f-01d6f96a7c06</common:permanentDataSetURI>
+    </publicationAndOwnership>
+  </administrativeInformation>
+  <exchanges>
+    <exchange dataSetInternalID="0">
+      <referenceToFlowDataSet type="flow data set" refObjectId="f40332a8-1398-4185-a362-806da569c35d" version="1.0">
+        <common:shortDescription xml:lang="en">CPU Silicon Die</common:shortDescription>
+      </referenceToFlowDataSet>
+      <exchangeDirection>Input</exchangeDirection>
+      <meanAmount>0.015</meanAmount>
+      <generalComment xml:lang="en">drawing_nr: CPU-001; group: CPU Core; material: Silicon; supplier: Intel Fabrication</generalComment>
+    </exchange>
+    <exchange dataSetInternalID="1">
+      <referenceToFlowDataSet type="flow data set" refObjectId="6d5fa936-994d-4253-8a8f-b3a7a18020f2" version="1.0">
+        <common:shortDescription xml:lang="en">CPU Substrate</common:shortDescription>
+      </referenceToFlowDataSet>
+      <exchangeDirection>Input</exchangeDirection>
+      <meanAmount>0.025</meanAmount>
+      <generalComment xml:lang="en">drawing_nr: CPU-002; group: CPU Core; material: Fiberglass-reinforced epoxy laminate; supplier: Advanced Substrate Technologies</generalComment>
+    </exchange>
+    <exchange dataSetInternalID="2">
+      <referenceToFlowDataSet type="flow data set" refObjectId="0a7f3f93-73dc-42b3-b102-71e01a67de3f" version="1.0">
+        <common:shortDescription xml:lang="en">Integrated Heat Spreader (IHS)</common:shortDescription>
+      </referenceToFlowDataSet>
+      <exchangeDirection>Input</exchangeDirection>
+      <meanAmount>0.035</meanAmount>
+      <generalComment xml:lang="en">drawing_nr: CPU-003; group: CPU Core; material: Nickel-plated Copper; supplier: Metal Precision Inc.</generalComment>
+    </exchange>
+    <exchange dataSetInternalID="3">
+      <referenceToFlowDataSet type="flow data set" refObjectId="d521b243-dde0-450b-a4ca-e69c5e2743a2" version="1.0">
+        <common:shortDescription xml:lang="en">Thermal Interface Material</common:shortDescription>
+      </referenceToFlowDataSet>
+      <exchangeDirection>Input</exchangeDirection>
+      <meanAmount>0.002</meanAmount>
+      <generalComment xml:lang="en">drawing_nr: CPU-004; group: CPU Core; material: Indium-based solder; supplier: Thermal Solutions Co.</generalComment>
+    </exchange>
+    <exchange dataSetInternalID="4">
+      <referenceToFlowDataSet type="flow data set" refObjectId="e11db7ad-9964-4662-abbb-6f6a793c56f0" version="1.0">
+        <common:shortDescription xml:lang="en">Microcode ROM</common:shortDescription>
+      </referenceToFlowDataSet>
+      <exchangeDirection>Input</exchangeDirection>
+      <meanAmount>0.001</meanAmount>
+      <generalComment xml:lang="en">drawing_nr: CPU-005; group: CPU Core; material: Silicon; supplier: Intel Architecture Group</generalComment>
+    </exchange>
+    <exchange dataSetInternalID="5">
+      <referenceToFlowDataSet type="flow data set" refObjectId="63edec0f-649a-4b4b-b621-76803937f4be" version="1.0">
+        <common:shortDescription xml:lang="en">Performance Cores (P-cores)</common:shortDescription>
+      </referenceToFlowDataSet>
+      <exchangeDirection>Input</exchangeDirection>
+      <meanAmount>0.004</meanAmount>
+      <generalComment xml:lang="en">drawing_nr: ARCH-001; group: CPU Architecture; material: Silicon; supplier: Intel Architecture Group</generalComment>
+    </exchange>
+    <exchange dataSetInternalID="6">
+      <referenceToFlowDataSet type="flow data set" refObjectId="5e4659f1-6d64-4781-9450-787d54b28fb4" version="1.0">
+        <common:shortDescription xml:lang="en">Efficiency Cores (E-cores)</common:shortDescription>
+      </referenceToFlowDataSet>
+      <exchangeDirection>Input</exchangeDirection>
+      <meanAmount>0.002</meanAmount>
+      <generalComment xml:lang="en">drawing_nr: ARCH-002; group: CPU Architecture; material: Silicon; supplier: Intel Architecture Group</generalComment>
+    </exchange>
+    <exchange dataSetInternalID="7">
+      <referenceToFlowDataSet type="flow data set" refObjectId="128107c9-c082-4d89-9c8c-baa72267d49c" version="1.0">
+        <common:shortDescription xml:lang="en">L3 Cache</common:shortDescription>
+      </referenceToFlowDataSet>
+      <exchangeDirection>Input</exchangeDirection>
+      <meanAmount>0.003</meanAmount>
+      <generalComment xml:lang="en">drawing_nr: ARCH-003; group: CPU Architecture; material: Silicon; supplier: Intel Cache Technologies</generalComment>
+    </exchange>
+    <exchange dataSetInternalID="8">
+      <referenceToFlowDataSet type="flow data set" refObjectId="12a94024-a474-4b84-bf9e-06da4ab3993b" version="1.0">
+        <common:shortDescription xml:lang="en">L2 Cache</common:shortDescription>
+      </referenceToFlowDataSet>
+      <exchangeDirection>Input</exchangeDirection>
+      <meanAmount>0.002</meanAmount>
+      <generalComment xml:lang="en">drawing_nr: ARCH-004; group: CPU Architecture; material: Silicon; supplier: Intel Cache Technologies</generalComment>
+    </exchange>
+    <exchange dataSetInternalID="9">
+      <referenceToFlowDataSet type="flow data set" refObjectId="9eee5b3c-be90-47cf-93c1-b230795adfbe" version="1.0">
+        <common:shortDescription xml:lang="en">L1 Cache</common:shortDescription>
+      </referenceToFlowDataSet>
+      <exchangeDirection>Input</exchangeDirection>
+      <meanAmount>0.001</meanAmount>
+      <generalComment xml:lang="en">drawing_nr: ARCH-005; group: CPU Architecture; material: Silicon; supplier: Intel Cache Technologies</generalComment>
+    </exchange>
+    <exchange dataSetInternalID="10">
+      <referenceToFlowDataSet type="flow data set" refObjectId="ffc35b5e-ce3b-4b8e-a928-bd0be30accbc" version="1.0">
+        <common:shortDescription xml:lang="en">Voltage Regulator Controller</common:shortDescription>
+      </referenceToFlowDataSet>
+      <exchangeDirection>Input</exchangeDirection>
+      <meanAmount>0.002</meanAmount>
+      <generalComment xml:lang="en">drawing_nr: PWR-001; group: Power Delivery; material: Silicon; supplier: Power IC Solutions</generalComment>
+    </exchange>
+    <exchange dataSetInternalID="11">
+      <referenceToFlowDataSet type="flow data set" refObjectId="716bbe59-48bf-488c-9215-3997eb3e6482" version="1.0">
+        <common:shortDescription xml:lang="en">Power Delivery Capacitors</common:shortDescription>
+      </referenceToFlowDataSet>
+      <exchangeDirection>Input</exchangeDirection>
+      <meanAmount>0.001</meanAmount>
+      <generalComment xml:lang="en">drawing_nr: PWR-002; group: Power Delivery; material: Ceramic; supplier: Capacitor Technologies</generalComment>
+    </exchange>
+    <exchange dataSetInternalID="12">
+      <referenceToFlowDataSet type="flow data set" refObjectId="b262938c-4ab5-478a-81c5-ff9caa01e78a" version="1.0">
+        <common:shortDescription xml:lang="en">Power Delivery Inductors</common:shortDescription>
+      </referenceToFlowDataSet>
+      <exchangeDirection>Input</exchangeDirection>
+      <meanAmount>0.002</meanAmount>
+      <generalComment xml:lang="en">drawing_nr: PWR-003; group: Power Delivery; material: Copper Coil; supplier: Inductor Corp.</generalComment>
+    </exchange>
+    <exchange dataSetInternalID="13">
+      <referenceToFlowDataSet type="flow data set" refObjectId="0d8256d6-b14e-478f-9166-09c77b6ed51e" version="1.0">
+        <common:shortDescription xml:lang="en">Power MOSFETs</common:shortDescription>
+      </referenceToFlowDataSet>
+      <exchangeDirection>Input</exchangeDirection>
+      <meanAmount>0.001</meanAmount>
+      <generalComment xml:lang="en">drawing_nr: PWR-004; group: Power Delivery; material: Silicon; supplier: Semiconductor Devices Inc.</generalComment>
+    </exchange>
+    <exchange dataSetInternalID="14">
+      <referenceToFlowDataSet type="flow data set" refObjectId="d1fbc0bd-a85e-4d4e-a58a-7c8320af859b" version="1.0">
+        <common:shortDescription xml:lang="en">Power Management IC</common:shortDescription>
+      </referenceToFlowDataSet>
+      <exchangeDirection>Input</exchangeDirection>
+      <meanAmount>0.001</meanAmount>
+      <generalComment xml:lang="en">drawing_nr: PWR-005; group: Power Delivery; material: Silicon; supplier: Power Management Solutions</generalComment>
+    </exchange>
+    <exchange dataSetInternalID="15">
+      <referenceToFlowDataSet type="flow data set" refObjectId="8cac9f5a-87de-4632-a2c9-ddf2d4c5a827" version="1.0">
+        <common:shortDescription xml:lang="en">PCIe Controller</common:shortDescription>
+      </referenceToFlowDataSet>
+      <exchangeDirection>Input</exchangeDirection>
+      <meanAmount>0.003</meanAmount>
+      <generalComment xml:lang="en">drawing_nr: IO-001; group: I/O; material: Silicon; supplier: Intel I/O Technologies</generalComment>
+    </exchange>
+    <exchange dataSetInternalID="16">
+      <referenceToFlowDataSet type="flow data set" refObjectId="facd3c86-fdf7-48f4-afe0-04a3b70d3cf4" version="1.0">
+        <common:shortDescription xml:lang="en">Memory Controller</common:shortDescription>
+      </referenceToFlowDataSet>
+      <exchangeDirection>Input</exchangeDirection>
+      <meanAmount>0.002</meanAmount>
+      <generalComment xml:lang="en">drawing_nr: IO-002; group: I/O; material: Silicon; supplier: Intel Memory Systems</generalComment>
+    </exchange>
+    <exchange dataSetInternalID="17">
+      <referenceToFlowDataSet type="flow data set" refObjectId="b04c5df9-c7ac-4b5a-a376-678641b89592" version="1.0">
+        <common:shortDescription xml:lang="en">Integrated Graphics Processor</common:shortDescription>
+      </referenceToFlowDataSet>
+      <exchangeDirection>Input</exchangeDirection>
+      <meanAmount>0.005</meanAmount>
+      <generalComment xml:lang="en">drawing_nr: IO-003; group: I/O; material: Silicon; supplier: Intel Graphics Division</generalComment>
+    </exchange>
+    <exchange dataSetInternalID="18">
+      <referenceToFlowDataSet type="flow data set" refObjectId="a2c050be-fa62-4a1f-96a0-d6e6f4494138" version="1.0">
+        <common:shortDescription xml:lang="en">DMI Interface</common:shortDescription>
+      </referenceToFlowDataSet>
+      <exchangeDirection>Input</exchangeDirection>
+      <meanAmount>0.001</meanAmount>
+      <generalComment xml:lang="en">drawing_nr: IO-004; group: I/O; material: Silicon; supplier: Intel I/O Technologies</generalComment>
+    </exchange>
+    <exchange dataSetInternalID="19">
+      <referenceToFlowDataSet type="flow data set" refObjectId="6d68742f-51b0-4e33-96a4-ce3d6748f907" version="1.0">
+        <common:shortDescription xml:lang="en">LGA 1700 Socket Interface</common:shortDescription>
+      </referenceToFlowDataSet>
+      <exchangeDirection>Input</exchangeDirection>
+      <meanAmount>0.004</meanAmount>
+      <generalComment xml:lang="en">drawing_nr: PKG-001; group: Package; material: Gold-plated copper contacts; supplier: Socket Technologies Inc.</generalComment>
+    </exchange>
+    <exchange dataSetInternalID="20">
+      <referenceToFlowDataSet type="flow data set" refObjectId="97fcf74c-8a12-47db-aa7d-48ed3a3527ed" version="1.0">
+        <common:shortDescription xml:lang="en">Package Substrate</common:shortDescription>
+      </referenceToFlowDataSet>
+      <exchangeDirection>Input</exchangeDirection>
+      <meanAmount>0.01</meanAmount>
+      <generalComment xml:lang="en">drawing_nr: PKG-002; group: Package; material: Fiberglass-reinforced epoxy laminate; supplier: Advanced Substrate Technologies</generalComment>
+    </exchange>
+    <exchange dataSetInternalID="21">
+      <referenceToFlowDataSet type="flow data set" refObjectId="5f209535-f967-40cd-9622-d25c031d3f76" version="1.0">
+        <common:shortDescription xml:lang="en">Package Capacitors</common:shortDescription>
+      </referenceToFlowDataSet>
+      <exchangeDirection>Input</exchangeDirection>
+      <meanAmount>0.002</meanAmount>
+      <generalComment xml:lang="en">drawing_nr: PKG-003; group: Package; material: Ceramic; supplier: Capacitor Technologies</generalComment>
+    </exchange>
+    <exchange dataSetInternalID="22">
+      <referenceToFlowDataSet type="flow data set" refObjectId="4e64eec5-afb7-4b25-9590-a9d1be39559b" version="1.0">
+        <common:shortDescription xml:lang="en">Package Resistors</common:shortDescription>
+      </referenceToFlowDataSet>
+      <exchangeDirection>Input</exchangeDirection>
+      <meanAmount>0.001</meanAmount>
+      <generalComment xml:lang="en">drawing_nr: PKG-004; group: Package; material: Metal Film; supplier: Resistor Solutions</generalComment>
+    </exchange>
+    <exchange dataSetInternalID="23">
+      <referenceToFlowDataSet type="flow data set" refObjectId="73e2e48a-4b81-41d7-8fe5-93f53dac3992" version="1.0">
+        <common:shortDescription xml:lang="en">Solder Balls</common:shortDescription>
+      </referenceToFlowDataSet>
+      <exchangeDirection>Input</exchangeDirection>
+      <meanAmount>0.003</meanAmount>
+      <generalComment xml:lang="en">drawing_nr: PKG-005; group: Package; material: Lead-free solder; supplier: Solder Materials Inc.</generalComment>
+    </exchange>
+    <exchange dataSetInternalID="24">
+      <referenceToFlowDataSet type="flow data set" refObjectId="d2d13a78-ee7d-4086-8c5f-5642c801335b" version="1.0">
+        <common:shortDescription xml:lang="en">System Agent</common:shortDescription>
+      </referenceToFlowDataSet>
+      <exchangeDirection>Input</exchangeDirection>
+      <meanAmount>0.002</meanAmount>
+      <generalComment xml:lang="en">drawing_nr: ADD-001; group: Additional; material: Silicon; supplier: Intel System Architecture</generalComment>
+    </exchange>
+    <exchange dataSetInternalID="25">
+      <referenceToFlowDataSet type="flow data set" refObjectId="ff38f062-5e22-4fe0-ba7a-283bef2f75e3" version="1.0">
+        <common:shortDescription xml:lang="en">Thermal Model Sensors</common:shortDescription>
+      </referenceToFlowDataSet>
+      <exchangeDirection>Input</exchangeDirection>
+      <meanAmount>0.001</meanAmount>
+      <generalComment xml:lang="en">drawing_nr: ADD-002; group: Additional; material: Silicon; supplier: Thermal Monitoring Inc.</generalComment>
+    </exchange>
+    <exchange dataSetInternalID="26">
+      <referenceToFlowDataSet type="flow data set" refObjectId="1145c4d3-5da0-42b8-9d18-37612fa493ac" version="1.0">
+        <common:shortDescription xml:lang="en">Debug Interface</common:shortDescription>
+      </referenceToFlowDataSet>
+      <exchangeDirection>Input</exchangeDirection>
+      <meanAmount>0.001</meanAmount>
+      <generalComment xml:lang="en">drawing_nr: ADD-003; group: Additional; material: Silicon; supplier: Debug Systems Ltd.</generalComment>
+    </exchange>
+    <exchange dataSetInternalID="27">
+      <referenceToFlowDataSet type="flow data set" refObjectId="cf900b8b-b3a1-42a4-a9ea-cc1658308dcc" version="1.0">
+        <common:shortDescription xml:lang="en">Clock Generator</common:shortDescription>
+      </referenceToFlowDataSet>
+      <exchangeDirection>Input</exchangeDirection>
+      <meanAmount>0.001</meanAmount>
+      <generalComment xml:lang="en">drawing_nr: ADD-004; group: Additional; material: Silicon; supplier: Timing Solutions Co.</generalComment>
+    </exchange>
+    <exchange dataSetInternalID="28">
+      <referenceToFlowDataSet type="flow data set" refObjectId="3bf40cd3-6577-4876-82ce-e11e95f9fcb6" version="1.0">
+        <common:shortDescription xml:lang="en">Security Engine</common:shortDescription>
+      </referenceToFlowDataSet>
+      <exchangeDirection>Input</exchangeDirection>
+      <meanAmount>0.001</meanAmount>
+      <generalComment xml:lang="en">drawing_nr: ADD-005; group: Additional; material: Silicon; supplier: Intel Security Group</generalComment>
+    </exchange>
+    <exchange dataSetInternalID="29">
+      <referenceToFlowDataSet type="flow data set" refObjectId="54df34b6-2dcc-4384-87ea-de639f857dd3" version="1.0">
+        <common:shortDescription xml:lang="en">Intel Core i9-12900K CPU</common:shortDescription>
+      </referenceToFlowDataSet>
+      <exchangeDirection>Output</exchangeDirection>
+      <meanAmount>1.0</meanAmount>
+    </exchange>
+  </exchanges>
+</processDataSet>

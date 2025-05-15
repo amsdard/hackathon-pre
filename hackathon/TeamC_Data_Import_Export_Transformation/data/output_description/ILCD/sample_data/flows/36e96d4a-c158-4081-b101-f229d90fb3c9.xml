@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../../stylesheets/flow2html.xsl'?>
+<flowDataSet xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns="http://lca.jrc.it/ILCD/Flow"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             version="1.1"
+             locations="../ILCDLocations.xml"
+             xsi:schemaLocation="http://lca.jrc.it/ILCD/Flow ../../schemas/ILCD_FlowDataSet.xsd">
+   <flowInformation>
+      <dataSetInformation>
+         <common:UUID>36e96d4a-c158-4081-b101-f229d90fb3c9</common:UUID>
+         <name>
+            <baseName xml:lang="en">Correction flow for delayed emission of fossil methane (within first 100 years)</baseName>
+         </name>
+         <classificationInformation>
+            <common:elementaryFlowCategorization>
+               <common:category level="0">Emissions</common:category>
+               <common:category level="1">Emissions to air</common:category>
+               <common:category level="2">Emissions to air, unspecified</common:category>
+            </common:elementaryFlowCategorization>
+            <common:classification>
+               <common:class level="0">Emissions</common:class>
+            </common:classification>
+         </classificationInformation>
+         <CASNumber>000074-82-8</CASNumber>
+         <sumFormula>CH4</sumFormula>
+         <common:generalComment xml:lang="en">Special correction elementary flow as part of the reference elementary flows of the International Reference Life Cycle Data System (ILCD). Under the ILCD, this flow serves to account for the delay in the emission of this greenhouse gas (GHG) in case biogenic carbon storage (and the equivalent delay of fossil GHG emissions) is explicitly considered as goal of a study; otherwise this flow is to be ignored when calculating LCIA results. Note that the assumed storage time, delayed emission, or time of future reuse/recycling/recovery and other cases of substitution, as well as the amounts and substances of the emissions in the unit process shall be documented and made available for review. Reference elementary flow of the International Reference Life Cycle Data System (ILCD).</common:generalComment>
+      </dataSetInformation>
+      <quantitativeReference>
+         <referenceToReferenceFlowProperty>0</referenceToReferenceFlowProperty>
+      </quantitativeReference>
+   </flowInformation>
+   <modellingAndValidation>
+      <LCIMethod>
+         <typeOfDataSet>Elementary flow</typeOfDataSet>
+      </LCIMethod>
+      <complianceDeclarations>
+         <compliance>
+            <common:referenceToComplianceSystem type="source data set" refObjectId="9ba3ac1e-6797-4cc0-afd5-1b8f7bf28c6a"
+                                                uri="../sources/9ba3ac1e-6797-4cc0-afd5-1b8f7bf28c6a.xml">
+               <common:shortDescription>ILCD Data Network - compliance (non-Process)</common:shortDescription>
+            </common:referenceToComplianceSystem>
+            <common:approvalOfOverallCompliance>Fully compliant</common:approvalOfOverallCompliance>
+         </compliance>
+      </complianceDeclarations>
+   </modellingAndValidation>
+   <administrativeInformation>
+      <dataEntryBy>
+         <common:timeStamp>2011-09-09T17:06:54.644+02:00</common:timeStamp>
+         <common:referenceToDataSetFormat type="source data set" refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40"
+                                          uri="../sources/a97a0155-0234-4b87-b4ce-a45da52f2a40.xml">
+            <common:shortDescription>ILCD format</common:shortDescription>
+         </common:referenceToDataSetFormat>
+      </dataEntryBy>
+      <publicationAndOwnership>
+         <common:dataSetVersion>01.02.000</common:dataSetVersion>
+         <common:permanentDataSetURI>http://lca.jrc.ec.europa.eu/lcainfohub/datasets/ilcd/flows/36e96d4a-c158-4081-b101-f229d90fb3c9_01.02.000.xml</common:permanentDataSetURI>
+      </publicationAndOwnership>
+   </administrativeInformation>
+   <flowProperties>
+      <flowProperty dataSetInternalID="0">
+         <referenceToFlowPropertyDataSet type="flow property data set"
+                                         refObjectId="b3f0f892-c5a3-4c66-a432-c09e3d1e9bd6"
+                                         uri="../flowproperties/b3f0f892-c5a3-4c66-a432-c09e3d1e9bd6.xml">
+            <common:shortDescription xml:lang="en">Mass*time</common:shortDescription>
+         </referenceToFlowPropertyDataSet>
+         <meanValue>1.0</meanValue>
+      </flowProperty>
+   </flowProperties>
+</flowDataSet>

@@ -1,0 +1,116 @@
+Item ID,Component,Quantity,Unit Price ($),Supplier,Delivery Date,Description,Specification,SKU,Category,Order Number,Quality Check
+FR-001,Carbon Fiber Frame,1,1899.99,SpecialBikes Inc.,4/15/2025,Full carbon road frame,56cm internal cable routing BB86 bottom bracket,SPB-CF-56,Frame,ORD-2025-1443,PASS
+FR-001,Carbon Fiber Frame,1,1899.99,SpecialBikes Inc.,4/15/2025,Full carbon road frame,56cm internal cable routing BB86 bottom bracket,SPB-CF-56,Frame,ORD-2025-1443,PASS
+FR-002,Carbon Fork,1,449.99,SpecialBikes Inc.,15-04-2025,Full carbon fork with tapered steerer,1-1/8" to 1-1/2" 45mm rake 390mm length,SPB-FK-TAP,Frame,ORD-2025-1443,PENDING
+FR-002,Carbon Fork,1,449.99,SpecialBike Inc,15-04-2025,Full carbon fork with tapered steerer,1-1/8" to 1-1/2" 45mm rake 390mm length,SPB-FK-TAP,Frame,ORD-2025-1443,FAIL
+FR-003,Headset Bearings,1,79.99,BearingWorld,May 1,Sealed cartridge bearings,41.8mm/28.6mm upper 52mm/40mm lower,BW-HS-TAP,Frame,ORD-2025-1455,PASS
+FR-003,Headset Bearings,0,79.99,BearingWorld,May 1,Sealed cartridge bearings,41.8mm/28.6mm upper 52mm/40mm lower,BW-HS-TAP,Frame,ORD-2025-1455,PENDING
+FR-004,Stem,1,129.99,ComponentCo,30/4/25,Aluminum alloy stem,110mm -6 degree 31.8mm clamp,CC-STM-110-6,Frame,ORD-2025-1461,PASS
+FR-004,Stem,1,129.99,ComponentCo,3/4/25,Aluminum alloy stem,110mm -6 degree 31.8mm clamp,CC-STM-110-6,Frame,ORD-2025-1461,PENDING
+FR-005,Handlebar,,249.99,ComponentCo,pending,Carbon fiber drop bar,42cm width 31.8mm clamp compact bend,CC-BAR-42,Components,ORD-2025-1461,
+FR-006,Bar Tape,2,34.99,BikeWorks,In Stock,Cork bar tape with gel padding,Black includes end plugs,BW-TAPE-BLK,Components,ORD-2025-1461,PASS
+FR-007,Handlebar Shim,3,9.99,ComponentCo,30.4.25,Aluminum handlebar shim,31.8mm to 35.0mm diameter,CC-SHIM-35,Components,ORD-2025-1462,PENDING
+FR-007,Handlebar Shim,0,9.99,ComponentCo,4/30/2025,Aluminum handlebar shim,31.8mm to 35.0mm diameter,CC-SHIM-35,Components,ORD-2025-1462,FAIL
+FR-008,Compression Plug,1,24.99,ComponentCo,4/30/2025,Carbon steerer compression plug,For carbon steerer tubes,CC-PLUG,Components,ORD-2025-1462,PASS
+FR-008,Compression Plug,1,$24.99,ComponentCo,4/30/2025,Carbon steerer compression plug,For carbon steerer tubes,CC-PLUG,Components,ORD-2025-1462,PASS
+HD-001,Seatpost,1,199.99,SpecialBikes Inc.,2025-04-20,Carbon fiber seatpost,27.2mm × 350mm 20mm offset,SPB-SP-27.2,Frame,ORD-2025-1443,PASS
+HD-001,Seatpost,1,199.99,SpecialBikes Inc.,2025-04-20,Carbon fiber seatpost,27.2mm × 350mm 20mm offset,SPB-SP-27.2,Frame,ORD-2025-1443,PASS
+HD-002,Saddle,1,,Comfort-Tech,4/22/2025,Ergonomic road saddle,143mm width titanium rails,CT-SAD-143,Components,ORD-2025-1470,PASS
+HD-002,Saddle,1,159.99,Comfort-Tech,4/22/2025,Ergonomic road saddle,143mm width titanium rails,CT-SAD-143,Components,ORD-2025-1470,PENDING
+HD-003,Seat Clamp,1,24.99,CycleTech,ASAP,Aluminum quick-release clamp,31.8mm black anodized,CT-CLMP-31.8,Components,ORD-2025-1455,PASS
+HD-004,Saddle Bag,one,34.99,BagWorks,2nd quarter,Medium-sized saddle bag,Water-resistant 0.75L capacity,BW-BAG-MED,Accessories,ORD-2025-1475,PENDING
+HD-004,Saddle Bag,1,34.99,BagWorks,2nd quarter,Medium-sized saddle bag,Water-resistant 0.75L capacity,BW-BAG-MED,Accessories,ORD-2025-1475,PENDING
+HD-005,Frame Pump,1,44.99,AirSupply,n/a,Frame-mounted mini pump,Presta/Schrader compatible 120psi max,AS-PUMP-MNI,Accessories,ORD-2025-1475,PENDING
+HD-005,Frame Pump,1,44.99,AirSupply,n/a,Frame-mounted mini pump,Presta/Schrader comp 120psi max,AS-PUMP-MNI,Accessories,ORD-2025-1475,PASS
+WH-001,Wheelset,1 pair,1299.99,RollingFast,5.1.25,Carbon clincher wheelset,700c 45mm depth tubeless ready,RF-WH-45C,Wheels,ORD-2025-1480,PASS
+WH-001,Wheelset,1,1299.99,RollingFast,5.1.25,Carbon clincher wheelset,700c 45mm depth tubeless ready,RF-WH-45C,Wheels,ORD-2025-1480,PENDING
+WH-002,Rim Tape,2,8.99,BikeWorks,,Tubeless rim tape,21mm width 10m length,BW-TAPE-21,Wheels,ORD-2025-1480,PASS
+WH-002,Rim Tape,2,8.99,BikeWorks,,Tubeless rim tape,21mm width 10m length,BW-TAPE-21,Wheels,ORD-2025-1480,PASS
+WH-003,Tubeless Valves,1 pair,19.99,CycleTech,April 2025,Aluminum tubeless valves,48mm length removable core,CT-VALV-48,Wheels,ORD-2025-1480,PASS
+WH-003,Tubeless Valves,2,19.99,CycleTech,April 2025,Aluminum tubeless valves,48mm length removable core,CT-VALV-48,Wheels,ORD-2025-1480,PASS
+WH-004,Tires,2,74.99,RubberRoad,Q2,Tubeless-ready road tires,700×28c 120 TPI folding bead,RR-TIRE-28,Wheels,ORD-2025-1480,PASS
+WH-004,Tires,2,$74.99,RubberRoad,Q2,Tubeless-ready road tires,700×28c 120 TPI folding bead,RR-TIRE-28,Wheels,ORD-2025-1480,PASS
+WH-005,Tubeless Sealant,1,N/A,RubberRoad,3 business days,Latex-based sealant,4oz bottle,RR-SEAL-4,Wheels,ORD-2025-1480,PENDING
+WH-005,Tubeless Sealant,1,24.99,RubberRoad,3 business days,Latex-based sealant,4oz bottle,RR-SEAL-4,Wheels,ORD-2025-1480,PENDING
+WH-006,Skewers,0,34.99,RollingFast,see notes,Quick-release skewers,Titanium axle aluminum lever,RF-SKEW-TI,Wheels,ORD-2025-1480,PENDING
+WH-006,Skewers,1,34.99,RollingFast,see notes,Quick-release skewers,Titanium axle aluminum lever,RF-SKEW-TI,Wheels,ORD-2025-1480,PASS
+WH-007,Hub End Caps,1 set,19.99,RollingFast,with wheelset,Replaceable hub end caps,For RF-45C 12mm and QR axles,RF-CAP-45C,Wheels,ORD-2025-1480,PENDING
+WH-007,Hub End Caps,1,19.99,RollingFast,with wheelset,Replaceable hub end caps,For RF-45C 12mm and QR axles,RF-CAP-45C,Wheels,ORD-2025-1480,PENDING
+WH-008,Wheel Bags,1 pair,39.99,RollingFast,with wheelset,Padded wheel transport bags,For up to 700c road wheels,RF-BAG,Accessories,ORD-2025-1480,PENDING
+WH-008,Wheel Bag,2,€39.99,RollingFast,with wheelset,Padded wheel bags,For up to 700c road wheels,RF-BAG,Accessories,ORD-2025-1480,FAIL
+DT-001,Shimano Ultegra R8000 Crankset,1,€249.99,Shimano Direct,3/15/2025,11-speed crankset with chainrings,52/36T 172.5mm arms BB not included,SH-FC-R8000,Drivetrain,ORD-2025-1490,PASS
+DT-001,Shimano Ultegra R8000 Crankset,1,€249.99,Shimano Direct,3/15/2025,11-speed crankset with chainrings,52/36T 172.5mm arms BB not included,SH-FC-R8000,Drivetrain,ORD-2025-1490,PASS
+DT-002,Shimano Ultegra R8000 Bottom Bracket,1,39.99,Shimano Direct,04/01/25,Threaded bottom bracket for Ultegra crankset,SM-BBR60 English thread 68mm shell,SH-BB-R60,Drivetrain,ORD-2025-1490,PASS
+DT-003,Shimano Ultegra R8000 Cassette,1,€89.99,CycleTech,2025-04-10,11-speed road cassette,11-28T Hyperglide+ technology,SH-CS-R8000,Drivetrain,ORD-2025-1490,PASS
+DT-003,Shimano Ultegra R8000 Cassette,1,89.99,CycleTech,10-04-2025,11-speed road cassette,11-28T Hyperglide+ technology,SH-CS-R8000,Drivetrain,ORD-2025-1490,PENDING
+DT-004,Shimano Ultegra R8000 Chain,1,44.99,CycleTech,ASAP,11-speed chain,CN-HG701-11 116 links,SH-CN-HG701,Drivetrain,ORD-2025-1490,PENDING
+DT-004,Shimano Ultegra R8000 Chain,1,€44.99,CycleTech,ASAP,11-speed chain,CN-HG701-11 116 links,SH-CN-HG701,Drivetrain,ORD-2025-1490,PENDING
+DT-005,Shimano Ultegra R8000 Rear Derailleur,,129.99,Shimano Direct,4/20/2025,11-speed rear derailleur,SS cage (short) max 30T sprocket,SH-RD-R8000,Drivetrain,ORD-2025-1490,
+DT-005,Shimano Ultegra R8000 Rear Derailleur,1,129.99,Shimano Direct,4/20/2025,11-speed rear derailleur,SS cage (short) max 30T sprocket,SH-RD-R8000,Drivetrain,ORD-2025-1490,PASS
+DT-006,Shimano Ultegra R8000 Front Derailleur,1,64.99,Shimano Direct,March 25,11-speed front derailleur,Braze-on mount for 52/36T chainrings,SH-FD-R8000,Drivetrain,ORD-2025-1490,PASS
+DT-006,Shimano Ultegra R8000 Front Derailleur,1,64.99,Shimano Direct,March 25,11-speed front derailleur,Braze-on mount for 52/36T chainrings,SH-FD-R8000,Drivetrain,ORD-2025-1490,PASS
+DT-007,Shimano Ultegra R8000 STI Shifters (Pair),1,349.99,,4/17/2025,11-speed integrated brake/shift levers,Right/left pair hydraulic disc brake compatible,SH-ST-R8070,Drivetrain,ORD-2025-1490,PASS
+DT-007,Shimano Ultegra R8000 STI Shifters (Pair),1,349.99,Shimano Direct,4/17/2025,11-speed integrated brake/shift levers,Right/left pair hydraulic disc brake compatible,SH-ST-R8070,Drivetrain,ORD-2025-1490,PENDING
+DT-008,Jagwire Elite Sealed Shift Cable Kit,1,59.99,BikeWorks,In stock,Complete cable and housing kit,Road specific polished slick stainless cables,JW-1XR,Drivetrain,ORD-2025-1491,PASS
+DT-008,Jagwire Elite Sealed Shift Cable Kit,1,59.99,BikeWorks,In stock,Complete cable and housing kit,Road specific polished slick stainless cables,JW-1XR,Drivetrain,ORD-2025-1491,PASS
+DT-009,Shimano SM-BH90 Hydraulic Brake Hose Kit,2,29.99,BikeWorks,,Hydraulic brake hose,2000mm length pre-bled with fittings,SH-BH-90,Brakes,ORD-2025-1491,PASS
+DT-009,Shimano SM-BH90 Brake Hose,2,29.99,BikeWorks,,Hydraulic brake hose,2000mm length pre-bled with fittings,SH-BH-90,Brakes,ORD-2025-1491,PENDING
+DT-010,Shimano RT800 Ice-Tech Freeza Rotor,2,49.99,CycleTech,10.4.25,Disc brake rotors,160mm Centerlock mount,SH-RT-800-160,Brakes,ORD-2025-1491,PASS
+DT-010,Shimano RT800 Ice-Tech Freeza Rotor,2,49.99,CycleTech,10.4.25,Disc brake rotors,160mm Centerlock mount,SH-RT-800-160,Brakes,ORD-2025-1491,PASS
+DT-011,Shimano Ultegra R8070 Hydraulic Disc Brake Calipers,2,99.99,Shimano Direct,2025/05/01,Flat mount hydraulic calipers,Front and rear specific,SH-BR-R8070,Brakes,ORD-2025-1491,PASS
+DT-011,Shimano Ultegra R8070 Hydraulic Disc Calipers,2,99.99,Shimano Direct,2025/05/01,Flat mount hydraulic calipers,Front and rear specific,SH-BR-R8070,Brakes,ORD-2025-1491,PASS
+DT-012,Mounting Hardware Kit,1,N/A,BikeWorks,3 days,Various bolts clips and hardware,Stainless steel includes all required hardware,BW-HDWR-KIT,Hardware,ORD-2025-1492,FAIL
+DT-012,Mounting Hardware Kit,1,24.99,BikeWorks,3 days,Various bolts clips and hardware,Stainless steel includes all required hardware,BW-HDWR-KIT,Hardware,ORD-2025-1492,PASS
+DT-013,Shimano Special Tools,0,1999.99,Shimano Pro,Q2 2025,Professional workshop tools,Complete toolkit for Ultegra components,SH-PRO-KIT,Tools,ORD-2025-1492,PENDING
+DT-013,Shimano Special Tools,0,1999.99,Shimano Pro,Q2 2025,Professional workshop tools,Complete toolkit for Ultegra components,SH-PRO-KIT,Tools,ORD-2025-1492,PENDING
+DT-014,Tool Kit,1,149.99,BikeWorks,4/15/2025,Basic bike maintenance kit,Essential tools for home maintenance,BW-TOOL-ESS,Tools,ORD-2025-1492,PASS
+DT-014,Toolkit,1,159.99,BikeWorks,15 Apr 25,Basic bike maintenance kit,Essential tools for home maintenance,BW-TOOL-ESS,Tools,ORD-2025-1492,PENDING
+AC-001,Bottle Cages,2,24.99,BikeWorks,week 16,Carbon fiber bottle cages,25g each side loading,BW-CAGE-CF,Accessories,ORD-2025-1475,PASS
+AC-002,Water Bottles,2,12.99,HydroFuel,not urgent,BPA-free plastic bottles,750ml capacity team design,HF-BOTL-750,Accessories,ORD-2025-1475,PASS
+AC-002,Water Bottles,2,12.99,HydroFuel,not urgent,BPA-free plastic bottles,750ml capacity team design,HF-BOTL-750,Accessories,ORD-2025-1475,PASS
+AC-003,Handlebar Computer Mount,1,39.99,TechMount,To be determined,CNC aluminum out-front mount,Compatible with Garmin/Wahoo,TM-MOUNT-GW,Accessories,ORD-2025-1475,PENDING
+AC-003,Handlebar Computer Mount,1,39.99,TechMount,TBD,CNC aluminum out-front mount,Compatible with Garmin/Wahoo,TM-MOUNT-GW,Accessories,ORD-2025-1475,PENDING
+AC-004,Bike Computer,1,399.99,CycleComputers,on backorder,GPS cycling computer,Color touchscreen maps Bluetooth,CC-GPS-700,Electronics,ORD-2025-1476,PENDING
+AC-004,Bike Computer,1,399.99,CycleComputers,on backorder,GPS cycling computer,Color touchscreen maps Bluetooth,CC-GPS-700,Electronics,ORD-2025-1476,PENDING
+AC-005,Front Light,X1,89.99,SafetyFirst,10-14 days,Rechargeable LED light,800 lumens USB rechargeable,SF-LIGHT-800,Electronics,ORD-2025-1476,PENDING
+AC-005,Front Light,1,89.99,SafetyFirst,10-14 days,Rechargeable LED light,800 lumens USB rechargeable,SF-LIGHT-800,Electronics,ORD-2025-1476,PASS
+AC-006,Rear Light,1,49.99,SafetyFirst,,Rechargeable LED taillight,150 lumens multiple flash patterns,SF-TAIL-150,Electronics,ORD-2025-1476,PENDING
+AC-006,Rear Light,1,49.99,SafetyFirst,,Rechargeable LED taillight,150 lumens multiple flash patterns,SF-TAIL-150,Electronics,ORD-2025-1476,PENDING
+AC-006,Rear Light,1,49.99,SafetyFirst,On hand,Rechargeable LED rear light,150 lumens multiple flash patterns,SF-TAIL-150,Electronics,ORD-2025-1476,PENDING
+AC-007,Saddle Bag,one,34.99,BagWorks,2nd quarter,Medium-sized saddle bag,Water-resistant 0.75L capacity,BW-BAG-MED,Accessories,ORD-2025-1475,PENDING
+AC-008,Multi-Tool,1,29.99,ToolCo,delayed,10-function bicycle multi-tool,Includes 2-8mm hex T25 screwdrivers,TC-MULTI-10,Tools,ORD-2025-1475,PENDING
+AC-008,Multi-Tool,1,29.99,ToolCo,Delayed,10-function bicycle multi-tool,Includes 2-8mm hex T25 screwdrivers,TC-MULTI-10,Tools,ORD-2025-1475,PENDING
+AC-009,Mini Pump,1,44.99,AirSupply,4-6 weeks,Frame-mounted mini pump,Presta/Schrader compatible 120psi max,AS-PUMP-MNI,Accessories,ORD-2025-1475,PENDING
+AC-009,Mini Pump,1,44.99,AirSupply,4-6 weeks,Frame-mounted mini pump,Presta/Schrader compatible 120psi max,AS-PUMP-MNI,Accessories,ORD-2025-1475,PENDING
+AC-010,Floor Pump,ZERO,89.99,AirSupply,4/15,Shop-grade floor pump,Digital gauge 220psi max,AS-PUMP-DIG,Tools,ORD-2025-1475,PENDING
+AC-010,Floor Pump,0,89.99,AirSupply,4/15,Shop-grade floor pump,Digital gauge 220psi max,AS-PUMP-DIG,Tools,ORD-2025-1475,PASS
+AC-011,Helmet,1,159.99,SafetyFirst,immediate,Road cycling helmet,MIPS technology medium size,SF-HELM-RD-M,Apparel,ORD-2025-1500,PENDING
+AC-011,Helmet,1,159.99,SafetyFirst,immediate,Road cycling helmet,MIPS technology medium size,SF-HELM-RD-M,Apparel,ORD-2025-1500,PASS
+AC-012,Cycling Gloves,1,39.99,GloveCo,4/22/2025,Padded fingerless gloves,Gel padding medium size,GC-PAD-MED,Apparel,ORD-2025-1500,PASS
+AC-012,Cycling Gloves,1 pair,39.99,GloveCo,4/22/2025,Padded fingerless gloves,Gel padding medium size,GC-PAD-MED,Apparel,ORD-2025-1500,PENDING
+AC-013,Cycling Jersey,1,89.99,ApparelPro,may delivery,Short-sleeve cycling jersey,Full-zip medium size team design,AP-JSY-MED,Apparel,ORD-2025-1500,PENDING
+AC-013,Cycling Jersey,1,89.99,ApparelPro,May delivery,Short-sleeve cycling jersey,Full-zip medium size team design,AP-JSY-MED,Apparel,ORD-2025-1500,PENDING
+AC-014,Cycling Shorts,1,109.99,ApparelPro,May delivery,Padded cycling bib shorts,Medium size chamois padding,AP-BIB-MED,Apparel,ORD-2025-1500,PENDING
+AC-014,Cycling Shorts,1,109.99,ApparelPro,May delivery,Padded cycling bib shorts,Medium size chamois padding,AP-BIB-MED,Apparel,ORD-2025-1500,PENDING
+AC-015,Cycling Socks,1 pair,14.99,ApparelPro,with apparel,Cycling-specific socks,Medium size 6" cuff,AP-SOCK-MED,Apparel,ORD-2025-1500,PENDING
+AC-015,Cycling Socks,2,14.99,ApparelPro,with apparel,Cycling-specific socks,Medium size 6" cuff,AP-SOCK-MED,Apparel,ORD-2025-1500,PENDING
+AC-016,Phone Mount,1,24.99,TechMount,5/1/2025,Handlebar phone mount,Universal fit waterproof,TM-PHONE,Accessories,ORD-2025-1476,PENDING
+AC-016,Phone Mount,1,24.99,TechMount,1/5/2025,Handlebar phone mount,Universal fit waterproof,TM-PHONE,Accessories,ORD-2025-1476,PENDING
+AC-017,Cycling Computer Sensors,1 set,69.99,CycleComputers,in transit,Speed and cadence sensors,Bluetooth/ANT+ wireless transmission,CC-SENS,Electronics,ORD-2025-1476,PASS
+AC-017,Cycling Computer Sensors,1,69.99,CycleComputers,in transit,Speed and cadence sensors,Bluetooth/ANT+ wireless transmission,CC-SENS,Electronics,ORD-2025-1476,PENDING
+AC-018,Heart Rate Monitor,1,79.99,CycleComputers,05/01/25,Chest strap heart rate monitor,Bluetooth/ANT+ wireless transmission,CC-HR,Electronics,ORD-2025-1476,PENDING
+AC-018,Heart Rate Monitor,1,79.99,CycleComputers,01/05/25,Chest strap heart rate monitor,Bluetooth/ANT+ wireless transmission,CC-HR,Electronics,ORD-2025-1476,PENDING
+AC-019,Chain Lube,1,12.99,BikeWorks,with misc order,Wet-condition chain lubricant,4oz bottle with applicator tip,BW-LUBE-WET,Maintenance,ORD-2025-1492,PASS
+AC-019,Chain Lube,1,12.99,BikeWorks,with misc order,Wet-condition chain lubricant,4oz bottle with applicator tip,BW-LUBE-WET,Maintenance,ORD-2025-1492,PASS
+AC-020,Cleaning Kit,0,39.99,BikeWorks,when available,Bicycle cleaning kit,Brushes degreaser and polish,BW-CLEAN,Maintenance,ORD-2025-1492,PENDING
+AC-020,Cleaning Kit,1,39.99,BikeWorks,when available,Bicycle cleaning kit,Brushes degreaser and polish,BW-CLEAN,Maintenance,ORD-2025-1492,PENDING
+FN-001,Assembly Labor,1,199.00,BikeWorks,N/A,Professional assembly service,Includes drivetrain tuning brake bleeding,BW-BUILD,Service,ORD-2025-1510,
+FN-001,Assembly Labor,1,199.00,BikeWorks,N/A,Professional assembly service,Includes drivetrain tuning brake bleeding,BW-BUILD,Service,ORD-2025-1510,
+FN-002,Shipping,1,$99,ExpressShip,upon completion,Insured bicycle shipping,Custom bike box fully insured,ES-BIKE,Service,ORD-2025-1510,
+FN-002,Shipping,1,99,ExpressShip,upon completion,Insured bicycle shipping,Custom bike box fully insured,ES-BIKE,Service,ORD-2025-1510,
+FN-003,Extended Warranty,1,349.99,WarrantyPlus,immediate,3-year extended coverage,Covers all parts except wear items,WP-3YR,Service,ORD-2025-1510,ACTIVE
+FN-003,Extended Warranty,1,349.99,WarrantyPlus,immediate,3-year extended coverage,Covers all parts except wear items,WP-3YR,Service,ORD-2025-1510,ACTIVE
+FN-004,Bike Fitting,1,249.99,FitExpert,upon delivery,Professional bike fitting service,3D motion capture fit optimization,FE-3D,Service,ORD-2025-1510,SCHEDULED
+FN-004,Bike Fit,1,249.99,FitExpert,upon delivery,Professional bike fitting,3D motion capture fit optimization,FE-3D,Service,ORD-2025-1510,SCHEDULED
+FN-005,Maintenance Plan,1,179.99,BikeWorks,activated at delivery,1-year maintenance package,Four seasonal tune-ups,BW-MAINT-1YR,Service,ORD-2025-1510,ACTIVE
+FN-005,Maintenance Plan,1,179.99,BikeWorks,activated at delivery,1-year maintenance plan,Four seasonal tune-ups,BW-MAINT-1YR,Service,ORD-2025-1510,ACTIVE

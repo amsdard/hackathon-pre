@@ -1,0 +1,6 @@
+# Team A Specific Libraries
+
+jupyter
+notebook
+numpy
+matplotlib

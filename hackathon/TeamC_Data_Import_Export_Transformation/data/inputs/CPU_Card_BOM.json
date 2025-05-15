@@ -1,0 +1,316 @@
+{
+  "metadata": {
+    "product": "Intel Core i9-12900K CPU",
+    "confidentiality": "confidential",
+    "creation_date": "2025-05-13 23:24:41",
+    "version": "1.0",
+    "purpose": "LCA Analysis",
+    "notes": "This BOM is for reference purposes only. Actual production specifications may vary."
+  },
+  "components": [
+    {
+      "section": "CPU Core",
+      "items": [
+        {
+          "drawing_nr": "CPU-001",
+          "group": "CPU Core",
+          "designation": "CPU Silicon Die",
+          "material": "Silicon",
+          "quantity": 1,
+          "weight_kg": 0.015,
+          "supplier": "Intel Fabrication"
+        },
+        {
+          "drawing_nr": "CPU-002",
+          "group": "CPU Core",
+          "designation": "CPU Substrate",
+          "material": "Fiberglass-reinforced epoxy laminate",
+          "quantity": 1,
+          "weight_kg": 0.025,
+          "supplier": "Advanced Substrate Technologies"
+        },
+        {
+          "drawing_nr": "CPU-003",
+          "group": "CPU Core",
+          "designation": "Integrated Heat Spreader (IHS)",
+          "material": "Nickel-plated Copper",
+          "quantity": 1,
+          "weight_kg": 0.035,
+          "supplier": "Metal Precision Inc."
+        },
+        {
+          "drawing_nr": "CPU-004",
+          "group": "CPU Core",
+          "designation": "Thermal Interface Material",
+          "material": "Indium-based solder",
+          "quantity": 1,
+          "weight_kg": 0.002,
+          "supplier": "Thermal Solutions Co."
+        },
+        {
+          "drawing_nr": "CPU-005",
+          "group": "CPU Core",
+          "designation": "Microcode ROM",
+          "material": "Silicon",
+          "quantity": 1,
+          "weight_kg": 0.001,
+          "supplier": "Intel Architecture Group"
+        }
+      ]
+    },
+    {
+      "section": "CPU Architecture",
+      "items": [
+        {
+          "drawing_nr": "ARCH-001",
+          "group": "CPU Architecture",
+          "designation": "Performance Cores (P-cores)",
+          "material": "Silicon",
+          "quantity": 8,
+          "weight_kg": 0.004,
+          "supplier": "Intel Architecture Group"
+        },
+        {
+          "drawing_nr": "ARCH-002",
+          "group": "CPU Architecture",
+          "designation": "Efficiency Cores (E-cores)",
+          "material": "Silicon",
+          "quantity": 8,
+          "weight_kg": 0.002,
+          "supplier": "Intel Architecture Group"
+        },
+        {
+          "drawing_nr": "ARCH-003",
+          "group": "CPU Architecture",
+          "designation": "L3 Cache",
+          "material": "Silicon",
+          "quantity": 1,
+          "weight_kg": 0.003,
+          "supplier": "Intel Cache Technologies"
+        },
+        {
+          "drawing_nr": "ARCH-004",
+          "group": "CPU Architecture",
+          "designation": "L2 Cache",
+          "material": "Silicon",
+          "quantity": 16,
+          "weight_kg": 0.002,
+          "supplier": "Intel Cache Technologies"
+        },
+        {
+          "drawing_nr": "ARCH-005",
+          "group": "CPU Architecture",
+          "designation": "L1 Cache",
+          "material": "Silicon",
+          "quantity": 16,
+          "weight_kg": 0.001,
+          "supplier": "Intel Cache Technologies"
+        }
+      ]
+    },
+    {
+      "section": "Power Delivery",
+      "items": [
+        {
+          "drawing_nr": "PWR-001",
+          "group": "Power Delivery",
+          "designation": "Voltage Regulator Controller",
+          "material": "Silicon",
+          "quantity": 1,
+          "weight_kg": 0.002,
+          "supplier": "Power IC Solutions"
+        },
+        {
+          "drawing_nr": "PWR-002",
+          "group": "Power Delivery",
+          "designation": "Power Delivery Capacitors",
+          "material": "Ceramic",
+          "quantity": 24,
+          "weight_kg": 0.001,
+          "supplier": "Capacitor Technologies"
+        },
+        {
+          "drawing_nr": "PWR-003",
+          "group": "Power Delivery",
+          "designation": "Power Delivery Inductors",
+          "material": "Copper Coil",
+          "quantity": 12,
+          "weight_kg": 0.002,
+          "supplier": "Inductor Corp."
+        },
+        {
+          "drawing_nr": "PWR-004",
+          "group": "Power Delivery",
+          "designation": "Power MOSFETs",
+          "material": "Silicon",
+          "quantity": 16,
+          "weight_kg": 0.001,
+          "supplier": "Semiconductor Devices Inc."
+        },
+        {
+          "drawing_nr": "PWR-005",
+          "group": "Power Delivery",
+          "designation": "Power Management IC",
+          "material": "Silicon",
+          "quantity": 1,
+          "weight_kg": 0.001,
+          "supplier": "Power Management Solutions"
+        }
+      ]
+    },
+    {
+      "section": "I/O Components",
+      "items": [
+        {
+          "drawing_nr": "IO-001",
+          "group": "I/O",
+          "designation": "PCIe Controller",
+          "material": "Silicon",
+          "quantity": 1,
+          "weight_kg": 0.003,
+          "supplier": "Intel I/O Technologies"
+        },
+        {
+          "drawing_nr": "IO-002",
+          "group": "I/O",
+          "designation": "Memory Controller",
+          "material": "Silicon",
+          "quantity": 1,
+          "weight_kg": 0.002,
+          "supplier": "Intel Memory Systems"
+        },
+        {
+          "drawing_nr": "IO-003",
+          "group": "I/O",
+          "designation": "Integrated Graphics Processor",
+          "material": "Silicon",
+          "quantity": 1,
+          "weight_kg": 0.005,
+          "supplier": "Intel Graphics Division"
+        },
+        {
+          "drawing_nr": "IO-004",
+          "group": "I/O",
+          "designation": "DMI Interface",
+          "material": "Silicon",
+          "quantity": 1,
+          "weight_kg": 0.001,
+          "supplier": "Intel I/O Technologies"
+        }
+      ]
+    },
+    {
+      "section": "Package and Socket",
+      "items": [
+        {
+          "drawing_nr": "PKG-001",
+          "group": "Package",
+          "designation": "LGA 1700 Socket Interface",
+          "material": "Gold-plated copper contacts",
+          "quantity": 1700,
+          "weight_kg": 0.004,
+          "supplier": "Socket Technologies Inc."
+        },
+        {
+          "drawing_nr": "PKG-002",
+          "group": "Package",
+          "designation": "Package Substrate",
+          "material": "Fiberglass-reinforced epoxy laminate",
+          "quantity": 1,
+          "weight_kg": 0.01,
+          "supplier": "Advanced Substrate Technologies"
+        },
+        {
+          "drawing_nr": "PKG-003",
+          "group": "Package",
+          "designation": "Package Capacitors",
+          "material": "Ceramic",
+          "quantity": 36,
+          "weight_kg": 0.002,
+          "supplier": "Capacitor Technologies"
+        },
+        {
+          "drawing_nr": "PKG-004",
+          "group": "Package",
+          "designation": "Package Resistors",
+          "material": "Metal Film",
+          "quantity": 24,
+          "weight_kg": 0.001,
+          "supplier": "Resistor Solutions"
+        },
+        {
+          "drawing_nr": "PKG-005",
+          "group": "Package",
+          "designation": "Solder Balls",
+          "material": "Lead-free solder",
+          "quantity": 1700,
+          "weight_kg": 0.003,
+          "supplier": "Solder Materials Inc."
+        }
+      ]
+    },
+    {
+      "section": "Additional Components",
+      "items": [
+        {
+          "drawing_nr": "ADD-001",
+          "group": "Additional",
+          "designation": "System Agent",
+          "material": "Silicon",
+          "quantity": 1,
+          "weight_kg": 0.002,
+          "supplier": "Intel System Architecture"
+        },
+        {
+          "drawing_nr": "ADD-002",
+          "group": "Additional",
+          "designation": "Thermal Model Sensors",
+          "material": "Silicon",
+          "quantity": 8,
+          "weight_kg": 0.001,
+          "supplier": "Thermal Monitoring Inc."
+        },
+        {
+          "drawing_nr": "ADD-003",
+          "group": "Additional",
+          "designation": "Debug Interface",
+          "material": "Silicon",
+          "quantity": 1,
+          "weight_kg": 0.001,
+          "supplier": "Debug Systems Ltd."
+        },
+        {
+          "drawing_nr": "ADD-004",
+          "group": "Additional",
+          "designation": "Clock Generator",
+          "material": "Silicon",
+          "quantity": 1,
+          "weight_kg": 0.001,
+          "supplier": "Timing Solutions Co."
+        },
+        {
+          "drawing_nr": "ADD-005",
+          "group": "Additional",
+          "designation": "Security Engine",
+          "material": "Silicon",
+          "quantity": 1,
+          "weight_kg": 0.001,
+          "supplier": "Intel Security Group"
+        }
+      ]
+    }
+  ],
+  "manufacturing": {
+    "primary_manufacturer": "Intel Corporation",
+    "assembly_location": "Malaysia",
+    "test_location": "USA",
+    "packaging_location": "China"
+  },
+  "environmental": {
+    "total_weight_kg": 0.245,
+    "recyclable_materials_percentage": 85,
+    "rohs_compliant": true,
+    "energy_consumption_idle_w": 10,
+    "energy_consumption_max_w": 241
+  }
+}

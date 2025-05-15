@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../../stylesheets/flow2html.xsl' ?>
+<flowDataSet xmlns="http://lca.jrc.it/ILCD/Flow" xmlns:common="http://lca.jrc.it/ILCD/Common"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             version="1.1"
+             xsi:schemaLocation="http://lca.jrc.it/ILCD/Flow ../../schemas/ILCD_FlowDataSet.xsd">
+   <flowInformation>
+      <dataSetInformation>
+         <common:UUID>a8e14b8f-2fd5-4a1d-bfcc-b4ed3b345798</common:UUID>
+         <name>
+            <baseName xml:lang="en">Lignite; 9.9 MJ/kg</baseName>
+         </name>
+         <classificationInformation>
+            <common:elementaryFlowCategorization>
+               <common:category level="0">Resources</common:category>
+               <common:category level="1">Resources from ground</common:category>
+               <common:category level="2">Non-renewable energy resources from ground</common:category>
+            </common:elementaryFlowCategorization>
+            <common:classification>
+               <common:class level="0">Energy carriers and technologies</common:class>
+               <common:class level="1">Lignite based fuels</common:class>
+            </common:classification>
+         </classificationInformation>
+         <common:generalComment xml:lang="en">Purely illustrative sample data set. NOT TO BE USED FOR LCA WORK.</common:generalComment>
+      </dataSetInformation>
+      <quantitativeReference>
+         <referenceToReferenceFlowProperty>0</referenceToReferenceFlowProperty>
+      </quantitativeReference>
+   </flowInformation>
+   <modellingAndValidation>
+      <LCIMethod>
+         <typeOfDataSet>Elementary flow</typeOfDataSet>
+      </LCIMethod>
+      <complianceDeclarations>
+         <compliance>
+            <common:referenceToComplianceSystem uri="../sources/ILCD_Compliance_88d4f8d9-60f9-43d1-9ea3-329c10d7d727.xml"
+                                                type="source data set">
+               <common:shortDescription>ILCD Data Network compliance</common:shortDescription>
+            </common:referenceToComplianceSystem>
+            <common:approvalOfOverallCompliance>Fully compliant</common:approvalOfOverallCompliance>
+         </compliance>
+      </complianceDeclarations>
+   </modellingAndValidation>
+   <administrativeInformation>
+      <dataEntryBy>
+         <common:timeStamp>2008-08-11T16:38:57.497+07:00</common:timeStamp>
+         <common:referenceToDataSetFormat type="source data set"
+                                          uri="../sources/ILCD_Format_a97a0155-0234-4b87-b4ce-a45da52f2a40.xml"
+                                          refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40">
+            <common:shortDescription>ILCD format</common:shortDescription>
+         </common:referenceToDataSetFormat>
+         <common:referenceToPersonOrEntityEnteringTheData uri="../contacts/d0d5f8bb-9311-49d1-9e30-2f20a6977f4f.xml"
+                                                          type="contact data set"
+                                                          refObjectId="d0d5f8bb-9311-49d1-9e30-2f20a6977f4f">
+            <common:shortDescription xml:lang="en">EPLCA working group</common:shortDescription>
+         </common:referenceToPersonOrEntityEnteringTheData>
+      </dataEntryBy>
+      <publicationAndOwnership>
+         <common:dataSetVersion>01.00.000</common:dataSetVersion>
+         <common:permanentDataSetURI>http://lca.jrc.ec.europa.eu/lcainfohub/sample_data/ilcd/flows/Lignite_a8e14b8f-2fd5-4a1d-bfcc-b4ed3b345798.xml</common:permanentDataSetURI>
+         <common:referenceToOwnershipOfDataSet uri="../contacts/d0d5f8bb-9311-49d1-9e30-2f20a6977f4f.xml"
+                                               type="contact data set"
+                                               refObjectId="d0d5f8bb-9311-49d1-9e30-2f20a6977f4f">
+            <common:shortDescription xml:lang="en">EPLCA working group</common:shortDescription>
+         </common:referenceToOwnershipOfDataSet>
+      </publicationAndOwnership>
+   </administrativeInformation>
+   <flowProperties>
+      <flowProperty dataSetInternalID="0">
+         <referenceToFlowPropertyDataSet uri="../flowproperties/Net_calorific_value_cb0f1996-b781-48f0-83d0-d4c0eb002fd6.xml"
+                                         type="flow property data set"
+                                         refObjectId="cb0f1996-b781-48f0-83d0-d4c0eb002fd6">
+            <common:shortDescription xml:lang="en">Net calorific value</common:shortDescription>
+         </referenceToFlowPropertyDataSet>
+         <meanValue>1.0</meanValue>
+         <minimumValue>1.0</minimumValue>
+         <maximumValue>1.0</maximumValue>
+         <uncertaintyDistributionType>undefined</uncertaintyDistributionType>
+         <relativeStandardDeviation95In>0</relativeStandardDeviation95In>
+         <dataDerivationTypeStatus>Measured</dataDerivationTypeStatus>
+      </flowProperty>
+      <flowProperty dataSetInternalID="1">
+         <referenceToFlowPropertyDataSet uri="../flowproperties/Mass_08f485ac-ed8d-4764-b8f6-ed3c220abdb8.xml"
+                                         type="flow property data set"
+                                         refObjectId="08f485ac-ed8d-4764-b8f6-ed3c220abdb8">
+            <common:shortDescription xml:lang="en">Mass</common:shortDescription>
+         </referenceToFlowPropertyDataSet>
+         <meanValue>0.101010101</meanValue>
+         <minimumValue>0.09798</minimumValue>
+         <maximumValue>0.10404</maximumValue>
+         <uncertaintyDistributionType>undefined</uncertaintyDistributionType>
+         <relativeStandardDeviation95In>0</relativeStandardDeviation95In>
+         <dataDerivationTypeStatus>Measured</dataDerivationTypeStatus>
+      </flowProperty>
+   </flowProperties>
+</flowDataSet>

@@ -1,0 +1,17 @@
+# Team D Specific Libraries
+sentence-transformers>=4.1.0
+transformers>=4.51.3
+pinecone>=6.0.2
+numpy>=2.2.5
+pandas>=2.2.3
+ipywidgets>=8.1.7
+langchain
+langchain-anthropic
+langchain-pinecone
+pydantic
+python-dotenv
+langchain-huggingface
+
+# Jupyter
+jupyter>=1.1.1
+notebook>=7.4.2

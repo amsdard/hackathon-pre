@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../stylesheets/process2html.xsl"?>
+<processDataSet xmlns="http://lca.jrc.it/ILCD/Process"
+                xmlns:common="http://lca.jrc.it/ILCD/Common"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="http://lca.jrc.it/ILCD/Process ../../schemas/ILCD_ProcessDataSet.xsd"
+                version="1.1"
+                locations="../Example_Custom_Locations.xml"
+                metaDataOnly="false">
+   <processInformation>
+      <dataSetInformation>
+         <common:UUID>00000000-0000-0000-0000-000000000000</common:UUID>
+         <name>
+            <baseName>baseName0</baseName>
+            <baseName xml:lang="de">baseName1</baseName>
+            <treatmentStandardsRoutes>treatmentStandardsRoutes0</treatmentStandardsRoutes>
+            <treatmentStandardsRoutes xml:lang="de">treatmentStandardsRoutes1</treatmentStandardsRoutes>
+            <mixAndLocationTypes>mixAndLocationTypes0</mixAndLocationTypes>
+            <mixAndLocationTypes xml:lang="de">mixAndLocationTypes1</mixAndLocationTypes>
+            <functionalUnitFlowProperties>functionalUnitFlowProperties0</functionalUnitFlowProperties>
+            <functionalUnitFlowProperties xml:lang="de">functionalUnitFlowProperties1</functionalUnitFlowProperties>
+         </name>
+         <identifierOfSubDataSet>identifierOfSubDataSet0</identifierOfSubDataSet>
+         <common:synonyms>synonyms0</common:synonyms>
+         <common:synonyms xml:lang="de">synonyms1</common:synonyms>
+         <complementingProcesses>
+            <referenceToComplementingProcess type="process data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                             version="00.00"
+                                             uri="">
+               <common:shortDescription>shortDescription78</common:shortDescription>
+               <common:shortDescription xml:lang="de">shortDescription79</common:shortDescription>
+            </referenceToComplementingProcess>
+            <referenceToComplementingProcess type="process data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                             version="00.00"
+                                             uri="">
+               <common:shortDescription>shortDescription80</common:shortDescription>
+               <common:shortDescription xml:lang="de">shortDescription81</common:shortDescription>
+            </referenceToComplementingProcess>
+         </complementingProcesses>
+         <classificationInformation>
+            <common:classification name="ILCD">
+               <common:class level="0" classId="classId1">Other Services</common:class>
+               <common:class level="1" classId="classId3">Other services</common:class>
+            </common:classification>
+            <common:classification name="Custom" classes="../Example_Custom_Classification.xml">
+               <common:class level="0" classId="classId5">class2</common:class>
+               <common:class level="1" classId="classId7">class3</common:class>
+            </common:classification>
+         </classificationInformation>
+         <common:generalComment>generalComment0</common:generalComment>
+         <common:generalComment xml:lang="de">generalComment1</common:generalComment>
+         <referenceToExternalDocumentation type="source data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                           version="00.00"
+                                           uri="">
+            <common:subReference>subReference0</common:subReference>
+            <common:subReference>subReference1</common:subReference>
+            <common:shortDescription>shortDescription0</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription1</common:shortDescription>
+         </referenceToExternalDocumentation>
+         <referenceToExternalDocumentation type="source data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                           version="00.00"
+                                           uri="">
+            <common:subReference>subReference2</common:subReference>
+            <common:subReference>subReference3</common:subReference>
+            <common:shortDescription>shortDescription2</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription3</common:shortDescription>
+         </referenceToExternalDocumentation>
+      </dataSetInformation>
+      <quantitativeReference type="Reference flow(s)">
+         <referenceToReferenceFlow>0</referenceToReferenceFlow>
+         <referenceToReferenceFlow>1</referenceToReferenceFlow>
+         <functionalUnitOrOther>functionalUnitOrOther0</functionalUnitOrOther>
+         <functionalUnitOrOther>functionalUnitOrOther1</functionalUnitOrOther>
+         <functionalUnitOrOther xml:lang="de">functionalUnitOrOther2</functionalUnitOrOther>
+         <functionalUnitOrOther xml:lang="de">functionalUnitOrOther3</functionalUnitOrOther>
+      </quantitativeReference>
+      <time>
+         <common:referenceYear>1234</common:referenceYear>
+         <common:dataSetValidUntil>1234</common:dataSetValidUntil>
+         <common:timeRepresentativenessDescription>timeRepresentativenessDescription0</common:timeRepresentativenessDescription>
+         <common:timeRepresentativenessDescription xml:lang="de">timeRepresentativenessDescription1</common:timeRepresentativenessDescription>
+      </time>
+      <geography>
+         <locationOfOperationSupplyOrProduction location="EU-28" latitudeAndLongitude="0;100">
+            <descriptionOfRestrictions>descriptionOfRestrictions0</descriptionOfRestrictions>
+            <descriptionOfRestrictions xml:lang="de">descriptionOfRestrictions1</descriptionOfRestrictions>
+         </locationOfOperationSupplyOrProduction>
+         <subLocationOfOperationSupplyOrProduction subLocation="DE" latitudeAndLongitude="0;100">
+            <descriptionOfRestrictions>descriptionOfRestrictions2</descriptionOfRestrictions>
+            <descriptionOfRestrictions xml:lang="de">descriptionOfRestrictions3</descriptionOfRestrictions>
+         </subLocationOfOperationSupplyOrProduction>
+         <subLocationOfOperationSupplyOrProduction subLocation="FR" latitudeAndLongitude="0;100">
+            <descriptionOfRestrictions>descriptionOfRestrictions4</descriptionOfRestrictions>
+            <descriptionOfRestrictions xml:lang="de">descriptionOfRestrictions5</descriptionOfRestrictions>
+         </subLocationOfOperationSupplyOrProduction>
+      </geography>
+      <technology>
+         <technologyDescriptionAndIncludedProcesses>technologyDescriptionAndIncludedProcesses0</technologyDescriptionAndIncludedProcesses>
+         <technologyDescriptionAndIncludedProcesses xml:lang="de">technologyDescriptionAndIncludedProcesses1</technologyDescriptionAndIncludedProcesses>
+         <referenceToIncludedProcesses type="process data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                       version="00.00"
+                                       uri="">
+            <common:shortDescription>shortDescription4</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription5</common:shortDescription>
+         </referenceToIncludedProcesses>
+         <referenceToIncludedProcesses type="process data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                       version="00.00"
+                                       uri="">
+            <common:shortDescription>shortDescription6</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription7</common:shortDescription>
+         </referenceToIncludedProcesses>
+         <technologicalApplicability>technologicalApplicability0</technologicalApplicability>
+         <technologicalApplicability xml:lang="de">technologicalApplicability1</technologicalApplicability>
+         <referenceToTechnologyPictogramme type="source data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                           version="00.00"
+                                           uri="">
+            <common:shortDescription>shortDescription8</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription9</common:shortDescription>
+         </referenceToTechnologyPictogramme>
+         <referenceToTechnologyFlowDiagrammOrPicture type="source data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                                     version="00.00"
+                                                     uri="">
+            <common:shortDescription>shortDescription10</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription11</common:shortDescription>
+         </referenceToTechnologyFlowDiagrammOrPicture>
+         <referenceToTechnologyFlowDiagrammOrPicture type="source data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                                     version="00.00"
+                                                     uri="">
+            <common:shortDescription>shortDescription12</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription13</common:shortDescription>
+         </referenceToTechnologyFlowDiagrammOrPicture>
+      </technology>
+      <mathematicalRelations>
+         <modelDescription>modelDescription0</modelDescription>
+         <modelDescription xml:lang="de">modelDescription1</modelDescription>
+         <variableParameter name="variable0">
+            <formula>formula0</formula>
+            <meanValue>0</meanValue>
+            <minimumValue>0</minimumValue>
+            <maximumValue>0</maximumValue>
+            <uncertaintyDistributionType>undefined</uncertaintyDistributionType>
+            <relativeStandardDeviation95In>12.123</relativeStandardDeviation95In>
+            <comment>comment0</comment>
+            <comment xml:lang="de">comment1</comment>
+         </variableParameter>
+         <variableParameter name="variable1">
+            <formula>formula1</formula>
+            <meanValue>0</meanValue>
+            <minimumValue>0</minimumValue>
+            <maximumValue>0</maximumValue>
+            <uncertaintyDistributionType>undefined</uncertaintyDistributionType>
+            <relativeStandardDeviation95In>12.123</relativeStandardDeviation95In>
+            <comment>comment2</comment>
+            <comment xml:lang="de">comment3</comment>
+         </variableParameter>
+      </mathematicalRelations>
+   </processInformation>
+   <modellingAndValidation>
+      <LCIMethodAndAllocation>
+         <typeOfDataSet>Unit process, single operation</typeOfDataSet>
+         <LCIMethodPrinciple>Attributional</LCIMethodPrinciple>
+         <deviationsFromLCIMethodPrinciple>deviationsFromLCIMethodPrinciple0</deviationsFromLCIMethodPrinciple>
+         <deviationsFromLCIMethodPrinciple xml:lang="de">deviationsFromLCIMethodPrinciple1</deviationsFromLCIMethodPrinciple>
+         <LCIMethodApproaches>Allocation - market value</LCIMethodApproaches>
+         <LCIMethodApproaches>Allocation - market value</LCIMethodApproaches>
+         <deviationsFromLCIMethodApproaches>deviationsFromLCIMethodApproaches0</deviationsFromLCIMethodApproaches>
+         <deviationsFromLCIMethodApproaches xml:lang="de">deviationsFromLCIMethodApproaches1</deviationsFromLCIMethodApproaches>
+         <modellingConstants>modellingConstants0</modellingConstants>
+         <modellingConstants xml:lang="de">modellingConstants1</modellingConstants>
+         <deviationsFromModellingConstants>deviationsFromModellingConstants0</deviationsFromModellingConstants>
+         <deviationsFromModellingConstants xml:lang="de">deviationsFromModellingConstants1</deviationsFromModellingConstants>
+         <referenceToLCAMethodDetails type="source data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                      version="00.00"
+                                      uri="">
+            <common:subReference>subReference14</common:subReference>
+            <common:subReference>subReference15</common:subReference>
+            <common:shortDescription>shortDescription14</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription15</common:shortDescription>
+         </referenceToLCAMethodDetails>
+         <referenceToLCAMethodDetails type="source data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                      version="00.00"
+                                      uri="">
+            <common:subReference>subReference16</common:subReference>
+            <common:subReference>subReference17</common:subReference>
+            <common:shortDescription>shortDescription16</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription17</common:shortDescription>
+         </referenceToLCAMethodDetails>
+      </LCIMethodAndAllocation>
+      <dataSourcesTreatmentAndRepresentativeness>
+         <dataCutOffAndCompletenessPrinciples>dataCutOffAndCompletenessPrinciples0</dataCutOffAndCompletenessPrinciples>
+         <dataCutOffAndCompletenessPrinciples xml:lang="de">dataCutOffAndCompletenessPrinciples1</dataCutOffAndCompletenessPrinciples>
+         <deviationsFromCutOffAndCompletenessPrinciples>deviationsFromCutOffAndCompletenessPrinciples0</deviationsFromCutOffAndCompletenessPrinciples>
+         <deviationsFromCutOffAndCompletenessPrinciples xml:lang="de">deviationsFromCutOffAndCompletenessPrinciples1</deviationsFromCutOffAndCompletenessPrinciples>
+         <dataSelectionAndCombinationPrinciples>dataSelectionAndCombinationPrinciples0</dataSelectionAndCombinationPrinciples>
+         <dataSelectionAndCombinationPrinciples xml:lang="de">dataSelectionAndCombinationPrinciples1</dataSelectionAndCombinationPrinciples>
+         <deviationsFromSelectionAndCombinationPrinciples>deviationsFromSelectionAndCombinationPrinciples0</deviationsFromSelectionAndCombinationPrinciples>
+         <deviationsFromSelectionAndCombinationPrinciples xml:lang="de">deviationsFromSelectionAndCombinationPrinciples1</deviationsFromSelectionAndCombinationPrinciples>
+         <dataTreatmentAndExtrapolationsPrinciples>dataTreatmentAndExtrapolationsPrinciples0</dataTreatmentAndExtrapolationsPrinciples>
+         <dataTreatmentAndExtrapolationsPrinciples xml:lang="de">dataTreatmentAndExtrapolationsPrinciples1</dataTreatmentAndExtrapolationsPrinciples>
+         <deviationsFromTreatmentAndExtrapolationPrinciples>deviationsFromTreatmentAndExtrapolationPrinciples0</deviationsFromTreatmentAndExtrapolationPrinciples>
+         <deviationsFromTreatmentAndExtrapolationPrinciples xml:lang="de">deviationsFromTreatmentAndExtrapolationPrinciples1</deviationsFromTreatmentAndExtrapolationPrinciples>
+         <referenceToDataHandlingPrinciples type="source data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                            version="00.00"
+                                            uri="">
+            <common:subReference>subReference18</common:subReference>
+            <common:subReference>subReference19</common:subReference>
+            <common:shortDescription>shortDescription18</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription19</common:shortDescription>
+         </referenceToDataHandlingPrinciples>
+         <referenceToDataHandlingPrinciples type="source data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                            version="00.00"
+                                            uri="">
+            <common:subReference>subReference20</common:subReference>
+            <common:subReference>subReference21</common:subReference>
+            <common:shortDescription>shortDescription20</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription21</common:shortDescription>
+         </referenceToDataHandlingPrinciples>
+         <referenceToDataSource type="source data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                version="00.00"
+                                uri="">
+            <common:subReference>subReference22</common:subReference>
+            <common:subReference>subReference23</common:subReference>
+            <common:shortDescription>shortDescription22</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription23</common:shortDescription>
+         </referenceToDataSource>
+         <referenceToDataSource type="source data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                version="00.00"
+                                uri="">
+            <common:subReference>subReference24</common:subReference>
+            <common:subReference>subReference25</common:subReference>
+            <common:shortDescription>shortDescription24</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription25</common:shortDescription>
+         </referenceToDataSource>
+         <percentageSupplyOrProductionCovered>12.123</percentageSupplyOrProductionCovered>
+         <annualSupplyOrProductionVolume>annualSupplyOrProductionVolume0</annualSupplyOrProductionVolume>
+         <annualSupplyOrProductionVolume xml:lang="de">annualSupplyOrProductionVolume1</annualSupplyOrProductionVolume>
+         <samplingProcedure>samplingProcedure0</samplingProcedure>
+         <samplingProcedure xml:lang="de">samplingProcedure1</samplingProcedure>
+         <dataCollectionPeriod>dataCollectionPeriod0</dataCollectionPeriod>
+         <dataCollectionPeriod xml:lang="de">dataCollectionPeriod1</dataCollectionPeriod>
+         <uncertaintyAdjustments>uncertaintyAdjustments0</uncertaintyAdjustments>
+         <uncertaintyAdjustments xml:lang="de">uncertaintyAdjustments1</uncertaintyAdjustments>
+         <useAdviceForDataSet>useAdviceForDataSet0</useAdviceForDataSet>
+         <useAdviceForDataSet xml:lang="de">useAdviceForDataSet1</useAdviceForDataSet>
+      </dataSourcesTreatmentAndRepresentativeness>
+      <completeness>
+         <completenessProductModel>All relevant flows quantified</completenessProductModel>
+         <referenceToSupportedImpactAssessmentMethods type="LCIA method data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                                      version="00.00"
+                                                      uri="">
+            <common:shortDescription>shortDescription26</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription27</common:shortDescription>
+         </referenceToSupportedImpactAssessmentMethods>
+         <referenceToSupportedImpactAssessmentMethods type="LCIA method data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                                      version="00.00"
+                                                      uri="">
+            <common:shortDescription>shortDescription28</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription29</common:shortDescription>
+         </referenceToSupportedImpactAssessmentMethods>
+         <completenessElementaryFlows type="Climate change" value="All relevant flows quantified"/>
+         <completenessElementaryFlows type="Freshwater ecotoxicity" value="All relevant flows quantified"/>
+         <completenessOtherProblemField>completenessOtherProblemField0</completenessOtherProblemField>
+         <completenessOtherProblemField xml:lang="de">completenessOtherProblemField1</completenessOtherProblemField>
+      </completeness>
+      <validation>
+         <review type="Dependent internal review">
+            <common:scope name="Goal and scope definition">
+               <common:method name="Expert judgement"/>
+               <common:method name="Compliance with ISO 14040 to 14044"/>
+            </common:scope>
+            <common:scope name="Unit process(es), single operation">
+               <common:method name="Element balance"/>
+               <common:method name="Expert judgement"/>
+            </common:scope>
+            <common:dataQualityIndicators>
+               <common:dataQualityIndicator name="Technological representativeness" value="Good"/>
+               <common:dataQualityIndicator name="Completeness" value="Fair"/>
+            </common:dataQualityIndicators>
+            <common:reviewDetails>reviewDetails0</common:reviewDetails>
+            <common:reviewDetails xml:lang="de">reviewDetails1</common:reviewDetails>
+            <common:referenceToNameOfReviewerAndInstitution type="contact data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                                            version="00.00"
+                                                            uri="">
+               <common:shortDescription>shortDescription82</common:shortDescription>
+               <common:shortDescription xml:lang="de">shortDescription83</common:shortDescription>
+            </common:referenceToNameOfReviewerAndInstitution>
+            <common:referenceToNameOfReviewerAndInstitution type="contact data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                                            version="00.00"
+                                                            uri="">
+               <common:shortDescription>shortDescription84</common:shortDescription>
+               <common:shortDescription xml:lang="de">shortDescription85</common:shortDescription>
+            </common:referenceToNameOfReviewerAndInstitution>
+            <common:otherReviewDetails>otherReviewDetails0</common:otherReviewDetails>
+            <common:otherReviewDetails xml:lang="de">otherReviewDetails1</common:otherReviewDetails>
+            <common:referenceToCompleteReviewReport type="source data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                                    version="00.00"
+                                                    uri="">
+               <common:subReference>subReference80</common:subReference>
+               <common:subReference>subReference81</common:subReference>
+               <common:shortDescription>shortDescription86</common:shortDescription>
+               <common:shortDescription xml:lang="de">shortDescription87</common:shortDescription>
+            </common:referenceToCompleteReviewReport>
+         </review>
+         <review type="Independent external review">
+            <common:scope name="Raw data">
+               <common:method name="Expert judgement"/>
+               <common:method name="Energy balance"/>
+            </common:scope>
+            <common:scope name="Documentation">
+               <common:method name="Expert judgement"/>
+            </common:scope>
+            <common:dataQualityIndicators>
+               <common:dataQualityIndicator name="Overall quality" value="Good"/>
+               <common:dataQualityIndicator name="Technological representativeness" value="Fair"/>
+            </common:dataQualityIndicators>
+            <common:reviewDetails>reviewDetails2</common:reviewDetails>
+            <common:reviewDetails xml:lang="de">reviewDetails3</common:reviewDetails>
+            <common:referenceToNameOfReviewerAndInstitution type="contact data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                                            version="00.00"
+                                                            uri="">
+               <common:shortDescription>shortDescription82</common:shortDescription>
+               <common:shortDescription xml:lang="de">shortDescription83</common:shortDescription>
+            </common:referenceToNameOfReviewerAndInstitution>
+            <common:referenceToNameOfReviewerAndInstitution type="contact data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                                            version="00.00"
+                                                            uri="">
+               <common:shortDescription>shortDescription84</common:shortDescription>
+               <common:shortDescription xml:lang="de">shortDescription85</common:shortDescription>
+            </common:referenceToNameOfReviewerAndInstitution>
+            <common:otherReviewDetails>otherReviewDetails2</common:otherReviewDetails>
+            <common:otherReviewDetails xml:lang="de">otherReviewDetails3</common:otherReviewDetails>
+            <common:referenceToCompleteReviewReport type="source data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                                    version="00.00"
+                                                    uri="">
+               <common:subReference>subReference80</common:subReference>
+               <common:subReference>subReference81</common:subReference>
+               <common:shortDescription>shortDescription86</common:shortDescription>
+               <common:shortDescription xml:lang="de">shortDescription87</common:shortDescription>
+            </common:referenceToCompleteReviewReport>
+         </review>
+      </validation>
+      <complianceDeclarations>
+         <compliance>
+            <common:referenceToComplianceSystem type="source data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                                version="00.00"
+                                                uri="">
+               <common:shortDescription>shortDescription88</common:shortDescription>
+               <common:shortDescription xml:lang="de">shortDescription89</common:shortDescription>
+            </common:referenceToComplianceSystem>
+            <common:approvalOfOverallCompliance>Fully compliant</common:approvalOfOverallCompliance>
+            <common:nomenclatureCompliance>Fully compliant</common:nomenclatureCompliance>
+            <common:methodologicalCompliance>Fully compliant</common:methodologicalCompliance>
+            <common:reviewCompliance>Fully compliant</common:reviewCompliance>
+            <common:documentationCompliance>Fully compliant</common:documentationCompliance>
+            <common:qualityCompliance>Fully compliant</common:qualityCompliance>
+         </compliance>
+         <compliance>
+            <common:referenceToComplianceSystem type="source data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                                version="00.00"
+                                                uri="">
+               <common:shortDescription>shortDescription90</common:shortDescription>
+               <common:shortDescription xml:lang="de">shortDescription91</common:shortDescription>
+            </common:referenceToComplianceSystem>
+            <common:approvalOfOverallCompliance>Fully compliant</common:approvalOfOverallCompliance>
+            <common:nomenclatureCompliance>Fully compliant</common:nomenclatureCompliance>
+            <common:methodologicalCompliance>Fully compliant</common:methodologicalCompliance>
+            <common:reviewCompliance>Fully compliant</common:reviewCompliance>
+            <common:documentationCompliance>Fully compliant</common:documentationCompliance>
+            <common:qualityCompliance>Fully compliant</common:qualityCompliance>
+         </compliance>
+      </complianceDeclarations>
+   </modellingAndValidation>
+   <administrativeInformation>
+      <common:commissionerAndGoal>
+         <common:referenceToCommissioner type="contact data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                         version="00.00"
+                                         uri="">
+            <common:shortDescription>shortDescription30</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription31</common:shortDescription>
+         </common:referenceToCommissioner>
+         <common:referenceToCommissioner type="contact data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                         version="00.00"
+                                         uri="">
+            <common:shortDescription>shortDescription32</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription33</common:shortDescription>
+         </common:referenceToCommissioner>
+         <common:project>project0</common:project>
+         <common:project xml:lang="de">project1</common:project>
+         <common:intendedApplications>intendedApplications0</common:intendedApplications>
+         <common:intendedApplications xml:lang="de">intendedApplications1</common:intendedApplications>
+      </common:commissionerAndGoal>
+      <dataGenerator>
+         <common:referenceToPersonOrEntityGeneratingTheDataSet type="contact data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                                               version="00.00"
+                                                               uri="">
+            <common:shortDescription>shortDescription34</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription35</common:shortDescription>
+         </common:referenceToPersonOrEntityGeneratingTheDataSet>
+         <common:referenceToPersonOrEntityGeneratingTheDataSet type="contact data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                                               version="00.00"
+                                                               uri="">
+            <common:shortDescription>shortDescription36</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription37</common:shortDescription>
+         </common:referenceToPersonOrEntityGeneratingTheDataSet>
+      </dataGenerator>
+      <dataEntryBy>
+         <common:timeStamp>2006-05-04T18:13:51.0Z</common:timeStamp>
+         <common:referenceToDataSetFormat type="source data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                          version="00.00"
+                                          uri="">
+            <common:shortDescription>shortDescription38</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription39</common:shortDescription>
+         </common:referenceToDataSetFormat>
+         <common:referenceToDataSetFormat type="source data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                          version="00.00"
+                                          uri="">
+            <common:shortDescription>shortDescription40</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription41</common:shortDescription>
+         </common:referenceToDataSetFormat>
+         <common:referenceToConvertedOriginalDataSetFrom type="source data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                                         version="00.00"
+                                                         uri="">
+            <common:shortDescription>shortDescription42</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription43</common:shortDescription>
+         </common:referenceToConvertedOriginalDataSetFrom>
+         <common:referenceToPersonOrEntityEnteringTheData type="contact data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                                          version="00.00"
+                                                          uri="">
+            <common:shortDescription>shortDescription44</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription45</common:shortDescription>
+         </common:referenceToPersonOrEntityEnteringTheData>
+         <common:referenceToDataSetUseApproval type="contact data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                               version="00.00"
+                                               uri="">
+            <common:shortDescription>shortDescription46</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription47</common:shortDescription>
+         </common:referenceToDataSetUseApproval>
+         <common:referenceToDataSetUseApproval type="contact data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                               version="00.00"
+                                               uri="">
+            <common:shortDescription>shortDescription48</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription49</common:shortDescription>
+         </common:referenceToDataSetUseApproval>
+      </dataEntryBy>
+      <publicationAndOwnership>
+         <common:dateOfLastRevision>2006-05-04T18:13:51.0Z</common:dateOfLastRevision>
+         <common:dataSetVersion>00.00</common:dataSetVersion>
+         <common:referenceToPrecedingDataSetVersion type="process data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                                    version="00.00"
+                                                    uri="">
+            <common:shortDescription>shortDescription50</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription51</common:shortDescription>
+         </common:referenceToPrecedingDataSetVersion>
+         <common:referenceToPrecedingDataSetVersion type="process data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                                    version="00.00"
+                                                    uri="">
+            <common:shortDescription>shortDescription52</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription53</common:shortDescription>
+         </common:referenceToPrecedingDataSetVersion>
+         <common:permanentDataSetURI/>
+         <common:workflowAndPublicationStatus>Working draft</common:workflowAndPublicationStatus>
+         <common:referenceToUnchangedRepublication type="source data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                                   version="00.00"
+                                                   uri="">
+            <common:subReference>subReference54</common:subReference>
+            <common:subReference>subReference55</common:subReference>
+            <common:shortDescription>shortDescription54</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription55</common:shortDescription>
+         </common:referenceToUnchangedRepublication>
+         <common:referenceToRegistrationAuthority type="contact data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                                  version="00.00"
+                                                  uri="">
+            <common:shortDescription>shortDescription56</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription57</common:shortDescription>
+         </common:referenceToRegistrationAuthority>
+         <common:registrationNumber>registrationNumber0</common:registrationNumber>
+         <common:referenceToOwnershipOfDataSet type="contact data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                               version="00.00"
+                                               uri="">
+            <common:shortDescription>shortDescription58</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription59</common:shortDescription>
+         </common:referenceToOwnershipOfDataSet>
+         <common:copyright>false</common:copyright>
+         <common:referenceToEntitiesWithExclusiveAccess type="contact data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                                        version="00.00"
+                                                        uri="">
+            <common:shortDescription>shortDescription60</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription61</common:shortDescription>
+         </common:referenceToEntitiesWithExclusiveAccess>
+         <common:referenceToEntitiesWithExclusiveAccess type="contact data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                                        version="00.00"
+                                                        uri="">
+            <common:shortDescription>shortDescription62</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription63</common:shortDescription>
+         </common:referenceToEntitiesWithExclusiveAccess>
+         <common:licenseType>Free of charge for all users and uses</common:licenseType>
+         <common:accessRestrictions>accessRestrictions0</common:accessRestrictions>
+         <common:accessRestrictions xml:lang="de">accessRestrictions1</common:accessRestrictions>
+      </publicationAndOwnership>
+   </administrativeInformation>
+   <exchanges>
+      <exchange dataSetInternalID="0">
+         <referenceToFlowDataSet type="flow data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                 version="00.00"
+                                 uri="">
+            <common:shortDescription>shortDescription64</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription65</common:shortDescription>
+         </referenceToFlowDataSet>
+         <location>FR</location>
+         <functionType>General reminder flow</functionType>
+         <exchangeDirection>Input</exchangeDirection>
+         <referenceToVariable>variable0</referenceToVariable>
+         <meanAmount>0</meanAmount>
+         <resultingAmount>0</resultingAmount>
+         <minimumAmount>0</minimumAmount>
+         <maximumAmount>0</maximumAmount>
+         <uncertaintyDistributionType>undefined</uncertaintyDistributionType>
+         <relativeStandardDeviation95In>12.123</relativeStandardDeviation95In>
+         <allocations>
+            <allocation internalReferenceToCoProduct="0" allocatedFraction="42.02"/>
+            <allocation internalReferenceToCoProduct="1" allocatedFraction="57.98"/>
+         </allocations>
+         <dataSourceType>Primary</dataSourceType>
+         <dataDerivationTypeStatus>Measured</dataDerivationTypeStatus>
+         <referencesToDataSource>
+            <referenceToDataSource type="source data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                   version="00.00"
+                                   uri="">
+               <common:subReference>subReference66</common:subReference>
+               <common:subReference>subReference67</common:subReference>
+               <common:shortDescription>shortDescription66</common:shortDescription>
+               <common:shortDescription xml:lang="de">shortDescription67</common:shortDescription>
+            </referenceToDataSource>
+            <referenceToDataSource type="source data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                   version="00.00"
+                                   uri="">
+               <common:subReference>subReference68</common:subReference>
+               <common:subReference>subReference69</common:subReference>
+               <common:shortDescription>shortDescription68</common:shortDescription>
+               <common:shortDescription xml:lang="de">shortDescription69</common:shortDescription>
+            </referenceToDataSource>
+         </referencesToDataSource>
+         <generalComment>generalComment0</generalComment>
+         <generalComment xml:lang="de">generalComment1</generalComment>
+      </exchange>
+      <exchange dataSetInternalID="1">
+         <referenceToFlowDataSet type="flow data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                 version="00.00"
+                                 uri="">
+            <common:shortDescription>shortDescription70</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription71</common:shortDescription>
+         </referenceToFlowDataSet>
+         <location>DE</location>
+         <functionType>General reminder flow</functionType>
+         <exchangeDirection>Input</exchangeDirection>
+         <referenceToVariable>variable1</referenceToVariable>
+         <meanAmount>0</meanAmount>
+         <resultingAmount>0</resultingAmount>
+         <minimumAmount>0</minimumAmount>
+         <maximumAmount>0</maximumAmount>
+         <uncertaintyDistributionType>undefined</uncertaintyDistributionType>
+         <relativeStandardDeviation95In>12.123</relativeStandardDeviation95In>
+         <dataSourceType>Primary</dataSourceType>
+         <dataDerivationTypeStatus>Measured</dataDerivationTypeStatus>
+         <referencesToDataSource>
+            <referenceToDataSource type="source data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                   version="00.00"
+                                   uri="">
+               <common:subReference>subReference72</common:subReference>
+               <common:subReference>subReference73</common:subReference>
+               <common:shortDescription>shortDescription70</common:shortDescription>
+               <common:shortDescription xml:lang="de">shortDescription71</common:shortDescription>
+            </referenceToDataSource>
+            <referenceToDataSource type="source data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                   version="00.00"
+                                   uri="">
+               <common:subReference>subReference74</common:subReference>
+               <common:subReference>subReference75</common:subReference>
+               <common:shortDescription>shortDescription72</common:shortDescription>
+               <common:shortDescription xml:lang="de">shortDescription73</common:shortDescription>
+            </referenceToDataSource>
+         </referencesToDataSource>
+         <generalComment>generalComment2</generalComment>
+         <generalComment xml:lang="de">generalComment3</generalComment>
+      </exchange>
+   </exchanges>
+   <LCIAResults>
+      <LCIAResult>
+         <referenceToLCIAMethodDataSet type="LCIA method data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                       version="00.00"
+                                       uri="">
+            <common:shortDescription>shortDescription74</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription75</common:shortDescription>
+         </referenceToLCIAMethodDataSet>
+         <meanAmount>0</meanAmount>
+         <uncertaintyDistributionType>undefined</uncertaintyDistributionType>
+         <relativeStandardDeviation95In>12.123</relativeStandardDeviation95In>
+         <generalComment>generalComment4</generalComment>
+         <generalComment xml:lang="de">generalComment5</generalComment>
+      </LCIAResult>
+      <LCIAResult>
+         <referenceToLCIAMethodDataSet type="LCIA method data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                       version="00.00"
+                                       uri="">
+            <common:shortDescription>shortDescription76</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription77</common:shortDescription>
+         </referenceToLCIAMethodDataSet>
+         <meanAmount>0</meanAmount>
+         <uncertaintyDistributionType>undefined</uncertaintyDistributionType>
+         <relativeStandardDeviation95In>12.123</relativeStandardDeviation95In>
+         <generalComment>generalComment6</generalComment>
+         <generalComment xml:lang="de">generalComment7</generalComment>
+      </LCIAResult>
+   </LCIAResults>
+</processDataSet>

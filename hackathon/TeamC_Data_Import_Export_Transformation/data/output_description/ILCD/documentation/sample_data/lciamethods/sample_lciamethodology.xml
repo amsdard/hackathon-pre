@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LCIAMethodDataSet xmlns="http://lca.jrc.it/ILCD/LCIAMethod"
+                   xmlns:common="http://lca.jrc.it/ILCD/Common"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://lca.jrc.it/ILCD/LCIAMethod ../../schemas/ILCD_LCIAMethodDataSet.xsd"
+                   version="1.1"
+                   locations="../ILCDLocations.xml"
+                   LCIAMethodologies="../ILCDLCIAMethodologies.xml">
+   <LCIAMethodInformation>
+      <dataSetInformation>
+         <common:UUID>00000000-0000-0000-0000-000000000000</common:UUID>
+         <common:name xml:lang="en">ReCiPe2008</common:name>
+         <common:name xml:lang="de">name1</common:name>
+         <methodology>CML 2002</methodology>
+         <methodology>ReCiPe2008</methodology>
+         <classificationInformation>
+            <common:classification name="ILCD">
+               <common:class level="0">Endpoint/damage level LCIA methods</common:class>
+            </common:classification>
+         </classificationInformation>
+         <impactCategory>Abiotic resource depletion</impactCategory>
+         <impactCategory>Acidification</impactCategory>
+         <areaOfProtection>Natural resources</areaOfProtection>
+         <areaOfProtection>Natural resources</areaOfProtection>
+         <impactIndicator>impactIndicator0</impactIndicator>
+         <common:generalComment xml:lang="en">generalComment0</common:generalComment>
+         <common:generalComment xml:lang="de">generalComment1</common:generalComment>
+         <referenceToExternalDocumentation type="source data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                           uri="">
+            <common:subReference>subReference0</common:subReference>
+            <common:subReference>subReference1</common:subReference>
+            <common:shortDescription xml:lang="en">shortDescription0</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription1</common:shortDescription>
+         </referenceToExternalDocumentation>
+         <referenceToExternalDocumentation type="source data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                           uri="">
+            <common:subReference>subReference2</common:subReference>
+            <common:subReference>subReference3</common:subReference>
+            <common:shortDescription xml:lang="en">shortDescription2</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription3</common:shortDescription>
+         </referenceToExternalDocumentation>
+      </dataSetInformation>
+      <quantitativeReference>
+         <referenceQuantity type="flow property data set"
+                            refObjectId="00000000-0000-0000-0000-000000000000"
+                            uri="">
+            <common:shortDescription xml:lang="en">shortDescription4</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription5</common:shortDescription>
+         </referenceQuantity>
+      </quantitativeReference>
+      <time>
+         <referenceYear>1234</referenceYear>
+         <duration xml:lang="en">duration0</duration>
+         <duration xml:lang="de">duration1</duration>
+         <timeRepresentativenessDescription xml:lang="en">timeRepresentativenessDescription0</timeRepresentativenessDescription>
+         <timeRepresentativenessDescription xml:lang="de">timeRepresentativenessDescription1</timeRepresentativenessDescription>
+      </time>
+      <geography>
+         <interventionLocation latitudeAndLongitude="0;100">RER</interventionLocation>
+         <interventionSubLocation latitudeAndLongitude="0;100">DE</interventionSubLocation>
+         <interventionSubLocation latitudeAndLongitude="0;100">PL</interventionSubLocation>
+         <impactLocation latitudeAndLongitude="0;100">RER</impactLocation>
+         <geographicalRepresentativenessDescription xml:lang="en">geographicalRepresentativenessDescription0</geographicalRepresentativenessDescription>
+         <geographicalRepresentativenessDescription xml:lang="de">geographicalRepresentativenessDescription0</geographicalRepresentativenessDescription>
+      </geography>
+      <impactModel>
+         <modelName>modelName0</modelName>
+         <modelDescription xml:lang="en">modelDescription0</modelDescription>
+         <modelDescription xml:lang="de">modelDescription0</modelDescription>
+         <referenceToModelSource type="source data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                 uri="">
+            <common:shortDescription xml:lang="en">shortDescription6</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription7</common:shortDescription>
+         </referenceToModelSource>
+         <referenceToModelSource type="source data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                 uri="">
+            <common:shortDescription xml:lang="en">shortDescription8</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription9</common:shortDescription>
+         </referenceToModelSource>
+         <referenceToIncludedMethods type="LCIA method data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                     uri="">
+            <common:shortDescription xml:lang="en">shortDescription10</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription11</common:shortDescription>
+         </referenceToIncludedMethods>
+         <referenceToIncludedMethods type="LCIA method data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                     uri="">
+            <common:shortDescription xml:lang="en">shortDescription12</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription13</common:shortDescription>
+         </referenceToIncludedMethods>
+         <consideredMechanisms xml:lang="en">consideredMechanisms0</consideredMechanisms>
+         <consideredMechanisms xml:lang="de">consideredMechanisms0</consideredMechanisms>
+         <referenceToMethodologyFlowChart type="source data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                          uri="">
+            <common:shortDescription xml:lang="en">shortDescription14</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription15</common:shortDescription>
+         </referenceToMethodologyFlowChart>
+         <referenceToMethodologyFlowChart type="source data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                          uri="">
+            <common:shortDescription xml:lang="en">shortDescription16</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription17</common:shortDescription>
+         </referenceToMethodologyFlowChart>
+      </impactModel>
+   </LCIAMethodInformation>
+   <modellingAndValidation>
+      <LCIAMethodNormalisationAndWeighting>
+         <typeOfDataSet>Inventory indicator</typeOfDataSet>
+      </LCIAMethodNormalisationAndWeighting>
+      <dataSources>
+         <referenceToDataSource type="source data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                uri="">
+            <common:subReference>subReference34</common:subReference>
+            <common:subReference>subReference35</common:subReference>
+            <common:shortDescription xml:lang="en">shortDescription34</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription35</common:shortDescription>
+         </referenceToDataSource>
+      </dataSources>
+   </modellingAndValidation>
+   <administrativeInformation>
+      <common:commissionerAndGoal>
+         <common:referenceToCommissioner type="contact data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                         uri="">
+            <common:shortDescription xml:lang="en">shortDescription54</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription55</common:shortDescription>
+         </common:referenceToCommissioner>
+         <common:referenceToCommissioner type="contact data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                         uri="">
+            <common:shortDescription xml:lang="en">shortDescription56</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription57</common:shortDescription>
+         </common:referenceToCommissioner>
+         <common:project xml:lang="en">project0</common:project>
+         <common:project xml:lang="de">project1</common:project>
+         <common:intendedApplications xml:lang="en">intendedApplications0</common:intendedApplications>
+         <common:intendedApplications xml:lang="de">intendedApplications1</common:intendedApplications>
+      </common:commissionerAndGoal>
+      <dataGenerator>
+         <common:referenceToPersonOrEntityGeneratingTheDataSet type="contact data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                                               uri="">
+            <common:shortDescription xml:lang="en">shortDescription58</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription59</common:shortDescription>
+         </common:referenceToPersonOrEntityGeneratingTheDataSet>
+         <common:referenceToPersonOrEntityGeneratingTheDataSet type="contact data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                                               uri="">
+            <common:shortDescription xml:lang="en">shortDescription60</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription61</common:shortDescription>
+         </common:referenceToPersonOrEntityGeneratingTheDataSet>
+      </dataGenerator>
+      <dataEntryBy>
+         <common:timeStamp>2006-05-04T18:13:51.0Z</common:timeStamp>
+         <common:referenceToDataSetFormat type="source data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                          uri="">
+            <common:shortDescription xml:lang="en">shortDescription62</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription63</common:shortDescription>
+         </common:referenceToDataSetFormat>
+         <common:referenceToDataSetFormat type="source data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                          uri="">
+            <common:shortDescription xml:lang="en">shortDescription64</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription65</common:shortDescription>
+         </common:referenceToDataSetFormat>
+         <common:referenceToConvertedOriginalDataSetFrom type="source data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                                         uri="">
+            <common:shortDescription xml:lang="en">shortDescription66</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription67</common:shortDescription>
+         </common:referenceToConvertedOriginalDataSetFrom>
+         <common:referenceToPersonOrEntityEnteringTheData type="contact data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                                          uri="">
+            <common:shortDescription xml:lang="en">shortDescription68</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription69</common:shortDescription>
+         </common:referenceToPersonOrEntityEnteringTheData>
+         <recommendationBy>
+            <referenceToEntity type="contact data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                               uri=""/>
+            <level>Level I</level>
+         </recommendationBy>
+      </dataEntryBy>
+      <publicationAndOwnership>
+         <common:dateOfLastRevision>2006-05-04T18:13:51.0Z</common:dateOfLastRevision>
+         <common:dataSetVersion>00.00</common:dataSetVersion>
+         <common:referenceToPrecedingDataSetVersion type="LCIA method data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                                    uri="">
+            <common:shortDescription xml:lang="en">shortDescription70</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription71</common:shortDescription>
+         </common:referenceToPrecedingDataSetVersion>
+         <common:referenceToPrecedingDataSetVersion type="LCIA method data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                                    uri="">
+            <common:shortDescription xml:lang="en">shortDescription72</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription73</common:shortDescription>
+         </common:referenceToPrecedingDataSetVersion>
+         <common:permanentDataSetURI/>
+         <common:workflowAndPublicationStatus>Working draft</common:workflowAndPublicationStatus>
+         <common:referenceToUnchangedRepublication type="source data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                                   uri="">
+            <common:subReference>subReference74</common:subReference>
+            <common:subReference>subReference75</common:subReference>
+            <common:shortDescription xml:lang="en">shortDescription74</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription75</common:shortDescription>
+         </common:referenceToUnchangedRepublication>
+         <common:referenceToOwnershipOfDataSet type="contact data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                               uri="">
+            <common:shortDescription xml:lang="en">shortDescription76</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription77</common:shortDescription>
+         </common:referenceToOwnershipOfDataSet>
+         <common:copyright>false</common:copyright>
+         <common:accessRestrictions xml:lang="en">accessRestrictions0</common:accessRestrictions>
+         <common:accessRestrictions xml:lang="de">accessRestrictions1</common:accessRestrictions>
+      </publicationAndOwnership>
+   </administrativeInformation>
+</LCIAMethodDataSet>

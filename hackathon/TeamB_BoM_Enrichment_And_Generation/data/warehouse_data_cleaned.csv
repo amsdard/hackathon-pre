@@ -1,0 +1,1110 @@
+Product ID,Product Name,Category,Warehouse,Location,Quantity,Price,Supplier,Status,Last Restocked
+1884,Gadget X,Furniture,Warehouse 1,Aisle 4,-50.0,29.99,Supplier C,Out of Stock,2022-12-20 00:00:00.000000
+1214,Gadget Z,Furniture,Warehouse 2,Unknown,50.0,9.99,Supplier A,Low Stock,2022-12-20 00:00:00.000000
+1325,Widget C,Electronics,Warehouse 2,Aisle 5,200.0,9.99,Supplier C,In Stock,2023-03-05 00:00:00.000000
+1957,Gadget Y,Toys,Warehouse 3,Aisle 2,-50.0,28.08583858764187,Supplier C,Discontinued,2022-12-20 00:00:00.000000
+1414,Gadget Y,Clothing,Warehouse 1,Aisle 5,350.0,28.08583858764187,Supplier B,In Stock,2024-06-17 12:40:01.374181
+1001,Widget A,Furniture,Warehouse 2,Aisle 5,-50.0,19.99,Supplier A,Low Stock,2024-06-17 12:40:01.374181
+1659,Gadget Z,Clothing,Warehouse 2,Aisle 1,181.59231193376112,19.99,Supplier B,In Stock,2022-12-20 00:00:00.000000
+1293,Gadget X,Electronics,Warehouse 3,Aisle 1,50.0,28.08583858764187,Supplier D,Out of Stock,2022-12-20 00:00:00.000000
+1920,Widget B,Electronics,Warehouse 2,Aisle 3,161.40142517814726,44.989999999999995,Supplier D,Out of Stock,2022-12-20 00:00:00.000000
+1515,Gadget Y,Clothing,Warehouse 2,Aisle 2,50.0,28.08583858764187,Supplier A,Low Stock,2024-06-17 12:40:01.374181
+1190,Gadget Z,Clothing,Warehouse 1,Aisle 2,200.0,9.99,Supplier B,Low Stock,2022-12-20 00:00:00.000000
+1122,Widget A,Clothing,Warehouse 1,Aisle 2,100.0,44.989999999999995,Supplier C,In Stock,2023-03-05 00:00:00.000000
+1345,Gadget Z,Furniture,Warehouse 3,Aisle 4,200.0,19.2,Supplier A,In Stock,2022-12-20 00:00:00.000000
+1032,Widget A,Electronics,Warehouse 1,Aisle 1,161.40142517814726,44.989999999999995,Supplier D,In Stock,2023-04-25 00:00:00.000000
+1159,Widget A,Toys,Central Hub,Aisle 1,50.0,44.989999999999995,Supplier A,In Stock,2022-12-20 00:00:00.000000
+1612,Gadget Z,Electronics,Warehouse 3,Aisle 3,161.40142517814726,28.08583858764187,Supplier B,Out of Stock,2022-12-20 00:00:00.000000
+1258,GADGET X,Clothing,Warehouse 1,Aisle 4,161.40142517814726,29.99,Supplier A,Out of Stock,2023-04-25 00:00:00.000000
+1345,Gadget Z,Furniture,Warehouse 3,Aisle 4,200.0,19.99,Supplier A,In Stock,2022-12-20 00:00:00.000000
+1167,GADGET Y,Clothing,Warehouse 1,Aisle 1,161.40142517814726,29.99,Supplier B,Out of Stock,2024-06-17 12:40:01.374181
+1009,Widget B,Furniture,Warehouse 2,Aisle 2,100.0,28.08583858764187,Supplier C,In Stock,2023-01-15 00:00:00.000000
+1130,Widget C,Toys,Warehouse 2,Aisle 5,300.0,9.99,Supplier B,Out of Stock,2022-12-20 00:00:00.000000
+1475,Gadget Y,Furniture,Warehouse 3,Aisle 3,50.0,28.08583858764187,Supplier D,Out of Stock,2022-12-20 00:00:00.000000
+1648,Gadget Z,Electronics,Warehouse 2,Aisle 4,-50.0,29.99,Supplier C,In Stock,2024-06-17 12:40:01.374181
+1492,Widget A,Electronics,Warehouse 3,Aisle 3,100.0,29.99,Supplier D,In Stock,2023-04-25 00:00:00.000000
+1206,Widget C,Furniture,Warehouse 1,Aisle 3,50.0,28.08583858764187,Supplier B,Low Stock,2022-12-20 00:00:00.000000
+1719,Gadget X,Clothing,Warehouse 3,Aisle 5,150.0,28.08583858764187,Supplier C,Out of Stock,2023-01-15 00:00:00.000000
+1471,Widget A,ELECTRONICS,Warehouse 1,Aisle 4,100.0,29.99,Supplier A,Low Stock,2023-01-15 00:00:00.000000
+1504,Widget B,Furniture,Warehouse 3,Aisle 4,161.40142517814726,28.08583858764187,Supplier C,In Stock,2022-12-20 00:00:00.000000
+1452,Gadget Y,Toys,Warehouse 1,Aisle 5,300.0,29.99,Supplier B,Low Stock,2023-01-15 00:00:00.000000
+1500,Widget A,toys,Warehouse 2,Aisle 5,100.0,19.99,Supplier D,Low Stock,2022-12-20 00:00:00.000000
+1347,Gadget Z,Electronics,Warehouse 2,Aisle 1,50.0,44.989999999999995,Supplier D,Low Stock,2024-06-17 12:40:01.374181
+1530,Widget B,Toys,Warehouse 1,Aisle 1,100.0,44.989999999999995,Supplier B,Low Stock,2023-03-05 00:00:00.000000
+1600,Gadget Z,Electronics,Warehouse 3,Aisle 5,300.0,44.989999999999995,Supplier B,Out of Stock,2023-01-15 00:00:00.000000
+1046,Gadget Y,Furniture,Warehouse 1,Aisle 5,100.0,9.99,Supplier D,In Stock,2023-01-15 00:00:00.000000
+1212,Widget A,Clothing,Warehouse 2,Aisle 1,150.0,28.08583858764187,Supplier D,In Stock,2022-12-20 00:00:00.000000
+1770,Gadget Z,Clothing,Warehouse 3,Aisle 1,300.0,19.99,Supplier D,Low Stock,2022-12-20 00:00:00.000000
+1510,Widget C,Electronics,Warehouse 2,Aisle 3,300.0,28.08583858764187,Supplier D,Low Stock,2023-04-25 00:00:00.000000
+1866,Widget A,Furniture,Warehouse 2,Aisle 3,200.0,19.99,Supplier B,Low Stock,2024-06-17 12:40:01.374181
+1053,Widget B,Electronics,Warehouse 2,Aisle 1,161.40142517814726,28.08583858764187,Supplier B,In Stock,2022-12-20 00:00:00.000000
+1654,WIDGET A,Toys,Warehouse 2,Aisle 5,100.0,44.989999999999995,Supplier A,In Stock,2023-04-25 00:00:00.000000
+1480,Gadget Z,Clothing,Warehouse 1,Aisle 2,-50.0,29.99,Supplier A,Low Stock,2023-03-05 00:00:00.000000
+1827,Gadget X,Furniture,Warehouse 2,Aisle 3,181.59215120530862,28.08583858764187,Supplier A,Out of Stock,2023-03-05 00:00:00.000000
+1071,Widget B,Clothing,Warehouse 3,Aisle 5,-50.0,28.08583858764187,Supplier A,In Stock,2022-12-20 00:00:00.000000
+1616,Gadget Y,Toys,Warehouse 3,Aisle 5,-50.0,19.99,Supplier B,Low Stock,2023-03-05 00:00:00.000000
+1761,Widget C,FURNITURE,Warehouse 2,Aisle 4,50.0,44.989999999999995,Supplier D,Low Stock,2022-12-20 00:00:00.000000
+1144,Gadget Z,Toys,Warehouse 1,Aisle 1,50.0,44.989999999999995,Supplier B,In Stock,2023-04-25 00:00:00.000000
+1105,Gadget X,Electronics,Warehouse 1,Aisle 6,161.40142517814726,29.99,Supplier A,In Stock,2023-01-15 00:00:00.000000
+1245,Widget A,Toys,Warehouse 2,Aisle 1,100.0,9.99,Supplier D,Out of Stock,2024-06-17 12:40:01.374181
+1089,Widget C,Furniture,Warehouse 3,Aisle 1,150.0,9.99,Supplier C,Low Stock,2024-06-17 12:40:01.374181
+1230,Gadget Z,Clothing,Warehouse 1,Aisle 1,100.0,44.989999999999995,Supplier B,In Stock,2024-06-17 12:40:01.374181
+1001,GADGET Y,Furniture,Warehouse 1,Aisle 5,181.59223202166154,44.989999999999995,Supplier C,Low Stock,2022-12-20 00:00:00.000000
+1121,Widget B,Toys,Warehouse 1,Aisle 2,50.0,19.99,Supplier C,Out of Stock,2022-12-20 00:00:00.000000
+1607,Gadget Y,Clothing,Warehouse 3,Aisle 2,200.0,29.99,Supplier A,Low Stock,2022-12-20 00:00:00.000000
+1251,Widget C,Clothing,Warehouse 1,Aisle 5,161.40142517814726,44.989999999999995,Supplier A,Out of Stock,2022-12-20 00:00:00.000000
+1091,Gadget Z,ELECTRONICS,Warehouse 1,Aisle 5,181.59182031309606,44.989999999999995,Supplier A,Out of Stock,2023-01-15 00:00:00.000000
+1241,Widget C,Furniture,Warehouse 2,Aisle 2,181.5902222887568,44.989999999999995,Supplier C,Low Stock,2022-12-20 00:00:00.000000
+1863,Widget B,Clothing,Warehouse 2,Aisle 3,-50.0,28.08583858764187,Supplier C,Low Stock,2022-12-20 00:00:00.000000
+1449,Gadget X,FURNITURE,Central Hub,Aisle 3,-50.0,28.08583858764187,Supplier B,Out of Stock,2024-06-17 12:40:01.374181
+1883,Gadget X,Furniture,Warehouse 2,Aisle 2,200.0,28.08583858764187,Supplier B,Out of Stock,2024-06-17 12:40:01.374181
+1345,Widget C,Electronics,Warehouse 1,Aisle 1,350.0,29.99,Supplier D,Low Stock,2023-01-15 00:00:00.000000
+1612,Widget C,Electronics,Warehouse 1,Aisle 4,300.0,28.08583858764187,Supplier D,Out of Stock,2022-12-20 00:00:00.000000
+1366,Gadget Y,Toys,Warehouse 2,Aisle 3,100.0,29.99,Supplier D,In Stock,2022-12-20 00:00:00.000000
+1671,Widget C,Toys,Warehouse 3,Unknown,200.0,19.99,Supplier A,Low Stock,2022-12-20 00:00:00.000000
+1167,Widget B,Furniture,Warehouse 3,Aisle 5,50.0,28.08583858764187,Supplier B,Out of Stock,2023-04-25 00:00:00.000000
+1967,Gadget Y,Clothing,Warehouse 3,Aisle 1,300.0,28.08583858764187,Supplier B,Low Stock,2023-03-05 00:00:00.000000
+1763,WIDGET A,Toys,Warehouse 1,Aisle 1,150.0,28.08583858764187,Supplier D,Out of Stock,2023-04-25 00:00:00.000000
+1835,Widget C,Furniture,Warehouse 3,Aisle 3,-50.0,28.08583858764187,Supplier D,In Stock,2022-12-20 00:00:00.000000
+1035,Gadget X,Electronics,Warehouse 2,Unknown,100.0,44.989999999999995,Supplier A,In Stock,2022-12-20 00:00:00.000000
+1019,Gadget X,Electronics,Warehouse 1,Aisle 2,200.0,9.99,Supplier D,Low Stock,2024-06-17 12:40:01.374181
+1108,Gadget X,Furniture,Warehouse 1,Aisle 5,300.0,19.99,Supplier B,Out of Stock,2022-12-20 00:00:00.000000
+1789,Widget C,Electronics,Warehouse 3,Aisle 1,200.0,44.989999999999995,Supplier A,In Stock,2023-01-15 00:00:00.000000
+1172,Widget A,Furniture,Warehouse 2,Aisle 4,300.0,28.08583858764187,Supplier C,Low Stock,2022-12-20 00:00:00.000000
+1159,Gadget Z,Toys,Warehouse 1,Aisle 3,150.0,29.99,Supplier C,Out of Stock,2023-01-15 00:00:00.000000
+1837,Widget C,Electronics,Warehouse 2,Aisle 2,-50.0,9.99,Supplier D,In Stock,2022-12-20 00:00:00.000000
+1920,Gadget Y,Furniture,Warehouse 1,Aisle 5,100.0,29.99,Supplier A,Out of Stock,2023-01-15 00:00:00.000000
+1633,Gadget X,Electronics,Warehouse 2,Aisle 4,50.0,19.99,Supplier A,In Stock,2022-12-20 00:00:00.000000
+1200,Gadget X,Furniture,Warehouse 3,Aisle 3,151.0,28.08583858764187,Supplier C,In Stock,2023-03-05 00:00:00.000000
+1443,Gadget Y,Electronics,Warehouse 1,Unknown,161.40142517814726,29.99,Supplier A,discontinued,2023-04-25 00:00:00.000000
+1973,Gadget Z,Furniture,Warehouse 2,Aisle 1,100.0,29.99,Supplier C,In Stock,2023-04-25 00:00:00.000000
+1098,WIDGET C,Furniture,Central Hub,Aisle 4,200.0,29.99,Supplier C,Out of Stock,2022-12-20 00:00:00.000000
+1426,Gadget Z,Furniture,Warehouse 2,Aisle 2,100.0,44.989999999999995,Supplier B,Out of Stock,2024-06-17 12:40:01.374181
+1130,Gadget X,Electronics,Warehouse 2,Aisle 4,161.40142517814726,29.99,Supplier D,Out of Stock,2023-04-25 00:00:00.000000
+1402,GADGET Y,Electronics,Warehouse 2,Aisle 3,150.0,19.99,Supplier B,Out of Stock,2022-12-20 00:00:00.000000
+1461,Gadget Z,Toys,Warehouse 2,Aisle 4,200.0,28.08583858764187,Supplier B,In Stock,2023-01-15 00:00:00.000000
+1038,Gadget Z,Toys,Warehouse 2,Aisle 3,-25.0,28.08583858764187,Supplier B,Low Stock,2024-06-17 12:40:01.374181
+1340,Gadget Y,Clothing,Warehouse 2,Aisle 1,161.40142517814726,19.99,Supplier B,Low Stock,2023-03-05 00:00:00.000000
+1655,Gadget Y,Furniture,Warehouse 3,Aisle 2,161.40142517814726,44.989999999999995,Supplier D,Out of Stock,2023-04-25 00:00:00.000000
+1153,Gadget X,Toys,Warehouse 1,Aisle 4,100.0,28.08583858764187,Supplier D,Out of Stock,2022-12-20 00:00:00.000000
+1564,Gadget Y,Toys,Warehouse 3,Aisle 3,150.0,28.08583858764187,Supplier C,in stock,2023-03-05 00:00:00.000000
+1284,Widget A,Clothing,Warehouse 1,Aisle 5,150.0,44.989999999999995,Supplier A,Out of Stock,2023-04-25 00:00:00.000000
+1669,Widget B,Furniture,Warehouse 2,Aisle 4,150.0,19.99,Supplier C,low stock,2024-06-17 12:40:01.374181
+1970,Gadget Y,Clothing,Warehouse 1,Aisle 4,150.0,19.99,Supplier C,In Stock,2023-01-15 00:00:00.000000
+1040,Widget B,Clothing,Warehouse 2,Aisle 1,300.0,28.08583858764187,Supplier C,Low Stock,2022-12-20 00:00:00.000000
+1284,Widget A,Clothing,Warehouse 2,Aisle 2,181.59197586643842,19.99,Supplier B,Out of Stock,2022-12-20 00:00:00.000000
+1075,Widget B,Furniture,Warehouse 3,Aisle 4,100.0,29.99,Supplier A,In Stock,2022-12-20 00:00:00.000000
+1791,Widget C,Toys,Warehouse 2,Aisle 4,161.40142517814726,28.08583858764187,Supplier C,Discontinued,2022-12-20 00:00:00.000000
+1349,Widget B,Furniture,Warehouse 3,Aisle 4,181.5911845145453,28.08583858764187,Supplier A,In Stock,2022-12-20 00:00:00.000000
+1950,Widget C,Furniture,Warehouse 1,Aisle 2,181.59254583264268,9.99,Supplier D,Low Stock,2024-06-17 12:40:01.374181
+1828,Widget A,Clothing,Warehouse 1,Aisle 5,100.0,28.08583858764187,Supplier D,In Stock,2023-04-25 00:00:00.000000
+1255,Widget B,Clothing,Warehouse 2,Aisle 4,150.0,9.99,Supplier B,In Stock,2023-04-25 00:00:00.000000
+1027,Widget A,Clothing,Warehouse 1,Aisle 2,-50.0,44.989999999999995,Supplier C,Low Stock,2022-12-20 00:00:00.000000
+1574,gadget z,Furniture,Warehouse 3,Aisle 1,100.0,44.989999999999995,Supplier A,Out of Stock,2023-04-25 00:00:00.000000
+1267,Gadget Y,Clothing,Warehouse 3,Aisle 3,300.0,9.99,Supplier A,In Stock,2023-03-05 00:00:00.000000
+1958,Widget C,Furniture,Warehouse 2,Aisle 3,181.5913356768104,29.99,Supplier A,Out of Stock,2022-12-20 00:00:00.000000
+1573,Widget B,Electronics,Warehouse 2,Aisle 3,181.59149594825183,28.08583858764187,Supplier A,In Stock,2024-06-17 12:40:01.374181
+1957,Gadget Y,Electronics,Warehouse 2,Aisle 3,310.0,29.99,Supplier A,Out of Stock,2023-04-25 00:00:00.000000
+1829,Gadget Z,Clothing,Warehouse 3,Aisle 8,150.0,44.989999999999995,Supplier A,Out of Stock,2022-12-20 00:00:00.000000
+1560,Gadget Z,Electronics,Warehouse 1,Aisle 4,150.0,44.989999999999995,Supplier C,discontinued,2024-06-17 12:40:01.374181
+1408,widget c,Electronics,Warehouse 1,Aisle 3,15.0,29.99,Supplier C,In Stock,2023-04-25 00:00:00.000000
+1524,Gadget Z,clothing,Warehouse 1,Aisle 2,-50.0,28.08583858764187,Supplier C,Low Stock,2024-06-17 12:40:01.374181
+1758,Widget B,CLOTHING,Warehouse 1,Aisle 5,181.59147634309494,19.99,Supplier B,Low Stock,2024-06-17 12:40:01.374181
+1152,Widget C,Furniture,Warehouse 3,Aisle 2,50.0,44.989999999999995,Supplier D,Low Stock,2024-06-17 12:40:01.374181
+1742,Gadget Z,toys,Warehouse 3,Aisle 5,181.5919720754735,29.99,Supplier A,Out of Stock,2022-12-20 00:00:00.000000
+1815,Gadget Y,Toys,Warehouse 2,Aisle 5,300.0,28.08583858764187,Supplier C,Low Stock,2022-12-20 00:00:00.000000
+1776,Gadget Y,Toys,Warehouse 3,Aisle 4,300.0,44.989999999999995,Supplier C,Low Stock,2023-03-05 00:00:00.000000
+1833,Widget B,Electronics,Warehouse 1,Aisle 5,100.0,28.08583858764187,Supplier A,In Stock,2023-03-05 00:00:00.000000
+1766,Gadget Y,Clothing,Warehouse 1,Aisle 4,200.0,44.989999999999995,Supplier C,Out of Stock,2023-01-15 00:00:00.000000
+1079,Gadget X,Clothing,Warehouse 2,Aisle 3,161.40142517814726,44.989999999999995,Supplier B,Out of Stock,2023-04-25 00:00:00.000000
+1563,Gadget X,Furniture,Warehouse 1,Aisle 2,150.0,44.989999999999995,Supplier C,In Stock,2022-12-20 00:00:00.000000
+1240,Gadget X,Electronics,Warehouse 3,Aisle 3,150.0,44.989999999999995,Supplier A,Low Stock,2023-04-25 00:00:00.000000
+1046,Widget C,furniture,Warehouse 3,Aisle 1,161.40142517814726,9.99,Supplier A,Out of Stock,2024-06-17 12:40:01.374181
+1053,Gadget X,Clothing,Warehouse 3,Aisle 4,300.0,44.989999999999995,Supplier A,In Stock,2023-03-05 00:00:00.000000
+1397,Gadget Z,Electronics,Warehouse 2,Aisle 2,50.0,9.99,Supplier A,Out of Stock,2023-03-05 00:00:00.000000
+1913,Widget C,Electronics,Warehouse 3,Aisle 4,150.0,29.99,Supplier B,In Stock,2023-01-15 00:00:00.000000
+1000,Gadget Y,Furniture,Warehouse 1,Aisle 2,100.0,44.989999999999995,Supplier C,Low Stock,2023-01-15 00:00:00.000000
+1592,Widget B,Furniture,Warehouse 2,Aisle 2,300.0,44.989999999999995,Supplier D,OUT OF STOCK,2022-12-20 00:00:00.000000
+1431,Gadget X,Furniture,Warehouse 1,Aisle 2,161.40142517814726,9.99,Supplier A,Out of Stock,2024-06-17 12:40:01.374181
+1683,Gadget Z,Clothing,Warehouse 3,Aisle 5,300.0,28.08583858764187,Supplier D,Low Stock,2022-12-20 00:00:00.000000
+1681,Gadget Z,Clothing,Warehouse 2,Aisle 3,100.0,9.99,Supplier A,Low Stock,2022-12-20 00:00:00.000000
+1569,Gadget Y,Electronics,Warehouse 1,Aisle 4,-50.0,29.99,Supplier D,Out of Stock,2023-04-25 00:00:00.000000
+1324,Gadget Y,Toys,Warehouse 1,Aisle 6,-50.0,28.08583858764187,Supplier B,Low Stock,2023-03-05 00:00:00.000000
+1537,Widget A,toys,Warehouse 1,Aisle 4,300.0,28.08583858764187,Supplier B,Out of Stock,2023-01-15 00:00:00.000000
+1884,Gadget Z,Clothing,Warehouse 2,Aisle 4,200.0,9.99,Supplier B,in stock,2023-03-05 00:00:00.000000
+1123,GADGET X,Clothing,Warehouse 2,Aisle 4,200.0,29.99,Supplier C,Low Stock,2022-12-20 00:00:00.000000
+1455,Widget A,Furniture,Warehouse 2,Aisle 3,50.0,19.99,Supplier A,In Stock,2023-03-05 00:00:00.000000
+1663,Widget A,Furniture,Warehouse 2,Aisle 5,50.0,44.989999999999995,Supplier C,Low Stock,2023-03-05 00:00:00.000000
+1379,Gadget Y,Clothing,Warehouse 3,Aisle 2,181.5929400730325,9.99,Supplier A,In Stock,2023-04-25 00:00:00.000000
+1935,Widget A,Furniture,Warehouse 2,Aisle 3,161.40142517814726,19.99,Supplier B,In Stock,2022-12-20 00:00:00.000000
+1953,Widget C,Electronics,Warehouse 1,Aisle 3,181.5901430043408,44.989999999999995,Supplier B,Low Stock,2023-03-05 00:00:00.000000
+1509,Gadget X,Toys,Warehouse 3,Aisle 2,300.0,29.99,Supplier D,Low Stock,2022-12-20 00:00:00.000000
+1181,Widget C,Electronics,Warehouse 2,Aisle 1,50.0,29.99,Supplier A,In Stock,2022-12-20 00:00:00.000000
+1454,Gadget Z,Toys,Warehouse 1,Aisle 3,150.0,28.08583858764187,Supplier C,In Stock,2022-12-20 00:00:00.000000
+1459,Gadget X,Clothing,Warehouse 1,Aisle 3,50.0,28.08583858764187,Supplier B,Out of Stock,2024-06-17 12:40:01.374181
+1709,Gadget X,Furniture,Warehouse 2,Aisle 2,100.0,19.99,Supplier B,Out of Stock,2023-04-25 00:00:00.000000
+1172,Widget C,Toys,Warehouse 1,Aisle 2,150.0,9.99,Supplier C,In Stock,2022-12-20 00:00:00.000000
+1166,Gadget Y,Clothing,Warehouse 2,Aisle 1,100.0,28.08583858764187,Supplier B,Out of Stock,2023-04-25 00:00:00.000000
+1565,Widget A,Toys,Warehouse 1,Aisle 3,300.0,19.99,Supplier B,Out of Stock,2024-06-17 12:40:01.374181
+1207,Gadget Z,Toys,Warehouse 3,Aisle 3,300.0,44.989999999999995,Supplier D,Low Stock,2023-04-25 00:00:00.000000
+1007,Gadget Y,Furniture,Warehouse 1,Aisle 4,150.0,9.99,Supplier A,Low Stock,2023-04-25 00:00:00.000000
+1985,Widget C,Electronics,Warehouse 3,Aisle 3,150.0,44.989999999999995,Supplier D,In Stock,2022-12-20 00:00:00.000000
+1455,Widget A,Furniture,Warehouse 2,Aisle 3,50.0,20.61,Supplier A,In Stock,2023-03-05 00:00:00.000000
+1115,Widget C,Toys,Warehouse 2,Aisle 4,100.0,28.08583858764187,Supplier C,Low Stock,2023-04-25 00:00:00.000000
+1851,Gadget Y,Clothing,Warehouse 2,Aisle 4,50.0,44.989999999999995,Supplier D,Low Stock,2023-01-15 00:00:00.000000
+1655,Widget A,Clothing,Warehouse 3,Aisle 5,-50.0,44.989999999999995,Supplier C,Low Stock,2022-12-20 00:00:00.000000
+1573,Widget A,Electronics,Warehouse 2,Aisle 5,100.0,29.99,Supplier A,Out of Stock,2023-04-25 00:00:00.000000
+1099,Widget B,Clothing,Warehouse 1,Aisle 4,150.0,9.99,Supplier C,In Stock,2023-04-25 00:00:00.000000
+1166,Gadget Y,Furniture,Warehouse 2,Aisle 3,50.0,29.99,Supplier C,In Stock,2024-06-17 12:40:01.374181
+1823,Gadget Y,Electronics,Warehouse 2,Aisle 3,300.0,19.99,Supplier B,Low Stock,2022-12-20 00:00:00.000000
+1098,Widget B,Toys,Warehouse 2,Aisle 2,50.0,29.99,Supplier B,Out of Stock,2024-06-17 12:40:01.374181
+1577,Gadget Y,Furniture,Warehouse 2,Aisle 2,181.59250833132117,19.99,Supplier B,Out of Stock,2024-06-17 12:40:01.374181
+1406,Widget A,TOYS,Warehouse 1,Aisle 3,200.0,19.99,Supplier B,Low Stock,2022-12-20 00:00:00.000000
+1836,Widget B,Electronics,Warehouse 1,Aisle 1,160.0,28.08583858764187,Supplier C,Low Stock,2022-12-20 00:00:00.000000
+1632,Widget C,Furniture,Warehouse 1,Aisle 5,150.0,28.08583858764187,Supplier B,Low Stock,2022-12-20 00:00:00.000000
+1074,Widget B,Furniture,Warehouse 1,Aisle 3,200.0,9.99,Supplier D,Out of Stock,2023-01-15 00:00:00.000000
+1284,Widget A,Clothing,Warehouse 1,Aisle 2,150.0,44.989999999999995,Supplier A,Out of Stock,2023-04-25 00:00:00.000000
+1347,Widget A,Electronics,Warehouse 3,Aisle 5,200.0,29.99,Supplier B,Out of Stock,2023-01-15 00:00:00.000000
+1603,Gadget Y,Furniture,Warehouse 2,Aisle 3,300.0,9.99,Supplier C,Low Stock,2023-03-05 00:00:00.000000
+1600,Widget C,Clothing,Warehouse 2,missing,161.40142517814726,29.99,Supplier D,Low Stock,2022-12-20 00:00:00.000000
+1504,Widget C,CLOTHING,Warehouse 3,Aisle 3,50.0,20.0,Supplier C,in stock,2022-12-20 00:00:00.000000
+1969,Gadget Z,Toys,Warehouse 2,Aisle 4,100.0,28.08583858764187,Supplier B,Low Stock,2023-04-25 00:00:00.000000
+1841,Widget B,Toys,Warehouse 1,Aisle 4,161.40142517814726,28.08583858764187,Supplier B,In Stock,2022-12-20 00:00:00.000000
+1098,Widget B,Electronics,Warehouse 2,Aisle 4,300.0,28.08583858764187,Supplier C,Low Stock,2023-04-25 00:00:00.000000
+1683,Gadget Z,Furniture,Warehouse 3,Unknown,161.40142517814726,29.99,Supplier A,In Stock,2022-12-20 00:00:00.000000
+1090,Gadget Z,Furniture,Warehouse 2,Aisle 2,181.59195619492166,28.08583858764187,Supplier A,Low Stock,2022-12-20 00:00:00.000000
+1149,Widget C,Clothing,Warehouse 2,Aisle 1,50.0,19.99,Supplier B,In Stock,2022-12-20 00:00:00.000000
+1112,Widget B,Toys,Warehouse 2,Aisle 5,50.0,19.99,Supplier B,Out of Stock,2022-12-20 00:00:00.000000
+1098,Widget C,Toys,Warehouse 1,Aisle 2,300.0,28.08583858764187,Supplier D,Low Stock,2022-12-20 00:00:00.000000
+1611,Gadget Y,Clothing,Warehouse 3,Unknown,-50.0,28.08583858764187,Supplier A,Out of Stock,2022-12-20 00:00:00.000000
+1068,Gadget Z,Electronics,Warehouse 1,Aisle 3,300.0,44.989999999999995,Supplier C,Low Stock,2023-03-05 00:00:00.000000
+1180,Widget A,Clothing,Warehouse 2,Aisle 2,300.0,28.08583858764187,Supplier B,Low Stock,2023-01-15 00:00:00.000000
+1933,Gadget Y,Electronics,Warehouse 2,Aisle 3,100.0,9.99,Supplier D,Out of Stock,2023-01-15 00:00:00.000000
+1792,Widget B,Toys,Warehouse 2,Aisle 1,161.40142517814726,28.08583858764187,Supplier B,Out of Stock,2024-06-17 12:40:01.374181
+1282,Widget A,Furniture,Warehouse 2,Aisle 5,200.0,9.99,Supplier A,Out of Stock,2023-01-15 00:00:00.000000
+1663,Widget A,Toys,Warehouse 3,Aisle 3,161.40142517814726,28.08583858764187,Supplier A,Low Stock,2023-01-15 00:00:00.000000
+1671,Widget B,Electronics,Warehouse 3,Aisle 3,200.0,29.99,Supplier B,Low Stock,2022-12-20 00:00:00.000000
+1068,Gadget X,Furniture,Warehouse 3,Aisle 2,150.0,19.99,Supplier D,Out of Stock,2022-12-20 00:00:00.000000
+1717,Gadget Y,Electronics,Warehouse 3,Aisle 3,300.0,19.99,Supplier A,Out of Stock,2024-06-17 12:40:01.374181
+1413,Gadget Y,Electronics,Warehouse 3,Aisle 3,150.0,9.99,Supplier C,Out of Stock,2022-12-20 00:00:00.000000
+1391,Gadget Z,Furniture,Warehouse 2,Aisle 3,161.40142517814726,9.99,Supplier B,In Stock,2022-12-20 00:00:00.000000
+1224,Gadget Z,Furniture,Warehouse 3,Unknown,181.59178063176464,29.99,Supplier C,In Stock,2023-03-05 00:00:00.000000
+1498,Gadget X,Toys,Warehouse 2,Aisle 5,150.0,19.99,Supplier C,Low Stock,2023-01-15 00:00:00.000000
+1074,Widget B,Furniture,Warehouse 1,Aisle 3,200.0,9.3,Supplier D,Out of Stock,2023-01-15 00:00:00.000000
+1821,Gadget Y,Toys,Warehouse 2,Aisle 2,181.59088138058783,44.989999999999995,Supplier D,Low Stock,2022-12-20 00:00:00.000000
+1962,Gadget Y,Clothing,Warehouse 2,Aisle 4,150.0,44.989999999999995,Supplier D,In Stock,2023-01-15 00:00:00.000000
+1230,Widget B,Toys,Warehouse 1,Aisle 1,50.0,44.989999999999995,Supplier A,Discontinued,2022-12-20 00:00:00.000000
+1038,Gadget Y,Toys,Warehouse 3,Aisle 2,50.0,29.99,Supplier D,In Stock,2022-12-20 00:00:00.000000
+1912,Gadget Z,Toys,Warehouse 1,Aisle 3,161.40142517814726,44.989999999999995,Supplier C,In Stock,2023-01-15 00:00:00.000000
+1690,Widget A,Toys,Warehouse 2,Aisle 2,150.0,9.99,Supplier B,Out of Stock,2022-12-20 00:00:00.000000
+1732,Widget B,Toys,Warehouse 1,Unknown,150.0,19.99,Supplier B,Low Stock,2022-12-20 00:00:00.000000
+1744,Gadget Z,Furniture,Warehouse 1,Aisle 1,150.0,29.99,Supplier D,In Stock,2023-03-05 00:00:00.000000
+1635,Gadget X,Electronics,Warehouse 1,Aisle 1,150.0,29.99,Supplier A,Low Stock,2022-12-20 00:00:00.000000
+1520,Gadget Y,Furniture,Warehouse 1,Aisle 8,150.0,19.99,Supplier B,In Stock,2022-12-20 00:00:00.000000
+1102,Widget C,Electronics,Warehouse 3,Aisle 3,150.0,9.99,Supplier A,Low Stock,2024-06-17 12:40:01.374181
+1783,Gadget Z,Electronics,Warehouse 1,Aisle 4,50.0,19.99,Supplier C,Out of Stock,2022-12-20 00:00:00.000000
+1797,Widget B,Furniture,Warehouse 3,Aisle 1,100.0,44.989999999999995,Supplier C,Out of Stock,2023-04-25 00:00:00.000000
+1417,Gadget X,Clothing,Warehouse 3,Aisle 4,161.40142517814726,44.989999999999995,Supplier D,In Stock,2022-12-20 00:00:00.000000
+1014,Gadget Y,Clothing,Warehouse 2,Aisle 1,181.59239450190123,19.99,Supplier D,Out of Stock,2023-01-15 00:00:00.000000
+1020,Widget C,Clothing,Warehouse 1,Aisle 5,-13.0,9.99,Supplier D,Out of Stock,2022-12-20 00:00:00.000000
+1015,Widget C,Electronics,Warehouse 2,Unknown,161.40142517814726,44.989999999999995,Supplier B,Low Stock,2022-12-20 00:00:00.000000
+1727,Widget C,Furniture,Warehouse 2,Aisle 5,200.0,9.99,Supplier A,In Stock,2022-12-20 00:00:00.000000
+1896,Gadget X,Toys,Warehouse 2,Aisle 4,150.0,44.989999999999995,Supplier A,Out of Stock,2024-06-17 12:40:01.374181
+1687,Gadget X,Clothing,Warehouse 1,Aisle 1,-50.0,28.08583858764187,Supplier B,in stock,2023-03-05 00:00:00.000000
+1996,WIDGET B,Furniture,Warehouse 3,Aisle 2,181.59218826237785,19.99,Supplier C,low stock,2022-12-20 00:00:00.000000
+1427,Widget B,Electronics,Warehouse 2,Aisle 3,100.0,19.99,Supplier D,Low Stock,2022-12-20 00:00:00.000000
+1452,Widget C,Electronics,Warehouse 1,Aisle 3,50.0,28.08583858764187,Supplier B,Low Stock,2024-06-17 12:40:01.374181
+1343,Gadget Z,Electronics,Warehouse 3,Aisle 4,300.0,28.08583858764187,Supplier D,Out of Stock,2022-12-20 00:00:00.000000
+1763,Gadget Z,Clothing,Warehouse 1,Aisle 4,50.0,29.99,Supplier C,Low Stock,2022-12-20 00:00:00.000000
+1421,Widget C,Electronics,Warehouse 3,Aisle 1,100.0,9.99,Supplier B,OUT OF STOCK,2022-12-20 00:00:00.000000
+1692,Gadget Y,Electronics,Warehouse 3,Aisle 1,150.0,9.99,Supplier A,Out of Stock,2024-06-17 12:40:01.374181
+1085,Widget A,Toys,Warehouse 1,Aisle 4,-50.0,27.24,Supplier A,In Stock,2023-01-15 00:00:00.000000
+1470,Widget B,Toys,Warehouse 1,Aisle 4,161.40142517814726,44.989999999999995,Supplier D,In Stock,2023-03-05 00:00:00.000000
+1008,Gadget Z,Electronics,Warehouse 2,Aisle 1,100.0,44.989999999999995,Supplier A,Out of Stock,2024-06-17 12:40:01.374181
+1632,Widget C,Furniture,Warehouse 1,Aisle 5,160.0,28.08583858764187,Supplier B,Low Stock,2022-12-20 00:00:00.000000
+1392,Widget A,Furniture,Warehouse 1,Aisle 5,181.59153715814173,29.99,Supplier A,Low Stock,2022-12-20 00:00:00.000000
+1501,Gadget X,Clothing,Warehouse 3,Aisle 5,50.0,28.08583858764187,Supplier D,Low Stock,2023-01-15 00:00:00.000000
+1766,gadget z,Clothing,Warehouse 3,Aisle 3,150.0,29.99,Supplier D,In Stock,2023-01-15 00:00:00.000000
+1812,Gadget Y,Clothing,Warehouse 1,Aisle 5,300.0,9.99,Supplier D,Low Stock,2024-06-17 12:40:01.374181
+1977,Widget A,Electronics,Warehouse 3,Aisle 1,100.0,29.99,Supplier B,Low Stock,2023-04-25 00:00:00.000000
+1563,Widget A,Electronics,Warehouse 3,Aisle 2,181.59032895620768,44.989999999999995,Supplier A,In Stock,2023-01-15 00:00:00.000000
+1057,Widget B,Toys,Warehouse 1,Aisle 5,-50.0,9.99,Supplier A,Out of Stock,2024-06-17 12:40:01.374181
+1028,Gadget X,Clothing,Warehouse 1,Aisle 1,181.59310454685607,9.99,Supplier D,In Stock,2023-01-15 00:00:00.000000
+1945,Gadget Y,Furniture,Warehouse 1,Aisle 3,100.0,28.08583858764187,Supplier C,Low Stock,2023-04-25 00:00:00.000000
+1921,Gadget Z,Toys,Warehouse 1,Aisle 4,181.59306466203216,9.99,Supplier D,Out of Stock,2022-12-20 00:00:00.000000
+1698,Widget C,Furniture,Warehouse 3,Aisle 1,181.5913677488897,29.99,Supplier C,Out of Stock,2022-12-20 00:00:00.000000
+1160,Widget A,Toys,Warehouse 1,Aisle 4,50.0,28.08583858764187,Supplier D,In Stock,2023-04-25 00:00:00.000000
+1757,WIDGET B,Toys,Warehouse 1,Aisle 5,181.59177419355515,29.99,Supplier D,Low Stock,2023-01-15 00:00:00.000000
+1609,Gadget Y,Clothing,Warehouse 2,Aisle 1,161.40142517814726,19.99,Supplier D,Out of Stock,2023-03-05 00:00:00.000000
+1106,Widget A,Furniture,Warehouse 3,Aisle 3,200.0,9.99,Supplier D,Out of Stock,2023-04-25 00:00:00.000000
+1437,Gadget Z,Furniture,Warehouse 1,Aisle 4,200.0,44.989999999999995,Supplier D,Out of Stock,2023-03-05 00:00:00.000000
+1278,Widget C,Clothing,Warehouse 3,Aisle 1,150.0,28.08583858764187,Supplier A,Out of Stock,2022-12-20 00:00:00.000000
+1658,Widget C,Furniture,Warehouse 1,Aisle 3,150.0,9.99,Supplier B,In Stock,2022-12-20 00:00:00.000000
+1353,Gadget X,Furniture,Warehouse 3,Aisle 3,300.0,19.99,Supplier B,Out of Stock,2023-04-25 00:00:00.000000
+1880,Gadget Y,Clothing,Warehouse 1,Aisle 1,181.59068778732157,44.989999999999995,Supplier B,In Stock,2024-06-17 12:40:01.374181
+1595,Widget B,Electronics,Warehouse 2,Aisle 1,150.0,28.08583858764187,Supplier C,Out of Stock,2024-06-17 12:40:01.374181
+1372,Widget B,Electronics,Warehouse 2,Aisle 3,305.0,44.989999999999995,Supplier C,discontinued,2022-12-20 00:00:00.000000
+1998,Gadget Y,Electronics,Warehouse 3,Aisle 3,181.59197565196345,28.08583858764187,Supplier B,In Stock,2023-03-05 00:00:00.000000
+1455,Gadget Y,Furniture,Warehouse 2,Aisle 3,-50.0,28.08583858764187,Supplier B,Low Stock,2023-03-05 00:00:00.000000
+1701,Widget C,Toys,Warehouse 2,Aisle 4,100.0,29.99,Supplier C,Out of Stock,2023-04-25 00:00:00.000000
+1723,Widget C,furniture,Warehouse 1,Aisle 3,161.40142517814726,29.99,Supplier A,Out of Stock,2023-03-05 00:00:00.000000
+1455,Gadget Y,Furniture,Warehouse 2,Aisle 3,-50.0,28.85,Supplier B,Low Stock,2023-03-05 00:00:00.000000
+1099,Widget A,Electronics,Warehouse 2,Aisle 5,300.0,44.989999999999995,Supplier B,Out of Stock,2023-03-05 00:00:00.000000
+1919,Widget A,Clothing,Warehouse 1,Aisle 2,161.40142517814726,28.08583858764187,Supplier D,Low Stock,2022-12-20 00:00:00.000000
+1550,Widget A,Electronics,Warehouse 1,Aisle 1,300.0,44.989999999999995,Supplier B,Low Stock,2022-12-20 00:00:00.000000
+1251,Widget C,Electronics,Warehouse 1,Aisle 5,100.0,29.99,Supplier B,Low Stock,2024-06-17 12:40:01.374181
+1763,Gadget Y,Electronics,Warehouse 1,Aisle 3,150.0,19.99,Supplier B,In Stock,2022-12-20 00:00:00.000000
+1461,Widget C,Electronics,Warehouse 1,Aisle 2,100.0,9.99,Supplier A,Low Stock,2022-12-20 00:00:00.000000
+1224,Gadget Z,Electronics,Warehouse 1,Aisle 3,181.59237833539825,19.99,Supplier D,In Stock,2024-06-17 12:40:01.374181
+1399,Widget B,Electronics,Warehouse 3,Aisle 5,50.0,9.99,Supplier C,Low Stock,2023-03-05 00:00:00.000000
+1330,Widget C,Toys,Warehouse 3,Aisle 4,150.0,9.99,Supplier B,In Stock,2022-12-20 00:00:00.000000
+1386,Widget A,Toys,Warehouse 3,Aisle 3,300.0,19.99,Supplier B,Low Stock,2023-04-25 00:00:00.000000
+1507,Widget A,ELECTRONICS,Warehouse 1,Aisle 2,200.0,28.08583858764187,Supplier B,Out of Stock,2022-12-20 00:00:00.000000
+1891,Widget B,Furniture,Warehouse 1,Aisle 1,200.0,44.989999999999995,Supplier B,discontinued,2023-01-15 00:00:00.000000
+1161,Widget A,Clothing,Warehouse 2,Unknown,161.40142517814726,28.08583858764187,Supplier C,In Stock,2022-12-20 00:00:00.000000
+1942,Gadget Z,Toys,Warehouse 3,Aisle 5,150.0,28.08583858764187,Supplier C,IN STOCK,2023-04-25 00:00:00.000000
+1345,Gadget Y,Furniture,Warehouse 1,Aisle 2,150.0,28.08583858764187,Supplier C,Out of Stock,2023-01-15 00:00:00.000000
+1868,Widget C,Electronics,Warehouse 2,Aisle 3,100.0,19.99,Supplier B,Out of Stock,2022-12-20 00:00:00.000000
+1472,Widget A,Clothing,Warehouse 1,Aisle 1,45.0,28.08583858764187,Supplier A,Low Stock,2022-12-20 00:00:00.000000
+1739,Widget A,Electronics,Warehouse 2,Aisle 1,200.0,19.99,Supplier D,Low Stock,2023-04-25 00:00:00.000000
+1531,Widget A,Clothing,Warehouse 1,Aisle 2,200.0,44.989999999999995,Supplier C,OUT OF STOCK,2023-04-25 00:00:00.000000
+1037,WIDGET A,Toys,Warehouse 2,Aisle 2,50.0,44.989999999999995,Supplier B,In Stock,2022-12-20 00:00:00.000000
+1014,Widget A,Furniture,Warehouse 3,Aisle 1,150.0,28.08583858764187,Supplier D,Out of Stock,2022-12-20 00:00:00.000000
+1658,Gadget Y,furniture,Warehouse 1,Aisle 2,150.0,19.99,Supplier C,Low Stock,2024-06-17 12:40:01.374181
+1789,Widget C,Electronics,Warehouse 3,Aisle 1,200.0,44.989999999999995,Supplier A,Low Stock,2023-01-15 00:00:00.000000
+1728,Widget B,Toys,Warehouse 3,Aisle 3,300.0,28.08583858764187,Supplier C,Low Stock,2023-04-25 00:00:00.000000
+1143,Widget B,Clothing,Warehouse 1,Aisle 3,50.0,28.08583858764187,Supplier A,OUT OF STOCK,2023-01-15 00:00:00.000000
+1385,Gadget Z,Clothing,Warehouse 1,Aisle 4,50.0,19.99,Supplier B,In Stock,2024-06-17 12:40:01.374181
+1729,Widget A,Clothing,Warehouse 3,Aisle 4,161.40142517814726,28.08583858764187,Supplier B,In Stock,2022-12-20 00:00:00.000000
+1823,Gadget Z,Toys,Warehouse 2,Aisle 5,161.40142517814726,29.99,Supplier B,Low Stock,2023-04-25 00:00:00.000000
+1700,Widget A,Clothing,Warehouse 2,Aisle 2,200.0,44.989999999999995,Supplier B,In Stock,2022-12-20 00:00:00.000000
+1579,Gadget Z,Toys,Warehouse 1,Aisle 1,50.0,28.08583858764187,Supplier B,Low Stock,2022-12-20 00:00:00.000000
+1763,Gadget Z,Toys,Warehouse 3,Aisle 3,181.59075253585175,44.989999999999995,Supplier B,Low Stock,2022-12-20 00:00:00.000000
+1131,Widget A,Electronics,Warehouse 1,Aisle 5,200.0,44.989999999999995,Supplier A,Low Stock,2023-04-25 00:00:00.000000
+1822,Gadget Y,Toys,Warehouse 3,Aisle 1,50.0,29.99,Supplier B,Out of Stock,2022-12-20 00:00:00.000000
+1357,Widget C,Clothing,Warehouse 1,Aisle 1,200.0,44.989999999999995,Supplier A,Low Stock,2023-03-05 00:00:00.000000
+1885,Gadget Y,Clothing,Warehouse 3,Aisle 2,300.0,44.989999999999995,Supplier D,Out of Stock,2022-12-20 00:00:00.000000
+1691,Gadget Z,Toys,Warehouse 1,Aisle 2,100.0,29.99,Supplier D,Low Stock,2022-12-20 00:00:00.000000
+1748,Gadget Z,Clothing,Warehouse 2,Aisle 1,300.0,28.08583858764187,Supplier C,Low Stock,2023-03-05 00:00:00.000000
+1942,Gadget Z,Toys,Warehouse 3,Aisle 4,150.0,28.08583858764187,Supplier C,IN STOCK,2023-04-25 00:00:00.000000
+1895,Gadget Z,Furniture,Warehouse 3,Aisle 5,50.0,44.989999999999995,Supplier D,In Stock,2024-06-17 12:40:01.374181
+1815,Widget A,Clothing,Warehouse 2,Aisle 2,181.59257314035708,9.99,Supplier A,In Stock,2022-12-20 00:00:00.000000
+1360,Widget B,Furniture,Warehouse 1,Aisle 3,200.0,44.989999999999995,Supplier D,low stock,2022-12-20 00:00:00.000000
+1372,Gadget X,Clothing,Warehouse 2,Aisle 3,200.0,29.99,Supplier C,Out of Stock,2024-06-17 12:40:01.374181
+1128,Gadget Y,Electronics,Warehouse 3,Aisle 3,161.40142517814726,44.989999999999995,Supplier A,In Stock,2022-12-20 00:00:00.000000
+1633,Widget A,Toys,Warehouse 1,Aisle 3,161.40142517814726,9.99,Supplier C,Low Stock,2024-06-17 12:40:01.374181
+1952,Widget A,Furniture,Warehouse 3,Aisle 3,161.40142517814726,28.08583858764187,Supplier C,In Stock,2023-01-15 00:00:00.000000
+1385,Gadget Z,Furniture,Warehouse 2,Aisle 3,100.0,44.989999999999995,Supplier D,Low Stock,2022-12-20 00:00:00.000000
+1171,Widget A,Electronics,Warehouse 3,Aisle 4,100.0,28.08583858764187,Supplier B,Out of Stock,2024-06-17 12:40:01.374181
+1819,WIDGET A,Furniture,Warehouse 3,Aisle 3,200.0,29.99,Supplier B,Low Stock,2022-12-20 00:00:00.000000
+1574,Widget A,Furniture,Warehouse 2,Aisle 4,50.0,9.99,Supplier D,Low Stock,2022-12-20 00:00:00.000000
+1470,Gadget X,Furniture,Warehouse 2,Aisle 1,50.0,29.99,Supplier D,Out of Stock,2023-03-05 00:00:00.000000
+1143,Widget C,Furniture,Warehouse 2,Aisle 4,300.0,44.989999999999995,Supplier A,Out of Stock,2023-01-15 00:00:00.000000
+1408,widget c,Electronics,Warehouse 1,Aisle 3,181.59222991442613,29.99,Supplier C,In Stock,2023-04-25 00:00:00.000000
+1880,Gadget X,Clothing,Warehouse 1,Aisle 5,200.0,9.99,Supplier A,Out of Stock,2023-03-05 00:00:00.000000
+1727,Widget C,Furniture,Warehouse 2,Aisle 8,200.0,9.99,Supplier A,In Stock,2022-12-20 00:00:00.000000
+1955,Gadget Y,Clothing,Warehouse 2,Aisle 5,-50.0,28.08583858764187,Supplier B,Out of Stock,2023-03-05 00:00:00.000000
+1461,Widget C,Electronics,Warehouse 1,Aisle 2,95.0,9.99,Supplier A,Low Stock,2022-12-20 00:00:00.000000
+1638,Widget A,Furniture,Warehouse 3,Aisle 6,300.0,29.99,Supplier C,In Stock,2023-03-05 00:00:00.000000
+1960,Widget B,Clothing,Warehouse 1,Aisle 5,161.40142517814726,28.08583858764187,Supplier A,Out of Stock,2022-12-20 00:00:00.000000
+1069,Gadget X,Furniture,Warehouse 3,Aisle 3,100.0,28.08583858764187,Supplier D,Low Stock,2024-06-17 12:40:01.374181
+1011,Widget A,Toys,Warehouse 3,Aisle 1,161.40142517814726,29.99,Supplier A,Low Stock,2023-01-15 00:00:00.000000
+1850,Widget B,Toys,Warehouse 3,Aisle 2,300.0,44.989999999999995,Supplier D,Low Stock,2023-01-15 00:00:00.000000
+1565,Widget B,Clothing,Warehouse 3,Aisle 5,161.40142517814726,44.989999999999995,Supplier C,In Stock,2022-12-20 00:00:00.000000
+1975,Gadget X,Toys,Warehouse 1,Aisle 4,300.0,28.08583858764187,Supplier C,Low Stock,2023-01-15 00:00:00.000000
+1008,Widget A,Toys,Warehouse 1,Aisle 5,161.40142517814726,29.99,Supplier C,In Stock,2022-12-20 00:00:00.000000
+1972,Widget B,Clothing,Warehouse 1,Aisle 1,161.40142517814726,9.99,Supplier B,Low Stock,2024-06-17 12:40:01.374181
+1982,Gadget Y,Electronics,Warehouse 1,Aisle 5,200.0,19.99,Supplier D,Low Stock,2023-04-25 00:00:00.000000
+1358,Gadget X,Furniture,Warehouse 3,Aisle 3,300.0,29.99,Supplier B,Low Stock,2022-12-20 00:00:00.000000
+1553,Gadget X,Furniture,Warehouse 1,Aisle 3,100.0,29.99,Supplier C,Low Stock,2022-12-20 00:00:00.000000
+1871,Widget A,Furniture,Warehouse 2,Aisle 1,100.0,28.08583858764187,Supplier B,Low Stock,2022-12-20 00:00:00.000000
+1246,Widget B,Electronics,Warehouse 3,Aisle 5,200.0,28.08583858764187,Supplier A,Out of Stock,2023-03-05 00:00:00.000000
+1022,Gadget Y,Furniture,Warehouse 3,Aisle 5,161.40142517814726,44.989999999999995,Supplier D,Out of Stock,2023-01-15 00:00:00.000000
+1516,Widget A,Furniture,Warehouse 1,Aisle 1,150.0,19.99,Supplier C,Out of Stock,2024-06-17 12:40:01.374181
+1610,Widget C,Clothing,Warehouse 3,Aisle 5,300.0,19.99,Supplier D,In Stock,2022-12-20 00:00:00.000000
+1095,Widget B,Furniture,Warehouse 3,Aisle 4,150.0,19.99,Supplier A,Low Stock,2022-12-20 00:00:00.000000
+1027,Gadget Y,Furniture,Warehouse 1,Aisle 4,161.40142517814726,9.99,Supplier A,Low Stock,2023-04-25 00:00:00.000000
+1466,WIDGET A,Clothing,Warehouse 3,Aisle 1,161.40142517814726,44.989999999999995,Supplier B,In Stock,2023-01-15 00:00:00.000000
+1871,WIDGET B,Clothing,Warehouse 2,Aisle 2,100.0,28.08583858764187,Supplier D,Out of Stock,2023-04-25 00:00:00.000000
+1348,Gadget Y,Toys,Warehouse 2,Aisle 3,150.0,28.08583858764187,Supplier C,Out of Stock,2022-12-20 00:00:00.000000
+1347,widget c,Furniture,Warehouse 3,Aisle 3,100.0,28.08583858764187,Supplier B,In Stock,2022-12-20 00:00:00.000000
+1189,Widget C,Furniture,Warehouse 1,Aisle 4,300.0,29.99,Supplier C,Low Stock,2023-03-05 00:00:00.000000
+1803,Gadget X,Clothing,Warehouse 1,Aisle 4,200.0,44.989999999999995,Supplier B,In Stock,2024-06-17 12:40:01.374181
+1818,Gadget X,Toys,Warehouse 3,Aisle 4,150.0,29.99,Supplier B,Low Stock,2022-12-20 00:00:00.000000
+1276,Gadget Z,Electronics,Warehouse 3,Aisle 4,50.0,28.08583858764187,Supplier D,Low Stock,2022-12-20 00:00:00.000000
+1991,Gadget Y,Clothing,Warehouse 1,Aisle 5,200.0,28.08583858764187,Supplier D,Low Stock,2022-12-20 00:00:00.000000
+1801,Gadget X,Toys,Warehouse 1,Aisle 2,100.0,9.99,Supplier D,Low Stock,2023-04-25 00:00:00.000000
+1555,Gadget Y,Electronics,Warehouse 3,Aisle 1,100.0,19.99,Supplier C,In Stock,2022-12-20 00:00:00.000000
+1407,Widget B,Clothing,Warehouse 1,Aisle 1,200.0,19.76,Supplier B,Low Stock,2023-01-15 00:00:00.000000
+1611,Gadget Y,Electronics,Warehouse 2,Aisle 2,50.0,19.99,Supplier A,Out of Stock,2023-03-05 00:00:00.000000
+1375,Widget A,Furniture,Warehouse 1,Unknown,50.0,28.08583858764187,Supplier D,Low Stock,2023-01-15 00:00:00.000000
+1085,Widget A,Toys,Warehouse 1,Aisle 4,-50.0,28.08583858764187,Supplier A,In Stock,2023-01-15 00:00:00.000000
+1795,Gadget X,Furniture,Warehouse 1,Aisle 1,150.0,44.989999999999995,Supplier D,In Stock,2023-03-05 00:00:00.000000
+1216,Gadget Y,CLOTHING,Warehouse 3,Aisle 4,161.40142517814726,9.99,Supplier D,In Stock,2024-06-17 12:40:01.374181
+1057,Gadget X,Electronics,Warehouse 3,Unknown,150.0,28.08583858764187,Supplier D,In Stock,2023-04-25 00:00:00.000000
+1882,Gadget Y,Electronics,Warehouse 2,Aisle 4,50.0,19.54,Supplier B,Low Stock,2022-12-20 00:00:00.000000
+1801,Gadget X,Toys,Warehouse 1,Aisle 2,95.0,9.99,Supplier D,Low Stock,2023-04-25 00:00:00.000000
+1474,Gadget Z,Electronics,Warehouse 2,Aisle 4,300.0,44.989999999999995,Supplier D,Low Stock,2023-01-15 00:00:00.000000
+1488,Gadget Y,Electronics,Warehouse 2,Aisle 1,300.0,28.08583858764187,Supplier A,Out of Stock,2022-12-20 00:00:00.000000
+1539,Widget A,Furniture,Warehouse 2,Aisle 3,150.0,19.99,Supplier B,In Stock,2023-04-25 00:00:00.000000
+1175,Gadget Y,Furniture,Warehouse 1,Aisle 2,50.0,29.99,Supplier A,low stock,2024-06-17 12:40:01.374181
+1685,Gadget X,Clothing,Warehouse 1,Aisle 2,300.0,28.08583858764187,Supplier D,In Stock,2023-01-15 00:00:00.000000
+1269,Widget B,Clothing,Warehouse 2,Aisle 1,150.0,29.99,Supplier D,low stock,2024-06-17 12:40:01.374181
+1580,Gadget Y,Electronics,Warehouse 1,Aisle 2,100.0,29.99,Supplier C,In Stock,2024-06-17 12:40:01.374181
+1052,Widget B,Clothing,Warehouse 1,Aisle 2,150.0,19.99,Supplier A,In Stock,2023-01-15 00:00:00.000000
+1050,Widget C,Furniture,Warehouse 2,Aisle 1,50.0,19.99,Supplier D,Low Stock,2023-01-15 00:00:00.000000
+1216,Widget B,Furniture,Warehouse 2,Unknown,100.0,28.08583858764187,Supplier C,Out of Stock,2023-04-25 00:00:00.000000
+1681,Widget C,Furniture,Warehouse 1,Aisle 2,300.0,9.99,Supplier C,IN STOCK,2022-12-20 00:00:00.000000
+1882,Gadget Y,Electronics,Warehouse 2,Aisle 4,50.0,19.99,Supplier B,Low Stock,2022-12-20 00:00:00.000000
+1681,Gadget Z,Clothing,Warehouse 3,Aisle 5,-50.0,44.989999999999995,Supplier B,In Stock,2022-12-20 00:00:00.000000
+1496,GADGET X,Furniture,Warehouse 1,Aisle 2,50.0,44.989999999999995,Supplier C,In Stock,2023-04-25 00:00:00.000000
+1505,Widget A,Electronics,Warehouse 2,Aisle 1,161.40142517814726,29.99,Supplier B,Low Stock,2023-04-25 00:00:00.000000
+1637,Widget B,Furniture,Warehouse 3,Aisle 4,161.40142517814726,29.99,Supplier B,Out of Stock,2022-12-20 00:00:00.000000
+1897,Widget C,Furniture,Warehouse 3,Aisle 4,100.0,28.08583858764187,Supplier C,Low Stock,2022-12-20 00:00:00.000000
+1270,gadget z,Toys,Warehouse 2,Aisle 4,50.0,44.989999999999995,Supplier B,In Stock,2022-12-20 00:00:00.000000
+1061,Widget C,Clothing,Warehouse 1,Aisle 1,161.40142517814726,9.99,Supplier C,In Stock,2023-01-15 00:00:00.000000
+1658,Widget C,Electronics,Warehouse 1,Aisle 3,150.0,9.99,Supplier A,Low Stock,2024-06-17 12:40:01.374181
+1699,Gadget Y,Clothing,Central Hub,Aisle 1,161.40142517814726,9.99,Supplier B,Out of Stock,2024-06-17 12:40:01.374181
+1612,Widget B,Furniture,Central Hub,Aisle 4,150.0,28.08583858764187,Supplier B,missing,2024-06-17 12:40:01.374181
+1219,gadget y,Clothing,Warehouse 2,Aisle 5,161.40142517814726,44.989999999999995,Supplier A,Out of Stock,2022-12-20 00:00:00.000000
+1647,Gadget Y,Clothing,Warehouse 2,Aisle 5,161.40142517814726,44.989999999999995,Supplier B,Low Stock,2024-06-17 12:40:01.374181
+1696,Gadget Y,Toys,Warehouse 2,Aisle 1,50.0,28.08583858764187,Supplier C,Low Stock,2024-06-17 12:40:01.374181
+1836,Gadget Z,Clothing,Warehouse 3,Aisle 3,181.59179967021117,28.08583858764187,Supplier A,In Stock,2023-04-25 00:00:00.000000
+1148,Widget C,electronics,Warehouse 2,Aisle 3,100.0,29.99,Supplier C,In Stock,2023-01-15 00:00:00.000000
+1565,Gadget Z,Furniture,Warehouse 3,Aisle 5,100.0,19.99,Supplier C,OUT OF STOCK,2023-01-15 00:00:00.000000
+1185,widget a,Electronics,Warehouse 1,Aisle 3,-50.0,9.99,Supplier C,Out of Stock,2024-06-17 12:40:01.374181
+1142,Widget C,Clothing,Warehouse 3,Aisle 2,100.0,28.08583858764187,Supplier B,Low Stock,2022-12-20 00:00:00.000000
+1315,Widget A,Toys,Warehouse 3,Aisle 1,100.0,28.08583858764187,Supplier B,In Stock,2023-01-15 00:00:00.000000
+1681,Widget C,Furniture,Warehouse 1,Aisle 2,50.0,29.99,Supplier D,In Stock,2023-04-25 00:00:00.000000
+1392,Widget A,Furniture,Warehouse 1,Aisle 9,181.59149834864863,29.99,Supplier A,Low Stock,2022-12-20 00:00:00.000000
+1995,Widget B,Clothing,Warehouse 2,Aisle 3,161.40142517814726,28.08583858764187,Supplier B,Low Stock,2024-06-17 12:40:01.374181
+1571,Gadget X,Clothing,Warehouse 3,Aisle 1,150.0,44.989999999999995,Supplier C,Out of Stock,2023-01-15 00:00:00.000000
+1195,Widget C,Toys,Warehouse 1,Aisle 3,161.40142517814726,28.08583858764187,Supplier C,Low Stock,2023-01-15 00:00:00.000000
+1224,Gadget Y,Furniture,Warehouse 2,Aisle 2,181.59199694595532,29.01,Supplier B,OUT OF STOCK,2023-04-25 00:00:00.000000
+1189,Gadget Y,Electronics,Warehouse 2,Aisle 3,181.59299611792775,9.99,Supplier A,Out of Stock,2023-04-25 00:00:00.000000
+1308,Gadget Y,Clothing,Warehouse 1,Aisle 1,181.59197556174018,28.08583858764187,Supplier C,Discontinued,2023-04-25 00:00:00.000000
+1726,Widget B,Electronics,Warehouse 2,Aisle 5,-50.0,9.99,Supplier A,Out of Stock,2022-12-20 00:00:00.000000
+1143,Widget C,Toys,Warehouse 3,Aisle 1,300.0,28.08583858764187,Supplier B,OUT OF STOCK,2023-01-15 00:00:00.000000
+1569,Gadget X,Clothing,Warehouse 1,Aisle 3,161.40142517814726,44.989999999999995,Supplier A,Low Stock,2023-04-25 00:00:00.000000
+1566,Widget B,Clothing,Warehouse 3,Aisle 1,181.5898061259302,44.989999999999995,Supplier D,Out of Stock,2023-04-25 00:00:00.000000
+1510,Gadget X,Furniture,Warehouse 3,Aisle 2,150.0,29.99,Supplier A,Low Stock,2022-12-20 00:00:00.000000
+1440,Gadget Y,Toys,Warehouse 2,Aisle 5,200.0,19.99,Supplier B,In Stock,2022-12-20 00:00:00.000000
+1593,Widget B,Clothing,Warehouse 1,Aisle 1,181.59143504812664,28.08583858764187,Supplier A,Out of Stock,2023-04-25 00:00:00.000000
+1383,Widget A,Furniture,Warehouse 1,Aisle 4,100.0,19.99,Supplier C,Low Stock,2024-06-17 12:40:01.374181
+1450,Widget A,Electronics,Warehouse 2,Aisle 5,200.0,9.99,Supplier D,Out of Stock,2023-03-05 00:00:00.000000
+1671,Gadget Y,Electronics,Warehouse 1,Aisle 4,100.0,29.99,Supplier B,In Stock,2023-03-05 00:00:00.000000
+1658,Widget A,Toys,Warehouse 1,Aisle 4,150.0,19.99,Supplier B,Low Stock,2024-06-17 12:40:01.374181
+1680,Gadget Z,Electronics,Warehouse 1,Aisle 3,50.0,44.989999999999995,Supplier C,Low Stock,2022-12-20 00:00:00.000000
+1819,Widget C,Electronics,Warehouse 3,Aisle 4,181.59137216362,28.08583858764187,Supplier D,Out of Stock,2023-04-25 00:00:00.000000
+1980,Gadget X,Furniture,Warehouse 3,Aisle 2,-50.0,28.08583858764187,Supplier A,In Stock,2023-03-05 00:00:00.000000
+1638,Widget A,Furniture,Warehouse 3,Aisle 5,300.0,29.99,Supplier C,In Stock,2023-03-05 00:00:00.000000
+1992,Widget C,Electronics,Warehouse 3,Aisle 4,300.0,29.99,Supplier C,Out of Stock,2024-06-17 12:40:01.374181
+1303,Gadget Z,Furniture,Warehouse 2,Aisle 3,161.40142517814726,19.99,Supplier D,In Stock,2023-04-25 00:00:00.000000
+1778,Widget A,Clothing,Warehouse 3,Aisle 1,200.0,28.08583858764187,Supplier B,Low Stock,2023-01-15 00:00:00.000000
+1735,Gadget Y,Electronics,Warehouse 1,Aisle 5,300.0,30.08,Supplier D,Low Stock,2024-06-17 12:40:01.374181
+1047,Widget B,Furniture,Warehouse 2,Aisle 5,-50.0,44.989999999999995,Supplier C,Out of Stock,2023-04-25 00:00:00.000000
+1415,Widget A,Electronics,Warehouse 1,Aisle 4,200.0,28.08583858764187,Supplier C,Low Stock,2022-12-20 00:00:00.000000
+1189,Widget B,Furniture,Warehouse 2,Aisle 5,181.59027193930012,44.989999999999995,Supplier C,Out of Stock,2022-12-20 00:00:00.000000
+1463,Widget A,Toys,Warehouse 1,Aisle 4,150.0,44.989999999999995,Supplier A,In Stock,2024-06-17 12:40:01.374181
+1232,Gadget Y,Furniture,Warehouse 2,Aisle 4,300.0,44.989999999999995,Supplier A,Low Stock,2023-04-25 00:00:00.000000
+1768,Widget B,Toys,Warehouse 1,Aisle 4,200.0,19.99,Supplier C,Out of Stock,2023-01-15 00:00:00.000000
+1521,Gadget Z,Electronics,Warehouse 1,Aisle 3,100.0,29.99,Supplier B,Low Stock,2023-03-05 00:00:00.000000
+1726,Widget A,Toys,Warehouse 2,Aisle 3,161.40142517814726,29.99,Supplier D,Out of Stock,2022-12-20 00:00:00.000000
+1646,Widget A,Electronics,Warehouse 1,Aisle 2,161.40142517814726,44.989999999999995,Supplier A,In Stock,2023-01-15 00:00:00.000000
+1495,Gadget Y,Toys,Warehouse 3,Aisle 3,161.40142517814726,28.08583858764187,Supplier C,Out of Stock,2022-12-20 00:00:00.000000
+1159,Widget B,Electronics,Warehouse 1,Aisle 3,100.0,44.989999999999995,Supplier A,Low Stock,2024-06-17 12:40:01.374181
+1928,Widget B,Toys,Warehouse 1,Aisle 4,300.0,29.99,Supplier C,Low Stock,2023-04-25 00:00:00.000000
+1957,Gadget Y,Electronics,Warehouse 2,Aisle 3,300.0,29.99,Supplier A,Out of Stock,2023-04-25 00:00:00.000000
+1134,Widget A,Electronics,Warehouse 3,Aisle 2,150.0,28.08583858764187,Supplier D,in stock,2022-12-20 00:00:00.000000
+1655,Widget A,Clothing,Warehouse 3,Aisle 5,-50.0,44.989999999999995,Supplier C,Low Stock,2022-12-20 00:00:00.000000
+1202,Widget C,TOYS,Warehouse 3,Aisle 4,200.0,28.08583858764187,Supplier C,In Stock,2022-12-20 00:00:00.000000
+1472,Widget A,Clothing,Warehouse 1,Aisle 1,50.0,28.08583858764187,Supplier A,Low Stock,2022-12-20 00:00:00.000000
+1795,Widget A,Furniture,Warehouse 3,Aisle 5,50.0,44.989999999999995,Supplier B,Low Stock,2022-12-20 00:00:00.000000
+1794,Gadget Z,Clothing,Warehouse 3,Aisle 5,50.0,19.99,Supplier C,Out of Stock,2023-03-05 00:00:00.000000
+1407,Widget C,Clothing,Warehouse 2,Aisle 3,161.40142517814726,19.99,Supplier B,Low Stock,2023-01-15 00:00:00.000000
+1062,Gadget Y,Clothing,Warehouse 1,Aisle 5,150.0,9.99,Supplier B,In Stock,2023-01-15 00:00:00.000000
+1124,Widget C,Furniture,Warehouse 1,Aisle 2,100.0,19.99,Supplier A,Low Stock,2022-12-20 00:00:00.000000
+1734,Gadget Z,Toys,Warehouse 3,Aisle 2,100.0,28.08583858764187,Supplier A,IN STOCK,2023-03-05 00:00:00.000000
+1573,Widget A,Electronics,Warehouse 2,missing,100.0,29.99,Supplier A,Out of Stock,2023-04-25 00:00:00.000000
+1272,Gadget Z,Clothing,Warehouse 1,Aisle 2,161.40142517814726,29.99,Supplier C,In Stock,2022-12-20 00:00:00.000000
+1444,Widget C,Toys,Warehouse 3,Aisle 3,181.59154826801532,28.08583858764187,Supplier C,In Stock,2023-01-15 00:00:00.000000
+1805,Gadget Y,Furniture,Warehouse 2,Aisle 2,-50.0,9.99,Supplier C,Low Stock,2023-01-15 00:00:00.000000
+1576,Widget B,Electronics,Warehouse 2,Aisle 1,200.0,44.989999999999995,Supplier B,Out of Stock,2023-03-05 00:00:00.000000
+1783,Gadget Z,Electronics,Warehouse 1,Aisle 4,40.0,19.99,Supplier C,Out of Stock,2022-12-20 00:00:00.000000
+1195,Gadget Y,Electronics,Warehouse 3,Aisle 5,50.0,19.99,Supplier B,Low Stock,2022-12-20 00:00:00.000000
+1896,Gadget X,Toys,Warehouse 2,Aisle 4,150.0,44.989999999999995,Supplier A,Out of Stock,2024-06-17 12:40:01.374181
+1098,Gadget X,Clothing,Warehouse 1,Aisle 3,50.0,19.99,Supplier A,Out of Stock,2022-12-20 00:00:00.000000
+1276,Widget C,Toys,Warehouse 3,Aisle 5,150.0,44.989999999999995,Supplier A,Low Stock,2022-12-20 00:00:00.000000
+1483,Gadget Y,Toys,Warehouse 1,Aisle 5,150.0,44.989999999999995,Supplier D,In Stock,2024-06-17 12:40:01.374181
+1252,Gadget Z,Toys,Warehouse 1,Aisle 3,181.59078102341562,44.989999999999995,Supplier B,In Stock,2023-03-05 00:00:00.000000
+1329,Widget B,Clothing,Warehouse 2,Aisle 1,50.0,9.99,Supplier C,Out of Stock,2023-01-15 00:00:00.000000
+1480,Gadget Z,Clothing,Warehouse 1,Aisle 2,-50.0,29.99,Supplier A,Out of Stock,2023-03-05 00:00:00.000000
+1036,Widget B,Toys,Warehouse 3,Aisle 4,-50.0,29.99,Supplier A,Out of Stock,2023-03-05 00:00:00.000000
+1326,Gadget Z,Toys,Warehouse 1,Aisle 2,50.0,20.34,Supplier D,Low Stock,2022-12-20 00:00:00.000000
+1688,Gadget X,Furniture,Warehouse 3,Aisle 3,200.0,44.989999999999995,Supplier D,Low Stock,2024-06-17 12:40:01.374181
+1601,Widget B,Toys,Warehouse 1,Aisle 3,161.40142517814726,44.989999999999995,Supplier D,Low Stock,2022-12-20 00:00:00.000000
+1252,Widget A,Clothing,Warehouse 2,Aisle 4,-50.0,29.99,Supplier A,In Stock,2023-03-05 00:00:00.000000
+1547,Widget B,Toys,Warehouse 2,Aisle 1,200.0,9.99,Supplier C,In Stock,2024-06-17 12:40:01.374181
+1384,Widget B,Furniture,Warehouse 3,Aisle 2,-50.0,29.99,Supplier A,Out of Stock,2022-12-20 00:00:00.000000
+1304,Gadget X,Clothing,Warehouse 3,Aisle 2,100.0,9.99,Supplier B,Low Stock,2023-04-25 00:00:00.000000
+1647,Gadget Z,Electronics,Warehouse 1,Aisle 1,150.0,44.989999999999995,Supplier A,In Stock,2022-12-20 00:00:00.000000
+1758,Widget B,CLOTHING,Warehouse 1,Aisle 5,181.59148527527125,19.99,Supplier B,In Stock,2024-06-17 12:40:01.374181
+1098,Widget B,Clothing,Warehouse 1,Aisle 1,150.0,44.989999999999995,Supplier A,In Stock,2024-06-17 12:40:01.374181
+1460,Gadget Y,Toys,Warehouse 1,Aisle 4,350.0,28.08583858764187,Supplier C,In Stock,2023-04-25 00:00:00.000000
+1697,Widget A,Furniture,Warehouse 1,Aisle 2,50.0,19.99,Supplier B,Low Stock,2023-01-15 00:00:00.000000
+1817,Widget C,Furniture,Warehouse 3,Aisle 1,50.0,9.99,Supplier C,In Stock,2023-03-05 00:00:00.000000
+1164,Gadget X,Clothing,Warehouse 3,Aisle 5,-50.0,28.08583858764187,Supplier A,Out of Stock,2023-03-05 00:00:00.000000
+1729,Widget A,Clothing,Warehouse 3,Aisle 4,150.0,19.99,Supplier A,In Stock,2023-04-25 00:00:00.000000
+1758,Widget A,Toys,Warehouse 1,Aisle 5,181.5917084948323,28.08583858764187,Supplier B,Out of Stock,2023-01-15 00:00:00.000000
+1699,Gadget X,Furniture,Warehouse 3,Aisle 5,161.40142517814726,9.99,Supplier B,Out of Stock,2022-12-20 00:00:00.000000
+1364,Gadget Y,Electronics,Warehouse 3,Aisle 1,300.0,19.99,Supplier D,Low Stock,2022-12-20 00:00:00.000000
+1958,WIDGET A,Furniture,Warehouse 1,Aisle 4,181.59364939663175,19.99,Supplier D,In Stock,2023-04-25 00:00:00.000000
+1520,Gadget Y,Furniture,Warehouse 1,Aisle 3,150.0,19.99,Supplier B,In Stock,2022-12-20 00:00:00.000000
+1004,Gadget Z,Clothing,Warehouse 1,Aisle 3,50.0,19.99,Supplier B,Out of Stock,2022-12-20 00:00:00.000000
+1147,Widget B,Toys,Warehouse 2,Aisle 2,100.0,19.99,Supplier C,Low Stock,2023-04-25 00:00:00.000000
+1121,Gadget Y,Clothing,Warehouse 1,Aisle 1,-50.0,19.99,Supplier A,In Stock,2022-12-20 00:00:00.000000
+1627,Gadget Y,Furniture,Warehouse 2,Aisle 5,50.0,29.99,Supplier A,Low Stock,2023-03-05 00:00:00.000000
+1203,Widget A,Furniture,Warehouse 3,Aisle 3,150.0,29.99,Supplier B,In Stock,2024-06-17 12:40:01.374181
+1339,Widget A,Furniture,Warehouse 2,Aisle 3,181.59212363391086,19.99,Supplier A,Low Stock,2022-12-20 00:00:00.000000
+1857,Widget C,Furniture,Warehouse 3,Aisle 2,150.0,19.99,Supplier B,Out of Stock,2023-01-15 00:00:00.000000
+1186,Gadget Y,Clothing,Warehouse 1,Aisle 1,161.40142517814726,19.99,Supplier B,In Stock,2023-04-25 00:00:00.000000
+1414,Gadget Z,Furniture,Warehouse 1,Aisle 5,300.0,28.08583858764187,Supplier D,In Stock,2024-06-17 12:40:01.374181
+1232,widget b,Electronics,Warehouse 3,Aisle 3,300.0,28.08583858764187,Supplier D,In Stock,2024-06-17 12:40:01.374181
+1297,Widget C,Toys,Warehouse 2,Aisle 5,300.0,9.99,Supplier C,Out of Stock,2023-04-25 00:00:00.000000
+1095,Widget B,Furniture,Warehouse 1,Aisle 2,200.0,28.08583858764187,Supplier B,Out of Stock,2022-12-20 00:00:00.000000
+1875,Gadget Y,Clothing,Warehouse 3,Aisle 2,181.59294728987663,9.99,Supplier B,Low Stock,2022-12-20 00:00:00.000000
+1441,Widget C,Clothing,Warehouse 2,Aisle 2,200.0,28.08583858764187,Supplier B,Out of Stock,2023-04-25 00:00:00.000000
+1775,Widget A,ELECTRONICS,Warehouse 3,Aisle 4,100.0,29.99,Supplier C,In Stock,2024-06-17 12:40:01.374181
+1502,Gadget X,Furniture,Warehouse 1,Aisle 4,-50.0,9.99,Supplier B,Out of Stock,2023-01-15 00:00:00.000000
+1992,Gadget Y,Toys,Warehouse 2,Aisle 5,-50.0,29.99,Supplier D,In Stock,2023-03-05 00:00:00.000000
+1407,Widget B,Clothing,Warehouse 1,Aisle 1,200.0,19.99,Supplier B,Low Stock,2023-01-15 00:00:00.000000
+1819,Widget C,Electronics,Warehouse 3,Aisle 4,181.59133846634393,28.67,Supplier D,Out of Stock,2023-04-25 00:00:00.000000
+1815,Gadget Z,Clothing,Warehouse 1,Aisle 1,150.0,29.99,Supplier C,Out of Stock,2022-12-20 00:00:00.000000
+1412,Widget A,Electronics,Warehouse 3,Aisle 1,200.0,29.99,Supplier B,OUT OF STOCK,2024-06-17 12:40:01.374181
+1156,Widget C,Toys,Warehouse 1,Aisle 2,300.0,9.99,Supplier D,Low Stock,2024-06-17 12:40:01.374181
+1842,Widget A,Furniture,Warehouse 1,Aisle 4,200.0,28.08583858764187,Supplier B,Out of Stock,2022-12-20 00:00:00.000000
+1928,Gadget X,Furniture,Warehouse 1,Aisle 4,150.0,44.989999999999995,Supplier B,In Stock,2023-03-05 00:00:00.000000
+1253,widget c,Clothing,Warehouse 1,Aisle 3,150.0,19.99,Supplier A,Out of Stock,2022-12-20 00:00:00.000000
+1150,Widget B,Clothing,Warehouse 3,Aisle 5,200.0,28.08583858764187,Supplier B,Out of Stock,2022-12-20 00:00:00.000000
+1080,Widget B,Electronics,Warehouse 1,Aisle 3,150.0,28.08583858764187,Supplier C,In Stock,2023-03-05 00:00:00.000000
+1345,Gadget X,Furniture,Warehouse 2,Aisle 4,161.40142517814726,28.08583858764187,Supplier D,Out of Stock,2023-01-15 00:00:00.000000
+1775,Gadget Y,Toys,Warehouse 3,Aisle 5,300.0,28.08583858764187,Supplier B,In Stock,2023-04-25 00:00:00.000000
+1376,Gadget Z,Furniture,Warehouse 3,Aisle 1,50.0,29.99,Supplier D,Out of Stock,2023-04-25 00:00:00.000000
+1397,Gadget Z,Electronics,Warehouse 2,Aisle 3,100.0,28.08583858764187,Supplier C,OUT OF STOCK,2022-12-20 00:00:00.000000
+1662,Gadget X,Toys,Warehouse 2,Aisle 3,100.0,29.99,Supplier C,Low Stock,2024-06-17 12:40:01.374181
+1263,Gadget Z,toys,Warehouse 3,Aisle 3,156.0,9.99,Supplier B,Low Stock,2022-12-20 00:00:00.000000
+1229,Widget B,Clothing,Warehouse 1,Aisle 2,-50.0,28.08583858764187,Supplier D,Low Stock,2023-03-05 00:00:00.000000
+1606,Widget C,Furniture,Warehouse 2,Aisle 2,181.59022866008343,44.989999999999995,Supplier D,Low Stock,2023-04-25 00:00:00.000000
+1760,gadget y,Clothing,Warehouse 3,Aisle 1,200.0,29.99,Supplier A,Out of Stock,2022-12-20 00:00:00.000000
+1038,Widget A,Furniture,Warehouse 1,Aisle 2,200.0,28.08583858764187,Supplier C,Out of Stock,2023-04-25 00:00:00.000000
+1639,Widget B,electronics,Warehouse 1,Aisle 5,200.0,28.08583858764187,Supplier D,In Stock,2023-01-15 00:00:00.000000
+1955,Widget B,Electronics,Warehouse 1,Aisle 5,150.0,29.99,Supplier B,Low Stock,2022-12-20 00:00:00.000000
+1661,Widget A,CLOTHING,Warehouse 2,Aisle 1,181.5898875244608,44.989999999999995,Supplier C,Low Stock,2023-03-05 00:00:00.000000
+1484,Widget B,Clothing,Warehouse 3,Aisle 2,100.0,28.08583858764187,Supplier C,In Stock,2022-12-20 00:00:00.000000
+1242,Widget C,Toys,Warehouse 1,Aisle 5,50.0,29.99,Supplier B,low stock,2024-06-17 12:40:01.374181
+1052,Widget A,Furniture,Warehouse 3,Aisle 5,181.59153034540745,29.99,Supplier C,Low Stock,2022-12-20 00:00:00.000000
+1001,Gadget X,Toys,Central Hub,Aisle 3,150.0,19.99,Supplier C,Low Stock,2023-04-25 00:00:00.000000
+1981,Widget A,Clothing,Warehouse 1,Aisle 5,161.40142517814726,44.989999999999995,Supplier B,low stock,2022-12-20 00:00:00.000000
+1894,Gadget X,Toys,Warehouse 2,Aisle 4,181.59446102526613,9.99,Supplier B,Low Stock,2023-03-05 00:00:00.000000
+1734,Gadget X,Electronics,Warehouse 2,Aisle 3,150.0,9.99,Supplier B,Low Stock,2024-06-17 12:40:01.374181
+1250,widget a,Clothing,Warehouse 1,Aisle 3,100.0,44.989999999999995,Supplier B,Out of Stock,2022-12-20 00:00:00.000000
+1232,Gadget Y,Furniture,Warehouse 1,Aisle 1,50.0,29.99,Supplier A,In Stock,2022-12-20 00:00:00.000000
+1154,Widget A,Furniture,Warehouse 3,Aisle 4,181.59163839606137,28.08583858764187,Supplier D,Out of Stock,2023-03-05 00:00:00.000000
+1469,Gadget Y,Toys,Warehouse 3,Aisle 4,300.0,28.08583858764187,Supplier B,In Stock,2022-12-20 00:00:00.000000
+1871,Gadget Y,Electronics,Warehouse 3,Aisle 2,-50.0,19.99,Supplier B,IN STOCK,2023-04-25 00:00:00.000000
+1829,Gadget Z,Clothing,Warehouse 3,Aisle 4,150.0,44.989999999999995,Supplier A,Out of Stock,2022-12-20 00:00:00.000000
+1195,Widget C,Toys,Warehouse 1,Aisle 2,161.40142517814726,28.08583858764187,Supplier C,Low Stock,2023-01-15 00:00:00.000000
+1885,Gadget Y,Electronics,Warehouse 3,Aisle 3,50.0,44.989999999999995,Supplier B,In Stock,2023-01-15 00:00:00.000000
+1203,Widget A,Furniture,Warehouse 3,Aisle 3,140.0,29.99,Supplier B,In Stock,2024-06-17 12:40:01.374181
+1735,Gadget Y,Electronics,Warehouse 1,Aisle 5,300.0,29.99,Supplier D,Low Stock,2024-06-17 12:40:01.374181
+1487,Gadget Z,Toys,Warehouse 3,Aisle 1,150.0,9.99,Supplier D,Out of Stock,2022-12-20 00:00:00.000000
+1496,Widget C,toys,Warehouse 2,Aisle 3,300.0,29.99,Supplier A,In Stock,2024-06-17 12:40:01.374181
+1385,Gadget X,Toys,Warehouse 3,Aisle 3,300.0,19.99,Supplier B,Out of Stock,2023-04-25 00:00:00.000000
+1222,Widget C,Clothing,Warehouse 2,Aisle 3,160.0,44.989999999999995,Supplier D,Out of Stock,2023-04-25 00:00:00.000000
+1134,Widget A,Furniture,Warehouse 1,Aisle 3,200.0,19.99,Supplier D,Low Stock,2023-03-05 00:00:00.000000
+1782,Gadget X,Furniture,Warehouse 2,Aisle 2,300.0,29.99,Supplier A,Low Stock,2022-12-20 00:00:00.000000
+1264,Gadget X,Toys,Warehouse 2,Aisle 5,161.40142517814726,44.989999999999995,Supplier B,Low Stock,2022-12-20 00:00:00.000000
+1555,Widget B,Clothing,Warehouse 2,Aisle 5,200.0,19.99,Supplier A,Low Stock,2024-06-17 12:40:01.374181
+1906,Widget B,Furniture,Warehouse 1,Aisle 2,181.5914696432458,29.99,Supplier A,Low Stock,2023-04-25 00:00:00.000000
+1343,Gadget X,Furniture,Warehouse 2,Aisle 4,100.0,44.989999999999995,Supplier B,in stock,2023-04-25 00:00:00.000000
+1341,Widget A,Electronics,Warehouse 3,Aisle 1,100.0,19.99,Supplier B,In Stock,2023-01-15 00:00:00.000000
+1472,GADGET X,Electronics,Warehouse 2,Unknown,300.0,28.08583858764187,Supplier A,In Stock,2022-12-20 00:00:00.000000
+1972,Gadget X,Furniture,Warehouse 3,Aisle 1,50.0,9.99,Supplier C,In Stock,2024-06-17 12:40:01.374181
+1586,Gadget Z,Clothing,Warehouse 3,Aisle 4,150.0,29.99,Supplier A,In Stock,2022-12-20 00:00:00.000000
+1098,Gadget Y,furniture,Warehouse 3,Aisle 1,200.0,29.99,Supplier C,In Stock,2022-12-20 00:00:00.000000
+1013,widget a,Toys,Warehouse 2,Aisle 5,50.0,19.99,Supplier C,Low Stock,2023-04-25 00:00:00.000000
+1571,Gadget X,Clothing,Warehouse 3,Aisle 1,150.0,44.989999999999995,Supplier C,Out of Stock,2023-01-15 00:00:00.000000
+1263,Gadget Z,toys,Warehouse 3,Aisle 3,161.40142517814726,9.99,Supplier B,Low Stock,2022-12-20 00:00:00.000000
+1434,Gadget Z,Furniture,Warehouse 1,Aisle 3,150.0,29.99,Supplier C,Discontinued,2022-12-20 00:00:00.000000
+1402,Gadget X,Toys,Warehouse 3,Aisle 4,181.59325621502873,9.99,Supplier D,Low Stock,2024-06-17 12:40:01.374181
+1473,Gadget Z,Furniture,Warehouse 2,Aisle 3,161.40142517814726,19.99,Supplier C,IN STOCK,2022-12-20 00:00:00.000000
+1379,Widget C,Electronics,Warehouse 2,Aisle 3,200.0,28.08583858764187,Supplier B,discontinued,2022-12-20 00:00:00.000000
+1749,GADGET X,Toys,Central Hub,Aisle 1,350.0,9.99,Supplier C,Low Stock,2024-06-17 12:40:01.374181
+1698,Widget C,Furniture,Warehouse 2,Aisle 5,161.40142517814726,9.99,Supplier B,Low Stock,2022-12-20 00:00:00.000000
+1614,Gadget Y,Electronics,Warehouse 3,Aisle 3,-50.0,9.99,Supplier B,Out of Stock,2022-12-20 00:00:00.000000
+1219,Gadget Z,Furniture,Warehouse 2,Aisle 2,100.0,19.99,Supplier A,Low Stock,2023-04-25 00:00:00.000000
+1810,Gadget Y,Toys,Warehouse 1,Aisle 1,200.0,44.989999999999995,Supplier C,Low Stock,2023-01-15 00:00:00.000000
+1996,Widget B,Electronics,Warehouse 3,Aisle 1,200.0,9.99,Supplier A,In Stock,2022-12-20 00:00:00.000000
+1301,Gadget Y,FURNITURE,Warehouse 3,Aisle 1,181.59205399594146,28.08583858764187,Supplier D,In Stock,2022-12-20 00:00:00.000000
+1269,Widget B,Clothing,Warehouse 2,Aisle 1,150.0,29.99,Supplier D,Low Stock,2024-06-17 12:40:01.374181
+1337,Gadget X,Furniture,Central Hub,Aisle 5,50.0,28.08583858764187,Supplier B,Out of Stock,2023-04-25 00:00:00.000000
+1791,Widget C,Electronics,Warehouse 1,Aisle 5,300.0,28.08583858764187,Supplier D,Out of Stock,2023-04-25 00:00:00.000000
+1395,Widget C,Electronics,Warehouse 1,Aisle 1,50.0,44.989999999999995,Supplier C,low stock,2022-12-20 00:00:00.000000
+1035,Gadget Z,Clothing,Warehouse 1,Aisle 5,100.0,44.989999999999995,Supplier D,Low Stock,2024-06-17 12:40:01.374181
+1197,Widget C,Toys,Warehouse 2,Aisle 2,100.0,9.99,Supplier A,In Stock,2022-12-20 00:00:00.000000
+1619,Widget A,Electronics,Warehouse 2,Aisle 1,200.0,19.99,Supplier C,Out of Stock,2024-06-17 12:40:01.374181
+1330,Gadget Z,Electronics,Warehouse 2,Aisle 3,100.0,44.989999999999995,Supplier A,In Stock,2023-01-15 00:00:00.000000
+1034,Widget C,Electronics,Warehouse 2,Aisle 5,161.40142517814726,9.99,Supplier C,In Stock,2023-04-25 00:00:00.000000
+1890,Gadget Z,Clothing,Warehouse 2,Aisle 4,100.0,28.08583858764187,Supplier D,Out of Stock,2022-12-20 00:00:00.000000
+1786,Gadget Y,Clothing,Warehouse 2,Aisle 5,161.40142517814726,9.99,Supplier D,Low Stock,2024-06-17 12:40:01.374181
+1341,WIDGET B,Electronics,Warehouse 2,Aisle 5,150.0,19.99,Supplier D,Out of Stock,2022-12-20 00:00:00.000000
+1476,Widget A,Electronics,Warehouse 1,Aisle 3,181.5926321502118,9.99,Supplier C,Out of Stock,2022-12-20 00:00:00.000000
+1491,Gadget Y,Electronics,Warehouse 3,Aisle 2,300.0,19.99,Supplier A,In Stock,2022-12-20 00:00:00.000000
+1779,Widget B,Furniture,Warehouse 2,Aisle 1,150.0,44.989999999999995,Supplier C,In Stock,2022-12-20 00:00:00.000000
+1348,Widget C,Clothing,Warehouse 1,Aisle 5,181.59178791140997,19.99,Supplier C,Out of Stock,2022-12-20 00:00:00.000000
+1252,Widget C,Electronics,Warehouse 2,Aisle 2,100.0,29.99,Supplier D,In Stock,2023-01-15 00:00:00.000000
+1544,Widget C,Electronics,Warehouse 2,Aisle 5,300.0,28.08583858764187,Supplier D,Out of Stock,2022-12-20 00:00:00.000000
+1828,Widget A,Electronics,Warehouse 1,Aisle 5,181.5899519015764,44.989999999999995,Supplier B,Low Stock,2022-12-20 00:00:00.000000
+1456,gadget z,Electronics,Warehouse 3,Aisle 3,100.0,19.99,Supplier D,In Stock,2023-04-25 00:00:00.000000
+1555,Widget A,Toys,Warehouse 2,Aisle 5,50.0,9.99,Supplier B,Low Stock,2022-12-20 00:00:00.000000
+1814,Gadget Y,Electronics,Warehouse 3,Aisle 1,156.0,19.99,Supplier B,In Stock,2024-06-17 12:40:01.374181
+1001,Widget A,Furniture,Warehouse 2,Aisle 5,-50.0,19.99,Supplier A,Low Stock,2024-06-17 12:40:01.374181
+1396,Gadget Z,Clothing,Warehouse 1,Aisle 5,100.0,29.99,Supplier A,In Stock,2023-03-05 00:00:00.000000
+1624,Gadget Z,clothing,Warehouse 2,Aisle 2,-50.0,44.989999999999995,Supplier D,Out of Stock,2024-06-17 12:40:01.374181
+1105,Widget C,Furniture,Warehouse 1,Aisle 2,161.40142517814726,44.989999999999995,Supplier B,Out of Stock,2022-12-20 00:00:00.000000
+1017,Gadget Z,Electronics,Warehouse 3,Aisle 1,150.0,28.08583858764187,Supplier C,In Stock,2023-01-15 00:00:00.000000
+1132,Widget A,Furniture,Warehouse 3,Aisle 3,-50.0,28.08583858764187,Supplier D,Out of Stock,2023-01-15 00:00:00.000000
+1372,Gadget Y,Furniture,Warehouse 2,Aisle 1,200.0,44.989999999999995,Supplier A,Low Stock,2023-03-05 00:00:00.000000
+1032,Gadget X,Clothing,Warehouse 1,Aisle 2,161.40142517814726,29.99,Supplier A,Low Stock,2023-01-15 00:00:00.000000
+1832,Widget C,Clothing,Warehouse 1,Aisle 2,50.0,28.08583858764187,Supplier A,Low Stock,2023-03-05 00:00:00.000000
+1150,Widget B,Clothing,Warehouse 1,Aisle 1,150.0,28.08583858764187,Supplier B,In Stock,2023-04-25 00:00:00.000000
+1724,Widget A,Electronics,Warehouse 3,Aisle 5,150.0,9.99,Supplier B,Out of Stock,2023-01-15 00:00:00.000000
+1753,Widget C,Furniture,Warehouse 1,Aisle 5,200.0,9.99,Supplier A,Low Stock,2023-01-15 00:00:00.000000
+1111,Gadget X,furniture,Warehouse 3,Aisle 5,200.0,9.99,Supplier C,Out of Stock,2023-01-15 00:00:00.000000
+1546,Widget C,Furniture,Warehouse 2,Aisle 2,161.40142517814726,9.99,Supplier C,Out of Stock,2023-01-15 00:00:00.000000
+1563,Gadget Y,electronics,Warehouse 3,Unknown,50.0,28.08583858764187,Supplier B,In Stock,2022-12-20 00:00:00.000000
+1769,Gadget Z,Toys,Warehouse 1,Aisle 1,200.0,30.17,Supplier B,In Stock,2022-12-20 00:00:00.000000
+1484,Widget A,Electronics,Warehouse 3,Aisle 5,200.0,44.989999999999995,Supplier C,Low Stock,2024-06-17 12:40:01.374181
+1234,Gadget Z,Electronics,Warehouse 3,Aisle 4,181.59171654071844,29.99,Supplier A,Out of Stock,2022-12-20 00:00:00.000000
+1435,Gadget Y,Electronics,Warehouse 2,Aisle 4,200.0,19.99,Supplier C,Out of Stock,2024-06-17 12:40:01.374181
+1114,Widget C,Furniture,Warehouse 3,Aisle 1,150.0,9.99,Supplier C,In Stock,2023-03-05 00:00:00.000000
+1091,Widget A,Toys,Warehouse 2,Aisle 1,200.0,28.08583858764187,Supplier A,In Stock,2023-04-25 00:00:00.000000
+1751,Widget C,Furniture,Warehouse 1,Aisle 1,200.0,29.99,Supplier D,Low Stock,2022-12-20 00:00:00.000000
+1684,Gadget Y,Furniture,Warehouse 2,Aisle 4,-50.0,19.99,Supplier A,Out of Stock,2023-04-25 00:00:00.000000
+1052,Widget B,Clothing,Warehouse 2,Aisle 5,100.0,29.99,Supplier D,In Stock,2022-12-20 00:00:00.000000
+1625,Gadget Y,Clothing,Warehouse 3,Aisle 1,150.0,28.08583858764187,Supplier B,Low Stock,2023-03-05 00:00:00.000000
+1866,Gadget Z,Clothing,Warehouse 3,Aisle 4,181.59179633916455,28.08583858764187,Supplier B,In Stock,2022-12-20 00:00:00.000000
+1546,Gadget Z,Electronics,Warehouse 2,Aisle 4,300.0,19.99,Supplier A,discontinued,2024-06-17 12:40:01.374181
+1775,Gadget X,Electronics,Warehouse 3,Aisle 3,150.0,9.99,Supplier B,Out of Stock,2023-03-05 00:00:00.000000
+1691,GADGET Z,Clothing,Warehouse 3,Aisle 2,181.59330701382862,28.08583858764187,Supplier A,In Stock,2024-06-17 12:40:01.374181
+1132,Widget A,Furniture,Warehouse 3,Aisle 2,-50.0,28.08583858764187,Supplier D,Out of Stock,2023-01-15 00:00:00.000000
+1637,Gadget Y,Furniture,Warehouse 1,Aisle 3,-50.0,28.08583858764187,Supplier A,Out of Stock,2023-01-15 00:00:00.000000
+1126,Gadget Z,Furniture,Warehouse 3,Aisle 5,-50.0,19.99,Supplier C,IN STOCK,2022-12-20 00:00:00.000000
+1103,Gadget X,Furniture,Warehouse 2,Aisle 1,50.0,44.989999999999995,Supplier A,Out of Stock,2024-06-17 12:40:01.374181
+1170,Gadget Y,Clothing,Warehouse 2,Aisle 1,-50.0,29.99,Supplier A,Low Stock,2024-06-17 12:40:01.374181
+1854,Gadget Z,Toys,Warehouse 3,Aisle 1,50.0,29.99,Supplier B,Out of Stock,2023-01-15 00:00:00.000000
+1243,Gadget Z,Toys,Warehouse 2,Aisle 1,200.0,9.99,Supplier B,In Stock,2023-04-25 00:00:00.000000
+1595,Widget B,Electronics,Warehouse 2,Aisle 1,150.0,27.15,Supplier C,Out of Stock,2024-06-17 12:40:01.374181
+1400,Gadget X,Toys,Warehouse 1,Aisle 4,100.0,9.99,Supplier B,In Stock,2023-04-25 00:00:00.000000
+1117,Widget A,Toys,Warehouse 3,Aisle 3,161.40142517814726,44.989999999999995,Supplier B,Low Stock,2022-12-20 00:00:00.000000
+1524,Widget A,Furniture,Warehouse 3,Aisle 4,300.0,44.989999999999995,Supplier C,Low Stock,2023-03-05 00:00:00.000000
+1957,Gadget X,Toys,Warehouse 3,Aisle 5,181.59265054995916,19.99,Supplier A,Low Stock,2023-03-05 00:00:00.000000
+1279,Widget B,Furniture,Warehouse 1,Aisle 3,-50.0,19.99,Supplier A,Out of Stock,2024-06-17 12:40:01.374181
+1772,Gadget Y,Clothing,Warehouse 2,Aisle 3,100.0,9.99,Supplier B,Out of Stock,2022-12-20 00:00:00.000000
+1191,Gadget Y,Electronics,Warehouse 2,Aisle 1,200.0,28.08583858764187,Supplier C,Low Stock,2023-03-05 00:00:00.000000
+1369,Widget C,Clothing,Warehouse 3,Aisle 4,161.40142517814726,19.99,Supplier B,In Stock,2023-03-05 00:00:00.000000
+1641,Widget C,Furniture,Warehouse 2,Aisle 3,50.0,29.99,Supplier D,Out of Stock,2023-01-15 00:00:00.000000
+1935,Gadget X,Electronics,Warehouse 2,Aisle 3,181.59206799779733,28.08583858764187,Supplier D,Out of Stock,2023-01-15 00:00:00.000000
+1744,Gadget Z,Toys,Warehouse 1,Aisle 7,181.59199044915897,28.08583858764187,Supplier A,Low Stock,2023-03-05 00:00:00.000000
+1895,Widget B,Clothing,Warehouse 1,Aisle 1,161.40142517814726,28.08583858764187,Supplier C,Low Stock,2022-12-20 00:00:00.000000
+1751,Widget A,Toys,Warehouse 1,Aisle 3,50.0,29.99,Supplier B,In Stock,2023-04-25 00:00:00.000000
+1525,Gadget Z,Clothing,Warehouse 1,Aisle 1,150.0,44.989999999999995,Supplier D,Low Stock,2024-06-17 12:40:01.374181
+1268,Widget B,Electronics,Warehouse 2,Aisle 5,200.0,10.39,Supplier A,Out of Stock,2023-01-15 00:00:00.000000
+1587,Widget A,Furniture,Warehouse 3,Aisle 3,50.0,44.989999999999995,Supplier B,Out of Stock,2023-04-25 00:00:00.000000
+1372,Widget B,Electronics,Warehouse 2,Aisle 3,300.0,44.989999999999995,Supplier C,discontinued,2022-12-20 00:00:00.000000
+1911,Gadget Z,Clothing,Warehouse 1,Aisle 1,200.0,28.08583858764187,Supplier D,In Stock,2024-06-17 12:40:01.374181
+1476,Gadget Y,Toys,Warehouse 1,Aisle 5,200.0,29.99,Supplier B,Out of Stock,2023-03-05 00:00:00.000000
+1747,Widget A,Clothing,Warehouse 1,Unknown,200.0,9.99,Supplier C,In Stock,2022-12-20 00:00:00.000000
+1509,Gadget X,Furniture,Warehouse 2,Aisle 4,50.0,28.08583858764187,Supplier C,In Stock,2023-03-05 00:00:00.000000
+1826,Widget C,Electronics,Warehouse 2,Aisle 5,181.5918533002259,19.99,Supplier B,In Stock,2023-03-05 00:00:00.000000
+1252,Gadget Y,Clothing,Warehouse 3,Aisle 4,-50.0,28.08583858764187,Supplier A,In Stock,2023-03-05 00:00:00.000000
+1130,Widget C,Electronics,Warehouse 3,Aisle 5,200.0,9.99,Supplier C,In Stock,2023-03-05 00:00:00.000000
+1786,Widget B,Clothing,Warehouse 1,Aisle 2,50.0,44.989999999999995,Supplier B,Out of Stock,2024-06-17 12:40:01.374181
+1957,Widget C,Toys,Warehouse 3,Aisle 5,100.0,28.08583858764187,Supplier D,Out of Stock,2024-06-17 12:40:01.374181
+1800,Widget B,Furniture,Warehouse 1,Aisle 1,150.0,44.989999999999995,Supplier A,In Stock,2023-01-15 00:00:00.000000
+1669,Gadget Y,Electronics,Warehouse 2,Aisle 2,50.0,44.989999999999995,Supplier B,In Stock,2024-06-17 12:40:01.374181
+1860,Widget C,Electronics,Warehouse 1,Aisle 3,150.0,28.08583858764187,Supplier C,In Stock,2023-03-05 00:00:00.000000
+1829,Widget A,Furniture,Warehouse 3,Aisle 3,161.40142517814726,28.08583858764187,Supplier A,In Stock,2022-12-20 00:00:00.000000
+1020,Gadget Z,Toys,Warehouse 3,Aisle 4,300.0,19.99,Supplier D,In Stock,2022-12-20 00:00:00.000000
+1396,Widget A,Toys,Warehouse 1,Aisle 1,150.0,29.99,Supplier D,In Stock,2024-06-17 12:40:01.374181
+1418,Widget A,Toys,Warehouse 1,Aisle 3,300.0,19.99,Supplier A,Out of Stock,2024-06-17 12:40:01.374181
+1748,Widget C,furniture,Warehouse 1,Aisle 4,200.0,19.99,Supplier D,IN STOCK,2022-12-20 00:00:00.000000
+1476,Gadget Z,Clothing,Warehouse 1,Aisle 1,161.40142517814726,28.08583858764187,Supplier B,Low Stock,2023-04-25 00:00:00.000000
+1652,Widget B,Toys,Warehouse 2,Aisle 1,300.0,9.99,Supplier C,Low Stock,2022-12-20 00:00:00.000000
+1458,Widget C,Furniture,Warehouse 2,Aisle 3,300.0,44.989999999999995,Supplier A,Low Stock,2022-12-20 00:00:00.000000
+1662,Widget A,Electronics,Warehouse 3,Aisle 3,150.0,19.99,Supplier D,Low Stock,2023-03-05 00:00:00.000000
+1372,Widget C,Electronics,Warehouse 2,Aisle 8,50.0,44.989999999999995,Supplier C,Low Stock,2023-04-25 00:00:00.000000
+1942,Gadget Z,Furniture,Warehouse 3,Aisle 5,100.0,29.99,Supplier C,Low Stock,2024-06-17 12:40:01.374181
+1057,Gadget Y,Toys,Warehouse 1,Aisle 4,161.40142517814726,9.99,Supplier B,Low Stock,2022-12-20 00:00:00.000000
+1021,Widget A,Toys,Warehouse 3,Aisle 3,300.0,28.08583858764187,Supplier A,Low Stock,2023-03-05 00:00:00.000000
+1276,Widget C,Clothing,Warehouse 2,Aisle 5,181.591189409224,29.99,Supplier D,Out of Stock,2022-12-20 00:00:00.000000
+1454,Widget A,Clothing,Warehouse 3,Aisle 1,100.0,9.99,Supplier A,Low Stock,2022-12-20 00:00:00.000000
+1877,Gadget X,Furniture,Warehouse 2,Aisle 4,181.59211216985403,28.08583858764187,Supplier A,Out of Stock,2023-04-25 00:00:00.000000
+1817,Widget C,Furniture,Warehouse 3,Aisle 2,50.0,9.99,Supplier C,In Stock,2023-03-05 00:00:00.000000
+1112,Widget B,Clothing,Warehouse 2,Aisle 5,161.40142517814726,44.989999999999995,Supplier B,In Stock,2022-12-20 00:00:00.000000
+1489,Widget C,Clothing,Warehouse 2,Aisle 4,300.0,9.99,Supplier C,In Stock,2023-01-15 00:00:00.000000
+1313,Widget A,Toys,Warehouse 1,Aisle 4,50.0,9.99,Supplier D,Out of Stock,2023-03-05 00:00:00.000000
+1862,Gadget Z,Electronics,Warehouse 1,Aisle 1,161.40142517814726,28.08583858764187,Supplier D,OUT OF STOCK,2022-12-20 00:00:00.000000
+1187,Widget B,Electronics,Warehouse 2,Aisle 2,-50.0,28.08583858764187,Supplier C,In Stock,2022-12-20 00:00:00.000000
+1838,widget b,Clothing,Warehouse 3,Aisle 4,145.0,9.99,Supplier D,Out of Stock,2023-04-25 00:00:00.000000
+1160,Gadget Y,Furniture,Warehouse 1,Aisle 5,161.40142517814726,29.99,Supplier B,Low Stock,2024-06-17 12:40:01.374181
+1967,gadget y,Clothing,Warehouse 1,Aisle 1,200.0,29.99,Supplier D,Low Stock,2022-12-20 00:00:00.000000
+1301,Widget C,Electronics,Warehouse 2,Aisle 5,161.40142517814726,19.99,Supplier C,Out of Stock,2024-06-17 12:40:01.374181
+1119,Gadget Y,Toys,Warehouse 3,Aisle 5,161.40142517814726,44.989999999999995,Supplier D,In Stock,2023-03-05 00:00:00.000000
+1907,Widget B,Toys,Warehouse 2,Aisle 5,-50.0,28.08583858764187,Supplier B,Low Stock,2024-06-17 12:40:01.374181
+1924,widget c,Furniture,Warehouse 3,Aisle 1,-50.0,9.99,Supplier B,In Stock,2023-01-15 00:00:00.000000
+1236,Widget C,Electronics,Warehouse 1,Aisle 3,300.0,19.99,Supplier A,In Stock,2022-12-20 00:00:00.000000
+1021,Widget B,Clothing,Warehouse 1,Aisle 4,181.59188748172252,19.99,Supplier B,Low Stock,2023-04-25 00:00:00.000000
+1947,Widget B,Furniture,Warehouse 1,Aisle 5,-50.0,44.989999999999995,Supplier B,Out of Stock,2022-12-20 00:00:00.000000
+1942,Gadget Z,Furniture,Warehouse 3,Aisle 1,-50.0,19.99,Supplier C,Low Stock,2024-06-17 12:40:01.374181
+1151,Widget B,Clothing,Warehouse 2,Aisle 4,-50.0,19.99,Supplier A,Low Stock,2024-06-17 12:40:01.374181
+1725,Widget B,Furniture,Warehouse 2,Aisle 5,-50.0,9.99,Supplier A,Out of Stock,2023-04-25 00:00:00.000000
+1686,Widget B,Clothing,Warehouse 1,Aisle 4,181.59141410298616,28.08583858764187,Supplier A,Low Stock,2023-03-05 00:00:00.000000
+1771,Widget A,Toys,Warehouse 3,Unknown,161.40142517814726,19.99,Supplier C,Out of Stock,2023-01-15 00:00:00.000000
+1656,Gadget Z,Toys,Warehouse 1,Aisle 5,300.0,28.08583858764187,Supplier A,In Stock,2022-12-20 00:00:00.000000
+1401,Widget B,Furniture,Warehouse 3,Aisle 2,150.0,44.989999999999995,Supplier D,Low Stock,2022-12-20 00:00:00.000000
+1276,Gadget Y,Clothing,Warehouse 2,Aisle 1,161.40142517814726,19.99,Supplier C,Out of Stock,2023-04-25 00:00:00.000000
+1108,Gadget X,Furniture,Warehouse 1,Aisle 7,300.0,19.99,Supplier B,Out of Stock,2022-12-20 00:00:00.000000
+1191,Widget C,Clothing,Warehouse 2,Aisle 3,100.0,19.99,Supplier A,Low Stock,2022-12-20 00:00:00.000000
+1971,Widget B,Furniture,Warehouse 1,Aisle 4,100.0,44.989999999999995,Supplier A,Out of Stock,2024-06-17 12:40:01.374181
+1026,Widget C,Clothing,Warehouse 3,Aisle 4,55.0,28.08583858764187,Supplier A,Out of Stock,2023-04-25 00:00:00.000000
+1193,Widget A,Electronics,Warehouse 2,Aisle 4,200.0,19.99,Supplier A,Low Stock,2024-06-17 12:40:01.374181
+1450,Widget A,Electronics,Warehouse 2,Aisle 5,195.0,9.99,Supplier D,Out of Stock,2023-03-05 00:00:00.000000
+1504,Widget C,CLOTHING,Warehouse 3,Aisle 3,50.0,28.08583858764187,Supplier C,in stock,2022-12-20 00:00:00.000000
+1075,Widget B,Electronics,Warehouse 1,Aisle 5,200.0,19.99,Supplier A,Low Stock,2023-04-25 00:00:00.000000
+1511,Widget B,Electronics,Warehouse 2,Aisle 3,150.0,44.989999999999995,Supplier C,Discontinued,2024-06-17 12:40:01.374181
+1392,Widget C,Electronics,Warehouse 1,Unknown,200.0,28.08583858764187,Supplier C,Low Stock,2024-06-17 12:40:01.374181
+1697,Gadget Z,Furniture,Warehouse 2,Aisle 3,181.5923956356055,19.99,Supplier A,Out of Stock,2022-12-20 00:00:00.000000
+1105,Gadget X,Electronics,Warehouse 1,Aisle 5,161.40142517814726,29.99,Supplier A,In Stock,2023-01-15 00:00:00.000000
+1400,Gadget Y,Electronics,Warehouse 2,Aisle 2,181.59198619985418,28.08583858764187,Supplier B,Low Stock,2023-04-25 00:00:00.000000
+1146,Gadget Z,Electronics,Warehouse 2,Aisle 4,50.0,19.99,Supplier A,In Stock,2022-12-20 00:00:00.000000
+1317,Gadget Z,Clothing,Warehouse 2,Aisle 3,300.0,28.08583858764187,Supplier B,In Stock,2023-04-25 00:00:00.000000
+1555,Gadget Z,Furniture,Warehouse 1,Aisle 3,300.0,44.989999999999995,Supplier A,Low Stock,2024-06-17 12:40:01.374181
+1162,Gadget X,Clothing,Warehouse 3,Aisle 3,181.59199672471965,28.08583858764187,Supplier C,Low Stock,2024-06-17 12:40:01.374181
+1335,Gadget X,Toys,Warehouse 3,Aisle 5,100.0,28.08583858764187,Supplier A,Low Stock,2022-12-20 00:00:00.000000
+1512,Widget B,Electronics,Warehouse 3,Aisle 3,150.0,44.989999999999995,Supplier A,Low Stock,2023-03-05 00:00:00.000000
+1763,Gadget Y,Electronics,Warehouse 1,Aisle 8,150.0,19.99,Supplier B,In Stock,2022-12-20 00:00:00.000000
+1214,Widget A,Toys,Warehouse 3,Aisle 2,100.0,19.99,Supplier D,Low Stock,2022-12-20 00:00:00.000000
+1116,Widget A,Toys,Warehouse 1,Aisle 1,300.0,30.05,Supplier A,IN STOCK,2024-06-17 12:40:01.374181
+1188,Widget B,Toys,Warehouse 2,Aisle 3,161.40142517814726,29.99,Supplier C,Low Stock,2023-01-15 00:00:00.000000
+1503,Gadget Y,Clothing,Warehouse 2,Unknown,150.0,44.989999999999995,Supplier B,Out of Stock,2022-12-20 00:00:00.000000
+1690,Widget A,Furniture,Warehouse 3,Aisle 5,300.0,44.989999999999995,Supplier D,Low Stock,2023-03-05 00:00:00.000000
+1127,Widget C,Electronics,Warehouse 1,Aisle 4,-41.0,28.08583858764187,Supplier B,Low Stock,2023-01-15 00:00:00.000000
+1652,Gadget Z,Toys,Warehouse 1,Aisle 1,161.40142517814726,44.989999999999995,Supplier B,In Stock,2022-12-20 00:00:00.000000
+1655,Widget B,Electronics,Warehouse 2,Aisle 2,300.0,28.08583858764187,Supplier A,Out of Stock,2022-12-20 00:00:00.000000
+1102,Gadget Y,Electronics,Warehouse 2,Aisle 1,300.0,9.99,Supplier C,In Stock,2024-06-17 12:40:01.374181
+1732,Widget B,Toys,Warehouse 1,Unknown,150.0,19.99,Supplier B,Out of Stock,2022-12-20 00:00:00.000000
+1510,Widget C,Toys,Warehouse 2,Aisle 4,300.0,9.99,Supplier B,In Stock,2023-03-05 00:00:00.000000
+1089,GADGET X,Furniture,Warehouse 3,Aisle 3,140.0,19.99,Supplier A,Low Stock,2023-01-15 00:00:00.000000
+1169,Widget A,Furniture,Warehouse 1,Aisle 4,300.0,9.99,Supplier D,In Stock,2023-03-05 00:00:00.000000
+1455,Widget C,Toys,Warehouse 2,Aisle 1,200.0,19.99,Supplier D,In Stock,2023-01-15 00:00:00.000000
+1095,Widget A,Electronics,Warehouse 3,Aisle 6,181.5920308746673,19.99,Supplier D,Low Stock,2022-12-20 00:00:00.000000
+1384,GADGET Z,Toys,Warehouse 2,Aisle 5,50.0,29.99,Supplier C,Out of Stock,2022-12-20 00:00:00.000000
+1799,Gadget Y,Toys,Warehouse 3,Aisle 2,161.40142517814726,44.989999999999995,Supplier A,In Stock,2024-06-17 12:40:01.374181
+1268,Widget B,Electronics,Warehouse 2,Aisle 5,200.0,9.99,Supplier A,Out of Stock,2023-01-15 00:00:00.000000
+1413,Gadget Y,Electronics,Warehouse 3,Aisle 9,150.0,9.99,Supplier C,Out of Stock,2022-12-20 00:00:00.000000
+1116,Widget A,Toys,Warehouse 1,Aisle 1,300.0,29.99,Supplier A,IN STOCK,2024-06-17 12:40:01.374181
+1870,Widget B,Electronics,Warehouse 3,Aisle 4,-50.0,19.99,Supplier D,Low Stock,2023-03-05 00:00:00.000000
+1818,Gadget X,Toys,Warehouse 3,Aisle 8,150.0,29.99,Supplier B,Low Stock,2022-12-20 00:00:00.000000
+1663,Widget A,Electronics,Warehouse 1,Aisle 2,161.40142517814726,28.08583858764187,Supplier D,Out of Stock,2023-04-25 00:00:00.000000
+1389,Gadget Z,Furniture,Warehouse 2,Aisle 5,100.0,28.08583858764187,Supplier D,Out of Stock,2022-12-20 00:00:00.000000
+1871,Gadget Y,Electronics,Warehouse 3,Aisle 2,-50.0,19.99,Supplier B,In Stock,2023-04-25 00:00:00.000000
+1222,Gadget Y,Furniture,Warehouse 2,Unknown,100.0,29.99,Supplier C,Out of Stock,2022-12-20 00:00:00.000000
+1189,Widget A,Furniture,Warehouse 2,Aisle 1,161.40142517814726,29.99,Supplier A,Low Stock,2023-04-25 00:00:00.000000
+1784,Widget C,Electronics,Warehouse 2,Aisle 1,300.0,44.989999999999995,Supplier A,IN STOCK,2022-12-20 00:00:00.000000
+1087,Widget A,Toys,Warehouse 3,Aisle 3,50.0,28.08583858764187,Supplier C,discontinued,2023-01-15 00:00:00.000000
+1200,Gadget Z,Electronics,Warehouse 2,Aisle 5,150.0,19.99,Supplier C,In Stock,2022-12-20 00:00:00.000000
+1498,Widget A,Furniture,Warehouse 1,Aisle 1,150.0,19.99,Supplier A,In Stock,2022-12-20 00:00:00.000000
+1934,Gadget Y,Electronics,Warehouse 1,Aisle 5,300.0,28.08583858764187,Supplier B,in stock,2023-04-25 00:00:00.000000
+1871,Gadget Z,Clothing,Warehouse 1,Aisle 3,50.0,44.989999999999995,Supplier D,Out of Stock,2022-12-20 00:00:00.000000
+1945,Widget A,Clothing,Warehouse 2,Aisle 2,200.0,29.99,Supplier C,In Stock,2023-04-25 00:00:00.000000
+1387,Widget A,Furniture,Warehouse 2,Aisle 2,161.40142517814726,28.08583858764187,Supplier D,low stock,2024-06-17 12:40:01.374181
+1987,Widget A,Clothing,Warehouse 2,Aisle 4,181.5919743260445,19.99,Supplier B,Low Stock,2024-06-17 12:40:01.374181
+1264,Gadget X,Toys,Warehouse 2,Aisle 5,171.0,44.989999999999995,Supplier B,Low Stock,2022-12-20 00:00:00.000000
+1368,Widget C,Electronics,Warehouse 1,Aisle 3,200.0,19.99,Supplier D,Out of Stock,2024-06-17 12:40:01.374181
+1857,Gadget Y,Clothing,Warehouse 1,Aisle 3,300.0,29.99,Supplier A,Out of Stock,2023-03-05 00:00:00.000000
+1773,Widget C,Furniture,Warehouse 1,Aisle 2,300.0,9.99,Supplier C,In Stock,2023-04-25 00:00:00.000000
+1642,Widget C,Electronics,Warehouse 3,Aisle 4,300.0,29.99,Supplier D,Low Stock,2022-12-20 00:00:00.000000
+1492,Widget B,Clothing,Warehouse 1,Aisle 5,161.40142517814726,29.99,Supplier A,Out of Stock,2023-03-05 00:00:00.000000
+1273,Gadget Z,Toys,Warehouse 1,Aisle 3,300.0,28.08583858764187,Supplier A,In Stock,2022-12-20 00:00:00.000000
+1633,Widget C,Electronics,Warehouse 3,Aisle 2,161.40142517814726,19.99,Supplier C,Low Stock,2024-06-17 12:40:01.374181
+1546,Widget A,Clothing,Warehouse 1,Aisle 4,-50.0,28.08583858764187,Supplier D,Low Stock,2024-06-17 12:40:01.374181
+1959,Gadget X,Toys,Warehouse 3,Unknown,200.0,29.99,Supplier A,Low Stock,2023-03-05 00:00:00.000000
+1024,Widget B,Electronics,Warehouse 1,missing,-50.0,19.99,Supplier B,Low Stock,2022-12-20 00:00:00.000000
+1794,Gadget Z,Clothing,Warehouse 3,Aisle 2,200.0,19.99,Supplier B,In Stock,2022-12-20 00:00:00.000000
+1228,Widget B,Clothing,Warehouse 1,Aisle 3,100.0,44.989999999999995,Supplier D,Out of Stock,2023-04-25 00:00:00.000000
+1103,Widget C,Toys,Warehouse 1,Aisle 1,300.0,9.99,Supplier D,Out of Stock,2022-12-20 00:00:00.000000
+1157,Widget B,Electronics,Warehouse 3,Aisle 4,50.0,29.99,Supplier B,Out of Stock,2022-12-20 00:00:00.000000
+1790,Widget B,Furniture,Warehouse 1,Aisle 1,150.0,29.99,Supplier A,Out of Stock,2023-01-15 00:00:00.000000
+1921,Widget C,Toys,Warehouse 1,Aisle 3,181.5903042846635,44.989999999999995,Supplier C,In Stock,2022-12-20 00:00:00.000000
+1160,Gadget Z,Furniture,Warehouse 1,Aisle 5,181.59147738564258,29.99,Supplier B,In Stock,2023-04-25 00:00:00.000000
+1708,Gadget Z,Toys,Warehouse 3,Aisle 1,200.0,28.08583858764187,Supplier C,Low Stock,2023-03-05 00:00:00.000000
+1410,Gadget X,Clothing,Warehouse 1,Unknown,50.0,44.989999999999995,Supplier B,Out of Stock,2023-04-25 00:00:00.000000
+1735,Gadget Y,Clothing,Warehouse 2,Unknown,300.0,19.99,Supplier D,Low Stock,2023-01-15 00:00:00.000000
+1559,widget a,Electronics,Warehouse 2,Aisle 1,181.59296719081794,19.99,Supplier B,Out of Stock,2023-04-25 00:00:00.000000
+1928,Gadget Y,Toys,Warehouse 1,Aisle 4,161.40142517814726,44.989999999999995,Supplier D,In Stock,2022-12-20 00:00:00.000000
+1550,Gadget Z,CLOTHING,Warehouse 1,Aisle 1,181.5919113430243,19.99,Supplier B,Low Stock,2023-01-15 00:00:00.000000
+1825,Widget C,Toys,Warehouse 3,Aisle 2,100.0,29.99,Supplier D,In Stock,2023-03-05 00:00:00.000000
+1279,Gadget X,Toys,Warehouse 1,Aisle 4,181.59273718695758,19.99,Supplier D,In Stock,2023-03-05 00:00:00.000000
+1676,Widget A,Toys,Warehouse 2,Aisle 7,300.0,44.989999999999995,Supplier B,Out of Stock,2024-06-17 12:40:01.374181
+1804,Gadget Y,Clothing,Warehouse 2,Aisle 2,-50.0,19.99,Supplier B,Low Stock,2023-01-15 00:00:00.000000
+1564,Widget B,Furniture,Warehouse 1,Unknown,100.0,28.08583858764187,Supplier C,Low Stock,2023-01-15 00:00:00.000000
+1883,GADGET Z,Toys,Warehouse 3,Aisle 1,50.0,9.99,Supplier B,IN STOCK,2022-12-20 00:00:00.000000
+1036,Gadget Z,Electronics,Warehouse 2,Aisle 1,200.0,29.99,Supplier D,Out of Stock,2023-01-15 00:00:00.000000
+1373,Widget B,Toys,Warehouse 2,missing,150.0,9.99,Supplier A,Out of Stock,2023-03-05 00:00:00.000000
+1795,Widget C,Clothing,Warehouse 1,Unknown,-50.0,29.99,Supplier B,In Stock,2022-12-20 00:00:00.000000
+1738,Gadget Y,Toys,Warehouse 3,Aisle 1,50.0,44.989999999999995,Supplier A,Low Stock,2022-12-20 00:00:00.000000
+1856,Gadget X,Clothing,Warehouse 1,Aisle 5,150.0,28.08583858764187,Supplier D,Low Stock,2022-12-20 00:00:00.000000
+1224,Gadget Z,Furniture,Warehouse 3,Unknown,181.59177169958832,29.99,Supplier C,Low Stock,2023-03-05 00:00:00.000000
+1658,Widget C,Furniture,Warehouse 1,Aisle 1,150.0,9.99,Supplier B,In Stock,2022-12-20 00:00:00.000000
+1341,Gadget X,Electronics,Warehouse 3,Aisle 1,200.0,44.989999999999995,Supplier D,In Stock,2023-04-25 00:00:00.000000
+1863,gadget z,Clothing,Warehouse 2,Aisle 3,150.0,9.99,Supplier A,Low Stock,2023-03-05 00:00:00.000000
+1831,GADGET Z,Toys,Warehouse 2,Aisle 4,300.0,44.989999999999995,Supplier D,Low Stock,2022-12-20 00:00:00.000000
+1645,Widget C,Clothing,Warehouse 1,Aisle 2,100.0,44.989999999999995,Supplier C,Low Stock,2023-01-15 00:00:00.000000
+1364,Widget C,FURNITURE,Warehouse 1,Aisle 2,300.0,9.99,Supplier C,In Stock,2023-03-05 00:00:00.000000
+1860,Gadget Z,Electronics,Warehouse 2,Aisle 2,100.0,9.99,Supplier D,Out of Stock,2022-12-20 00:00:00.000000
+1656,Gadget Z,Furniture,Warehouse 1,Aisle 5,50.0,28.08583858764187,Supplier A,Out of Stock,2023-03-05 00:00:00.000000
+1749,Gadget Z,Electronics,Warehouse 2,Unknown,161.40142517814726,28.08583858764187,Supplier B,Out of Stock,2023-03-05 00:00:00.000000
+1834,Widget C,Clothing,Warehouse 3,Aisle 2,50.0,29.99,Supplier A,Low Stock,2024-06-17 12:40:01.374181
+1219,Widget C,TOYS,Warehouse 1,Aisle 5,50.0,19.99,Supplier B,Low Stock,2023-01-15 00:00:00.000000
+1226,Widget B,Electronics,Warehouse 1,Aisle 3,300.0,29.99,Supplier D,Low Stock,2022-12-20 00:00:00.000000
+1288,Widget B,Furniture,Warehouse 2,Aisle 5,181.59138609755067,29.99,Supplier A,low stock,2023-01-15 00:00:00.000000
+1288,GADGET Z,Toys,Warehouse 1,Aisle 5,181.5933105685739,9.99,Supplier B,In Stock,2023-01-15 00:00:00.000000
+1604,Widget C,Furniture,Warehouse 2,Aisle 4,181.59137188494594,29.99,Supplier D,In Stock,2023-01-15 00:00:00.000000
+1674,Widget B,Clothing,Warehouse 3,Aisle 4,200.0,19.99,Supplier A,Out of Stock,2022-12-20 00:00:00.000000
+1434,Gadget Z,Furniture,Warehouse 1,Aisle 3,140.0,29.99,Supplier C,Discontinued,2022-12-20 00:00:00.000000
+1374,Widget B,toys,Warehouse 1,Aisle 5,181.59173323120717,28.08583858764187,Supplier A,Out of Stock,2023-04-25 00:00:00.000000
+1822,Gadget Y,Toys,Warehouse 3,Aisle 1,50.0,29.39,Supplier B,Out of Stock,2022-12-20 00:00:00.000000
+1004,Gadget Y,Clothing,Warehouse 3,Aisle 3,300.0,29.99,Supplier A,In Stock,2023-03-05 00:00:00.000000
+1667,Widget B,Furniture,Warehouse 3,Aisle 1,181.59159463741437,28.08583858764187,Supplier B,In Stock,2023-01-15 00:00:00.000000
+1356,Widget B,electronics,Warehouse 3,Aisle 4,181.48215783184796,44.989999999999995,Supplier B,In Stock,2023-04-25 00:00:00.000000
+1378,Widget B,Electronics,Warehouse 1,Aisle 1,300.0,19.99,Supplier B,Low Stock,2023-03-05 00:00:00.000000
+1694,Gadget Y,Toys,Warehouse 2,Aisle 3,150.0,9.99,Supplier D,In Stock,2024-06-17 12:40:01.374181
+1656,Gadget Z,Furniture,Warehouse 1,Aisle 5,50.0,10.0,Supplier A,Out of Stock,2023-03-05 00:00:00.000000
+1828,Widget C,Electronics,Warehouse 3,Aisle 1,150.0,19.99,Supplier D,Out of Stock,2024-06-17 12:40:01.374181
+1974,Widget B,Furniture,Warehouse 3,Aisle 5,100.0,44.989999999999995,Supplier B,Low Stock,2024-06-17 12:40:01.374181
+1112,Widget B,Clothing,Warehouse 2,Aisle 4,161.40142517814726,44.989999999999995,Supplier B,In Stock,2022-12-20 00:00:00.000000
+1391,Widget B,Toys,Central Hub,Aisle 5,50.0,29.99,Supplier A,Out of Stock,2023-03-05 00:00:00.000000
+1189,Widget B,Clothing,Warehouse 2,Aisle 2,150.0,19.99,Supplier A,Out of Stock,2022-12-20 00:00:00.000000
+1959,Gadget X,Toys,Warehouse 3,Unknown,200.0,29.99,Supplier A,Out of Stock,2023-03-05 00:00:00.000000
+1927,Gadget Z,Electronics,Warehouse 2,Aisle 1,181.59238492217102,19.99,Supplier B,In Stock,2022-12-20 00:00:00.000000
+1957,Widget A,Furniture,Warehouse 2,Aisle 2,200.0,29.99,Supplier A,Low Stock,2022-12-20 00:00:00.000000
+1562,Widget B,Electronics,Warehouse 1,Aisle 4,150.0,29.99,Supplier C,Low Stock,2022-12-20 00:00:00.000000
+1879,Widget C,Furniture,Warehouse 2,Aisle 2,161.40142517814726,28.08583858764187,Supplier D,Low Stock,2023-04-25 00:00:00.000000
+1899,Gadget Y,Clothing,Warehouse 3,Aisle 3,150.0,29.99,Supplier D,In Stock,2023-04-25 00:00:00.000000
+1011,Widget A,Clothing,Warehouse 3,Aisle 1,181.59260188138973,9.99,Supplier D,In Stock,2023-03-05 00:00:00.000000
+1647,Gadget X,Electronics,Warehouse 2,Aisle 2,150.0,44.989999999999995,Supplier C,Out of Stock,2022-12-20 00:00:00.000000
+1308,Gadget Y,Clothing,Warehouse 1,Aisle 1,181.59301884101757,10.0,Supplier C,Discontinued,2023-04-25 00:00:00.000000
+1518,Gadget X,Clothing,Warehouse 3,Aisle 4,181.59187337056275,29.99,Supplier A,In Stock,2023-01-15 00:00:00.000000
+1573,Widget B,Electronics,Warehouse 2,Aisle 3,181.59146915172292,28.08583858764187,Supplier A,Out of Stock,2024-06-17 12:40:01.374181
+1902,Widget B,Clothing,Warehouse 1,Aisle 5,200.0,19.99,Supplier A,Low Stock,2023-04-25 00:00:00.000000
+1142,Gadget X,Furniture,Warehouse 2,Aisle 1,150.0,9.99,Supplier C,In Stock,2022-12-20 00:00:00.000000
+1267,Widget A,Clothing,Warehouse 2,Aisle 5,350.0,19.99,Supplier B,Low Stock,2022-12-20 00:00:00.000000
+1860,Widget A,Clothing,Warehouse 2,Aisle 3,100.0,19.99,Supplier B,In Stock,2022-12-20 00:00:00.000000
+1201,Gadget X,Electronics,Warehouse 3,Aisle 4,100.0,9.99,Supplier C,In Stock,2024-06-17 12:40:01.374181
+1606,Widget A,Clothing,Warehouse 2,Aisle 5,161.40142517814726,19.99,Supplier D,Out of Stock,2024-06-17 12:40:01.374181
+1922,Widget B,Toys,Central Hub,Aisle 4,161.40142517814726,19.99,Supplier B,In Stock,2022-12-20 00:00:00.000000
+1064,Widget B,Toys,Warehouse 1,Aisle 4,100.0,28.08583858764187,Supplier A,Discontinued,2022-12-20 00:00:00.000000
+1703,Gadget Y,Toys,Warehouse 3,Aisle 1,300.0,9.99,Supplier A,Low Stock,2023-04-25 00:00:00.000000
+1511,WIDGET C,Clothing,Warehouse 2,Aisle 3,-50.0,29.99,Supplier A,Low Stock,2022-12-20 00:00:00.000000
+1637,Gadget Y,Furniture,Warehouse 1,Aisle 2,181.59206896595785,28.08583858764187,Supplier B,Low Stock,2023-01-15 00:00:00.000000
+1339,Widget C,Furniture,Warehouse 3,Aisle 1,181.5925418715247,9.99,Supplier B,In Stock,2023-03-05 00:00:00.000000
+1565,Widget B,Electronics,Warehouse 3,Aisle 2,100.0,19.99,Supplier B,In Stock,2023-04-25 00:00:00.000000
+1143,Widget C,Furniture,Warehouse 2,Aisle 3,300.0,44.989999999999995,Supplier A,Out of Stock,2023-01-15 00:00:00.000000
+1891,Widget C,Clothing,Warehouse 2,Aisle 5,50.0,28.08583858764187,Supplier B,Out of Stock,2024-06-17 12:40:01.374181
+1270,Widget B,Clothing,Warehouse 3,Aisle 5,181.59184035960905,19.99,Supplier B,Out of Stock,2022-12-20 00:00:00.000000
+1502,Gadget X,Toys,Warehouse 1,Aisle 2,200.0,29.99,Supplier A,In Stock,2022-12-20 00:00:00.000000
+1095,Widget A,Electronics,Warehouse 3,Aisle 4,181.59205027941385,19.99,Supplier D,Low Stock,2022-12-20 00:00:00.000000
+1241,Gadget Y,Furniture,Warehouse 1,Aisle 2,300.0,29.99,Supplier D,Low Stock,2024-06-17 12:40:01.374181
+1915,Widget B,Electronics,Warehouse 3,Aisle 5,50.0,19.99,Supplier B,Low Stock,2024-06-17 12:40:01.374181
+1608,Gadget Y,Electronics,Warehouse 3,Aisle 5,150.0,28.08583858764187,Supplier C,Out of Stock,2022-12-20 00:00:00.000000
+1779,Widget C,Furniture,Warehouse 1,Aisle 4,200.0,28.08583858764187,Supplier B,Low Stock,2022-12-20 00:00:00.000000
+1093,Widget B,Furniture,Warehouse 1,Aisle 4,100.0,29.99,Supplier A,Discontinued,2024-06-17 12:40:01.374181
+1702,Gadget X,Electronics,Warehouse 3,Aisle 5,181.5931786889285,29.99,Supplier C,Out of Stock,2023-01-15 00:00:00.000000
+1162,Gadget Y,Furniture,Warehouse 3,Aisle 4,300.0,9.99,Supplier D,Low Stock,2022-12-20 00:00:00.000000
+1914,Widget C,Electronics,Warehouse 1,Aisle 1,200.0,28.08583858764187,Supplier B,In Stock,2023-03-05 00:00:00.000000
+1116,Gadget X,Toys,Warehouse 3,Aisle 5,100.0,29.99,Supplier D,In Stock,2024-06-17 12:40:01.374181
+1791,Widget A,Furniture,Warehouse 3,Aisle 1,200.0,29.99,Supplier A,Low Stock,2024-06-17 12:40:01.374181
+1446,Widget B,Clothing,Warehouse 1,Aisle 3,100.0,44.989999999999995,Supplier B,In Stock,2024-06-17 12:40:01.374181
+1468,Widget C,Electronics,Warehouse 3,Aisle 3,200.0,28.08583858764187,Supplier B,Out of Stock,2023-03-05 00:00:00.000000
+1962,Widget C,Toys,Warehouse 2,Aisle 4,50.0,28.08583858764187,Supplier D,Low Stock,2022-12-20 00:00:00.000000
+1956,Widget C,Toys,Warehouse 3,Aisle 4,300.0,28.08583858764187,Supplier D,Out of Stock,2022-12-20 00:00:00.000000
+1129,Gadget Y,Furniture,Warehouse 3,Aisle 4,200.0,44.989999999999995,Supplier C,Discontinued,2022-12-20 00:00:00.000000
+1403,Gadget Z,Furniture,Warehouse 2,Aisle 1,181.59187850101483,29.99,Supplier C,Low Stock,2023-01-15 00:00:00.000000
+1320,Widget A,Electronics,Warehouse 1,Aisle 2,161.40142517814726,29.99,Supplier C,Out of Stock,2023-03-05 00:00:00.000000
+1093,Widget B,Furniture,Warehouse 1,Aisle 4,100.0,29.99,Supplier A,Low Stock,2024-06-17 12:40:01.374181
+1818,Gadget Z,TOYS,Warehouse 3,Aisle 4,100.0,29.99,Supplier D,In Stock,2023-01-15 00:00:00.000000
+1690,Widget A,Furniture,Warehouse 3,Aisle 5,300.0,44.989999999999995,Supplier D,Out of Stock,2023-03-05 00:00:00.000000
+1768,Widget C,Furniture,Warehouse 1,Aisle 1,100.0,28.08583858764187,Supplier B,in stock,2022-12-20 00:00:00.000000
+1387,Widget A,Furniture,Warehouse 2,Aisle 2,166.0,28.08583858764187,Supplier D,low stock,2024-06-17 12:40:01.374181
+1728,Gadget Z,Clothing,Warehouse 1,Aisle 5,300.0,9.99,Supplier B,discontinued,2023-04-25 00:00:00.000000
+1444,Gadget Z,Toys,Warehouse 1,Aisle 2,181.59079072578888,44.989999999999995,Supplier B,In Stock,2023-01-15 00:00:00.000000
+1838,widget b,Clothing,Warehouse 3,Aisle 4,150.0,9.99,Supplier D,Out of Stock,2023-04-25 00:00:00.000000
+1815,Gadget Z,Clothing,Warehouse 1,Aisle 6,150.0,29.99,Supplier C,Out of Stock,2022-12-20 00:00:00.000000
+1018,Gadget X,Clothing,Warehouse 2,Aisle 5,100.0,29.99,Supplier A,Out of Stock,2023-03-05 00:00:00.000000
+1624,gadget z,Clothing,Warehouse 2,Aisle 1,161.40142517814726,9.99,Supplier C,In Stock,2023-03-05 00:00:00.000000
+1726,Widget C,Electronics,Warehouse 3,Aisle 1,200.0,9.99,Supplier B,In Stock,2023-01-15 00:00:00.000000
+1744,Gadget Z,Toys,Warehouse 1,Aisle 3,181.59202925865205,28.08583858764187,Supplier A,Low Stock,2023-03-05 00:00:00.000000
+1709,Widget A,Electronics,Warehouse 1,Aisle 5,200.0,29.99,Supplier A,In Stock,2023-04-25 00:00:00.000000
+1216,Widget C,Clothing,Warehouse 1,Aisle 3,300.0,28.08583858764187,Supplier C,Low Stock,2023-01-15 00:00:00.000000
+1710,Gadget X,Electronics,Warehouse 1,Aisle 5,50.0,19.99,Supplier B,Out of Stock,2024-06-17 12:40:01.374181
+1705,Widget C,Electronics,Warehouse 3,Aisle 4,50.0,44.989999999999995,Supplier B,Out of Stock,2022-12-20 00:00:00.000000
+1150,Widget B,Clothing,Warehouse 1,Aisle 1,150.0,28.08583858764187,Supplier B,Low Stock,2023-04-25 00:00:00.000000
+1358,Gadget X,Furniture,Warehouse 3,Aisle 3,305.0,29.99,Supplier B,Low Stock,2022-12-20 00:00:00.000000
+1080,Gadget Z,Clothing,Warehouse 1,Aisle 1,161.40142517814726,28.08583858764187,Supplier D,Out of Stock,2023-01-15 00:00:00.000000
+1125,widget b,Clothing,Warehouse 3,Aisle 2,50.0,28.08583858764187,Supplier D,Out of Stock,2023-04-25 00:00:00.000000
+1512,Widget A,Toys,Warehouse 3,Aisle 4,-50.0,19.99,Supplier C,OUT OF STOCK,2023-03-05 00:00:00.000000
+1675,Gadget Z,Toys,Warehouse 2,Aisle 2,150.0,29.99,Supplier D,In Stock,2023-03-05 00:00:00.000000
+1304,Gadget X,Clothing,Warehouse 3,Aisle 2,100.0,9.99,Supplier B,In Stock,2023-04-25 00:00:00.000000
+1414,Gadget X,Electronics,Warehouse 3,Aisle 4,200.0,29.99,Supplier B,Low Stock,2023-03-05 00:00:00.000000
+1651,Gadget X,Furniture,Warehouse 1,Aisle 4,200.0,28.08583858764187,Supplier A,Low Stock,2023-03-05 00:00:00.000000
+1607,Widget C,Clothing,Warehouse 1,Aisle 5,-50.0,28.08583858764187,Supplier B,Low Stock,2023-04-25 00:00:00.000000
+1189,Widget A,Furniture,Warehouse 2,Aisle 7,161.40142517814726,29.99,Supplier A,Low Stock,2023-04-25 00:00:00.000000
+1368,Gadget Z,Electronics,Warehouse 1,Aisle 1,50.0,19.99,Supplier B,In Stock,2023-03-05 00:00:00.000000
+1253,Gadget Y,Furniture,Warehouse 2,Aisle 5,161.40142517814726,30.21,Supplier C,Out of Stock,2022-12-20 00:00:00.000000
+1697,Gadget Z,Furniture,Warehouse 2,Aisle 3,35.0,19.99,Supplier A,Out of Stock,2022-12-20 00:00:00.000000
+1397,Widget B,Electronics,Warehouse 1,Aisle 4,100.0,29.99,Supplier A,In Stock,2023-03-05 00:00:00.000000
+1252,Widget B,Furniture,Warehouse 3,Aisle 5,300.0,9.99,Supplier B,Out of Stock,2023-01-15 00:00:00.000000
+1499,Gadget Z,Toys,Warehouse 2,Aisle 3,161.40142517814726,28.08583858764187,Supplier B,Low Stock,2023-01-15 00:00:00.000000
+1853,Widget C,Toys,Warehouse 1,Aisle 4,300.0,9.99,Supplier B,Low Stock,2023-01-15 00:00:00.000000
+1190,GADGET Z,Electronics,Warehouse 2,Aisle 2,-50.0,28.08583858764187,Supplier A,Low Stock,2023-03-05 00:00:00.000000
+1612,Gadget Z,Toys,Warehouse 2,Aisle 4,300.0,29.99,Supplier D,In Stock,2023-04-25 00:00:00.000000
+1971,Widget C,Furniture,Warehouse 1,Aisle 5,50.0,29.99,Supplier A,In Stock,2022-12-20 00:00:00.000000
+1475,Widget A,Furniture,Warehouse 2,Aisle 1,50.0,29.99,Supplier B,Out of Stock,2023-01-15 00:00:00.000000
+1931,Gadget Y,Electronics,Warehouse 1,Aisle 1,200.0,29.99,Supplier A,Low Stock,2022-12-20 00:00:00.000000
+1952,Gadget Y,Furniture,Warehouse 1,Aisle 5,-50.0,44.989999999999995,Supplier B,Low Stock,2023-01-15 00:00:00.000000
+1623,Widget B,Furniture,Warehouse 2,Aisle 4,300.0,29.99,Supplier B,Out of Stock,2023-04-25 00:00:00.000000
+1034,Widget C,Toys,Warehouse 1,Aisle 2,200.0,19.99,Supplier C,Out of Stock,2023-03-05 00:00:00.000000
+1882,Gadget X,FURNITURE,Warehouse 2,Aisle 5,-50.0,9.99,Supplier D,missing,2023-03-05 00:00:00.000000
+1057,Gadget X,Furniture,Warehouse 3,Aisle 4,200.0,28.08583858764187,Supplier B,In Stock,2022-12-20 00:00:00.000000
+1036,Gadget Z,Furniture,Warehouse 3,Aisle 2,150.0,29.99,Supplier A,Low Stock,2023-03-05 00:00:00.000000
+1138,Widget A,Toys,Warehouse 2,Aisle 3,200.0,29.99,Supplier B,Out of Stock,2022-12-20 00:00:00.000000
+1283,Widget B,Clothing,Warehouse 2,Aisle 2,150.0,44.989999999999995,Supplier D,Out of Stock,2023-03-05 00:00:00.000000
+1733,Widget A,Clothing,Warehouse 3,Aisle 5,50.0,9.99,Supplier B,IN STOCK,2023-03-05 00:00:00.000000
+1556,Gadget X,Clothing,Warehouse 1,Aisle 3,50.0,44.989999999999995,Supplier C,Out of Stock,2023-04-25 00:00:00.000000
+1891,Widget C,Clothing,Warehouse 2,Aisle 9,50.0,28.08583858764187,Supplier B,Out of Stock,2024-06-17 12:40:01.374181
+1217,Widget C,Clothing,Warehouse 3,Aisle 3,-50.0,29.99,Supplier D,Low Stock,2024-06-17 12:40:01.374181
+1856,Gadget Y,Furniture,Warehouse 1,Aisle 3,-50.0,9.99,Supplier B,In Stock,2022-12-20 00:00:00.000000
+1797,Gadget Y,Electronics,Warehouse 2,Aisle 3,50.0,29.99,Supplier A,Out of Stock,2022-12-20 00:00:00.000000
+1989,Gadget Y,Electronics,Warehouse 2,Aisle 3,100.0,19.99,Supplier B,Discontinued,2023-04-25 00:00:00.000000
+1639,Gadget Y,Electronics,Warehouse 1,Aisle 2,50.0,28.08583858764187,Supplier D,Low Stock,2023-01-15 00:00:00.000000
+1219,Widget B,Furniture,Warehouse 2,Aisle 2,181.59030741774657,44.989999999999995,Supplier D,Out of Stock,2022-12-20 00:00:00.000000
+1814,Widget C,Clothing,Warehouse 1,Aisle 2,161.40142517814726,28.08583858764187,Supplier A,In Stock,2023-04-25 00:00:00.000000
+1713,Widget B,Clothing,Warehouse 3,Aisle 5,300.0,28.08583858764187,Supplier D,Out of Stock,2023-01-15 00:00:00.000000
+1393,Gadget Y,Toys,Warehouse 3,Aisle 2,150.0,29.99,Supplier B,Out of Stock,2024-06-17 12:40:01.374181
+1224,Gadget Y,Furniture,Warehouse 2,Aisle 2,181.59205025608776,28.08583858764187,Supplier B,OUT OF STOCK,2023-04-25 00:00:00.000000
+1775,Widget B,Toys,Warehouse 3,Aisle 5,161.40142517814726,9.99,Supplier A,In Stock,2022-12-20 00:00:00.000000
+1282,Gadget Z,Furniture,Warehouse 1,Aisle 1,161.40142517814726,28.08583858764187,Supplier B,Out of Stock,2023-04-25 00:00:00.000000
+1085,Widget B,Clothing,Warehouse 2,Aisle 5,150.0,28.08583858764187,Supplier D,In Stock,2022-12-20 00:00:00.000000
+1928,Gadget Y,Clothing,Warehouse 3,Aisle 2,161.40142517814726,28.08583858764187,Supplier D,In Stock,2023-03-05 00:00:00.000000
+1674,Gadget X,Clothing,Warehouse 1,Aisle 3,300.0,29.99,Supplier B,Out of Stock,2023-04-25 00:00:00.000000
+1908,Widget B,Toys,Warehouse 1,Aisle 1,150.0,29.99,Supplier D,In Stock,2022-12-20 00:00:00.000000
+1863,Widget B,Clothing,Warehouse 2,Aisle 3,-50.0,28.08583858764187,Supplier C,In Stock,2022-12-20 00:00:00.000000
+1089,GADGET X,Furniture,Warehouse 3,Aisle 3,150.0,19.99,Supplier A,Low Stock,2023-01-15 00:00:00.000000
+1878,Gadget X,Toys,Warehouse 2,Aisle 2,150.0,9.99,Supplier D,In Stock,2022-12-20 00:00:00.000000
+1674,Widget B,Clothing,Warehouse 3,Aisle 4,200.0,19.99,Supplier A,In Stock,2022-12-20 00:00:00.000000
+1177,Widget C,Electronics,Warehouse 3,Aisle 2,300.0,44.989999999999995,Supplier B,low stock,2023-01-15 00:00:00.000000
+1176,Gadget X,Toys,Warehouse 3,Aisle 4,300.0,29.99,Supplier A,Low Stock,2023-03-05 00:00:00.000000
+1840,Gadget X,Electronics,Warehouse 2,Aisle 3,150.0,44.989999999999995,Supplier C,In Stock,2023-04-25 00:00:00.000000
+1032,Gadget X,Clothing,Warehouse 1,Aisle 3,161.40142517814726,29.99,Supplier A,Low Stock,2023-01-15 00:00:00.000000
+1225,Widget A,Furniture,Warehouse 1,Aisle 2,-50.0,9.99,Supplier C,Out of Stock,2023-04-25 00:00:00.000000
+1491,Widget A,Electronics,Warehouse 1,Aisle 5,-50.0,19.99,Supplier D,Out of Stock,2023-01-15 00:00:00.000000
+1189,Widget B,Clothing,Warehouse 2,Aisle 2,150.0,19.99,Supplier A,In Stock,2022-12-20 00:00:00.000000
+1657,Gadget X,Toys,Warehouse 2,Aisle 4,50.0,28.08583858764187,Supplier B,in stock,2023-01-15 00:00:00.000000
+1040,WIDGET C,Furniture,Warehouse 1,Aisle 3,50.0,29.99,Supplier B,Low Stock,2023-01-15 00:00:00.000000
+1510,Widget A,Electronics,Warehouse 2,Aisle 3,200.0,28.08583858764187,Supplier D,In Stock,2024-06-17 12:40:01.374181
+1505,Gadget Z,Furniture,Warehouse 3,Aisle 2,161.40142517814726,19.99,Supplier D,Out of Stock,2022-12-20 00:00:00.000000
+1392,Widget C,Electronics,Warehouse 2,Aisle 3,161.40142517814726,19.99,Supplier C,Low Stock,2022-12-20 00:00:00.000000
+1026,Widget C,Clothing,Warehouse 3,Aisle 4,50.0,28.08583858764187,Supplier A,Out of Stock,2023-04-25 00:00:00.000000
+1226,Gadget Y,Furniture,Warehouse 1,Aisle 5,-50.0,9.99,Supplier C,Out of Stock,2022-12-20 00:00:00.000000
+1200,Gadget Z,Toys,Warehouse 1,Aisle 5,50.0,28.08583858764187,Supplier A,Out of Stock,2024-06-17 12:40:01.374181
+1112,Gadget X,Furniture,Warehouse 1,Aisle 5,50.0,28.08583858764187,Supplier B,In Stock,2023-01-15 00:00:00.000000
+1902,Gadget X,Electronics,Warehouse 2,Aisle 5,300.0,44.989999999999995,Supplier C,OUT OF STOCK,2024-06-17 12:40:01.374181
+1229,Gadget Z,Furniture,Warehouse 2,Aisle 4,-50.0,9.99,Supplier A,Low Stock,2023-01-15 00:00:00.000000
+1627,Gadget Y,Furniture,Warehouse 2,Aisle 4,50.0,29.99,Supplier A,Low Stock,2023-03-05 00:00:00.000000
+1540,Widget B,Electronics,Warehouse 2,Aisle 1,100.0,29.99,Supplier B,Low Stock,2023-03-05 00:00:00.000000
+1627,Widget A,Furniture,Warehouse 1,Aisle 5,100.0,44.989999999999995,Supplier D,In Stock,2023-04-25 00:00:00.000000
+1419,Gadget X,Clothing,Warehouse 1,Aisle 4,150.0,28.08583858764187,Supplier C,Discontinued,2023-04-25 00:00:00.000000
+1735,Widget B,Clothing,Warehouse 3,Aisle 1,300.0,9.99,Supplier D,In Stock,2022-12-20 00:00:00.000000
+1689,Gadget X,Toys,Warehouse 2,Aisle 1,150.0,19.99,Supplier C,Low Stock,2023-03-05 00:00:00.000000
+1815,Gadget X,Electronics,Warehouse 3,Aisle 4,200.0,9.99,Supplier D,Low Stock,2022-12-20 00:00:00.000000
+1179,Gadget Z,Toys,Warehouse 2,Aisle 3,100.0,19.99,Supplier B,Low Stock,2022-12-20 00:00:00.000000
+1836,Widget B,Electronics,Warehouse 1,Aisle 1,150.0,28.08583858764187,Supplier C,Low Stock,2022-12-20 00:00:00.000000
+1505,Widget A,Furniture,Warehouse 1,Aisle 2,-50.0,9.99,Supplier C,Out of Stock,2023-03-05 00:00:00.000000
+1995,Gadget Y,Toys,Warehouse 1,Aisle 4,300.0,19.99,Supplier D,Out of Stock,2024-06-17 12:40:01.374181
+1406,gadget x,Clothing,Warehouse 2,Aisle 3,100.0,29.99,Supplier A,Out of Stock,2022-12-20 00:00:00.000000
+1683,Gadget X,Toys,Warehouse 2,Aisle 2,100.0,19.99,Supplier A,Low Stock,2024-06-17 12:40:01.374181
+1045,Widget C,Electronics,Warehouse 1,Aisle 1,300.0,29.99,Supplier C,In Stock,2022-12-20 00:00:00.000000
+1262,Gadget Z,Electronics,Warehouse 2,Aisle 1,100.0,44.989999999999995,Supplier C,In Stock,2023-01-15 00:00:00.000000
+1387,Gadget Z,Toys,Warehouse 2,Aisle 3,-50.0,29.99,Supplier C,Low Stock,2024-06-17 12:40:01.374181
+1515,Gadget Y,Electronics,Warehouse 2,Aisle 4,300.0,19.99,Supplier B,In Stock,2023-01-15 00:00:00.000000
+1421,Gadget Y,Toys,Warehouse 1,Aisle 3,181.59321181252852,9.99,Supplier C,Low Stock,2023-01-15 00:00:00.000000
+1452,Widget A,Electronics,Warehouse 2,Unknown,100.0,29.99,Supplier A,In Stock,2023-03-05 00:00:00.000000
+1625,Widget A,Clothing,Warehouse 1,Aisle 2,300.0,28.08583858764187,Supplier A,In Stock,2022-12-20 00:00:00.000000
+1769,Gadget Z,Toys,Warehouse 1,Aisle 1,200.0,29.99,Supplier B,In Stock,2022-12-20 00:00:00.000000
+1934,Widget A,Toys,Warehouse 1,Aisle 3,50.0,44.989999999999995,Supplier B,In Stock,2023-03-05 00:00:00.000000
+1562,Gadget Y,Clothing,Warehouse 2,Aisle 1,-50.0,19.99,Supplier C,Low Stock,2024-06-17 12:40:01.374181
+1871,Gadget Z,Electronics,Central Hub,Aisle 4,300.0,28.08583858764187,Supplier B,Low Stock,2023-01-15 00:00:00.000000
+1246,Widget A,Toys,Warehouse 3,Aisle 5,150.0,19.99,Supplier C,Out of Stock,2023-04-25 00:00:00.000000
+1338,Widget B,Electronics,Warehouse 2,Aisle 4,100.0,44.989999999999995,Supplier D,Low Stock,2024-06-17 12:40:01.374181
+1868,Gadget Z,Furniture,Warehouse 1,Aisle 2,150.0,9.99,Supplier A,Out of Stock,2023-04-25 00:00:00.000000
+1956,Widget C,Toys,Warehouse 3,Aisle 10,300.0,28.08583858764187,Supplier D,Out of Stock,2022-12-20 00:00:00.000000
+1675,Widget A,Furniture,Warehouse 1,Aisle 3,181.59271663164765,9.99,Supplier B,Low Stock,2022-12-20 00:00:00.000000
+1460,Widget A,Toys,Warehouse 1,Aisle 3,150.0,28.08583858764187,Supplier B,In Stock,2022-12-20 00:00:00.000000
+1851,Gadget Y,Clothing,Warehouse 2,Aisle 4,181.59062389663174,44.989999999999995,Supplier A,Low Stock,2023-03-05 00:00:00.000000
+1897,Widget C,Clothing,Warehouse 3,Aisle 4,100.0,28.08583858764187,Supplier B,Out of Stock,2022-12-20 00:00:00.000000
+1046,Widget B,Clothing,Warehouse 2,Aisle 1,181.5913332934788,29.99,Supplier A,Low Stock,2023-01-15 00:00:00.000000
+1053,Gadget X,Clothing,Warehouse 3,Aisle 4,295.0,44.989999999999995,Supplier A,In Stock,2023-03-05 00:00:00.000000
+1326,Gadget Z,Toys,Warehouse 1,Aisle 2,50.0,19.99,Supplier D,Low Stock,2022-12-20 00:00:00.000000
+1954,Gadget X,clothing,Warehouse 2,Aisle 1,150.0,44.989999999999995,Supplier C,Low Stock,2023-03-05 00:00:00.000000
+1496,Widget B,Toys,Warehouse 2,Aisle 1,181.59168377484465,28.08583858764187,Supplier C,In Stock,2023-03-05 00:00:00.000000
+1152,Widget C,Furniture,Warehouse 3,Aisle 2,50.0,44.989999999999995,Supplier D,Low Stock,2024-06-17 12:40:01.374181
+1183,Gadget Z,Furniture,Warehouse 3,Aisle 2,161.40142517814726,28.08583858764187,Supplier D,Low Stock,2023-04-25 00:00:00.000000
+1740,Widget B,CLOTHING,Warehouse 3,Aisle 2,-50.0,28.08583858764187,Supplier C,Out of Stock,2022-12-20 00:00:00.000000
+1952,Widget B,furniture,Warehouse 2,Aisle 2,161.40142517814726,29.99,Supplier B,Out of Stock,2022-12-20 00:00:00.000000
+1337,Widget B,Clothing,Warehouse 3,Aisle 5,200.0,9.99,Supplier D,Low Stock,2023-04-25 00:00:00.000000
+1143,Widget C,Toys,Warehouse 3,Aisle 2,100.0,28.08583858764187,Supplier D,low stock,2023-03-05 00:00:00.000000
+1194,Widget A,Electronics,Warehouse 3,Aisle 1,150.0,9.99,Supplier A,Low Stock,2022-12-20 00:00:00.000000
+1489,Gadget Y,ELECTRONICS,Warehouse 1,Aisle 4,200.0,28.08583858764187,Supplier D,Low Stock,2023-04-25 00:00:00.000000
+1419,Gadget X,Furniture,Warehouse 2,Aisle 1,150.0,44.989999999999995,Supplier D,Low Stock,2023-01-15 00:00:00.000000
+1824,gadget z,Toys,Warehouse 2,Aisle 2,150.0,9.99,Supplier C,Low Stock,2022-12-20 00:00:00.000000
+1738,Widget A,Electronics,Warehouse 2,Aisle 1,150.0,44.989999999999995,Supplier B,In Stock,2023-01-15 00:00:00.000000
+1905,Widget A,Toys,Warehouse 2,Aisle 5,300.0,44.989999999999995,Supplier D,Out of Stock,2023-04-25 00:00:00.000000
+1653,Widget B,Clothing,Warehouse 1,Aisle 4,-50.0,28.08583858764187,Supplier B,In Stock,2024-06-17 12:40:01.374181
+1295,Widget C,Toys,Warehouse 2,Aisle 5,150.0,9.99,Supplier C,Low Stock,2024-06-17 12:40:01.374181
+1119,Gadget Z,Electronics,Warehouse 3,Aisle 4,100.0,28.08583858764187,Supplier C,In Stock,2023-03-05 00:00:00.000000
+1797,Gadget Z,Toys,Warehouse 3,Aisle 5,-50.0,9.99,Supplier C,Low Stock,2023-03-05 00:00:00.000000
+1663,widget b,Furniture,Warehouse 2,Aisle 1,200.0,19.99,Supplier C,In Stock,2023-01-15 00:00:00.000000
+1882,Gadget Z,Electronics,Warehouse 1,Aisle 3,300.0,44.989999999999995,Supplier A,In Stock,2022-12-20 00:00:00.000000
+1731,Gadget Y,Toys,Warehouse 3,Aisle 4,150.0,29.99,Supplier B,Out of Stock,2023-03-05 00:00:00.000000
+1517,Widget A,Clothing,Warehouse 1,Aisle 1,161.40142517814726,44.989999999999995,Supplier C,Low Stock,2023-01-15 00:00:00.000000
+1986,Gadget X,Clothing,Warehouse 3,Aisle 3,300.0,28.08583858764187,Supplier D,In Stock,2022-12-20 00:00:00.000000
+1232,Gadget Y,Furniture,Warehouse 1,Aisle 2,150.0,19.99,Supplier C,Out of Stock,2022-12-20 00:00:00.000000
+1806,Widget A,Toys,Warehouse 2,Aisle 2,-50.0,29.99,Supplier B,Low Stock,2023-04-25 00:00:00.000000
+1473,Widget B,Furniture,Warehouse 1,Aisle 5,100.0,29.99,Supplier D,In Stock,2023-04-25 00:00:00.000000
+1389,Gadget Z,ELECTRONICS,Warehouse 1,Aisle 5,300.0,29.99,Supplier D,Low Stock,2022-12-20 00:00:00.000000
+1392,Gadget Z,Clothing,Warehouse 1,Aisle 4,161.40142517814726,9.99,Supplier B,In Stock,2023-03-05 00:00:00.000000
+1821,Widget C,TOYS,Warehouse 3,Aisle 1,100.0,28.08583858764187,Supplier B,Out of Stock,2023-04-25 00:00:00.000000
+1878,Gadget Z,Clothing,Warehouse 2,Aisle 3,181.59181325838193,28.08583858764187,Supplier C,Low Stock,2022-12-20 00:00:00.000000
+1322,Gadget Y,Furniture,Warehouse 1,Aisle 3,200.0,19.99,Supplier C,Out of Stock,2023-03-05 00:00:00.000000
+1731,Widget B,Furniture,Warehouse 2,Aisle 1,-50.0,9.99,Supplier B,Out of Stock,2023-04-25 00:00:00.000000
+1753,Widget C,Furniture,Warehouse 1,Aisle 2,200.0,29.99,Supplier C,In Stock,2022-12-20 00:00:00.000000
+1133,Widget A,Clothing,Warehouse 2,Aisle 4,100.0,9.99,Supplier D,In Stock,2022-12-20 00:00:00.000000
+1255,Widget A,Toys,Warehouse 2,Aisle 2,300.0,28.08583858764187,Supplier B,Out of Stock,2023-03-05 00:00:00.000000
+1395,Widget B,Clothing,Warehouse 2,Aisle 5,161.40142517814726,9.99,Supplier C,Discontinued,2023-01-15 00:00:00.000000
+1612,Gadget Z,Toys,Warehouse 2,Aisle 5,300.0,29.99,Supplier D,In Stock,2023-04-25 00:00:00.000000
+1324,Gadget Y,Toys,Warehouse 1,Aisle 2,-50.0,28.08583858764187,Supplier B,Low Stock,2023-03-05 00:00:00.000000
+1664,Gadget Y,Furniture,Warehouse 2,Aisle 4,150.0,9.99,Supplier A,In Stock,2022-12-20 00:00:00.000000
+1468,Widget C,Electronics,Warehouse 3,Aisle 8,200.0,28.08583858764187,Supplier B,Out of Stock,2023-03-05 00:00:00.000000
+1987,Gadget Z,Electronics,Warehouse 3,Aisle 4,300.0,44.989999999999995,Supplier D,In Stock,2023-03-05 00:00:00.000000
+1851,Gadget Y,Clothing,Warehouse 2,Aisle 2,50.0,44.989999999999995,Supplier D,Low Stock,2023-01-15 00:00:00.000000
+1175,Gadget Y,Furniture,Warehouse 1,Aisle 8,50.0,29.99,Supplier A,low stock,2024-06-17 12:40:01.374181
+1919,Widget B,Toys,Warehouse 3,Aisle 5,161.40142517814726,28.08583858764187,Supplier D,Low Stock,2023-01-15 00:00:00.000000
+1872,Gadget Y,Electronics,Warehouse 2,Aisle 3,161.40142517814726,19.99,Supplier D,In Stock,2024-06-17 12:40:01.374181
+1840,Gadget X,Electronics,Warehouse 2,Aisle 3,155.0,44.989999999999995,Supplier C,In Stock,2023-04-25 00:00:00.000000
+1619,Gadget Z,Clothing,Warehouse 2,Aisle 2,181.59171568029822,29.99,Supplier B,In Stock,2022-12-20 00:00:00.000000
+1875,Widget B,Clothing,Warehouse 1,Aisle 5,161.40142517814726,44.989999999999995,Supplier D,In Stock,2022-12-20 00:00:00.000000
+1230,Widget A,Electronics,Warehouse 1,Aisle 2,100.0,28.08583858764187,Supplier A,Low Stock,2023-04-25 00:00:00.000000
+1782,Gadget Z,Furniture,Warehouse 3,Aisle 4,200.0,28.08583858764187,Supplier C,Out of Stock,2022-12-20 00:00:00.000000
+1459,Gadget Y,Clothing,Warehouse 3,Aisle 2,100.0,28.08583858764187,Supplier D,Out of Stock,2022-12-20 00:00:00.000000
+1016,Gadget X,Toys,Warehouse 3,Aisle 5,50.0,28.08583858764187,Supplier D,in stock,2023-04-25 00:00:00.000000
+1951,Gadget Y,clothing,Warehouse 3,Aisle 1,50.0,44.989999999999995,Supplier C,Low Stock,2022-12-20 00:00:00.000000
+1395,Widget B,Clothing,Warehouse 2,Aisle 5,171.0,9.99,Supplier C,Discontinued,2023-01-15 00:00:00.000000
+1386,Widget C,Clothing,Warehouse 1,Aisle 2,-50.0,19.99,Supplier B,Low Stock,2023-04-25 00:00:00.000000
+1557,Widget B,Toys,Warehouse 3,Aisle 2,300.0,28.08583858764187,Supplier A,Out of Stock,2023-03-05 00:00:00.000000
+1830,Widget A,Toys,Warehouse 2,Aisle 4,161.40142517814726,29.99,Supplier D,Out of Stock,2024-06-17 12:40:01.374181
+1205,Widget C,Electronics,Warehouse 3,Aisle 3,50.0,19.99,Supplier A,Low Stock,2023-03-05 00:00:00.000000
+1750,Gadget Z,electronics,Warehouse 2,Aisle 1,300.0,19.99,Supplier B,Low Stock,2022-12-20 00:00:00.000000
+1853,Gadget Z,Clothing,Warehouse 3,Aisle 3,161.40142517814726,9.99,Supplier C,Low Stock,2022-12-20 00:00:00.000000
+1073,Widget A,Toys,Warehouse 2,Aisle 5,300.0,9.99,Supplier D,In Stock,2024-06-17 12:40:01.374181
+1719,Widget C,Furniture,Warehouse 1,Aisle 1,100.0,28.08583858764187,Supplier C,Out of Stock,2022-12-20 00:00:00.000000
+1931,Gadget X,Toys,Warehouse 1,Aisle 3,161.40142517814726,44.989999999999995,Supplier D,Out of Stock,2023-04-25 00:00:00.000000
+1961,gadget y,Toys,Warehouse 3,Aisle 5,161.40142517814726,19.99,Supplier B,In Stock,2022-12-20 00:00:00.000000
+1222,Widget C,Clothing,Warehouse 2,Aisle 3,150.0,44.989999999999995,Supplier D,Out of Stock,2023-04-25 00:00:00.000000
+1372,Widget C,Electronics,Warehouse 2,Aisle 2,50.0,44.989999999999995,Supplier C,Low Stock,2023-04-25 00:00:00.000000
+1639,Widget C,Electronics,Central Hub,Aisle 2,50.0,29.99,Supplier C,Out of Stock,2022-12-20 00:00:00.000000
+1674,Gadget X,Clothing,Warehouse 1,Aisle 3,300.0,29.99,Supplier B,Low Stock,2023-04-25 00:00:00.000000
+1042,Gadget Y,Electronics,Warehouse 3,Aisle 5,100.0,9.99,Supplier D,In Stock,2022-12-20 00:00:00.000000
+1698,Gadget X,Clothing,Warehouse 1,Unknown,100.0,29.99,Supplier D,Out of Stock,2023-01-15 00:00:00.000000
+1315,Widget C,Electronics,Warehouse 3,Aisle 3,150.0,9.99,Supplier A,Low Stock,2024-06-17 12:40:01.374181
+1561,Widget A,Clothing,Warehouse 3,Aisle 2,50.0,44.989999999999995,Supplier A,Out of Stock,2024-06-17 12:40:01.374181
+1640,Widget A,Toys,Warehouse 3,Aisle 5,200.0,44.989999999999995,Supplier D,Low Stock,2023-03-05 00:00:00.000000
+1524,Gadget Z,Clothing,Warehouse 3,Aisle 1,300.0,44.989999999999995,Supplier B,In Stock,2023-01-15 00:00:00.000000
+1474,Widget A,Furniture,Warehouse 2,Aisle 4,200.0,28.08583858764187,Supplier D,Out of Stock,2023-03-05 00:00:00.000000
+1608,widget a,Furniture,Warehouse 2,Aisle 1,181.59131346785293,44.989999999999995,Supplier C,In Stock,2023-01-15 00:00:00.000000
+1416,Widget A,Clothing,Warehouse 2,Aisle 1,50.0,44.989999999999995,Supplier D,Out of Stock,2022-12-20 00:00:00.000000
+1866,Widget C,Electronics,Warehouse 3,Aisle 2,-50.0,44.989999999999995,Supplier A,Out of Stock,2023-01-15 00:00:00.000000
+1366,Gadget X,Clothing,Warehouse 2,Aisle 2,-50.0,19.99,Supplier A,In Stock,2022-12-20 00:00:00.000000
+1300,Widget B,Electronics,Warehouse 2,Aisle 1,-50.0,28.08583858764187,Supplier D,Out of Stock,2022-12-20 00:00:00.000000
+1659,Gadget X,Furniture,Warehouse 3,Aisle 1,300.0,44.989999999999995,Supplier C,Low Stock,2023-01-15 00:00:00.000000
+1684,Widget C,Furniture,Warehouse 3,Aisle 5,-50.0,28.08583858764187,Supplier B,Low Stock,2022-12-20 00:00:00.000000
+1313,widget b,Toys,Warehouse 3,Aisle 4,-27.0,19.99,Supplier A,In Stock,2023-01-15 00:00:00.000000
+1801,Widget A,Clothing,Warehouse 1,Aisle 3,300.0,44.989999999999995,Supplier D,Out of Stock,2024-06-17 12:40:01.374181
+1191,Widget B,Clothing,Warehouse 3,Aisle 1,181.59191566800433,19.99,Supplier B,In Stock,2024-06-17 12:40:01.374181
+1956,Widget C,Toys,Warehouse 1,Aisle 2,300.0,28.08583858764187,Supplier A,In Stock,2023-04-25 00:00:00.000000
+1957,Gadget X,ELECTRONICS,Warehouse 1,Aisle 2,150.0,44.989999999999995,Supplier A,Low Stock,2022-12-20 00:00:00.000000
+1385,Gadget X,Toys,Warehouse 3,Aisle 10,300.0,19.99,Supplier B,Out of Stock,2023-04-25 00:00:00.000000
+1640,Gadget Z,Clothing,Warehouse 3,Aisle 5,200.0,29.99,Supplier A,Out of Stock,2022-12-20 00:00:00.000000
+1040,Gadget Y,Electronics,Warehouse 2,Aisle 5,50.0,28.08583858764187,Supplier D,Out of Stock,2022-12-20 00:00:00.000000
+1253,Gadget Y,Furniture,Warehouse 2,Aisle 5,161.40142517814726,29.99,Supplier C,Out of Stock,2022-12-20 00:00:00.000000
+1322,Widget A,Toys,Warehouse 1,Aisle 2,100.0,9.99,Supplier A,In Stock,2022-12-20 00:00:00.000000
+1287,Gadget X,Electronics,Warehouse 3,Aisle 3,50.0,28.08583858764187,Supplier B,Out of Stock,2023-01-15 00:00:00.000000
+1814,Gadget Y,Electronics,Warehouse 3,Aisle 1,161.40142517814726,19.99,Supplier B,In Stock,2024-06-17 12:40:01.374181
+1117,Widget A,Toys,Warehouse 3,Aisle 1,161.40142517814726,44.989999999999995,Supplier B,Low Stock,2022-12-20 00:00:00.000000
+1703,Gadget Y,Toys,Warehouse 2,Aisle 4,100.0,28.08583858764187,Supplier A,In Stock,2023-01-15 00:00:00.000000
+1233,Widget C,Toys,Central Hub,Aisle 5,161.40142517814726,44.989999999999995,Supplier A,Out of Stock,2022-12-20 00:00:00.000000
+1217,Widget C,Clothing,Warehouse 3,Aisle 1,150.0,19.99,Supplier D,Out of Stock,2023-01-15 00:00:00.000000
+1839,Gadget Z,Clothing,Warehouse 1,Aisle 5,300.0,28.08583858764187,Supplier A,Out of Stock,2024-06-17 12:40:01.374181
+1273,Gadget Z,Toys,Warehouse 1,Aisle 3,305.0,28.08583858764187,Supplier A,In Stock,2022-12-20 00:00:00.000000
+1571,Widget B,Furniture,Warehouse 3,Aisle 2,100.0,28.08583858764187,Supplier B,in stock,2023-03-05 00:00:00.000000
+1048,WIDGET A,Toys,Warehouse 2,Aisle 4,200.0,28.08583858764187,Supplier B,Low Stock,2022-12-20 00:00:00.000000
+1896,Gadget X,Furniture,Warehouse 2,Aisle 4,300.0,19.99,Supplier D,Low Stock,2023-04-25 00:00:00.000000
+1508,Widget B,Electronics,Warehouse 1,Aisle 3,-50.0,44.989999999999995,Supplier A,In Stock,2022-12-20 00:00:00.000000
+1750,Gadget Y,Furniture,Warehouse 3,Aisle 2,161.40142517814726,9.99,Supplier A,Low Stock,2022-12-20 00:00:00.000000
+1202,Widget C,Clothing,Warehouse 2,Unknown,-50.0,28.08583858764187,Supplier A,Out of Stock,2024-06-17 12:40:01.374181
+1672,Widget C,Electronics,Warehouse 3,Aisle 2,181.5914056222422,28.08583858764187,Supplier B,In Stock,2024-06-17 12:40:01.374181
+1258,Widget B,Toys,Warehouse 1,Aisle 4,300.0,9.99,Supplier D,In Stock,2022-12-20 00:00:00.000000
+1472,Gadget Y,Electronics,Warehouse 1,Aisle 1,100.0,44.989999999999995,Supplier A,Out of Stock,2022-12-20 00:00:00.000000
+1271,Widget B,Toys,Warehouse 2,Aisle 5,50.0,44.989999999999995,Supplier A,In Stock,2023-03-05 00:00:00.000000
+1733,Gadget X,Furniture,Warehouse 3,Aisle 4,150.0,29.99,Supplier D,Low Stock,2023-04-25 00:00:00.000000
+1848,Gadget Y,Clothing,Warehouse 3,Aisle 4,-50.0,29.99,Supplier C,Out of Stock,2023-03-05 00:00:00.000000
+1304,Widget C,Clothing,Warehouse 2,Aisle 1,200.0,28.08583858764187,Supplier B,Low Stock,2023-03-05 00:00:00.000000
+1675,Gadget X,Furniture,Warehouse 2,Aisle 4,161.40142517814726,44.989999999999995,Supplier D,In Stock,2022-12-20 00:00:00.000000
+1568,Widget C,Clothing,Warehouse 2,Aisle 1,181.59004359519875,44.989999999999995,Supplier A,In Stock,2022-12-20 00:00:00.000000
+1998,Gadget Y,Toys,Warehouse 3,Aisle 4,300.0,19.99,Supplier B,Out of Stock,2023-04-25 00:00:00.000000
+1173,Widget B,Furniture,Warehouse 1,Aisle 4,50.0,44.989999999999995,Supplier B,In Stock,2024-06-17 12:40:01.374181
+1041,Gadget Z,Furniture,Warehouse 2,Aisle 5,150.0,44.989999999999995,Supplier A,In Stock,2023-03-05 00:00:00.000000
+1253,Gadget Y,Electronics,Warehouse 2,Aisle 1,181.5920081654504,28.08583858764187,Supplier A,In Stock,2022-12-20 00:00:00.000000
+1438,Gadget Z,Toys,Warehouse 2,Aisle 2,300.0,28.08583858764187,Supplier B,In Stock,2024-06-17 12:40:01.374181
+1838,Widget A,Furniture,Warehouse 3,Aisle 3,50.0,28.08583858764187,Supplier C,In Stock,2022-12-20 00:00:00.000000
+1761,Gadget X,Clothing,Warehouse 3,Aisle 3,50.0,28.08583858764187,Supplier D,Out of Stock,2023-01-15 00:00:00.000000
+1895,Gadget X,Furniture,Warehouse 1,Aisle 4,300.0,28.08583858764187,Supplier B,Out of Stock,2023-01-15 00:00:00.000000
+1200,Gadget X,Furniture,Warehouse 3,Aisle 3,161.40142517814726,28.08583858764187,Supplier C,In Stock,2023-03-05 00:00:00.000000
+1225,Widget A,Furniture,Warehouse 1,Aisle 2,-50.0,9.99,Supplier C,Out of Stock,2023-04-25 00:00:00.000000
+1958,WIDGET A,Furniture,Warehouse 1,Aisle 4,41.0,19.99,Supplier D,In Stock,2023-04-25 00:00:00.000000
+1441,Gadget X,Furniture,Warehouse 3,Aisle 5,181.5908470154002,44.989999999999995,Supplier A,Low Stock,2023-01-15 00:00:00.000000
+1058,Gadget Z,Furniture,Warehouse 1,Aisle 1,150.0,28.08583858764187,Supplier C,In Stock,2023-01-15 00:00:00.000000
+1876,Gadget X,Furniture,Warehouse 3,Aisle 2,50.0,44.989999999999995,Supplier A,In Stock,2022-12-20 00:00:00.000000
+1797,Widget A,Electronics,Warehouse 3,Aisle 1,100.0,44.989999999999995,Supplier C,Out of Stock,2022-12-20 00:00:00.000000
+1928,Widget B,Toys,Warehouse 1,Aisle 4,300.0,29.99,Supplier C,In Stock,2023-04-25 00:00:00.000000
+1401,Widget C,Clothing,Warehouse 3,Aisle 4,300.0,44.989999999999995,Supplier B,Out of Stock,2023-01-15 00:00:00.000000
+1337,Widget C,Clothing,Warehouse 3,Aisle 2,50.0,28.08583858764187,Supplier C,Out of Stock,2023-01-15 00:00:00.000000
+1676,Widget A,Toys,Warehouse 2,Aisle 3,300.0,44.989999999999995,Supplier B,Out of Stock,2024-06-17 12:40:01.374181
+1954,Widget C,Toys,Warehouse 2,Aisle 3,161.40142517814726,9.99,Supplier B,Out of Stock,2023-01-15 00:00:00.000000
+1907,Gadget Z,Electronics,Central Hub,Aisle 4,150.0,44.989999999999995,Supplier C,Out of Stock,2022-12-20 00:00:00.000000
+1257,Widget C,Clothing,Warehouse 2,Aisle 1,50.0,19.99,Supplier A,Low Stock,2024-06-17 12:40:01.374181
+1928,Gadget Z,Toys,Warehouse 1,Aisle 4,200.0,44.989999999999995,Supplier C,Out of Stock,2023-03-05 00:00:00.000000
+1642,Widget C,Electronics,Warehouse 3,Aisle 4,310.0,29.99,Supplier D,Low Stock,2022-12-20 00:00:00.000000
+1929,Gadget Y,Toys,Warehouse 1,Unknown,200.0,44.989999999999995,Supplier B,Out of Stock,2023-01-15 00:00:00.000000
+1471,Gadget X,Electronics,Warehouse 1,Aisle 1,150.0,28.08583858764187,Supplier C,Low Stock,2022-12-20 00:00:00.000000
+1658,GADGET Y,Electronics,Warehouse 2,Aisle 4,150.0,28.08583858764187,Supplier A,In Stock,2022-12-20 00:00:00.000000

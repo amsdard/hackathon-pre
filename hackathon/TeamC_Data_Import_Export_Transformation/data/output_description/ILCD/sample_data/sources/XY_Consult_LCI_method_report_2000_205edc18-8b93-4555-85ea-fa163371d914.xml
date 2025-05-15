@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../../stylesheets/source2html.xsl' ?>
+<sourceDataSet xmlns="http://lca.jrc.it/ILCD/Source" xmlns:common="http://lca.jrc.it/ILCD/Common"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               version="1.1"
+               xsi:schemaLocation="http://lca.jrc.it/ILCD/Source ../../schemas/ILCD_SourceDataSet.xsd">
+   <sourceInformation>
+      <dataSetInformation>
+         <common:UUID>205edc18-8b93-4555-85ea-fa163371d914</common:UUID>
+         <common:shortName xml:lang="en">XY Consult LCI method report 2000</common:shortName>
+         <classificationInformation>
+            <common:classification>
+               <common:class level="0">Other source types</common:class>
+            </common:classification>
+         </classificationInformation>
+         <sourceCitation>XY Consulting Ltd (2000): LCI methodology report. Unpublished.</sourceCitation>
+         <publicationType>Undefined</publicationType>
+         <sourceDescriptionOrComment xml:lang="en">internal method report with conventions, common settings and rules.</sourceDescriptionOrComment>
+         <referenceToDigitalFile uri="../external_docs/XY_Consult_LCI_method_report_2000.pdf"/>
+         <referenceToContact uri="../contacts/XY_Consulting_e4fedd7b-d3bb-46f3-9464-6a0702dc36f9.xml"
+                             type="contact data set"
+                             refObjectId="e4fedd7b-d3bb-46f3-9464-6a0702dc36f9">
+            <common:shortDescription xml:lang="en">XY Consulting Ltd.</common:shortDescription>
+         </referenceToContact>
+      </dataSetInformation>
+   </sourceInformation>
+   <administrativeInformation>
+      <dataEntryBy>
+         <common:timeStamp>2008-08-11T15:42:01.915+07:00</common:timeStamp>
+         <common:referenceToDataSetFormat type="source data set"
+                                          uri="../sources/ILCD_Format_a97a0155-0234-4b87-b4ce-a45da52f2a40.xml"
+                                          refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40">
+            <common:shortDescription>ILCD format</common:shortDescription>
+         </common:referenceToDataSetFormat>
+      </dataEntryBy>
+      <publicationAndOwnership>
+         <common:dataSetVersion>01.00.000</common:dataSetVersion>
+         <common:permanentDataSetURI>http://www.xyconsult.co.uk/ilcd/data/sources/XY_Consult_LCI_method_report_2000_205edc18-8b93-4555-85ea-fa163371d914.xml</common:permanentDataSetURI>
+      </publicationAndOwnership>
+   </administrativeInformation>
+</sourceDataSet>

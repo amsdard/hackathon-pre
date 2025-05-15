@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../../stylesheets/flowproperty2html.xsl' ?>
+<flowproperty:flowPropertyDataSet xmlns:flowproperty="http://lca.jrc.it/ILCD/FlowProperty"
+                                  xmlns:common="http://lca.jrc.it/ILCD/Common"
+                                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                  version="1.1"
+                                  xsi:schemaLocation="http://lca.jrc.it/ILCD/FlowProperty ../../schemas/ILCD_FlowPropertyDataSet.xsd">
+   <flowproperty:flowPropertiesInformation>
+      <flowproperty:dataSetInformation>
+         <common:UUID>08f485ac-ed8d-4764-b8f6-ed3c220abdb8</common:UUID>
+         <common:name xml:lang="en">Mass</common:name>
+         <common:name xml:lang="de">Masse</common:name>
+         <common:synonyms xml:lang="en">Inertia</common:synonyms>
+         <flowproperty:classificationInformation>
+            <common:classification classes="../ILCDClassification.xml" name="ILCD">
+               <common:class level="0">Technical flow properties</common:class>
+            </common:classification>
+         </flowproperty:classificationInformation>
+         <common:generalComment xml:lang="en">Purely illustrative sample data set. NOT TO BE USED FOR LCA WORK.</common:generalComment>
+         <common:generalComment xml:lang="de">Rein illustrativer Datensatz. NICHT FÜR LCA PROJEKTE ZU VERWENDEN.</common:generalComment>
+      </flowproperty:dataSetInformation>
+      <flowproperty:quantitativeReference>
+         <flowproperty:referenceToReferenceUnitGroup type="unit group data set"
+                                                     uri="../unitgroups/Units_of_mass_ab36ced9-899d-4db5-822c-dd11608948c1.xml"
+                                                     refObjectId="ab36ced9-899d-4db5-822c-dd11608948c1">
+            <common:shortDescription xml:lang="en">Units of mass</common:shortDescription>
+            <common:shortDescription xml:lang="de">Einheiten für Masse</common:shortDescription>
+         </flowproperty:referenceToReferenceUnitGroup>
+      </flowproperty:quantitativeReference>
+   </flowproperty:flowPropertiesInformation>
+   <flowproperty:modellingAndValidation>
+      <flowproperty:dataSourcesTreatmentAndRepresentativeness>
+         <flowproperty:referenceToDataSource type="source data set" uri=""
+                                             refObjectId="00000000-0000-0000-0000-000000000000"
+                                             version="00.00">
+            <common:shortDescription xml:lang="en">reference to data source</common:shortDescription>
+            <common:shortDescription xml:lang="de">Referenz zur Datenquelle</common:shortDescription>
+         </flowproperty:referenceToDataSource>
+      </flowproperty:dataSourcesTreatmentAndRepresentativeness>
+      <flowproperty:complianceDeclarations>
+         <flowproperty:compliance>
+            <common:referenceToComplianceSystem type="source data set"
+                                                uri="../sources/ILCD_Compliance_88d4f8d9-60f9-43d1-9ea3-329c10d7d727.xml"
+                                                refObjectId="88d4f8d9-60f9-43d1-9ea3-329c10d7d727">
+               <common:shortDescription xml:lang="en">ILCD Data Network compliance according to rules of the ILCD network</common:shortDescription>
+               <common:shortDescription xml:lang="de">ILCD Konformität gemäß Regeln des ILCD Netzwerkes</common:shortDescription>
+            </common:referenceToComplianceSystem>
+            <common:approvalOfOverallCompliance>Fully compliant</common:approvalOfOverallCompliance>
+         </flowproperty:compliance>
+      </flowproperty:complianceDeclarations>
+   </flowproperty:modellingAndValidation>
+   <flowproperty:administrativeInformation>
+      <flowproperty:dataEntryBy>
+         <common:timeStamp>2008-08-11T15:12:08.837+07:00</common:timeStamp>
+         <common:referenceToDataSetFormat type="source data set"
+                                          uri="../sources/ILCD_Format_a97a0155-0234-4b87-b4ce-a45da52f2a40.xml"
+                                          refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40">
+            <common:shortDescription xml:lang="en">ILCD format</common:shortDescription>
+            <common:shortDescription xml:lang="de">ILCD Format</common:shortDescription>
+         </common:referenceToDataSetFormat>
+      </flowproperty:dataEntryBy>
+      <flowproperty:publicationAndOwnership>
+         <common:dataSetVersion>01.00.000</common:dataSetVersion>
+         <common:permanentDataSetURI>http://www.ilcd-network.org/data/flowproperties/technical/Mass</common:permanentDataSetURI>
+      </flowproperty:publicationAndOwnership>
+   </flowproperty:administrativeInformation>
+</flowproperty:flowPropertyDataSet>

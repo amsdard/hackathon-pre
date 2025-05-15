@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../stylesheets/contact2html.xsl"?>
+<contactDataSet xmlns="http://lca.jrc.it/ILCD/Contact"
+                xmlns:common="http://lca.jrc.it/ILCD/Common"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="http://lca.jrc.it/ILCD/Contact ../../schemas/ILCD_ContactDataSet.xsd"
+                version="1.1">
+   <contactInformation>
+      <dataSetInformation>
+         <common:UUID>4404bae5-e29c-4a7a-a69c-fd36ec2366eb</common:UUID>
+         <common:shortName xml:lang="en">shortName0</common:shortName>
+         <common:shortName xml:lang="de">shortName1</common:shortName>
+         <common:name xml:lang="en">name0</common:name>
+         <common:name xml:lang="de">name1</common:name>
+         <classificationInformation>
+            <common:classification>
+               <common:class level="0" classId="classId1">Organisations</common:class>
+               <common:class level="1" classId="classId3">Other organisations</common:class>
+            </common:classification>
+         </classificationInformation>
+         <contactAddress xml:lang="en">contactAddress0</contactAddress>
+         <contactAddress xml:lang="de">contactAddress1</contactAddress>
+         <telephone>telephone0</telephone>
+         <telefax>telefax0</telefax>
+         <email>email0</email>
+         <WWWAddress>WWWAddress0</WWWAddress>
+         <centralContactPoint xml:lang="en">centralContactPoint0</centralContactPoint>
+         <centralContactPoint xml:lang="de">centralContactPoint1</centralContactPoint>
+         <contactDescriptionOrComment xml:lang="en">contactDescriptionOrComment0</contactDescriptionOrComment>
+         <contactDescriptionOrComment xml:lang="de">contactDescriptionOrComment1</contactDescriptionOrComment>
+         <referenceToContact type="contact data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                             version="00.00"
+                             uri="">
+            <common:shortDescription xml:lang="en">shortDescription0</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription1</common:shortDescription>
+         </referenceToContact>
+         <referenceToContact type="contact data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                             version="00.00"
+                             uri="">
+            <common:shortDescription xml:lang="en">shortDescription2</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription3</common:shortDescription>
+         </referenceToContact>
+         <referenceToLogo type="source data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                          version="00.00"
+                          uri="">
+            <common:shortDescription xml:lang="en">shortDescription4</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription5</common:shortDescription>
+         </referenceToLogo>
+      </dataSetInformation>
+   </contactInformation>
+   <administrativeInformation>
+      <dataEntryBy>
+         <common:timeStamp>2006-05-04T18:13:51.0Z</common:timeStamp>
+         <common:referenceToDataSetFormat type="source data set"
+                                          uri="../sources/ILCD_Format_1_1_a97a0155-0234-4b87-b4ce-a45da52f2a40.xml"
+                                          refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40">
+            <common:shortDescription>ILCD format </common:shortDescription>
+         </common:referenceToDataSetFormat>
+         <common:referenceToDataSetFormat type="source data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                          version="00.00"
+                                          uri="">
+            <common:shortDescription xml:lang="en">shortDescription8</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription9</common:shortDescription>
+         </common:referenceToDataSetFormat>
+      </dataEntryBy>
+      <publicationAndOwnership>
+         <common:dataSetVersion>01.00.000</common:dataSetVersion>
+         <common:referenceToPrecedingDataSetVersion type="contact data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                                    version="00.00"
+                                                    uri="">
+            <common:shortDescription xml:lang="en">shortDescription10</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription11</common:shortDescription>
+         </common:referenceToPrecedingDataSetVersion>
+         <common:referenceToPrecedingDataSetVersion type="contact data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                                    version="00.00"
+                                                    uri="">
+            <common:shortDescription xml:lang="en">shortDescription12</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription13</common:shortDescription>
+         </common:referenceToPrecedingDataSetVersion>
+         <common:permanentDataSetURI/>
+         <common:referenceToOwnershipOfDataSet type="contact data set" refObjectId="00000000-0000-0000-0000-000000000000"
+                                               version="00.00"
+                                               uri="">
+            <common:shortDescription xml:lang="en">shortDescription14</common:shortDescription>
+            <common:shortDescription xml:lang="de">shortDescription15</common:shortDescription>
+         </common:referenceToOwnershipOfDataSet>
+      </publicationAndOwnership>
+   </administrativeInformation>
+</contactDataSet>

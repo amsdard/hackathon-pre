@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<categoryMapping>
+  <mappings type="Process">
+    <map level="0" name="Energy carriers" targetLevel="0" targetName="Energy carriers and technologies"/>
+    <map level="1" name="Energetic raw materials" topCategory="Energy carriers" targetLevel="1" targetName="Energy carriers"/>
+    <map level="1" name="Electricity" topCategory="Energy carriers" targetLevel="1" targetName="Electricity"/>
+    <map level="1" name="Heat and steam" topCategory="Energy carriers" targetLevel="1" targetName="Heat and steam"/>
+    <map level="1" name="Mechanical energy" topCategory="Energy carriers" targetLevel="1" targetName="Mechanical energy"/>
+    <map level="1" name="Hard coal based energy carriers" topCategory="Energy carriers" targetLevel="1" targetName="Hard coal based fuels"/>
+    <map level="1" name="Lignite based energy carriers" topCategory="Energy carriers" targetLevel="1" targetName="Lignite based fuels"/>
+    <map level="1" name="Crude oil based energy carriers" topCategory="Energy carriers" targetLevel="1" targetName="Crude oil based fuels"/>
+    <map level="1" name="Nuclear energy carriers" topCategory="Nuclear energy carriers" targetLevel="1" targetName="Nuclear based fuels"/>
+    <map level="1" name="Other non-renewable energy carriers" topCategory="Energy carriers" targetLevel="1" targetName="Other non-renewable fuels"/>
+    <map level="1" name="Renewable energy carriers" topCategory="Energy carriers" targetLevel="1" targetName="Renewable fuels"/>
+    <map level="1" name="Natural gas based energy carriers" topCategory="Energy carriers" targetLevel="1" targetName="Natural gas based fuels"/>
+    
+    <map level="0" name="Materials" targetLevel="0" targetName="Materials production"/>
+    <map level="1" name="Raw materials" topCategory="Materials" targetLevel="1" targetName="Non-energetic raw materials"/>
+    <map level="1" name="Metals and semimetals" topCategory="Materials" targetLevel="1" targetName="Metals and semimetals"/>
+    <map level="1" name="Organic chemicals" topCategory="Materials" targetLevel="1" targetName="Organic chemicals"/>
+    <map level="1" name="Inorganic chemicals" topCategory="Materials" targetLevel="1" targetName="Inorganic chemicals"/>
+    <map level="1" name="Glass and ceramics" topCategory="Materials" targetLevel="1" targetName="Glass and ceramics"/>
+    <map level="1" name="Other mineralic materials" topCategory="Materials" targetLevel="1" targetName="Other mineralic materials"/>
+    <map level="1" name="Plastics" topCategory="Materials" targetLevel="1" targetName="Plastics"/>
+    <map level="1" name="Paper and cardboards" topCategory="Materials" targetLevel="1" targetName="Paper and cardboards"/>
+    <map level="1" name="Water" topCategory="Materials" targetLevel="1" targetName="Water"/>
+    <map level="1" name="Agricultural production means" topCategory="Materials" targetLevel="1" targetName="Agricultural production means"/>
+    <map level="1" name="Food and renewable raw materials" topCategory="Materials" targetLevel="1" targetName="Food and renewable raw materials"/>
+    <map level="1" name="Wood" topCategory="Materials" targetLevel="1" targetName="Wood"/>
+    <map level="1" name="Other materials" topCategory="Materials" targetLevel="1" targetName="Other materials"/>
+
+    <map level="0" name="Systems" targetLevel="0" targetName="Systems"/>
+    <map level="1" name="Packaging" topCategory="Systems" targetLevel="1" targetName="Packaging"/>
+    <map level="1" name="Electrics and electronics" topCategory="Systems" targetLevel="1" targetName="Electrics and electronics"/>
+    <map level="1" name="Vehicles" topCategory="Systems" targetLevel="1" targetName="Vehicles"/>
+    <map level="1" name="Other machines" topCategory="Systems" targetLevel="1" targetName="Other machines"/>
+    <map level="1" name="Buildings and transport infrastructure" topCategory="Systems" targetLevel="1" targetName="Construction"/>
+    <map level="1" name="White goods" topCategory="Systems" targetLevel="1" targetName="White goods"/>
+    <map level="1" name="Textiles, furnitures and other interiors" topCategory="Systems" targetLevel="1" targetName="Textiles, furnitures and other interiors"/>
+    <map level="1" name="Unspecific parts" topCategory="Systems" targetLevel="1" targetName="Unspecific parts"/>
+    <map level="1" name="Paints and chemical preparations" topCategory="Systems" targetLevel="1" targetName="Paints and chemical preparations"/>
+    <map level="1" name="Other systems" topCategory="Other systems" targetLevel="1" targetName="Packaging"/>
+
+    <map level="0" name="End-of-life treatment" targetLevel="0" targetName="End-of-life treatment"/>
+    <map level="1" name="Reuse or further use" topCategory="End-of-life treatment" targetLevel="1" targetName="Reuse or further use"/>
+    <map level="1" name="Material recycling" topCategory="End-of-life treatment" targetLevel="1" targetName="Material recycling"/>
+    <map level="1" name="Raw material recycling" topCategory="End-of-life treatment" targetLevel="1" targetName="Raw material recycling"/>
+    <map level="1" name="Energy recycling" topCategory="End-of-life treatment" targetLevel="1" targetName="Energy recycling"/>
+    <map level="1" name="Disposal" topCategory="End-of-life treatment" targetLevel="1" targetName="Landfilling"/>
+    <map level="1" name="Waste handling" topCategory="End-of-life treatment" targetLevel="1" targetName="Waste collection"/>
+    <map level="1" name="Waste water treatment" topCategory="End-of-life treatment" targetLevel="1" targetName="Waste water treatment"/>
+    <map level="1" name="Raw gas treatment" topCategory="End-of-life treatment" targetLevel="1" targetName="Raw gas treatment"/>
+    <map level="1" name="Other end-of-life services" topCategory="End-of-life treatment" targetLevel="1" targetName="Other end-of-life services"/>
+
+    <map level="0" name="Transport services" targetLevel="0" targetName="Transport services"/>
+    <map level="1" name="Road" topCategory="Transport services" targetLevel="1" targetName="Road"/>
+    <map level="1" name="Rail" topCategory="Transport services" targetLevel="1" targetName="Rail"/>
+    <map level="1" name="Water" topCategory="Transport services" targetLevel="1" targetName="Water"/>
+    <map level="1" name="Air" topCategory="Transport services" targetLevel="1" targetName="Air"/>
+    <map level="1" name="Other transport" topCategory="Transport services" targetLevel="1" targetName="Other transport"/>
+
+    <map level="0" name="Other Services" targetLevel="0" targetName="Other Services"/>
+    <map level="1" name="Cleaning" topCategory="Other Services" targetLevel="1" targetName="Cleaning"/>
+    <map level="1" name="Storage" topCategory="Other Services" targetLevel="1" targetName="Storage"/>
+    <map level="1" name="Personal services" topCategory="Other Services" targetLevel="1" targetName="Health, social services, beauty and wellness"/>
+    <map level="1" name="Repair and maintenance" topCategory="Other Services" targetLevel="1" targetName="Repair and maintenance"/>
+    <map level="1" name="Sale and whole sale" topCategory="Other Services" targetLevel="1" targetName="Sale and whole sale"/>
+    <map level="1" name="Communication and information services" topCategory="Other Services" targetLevel="1" targetName="Communication and information services"/>
+    <map level="1" name="Other services" topCategory="Other Services" targetLevel="1" targetName="Other services"/>
+
+    <map level="0" name="Use and consumption" targetLevel="0" targetName="Use and consumption"/>
+    <map level="1" name="Consumption of products" topCategory="Use and consumption" targetLevel="1" targetName="Consumption of goods"/>
+    <map level="1" name="Use of energy using products" topCategory="Use and consumption" targetLevel="1" targetName="Use of energy-using products"/>
+    <map level="1" name="Other use and consumption" topCategory="Other use and consumption" targetLevel="1" targetName="Other use and consumption"/>
+  </mappings>
+
+  <mappings type="Flow">
+    <map level="0" name="Emissions to fresh water" targetLevel="0" targetName="Emissions"/>
+    <map level="1" name="Radioactives" topCategory="Emissions to fresh water" targetLevel="1" targetName="Radioactives"/>
+    <map level="1" name="Pesticides" topCategory="Emissions to fresh water" targetLevel="1" targetName="Pesticides"/>
+    <map level="1" name="Particles" topCategory="Emissions to fresh water" targetLevel="1" targetName="Particles"/>
+    <map level="1" name="Metals and semimetals" topCategory="Emissions to fresh water" targetLevel="1" targetName="Metal and semimetal elements and ions"/>
+    <map level="1" name="Non-(semi)metal inorganics" topCategory="Emissions to fresh water" targetLevel="1" targetName="Non-metallic or -semimetallic ions"/>
+    <map level="1" name="Halogenised organics" topCategory="Emissions to fresh water" targetLevel="1" targetName="Other substance type"/>
+    <map level="1" name="Cyclic organics" topCategory="Emissions to fresh water" targetLevel="1" targetName="Cyclic organics"/>
+    <map level="1" name="Acylic organics" topCategory="Emissions to fresh water" targetLevel="1" targetName="Acylic organics"/>
+
+    <map level="0" name="Emissions to sea water" targetLevel="0" targetName="Emissions"/>
+    <map level="1" name="Radioactives" topCategory="Emissions to sea water" targetLevel="1" targetName="Radioactives"/>
+    <map level="1" name="Pesticides" topCategory="Emissions to sea water" targetLevel="1" targetName="Pesticides"/>
+    <map level="1" name="Particles" topCategory="Emissions to sea water" targetLevel="1" targetName="Particles"/>
+    <map level="1" name="Metals and semimetals" topCategory="Emissions to sea water" targetLevel="1" targetName="Metal and semimetal elements and ions"/>
+    <map level="1" name="Non-(semi)metal inorganics" topCategory="Emissions to sea water" targetLevel="1" targetName="Non-metallic or -semimetallic ions"/>
+    <map level="1" name="Halogenised organics" topCategory="Emissions to sea water" targetLevel="1" targetName="Other substance type"/>
+    <map level="1" name="Cyclic organics" topCategory="Emissions to sea water" targetLevel="1" targetName="Cyclic organics"/>
+    <map level="1" name="Acylic organics" topCategory="Emissions to sea water" targetLevel="1" targetName="Acylic organics"/>
+
+    <map level="0" name="Emissions to agricultural soil" targetLevel="0" targetName="Emissions"/>
+    <map level="1" name="Radioactives" topCategory="Emissions to agricultural soil" targetLevel="1" targetName="Radioactives"/>
+    <map level="1" name="Pesticides" topCategory="Emissions to agricultural soil" targetLevel="1" targetName="Pesticides"/>
+    <map level="1" name="Particles" topCategory="Emissions to agricultural soil" targetLevel="1" targetName="Particles"/>
+    <map level="1" name="Metals and semimetals" topCategory="Emissions to agricultural soil" targetLevel="1" targetName="Metal and semimetal elements and ions"/>
+    <map level="1" name="Non-(semi)metal inorganics" topCategory="Emissions to agricultural soil" targetLevel="1" targetName="Non-metallic or -semimetallic ions"/>
+    <map level="1" name="Halogenised organics" topCategory="Emissions to agricultural soil" targetLevel="1" targetName="Other substance type"/>
+    <map level="1" name="Cyclic organics" topCategory="Emissions to agricultural soil" targetLevel="1" targetName="Cyclic organics"/>
+    <map level="1" name="Acylic organics" topCategory="Emissions to agricultural soil" targetLevel="1" targetName="Acylic organics"/>
+
+    <map level="0" name="Emissions to industrial soil" targetLevel="0" targetName="Emissions"/>
+    <map level="1" name="Radioactives" topCategory="Emissions to industrial soil" targetLevel="1" targetName="Radioactives"/>
+    <map level="1" name="Pesticides" topCategory="Emissions to industrial soil" targetLevel="1" targetName="Pesticides"/>
+    <map level="1" name="Particles" topCategory="Emissions to industrial soil" targetLevel="1" targetName="Particles"/>
+    <map level="1" name="Metals and semimetals" topCategory="Emissions to industrial soil" targetLevel="1" targetName="Metal and semimetal elements and ions"/>
+    <map level="1" name="Non-(semi)metal inorganics" topCategory="Emissions to industrial soil" targetLevel="1" targetName="Non-metallic or -semimetallic ions"/>
+    <map level="1" name="Halogenised organics" topCategory="Emissions to industrial soil" targetLevel="1" targetName="Other substance type"/>
+    <map level="1" name="Cyclic organics" topCategory="Emissions to industrial soil" targetLevel="1" targetName="Cyclic organics"/>
+    <map level="1" name="Acylic organics" topCategory="Emissions to industrial soil" targetLevel="1" targetName="Acylic organics"/>
+
+    <map level="0" name="Emissions to air" targetLevel="0" targetName="Emissions"/>
+    <map level="1" name="Radioactives" topCategory="Emissions to air" targetLevel="1" targetName="Radioactives"/>
+    <map level="1" name="Pesticides" topCategory="Emissions to air" targetLevel="1" targetName="Pesticides"/>
+    <map level="1" name="Particles" topCategory="Emissions to air" targetLevel="1" targetName="Particles"/>
+    <map level="1" name="Metals and semimetals" topCategory="Emissions to air" targetLevel="1" targetName="Metal and semimetal elements and ions"/>
+    <map level="1" name="Non-(semi)metal inorganics" topCategory="Emissions to air" targetLevel="1" targetName="Non-metallic or -semimetallic ions"/>
+    <map level="1" name="Halogenised organics" topCategory="Emissions to air" targetLevel="1" targetName="Other substance type"/>
+    <map level="1" name="Cyclic organics" topCategory="Emissions to air" targetLevel="1" targetName="Cyclic organics"/>
+    <map level="1" name="Acylic organics" topCategory="Emissions to air" targetLevel="1" targetName="Acylic organics"/>
+
+    <map level="0" name="Resources" targetLevel="0" targetName="Resources"/>
+    <map level="1" name="Non-renewable material resources" topCategory="Resources" targetLevel="1" targetName="Non-renewable material"/>
+    <map level="1" name="Non-renewable element resources" topCategory="Resources" targetLevel="1" targetName="Non-renewable element"/>
+    <map level="1" name="Non-renewable energy resources" topCategory="Resources" targetLevel="1" targetName="Non-renewable energy"/>
+    <map level="1" name="Renewable material resources" topCategory="Resources" targetLevel="1" targetName="Non-renewable material"/>
+    <map level="1" name="Renewable element resources" topCategory="Resources" targetLevel="1" targetName="Renewable element"/>
+    <map level="1" name="Renewable energetic resources" topCategory="Resources" targetLevel="1" targetName="Renewable energy"/>
+    <map level="1" name="Land use" topCategory="Resources" targetLevel="0" targetName="Land use"/>
+
+    <map level="0" name="Energy carriers" targetLevel="0" targetName="Energy carriers and technologies"/>
+    <map level="1" name="Energetic raw materials" topCategory="Energy carriers" targetLevel="1" targetName="Energy carriers"/>
+    <map level="1" name="Electricity" topCategory="Energy carriers" targetLevel="1" targetName="Electricity"/>
+    <map level="1" name="Heat and steam" topCategory="Energy carriers" targetLevel="1" targetName="Heat and steam"/>
+    <map level="1" name="Mechanical energy" topCategory="Energy carriers" targetLevel="1" targetName="Mechanical energy"/>
+    <map level="1" name="Hard coal based energy carriers" topCategory="Energy carriers" targetLevel="1" targetName="Hard coal based fuels"/>
+    <map level="1" name="Lignite based energy carriers" topCategory="Energy carriers" targetLevel="1" targetName="Lignite based fuels"/>
+    <map level="1" name="Crude oil based energy carriers" topCategory="Energy carriers" targetLevel="1" targetName="Crude oil based fuels"/>
+    <map level="1" name="Nuclear energy carriers" topCategory="Nuclear energy carriers" targetLevel="1" targetName="Nuclear based fuels"/>
+    <map level="1" name="Other non-renewable energy carriers" topCategory="Energy carriers" targetLevel="1" targetName="Other non-renewable fuels"/>
+    <map level="1" name="Renewable energy carriers" topCategory="Energy carriers" targetLevel="1" targetName="Renewable fuels"/>
+
+    <map level="0" name="Materials" targetLevel="0" targetName="Materials production"/>
+    <map level="1" name="Raw materials" topCategory="Materials" targetLevel="1" targetName="Raw materials"/>
+    <map level="1" name="Metals and semimetals" topCategory="Materials" targetLevel="1" targetName="Metals and semimetals"/>
+    <map level="1" name="Organic chemicals" topCategory="Materials" targetLevel="1" targetName="Organic chemicals"/>
+    <map level="1" name="Inorganic chemicals" topCategory="Materials" targetLevel="1" targetName="Inorganic chemicals"/>
+    <map level="1" name="Glass and ceramics" topCategory="Materials" targetLevel="1" targetName="Glass and ceramics"/>
+    <map level="1" name="Other mineralic materials" topCategory="Materials" targetLevel="1" targetName="Other mineralic materials"/>
+    <map level="1" name="Plastics" topCategory="Materials" targetLevel="1" targetName="Plastics"/>
+    <map level="1" name="Paper and cardboards" topCategory="Materials" targetLevel="1" targetName="Paper and cardboards"/>
+    <map level="1" name="Water" topCategory="Materials" targetLevel="1" targetName="Water"/>
+    <map level="1" name="Agricultural production means" topCategory="Materials" targetLevel="1" targetName="Agricultural production means"/>
+    <map level="1" name="Food and renewable raw materials" topCategory="Materials" targetLevel="1" targetName="Food and renewable raw materials"/>
+    <map level="1" name="Wood" topCategory="Materials" targetLevel="1" targetName="Wood"/>
+    <map level="1" name="Other materials" topCategory="Materials" targetLevel="1" targetName="Other materials"/>
+
+    <map level="0" name="Systems" targetLevel="0" targetName="Systems"/>
+    <map level="1" name="Packaging" topCategory="Systems" targetLevel="1" targetName="Packaging"/>
+    <map level="1" name="Electrics and electronics" topCategory="Systems" targetLevel="1" targetName="Electrics and electronics"/>
+    <map level="1" name="Vehicles" topCategory="Systems" targetLevel="1" targetName="Vehicles"/>
+    <map level="1" name="Other machines" topCategory="Systems" targetLevel="1" targetName="Other machines"/>
+    <map level="1" name="Buildings and transport infrastructure" topCategory="Systems" targetLevel="1" targetName="Construction"/>
+    <map level="1" name="White goods" topCategory="Systems" targetLevel="1" targetName="White goods"/>
+    <map level="1" name="Textiles, furnitures and other interiors" topCategory="Systems" targetLevel="1" targetName="Textiles, furnitures and other interiors"/>
+    <map level="1" name="Unspecific parts" topCategory="Systems" targetLevel="1" targetName="Unspecific parts"/>
+    <map level="1" name="Paints and chemical preparations" topCategory="Systems" targetLevel="1" targetName="Paints and chemical preparations"/>
+    <map level="1" name="Other systems" topCategory="Other systems" targetLevel="1" targetName="Packaging"/>
+
+    <map level="0" name="End-of-life treatment" targetLevel="0" targetName="End-of-life treatment"/>
+    <map level="1" name="Reuse or further use" topCategory="End-of-life treatment" targetLevel="1" targetName="Reuse or further use"/>
+    <map level="1" name="Material recycling" topCategory="End-of-life treatment" targetLevel="1" targetName="Material recycling"/>
+    <map level="1" name="Raw material recycling" topCategory="End-of-life treatment" targetLevel="1" targetName="Raw material recycling"/>
+    <map level="1" name="Energy recycling" topCategory="End-of-life treatment" targetLevel="1" targetName="Energy recycling"/>
+    <map level="1" name="Disposal" topCategory="End-of-life treatment" targetLevel="1" targetName="Landfilling"/>
+    <map level="1" name="Waste handling" topCategory="End-of-life treatment" targetLevel="1" targetName="Waste collection"/>
+    <map level="1" name="Waste water treatment" topCategory="End-of-life treatment" targetLevel="1" targetName="Waste water treatment"/>
+    <map level="1" name="Raw gas treatment" topCategory="End-of-life treatment" targetLevel="1" targetName="Raw gas treatment"/>
+    <map level="1" name="Other end-of-life services" topCategory="End-of-life treatment" targetLevel="1" targetName="Other end-of-life services"/>
+
+    <map level="0" name="Transport services" targetLevel="0" targetName="Transport services"/>
+    <map level="1" name="Road" topCategory="Transport services" targetLevel="1" targetName="Road"/>
+    <map level="1" name="Rail" topCategory="Transport services" targetLevel="1" targetName="Rail"/>
+    <map level="1" name="Water" topCategory="Transport services" targetLevel="1" targetName="Water"/>
+    <map level="1" name="Air" topCategory="Transport services" targetLevel="1" targetName="Air"/>
+    <map level="1" name="Other transport" topCategory="Transport services" targetLevel="1" targetName="Other transport"/>
+
+    <map level="0" name="Other Services" targetLevel="0" targetName="Other Services"/>
+    <map level="1" name="Cleaning" topCategory="Other Services" targetLevel="1" targetName="Cleaning"/>
+    <map level="1" name="Storage" topCategory="Other Services" targetLevel="1" targetName="Storage"/>
+    <map level="1" name="Personal services" topCategory="Other Services" targetLevel="1" targetName="Health, social services, beauty and wellness"/>
+    <map level="1" name="Repair and maintenance" topCategory="Other Services" targetLevel="1" targetName="Repair and maintenance"/>
+    <map level="1" name="Sale and whole sale" topCategory="Other Services" targetLevel="1" targetName="Sale and whole sale"/>
+    <map level="1" name="Communication and information services" topCategory="Other Services" targetLevel="1" targetName="Communication and information services"/>
+    <map level="1" name="Other services" topCategory="Other Services" targetLevel="1" targetName="Other services"/>
+
+    <map level="0" name="Use and consumption" targetLevel="0" targetName="Use and consumption"/>
+    <map level="1" name="Consumption of products" topCategory="Use and consumption" targetLevel="1" targetName="Consumption of goods"/>
+    <map level="1" name="Use of energy using products" topCategory="Use and consumption" targetLevel="1" targetName="Use of energy-using products"/>
+    <map level="1" name="Other use and consumption" topCategory="Other use and consumption" targetLevel="1" targetName="Other use and consumption"/>
+
+    <map level="0" name="Wastes" targetLevel="0" targetName="Wastes"/>
+    <map level="1" name="Mining waste" topCategory="Wastes" targetLevel="1" targetName="Mining waste"/>
+    <map level="1" name="Construction waste" topCategory="Wastes" targetLevel="1" targetName="Construction waste"/>
+    <map level="1" name="Production residues" topCategory="Wastes" targetLevel="1" targetName="Production residues"/>
+    <map level="1" name="Post consumer waste" topCategory="Wastes" targetLevel="1" targetName="Post consumer waste"/>
+    <map level="1" name="Radioactive waste" topCategory="Wastes" targetLevel="1" targetName="Radioactive waste"/>
+    <map level="1" name="Raw gas" topCategory="Wastes" targetLevel="1" targetName="Raw gas"/>
+    <map level="1" name="Waste water" topCategory="Wastes" targetLevel="1" targetName="Waste water"/>
+    <map level="1" name="Other waste" topCategory="Wastes" targetLevel="1" targetName="Other waste"/>
+  </mappings>
+
+  <mappings type="ElementaryFlow">
+    <map level="0" name="Emissions to fresh water" targetLevel="0" targetName="Emissions"/>
+    <map level="0" name="Emissions to fresh water" targetLevel="1" targetName="Emissions to water"/>
+    <map level="0" name="Emissions to fresh water" targetLevel="2" targetName="Emissions to fresh water"/>
+
+    <map level="0" name="Emissions to sea water" targetLevel="0" targetName="Emissions"/>
+    <map level="0" name="Emissions to sea water" targetLevel="1" targetName="Emissions to water"/>
+    <map level="0" name="Emissions to sea water" targetLevel="2" targetName="Emissions to sea water"/>
+
+    <map level="0" name="Emissions to agricultural soil" targetLevel="0" targetName="Emissions"/>
+    <map level="0" name="Emissions to agricultural soil" targetLevel="1" targetName="Emissions to soil"/>
+    <map level="0" name="Emissions to agricultural soil" targetLevel="2" targetName="Emissions to agricultural soil"/>
+
+    <map level="0" name="Emissions to industrial soil" targetLevel="0" targetName="Emissions"/>
+    <map level="0" name="Emissions to industrial soil" targetLevel="1" targetName="Emissions to soil"/>
+    <map level="0" name="Emissions to fresh water" targetLevel="2" targetName="Emissions to non-agricultural soil"/>
+
+    <map level="0" name="Emissions to air" targetLevel="0" targetName="Emissions"/>
+    <map level="0" name="Emissions to air" targetLevel="1" targetName="Emissions to air"/>
+    <map level="0" name="Emissions to air" targetLevel="2" targetName="Emissions to air, unspecified"/>
+
+    <map level="0" name="Resources" targetLevel="0" targetName="Resources"/>
+  </mappings>
+
+  <mappings type="FlowProperty">
+    <map level="0" name="Technical flow properties" targetLevel="0" targetName="Technical flow properties"/>
+    <map level="0" name="Chemical composition of flows" targetLevel="0" targetName="Chemical composition of flows"/>
+    <map level="0" name="Economic flow properties" targetLevel="0" targetName="Economic flow properties"/>
+  </mappings>
+
+  <mappings type="UnitGroup">
+    <map level="0" name="Technical unit groups" targetLevel="0" targetName="Technical unit groups"/>
+    <map level="0" name="Chemical composition unit groups" targetLevel="0" targetName="Chemical composition unit groups"/>
+    <map level="0" name="Impact unit groups" targetLevel="0" targetName="Other unit groups"/>
+    <map level="0" name="Economic unit groups" targetLevel="0" targetName="Economic unit groups"/>
+  </mappings>
+
+  <mappings type="Contact">
+    <map level="0" name="Database networks" targetLevel="0" targetName="Group of organisations, project"/>
+    <map level="0" name="Organisations" targetLevel="0" targetName="Organisations"/>
+    <map level="1" name="Private company" topCategory="Organisations" targetLevel="1" targetName="Private companies"/>
+    <map level="1" name="Governmental" topCategory="Organisations" targetLevel="1" targetName="Governmental organisations"/>
+    <map level="1" name="Non-governmental org." topCategory="Organisations" targetLevel="1" targetName="Non-governmental organisations"/>
+    <map level="1" name="Other" topCategory="Organisations" targetLevel="1" targetName="Other organisations"/>
+    <map level="0" name="Working groups" targetLevel="0" targetName="Working groups within organisation"/>
+    <map level="0" name="Persons" targetLevel="0" targetName="Persons"/>
+    <map level="0" name="Others" targetLevel="0" targetName="Other"/>
+  </mappings>
+
+  <mappings type="Source">
+    <map level="0" name="Images" targetLevel="0" targetName="Images"/>
+    <map level="0" name="Data set formats" targetLevel="0" targetName="Data set formats"/>
+    <map level="0" name="Databases" targetLevel="0" targetName="Databases"/>
+    <map level="0" name="Conformity systems" targetLevel="0" targetName="Compliance systems"/>
+    <map level="0" name="Statistical classifications" targetLevel="0" targetName="Statistical classifications"/>
+    <map level="0" name="General information source" targetLevel="0" targetName="Publications and communications"/>
+    <map level="0" name="Others" targetLevel="0" targetName="Other source types"/>
+  </mappings>
+</categoryMapping>
