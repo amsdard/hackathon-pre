@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<u:unitGroupDataSet xmlns:m="http://lca.jrc.it/ILCD/LCIAMethod" xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:s="http://lca.jrc.it/ILCD/Source" xmlns:c="http://lca.jrc.it/ILCD/Contact" xmlns:f="http://lca.jrc.it/ILCD/Flow" xmlns="http://lca.jrc.it/ILCD/Process" xmlns:fp="http://lca.jrc.it/ILCD/FlowProperty" xmlns:u="http://lca.jrc.it/ILCD/UnitGroup" version="1.1">
+    <u:unitGroupInformation>
+        <u:dataSetInformation>
+            <common:UUID>ad38d542-3fe9-439d-9b95-2f5f7752acaf</common:UUID>
+            <common:name xml:lang="en">Unit of mass</common:name>
+            <u:classificationInformation>
+                <common:classification>
+                    <common:class level="0" classId="00d44049-4768-313c-b2a5-c2d545f8e0ec">Technical unit groups</common:class>
+                </common:classification>
+            </u:classificationInformation>
+        </u:dataSetInformation>
+        <u:quantitativeReference>
+            <u:referenceToReferenceUnit>0</u:referenceToReferenceUnit>
+        </u:quantitativeReference>
+    </u:unitGroupInformation>
+    <u:administrativeInformation>
+        <u:dataEntryBy>
+            <common:timeStamp>2017-12-08T14:27:04.000+01:00</common:timeStamp>
+            <common:referenceToDataSetFormat type="source data set" refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40" version="01.01.000" uri="../sources/a97a0155-0234-4b87-b4ce-a45da52f2a40_01.01.000.xml">
+                <common:shortDescription xml:lang="en">ILCD format</common:shortDescription>
+            </common:referenceToDataSetFormat>
+        </u:dataEntryBy>
+        <u:publicationAndOwnership>
+            <common:dataSetVersion>00.00.000</common:dataSetVersion>
+            <common:permanentDataSetURI>http://openlca.org/ilcd/resource/unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf</common:permanentDataSetURI>
+        </u:publicationAndOwnership>
+    </u:administrativeInformation>
+    <u:units>
+        <u:unit xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="1" olca:unitId="17fb6755-1c4c-4097-8d9b-36638bba4229">
+            <u:name>mg</u:name>
+            <u:meanValue>1.0E-6</u:meanValue>
+        </u:unit>
+        <u:unit xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="2" olca:unitId="dead0101-248e-408a-af49-1a68f7244f85">
+            <u:name>centner</u:name>
+            <u:meanValue>50.0</u:meanValue>
+        </u:unit>
+        <u:unit xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="3" olca:unitId="9c99786b-355e-4cb9-8ed1-6721462cdb52">
+            <u:name>g</u:name>
+            <u:meanValue>0.001</u:meanValue>
+        </u:unit>
+        <u:unit xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="4" olca:unitId="976df6ea-3215-4af2-b508-79dc0c3c66dd">
+            <u:name>short ton</u:name>
+            <u:meanValue>907.1940488070398</u:meanValue>
+        </u:unit>
+        <u:unit xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="5" olca:unitId="2b8d19a6-b9ba-4a0c-954f-83a580d99c87">
+            <u:name>t</u:name>
+            <u:meanValue>1000.0</u:meanValue>
+        </u:unit>
+        <u:unit xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="6" olca:unitId="58809255-8eba-4aca-ba4d-84632ac28ed8">
+            <u:name>u</u:name>
+            <u:meanValue>1.6605503063715316E-27</u:meanValue>
+        </u:unit>
+        <u:unit xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="7" olca:unitId="cc1510a8-a9bd-4133-9e12-d88c1f0fc12a">
+            <u:name>lb</u:name>
+            <u:meanValue>0.4535970244035199</u:meanValue>
+        </u:unit>
+        <u:unit xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="8" olca:unitId="f5935698-dc2d-47e7-876f-157fda5035bc">
+            <u:name>metric Carat</u:name>
+            <u:meanValue>2.0E-4</u:meanValue>
+        </u:unit>
+        <u:unit xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="9" olca:unitId="1a51f2ae-6e00-4e33-8ae7-fcebd8eb80ff">
+            <u:name>oz</u:name>
+            <u:meanValue>0.02834949254408346</u:meanValue>
+        </u:unit>
+        <u:unit xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="10" olca:unitId="ba995007-c2dc-46fd-9822-a63ed52c0126">
+            <u:name>long ton</u:name>
+            <u:meanValue>1016.0433240873391</u:meanValue>
+        </u:unit>
+        <u:unit xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="0" olca:unitId="8fc3ea11-7909-4761-bba8-92ea5a103dd6">
+            <u:name>kg</u:name>
+            <u:meanValue>1.0</u:meanValue>
+        </u:unit>
+    </u:units>
+</u:unitGroupDataSet>

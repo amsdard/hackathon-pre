@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<f:flowDataSet xmlns:m="http://lca.jrc.it/ILCD/LCIAMethod" xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:s="http://lca.jrc.it/ILCD/Source" xmlns:c="http://lca.jrc.it/ILCD/Contact" xmlns:f="http://lca.jrc.it/ILCD/Flow" xmlns="http://lca.jrc.it/ILCD/Process" xmlns:fp="http://lca.jrc.it/ILCD/FlowProperty" xmlns:u="http://lca.jrc.it/ILCD/UnitGroup" version="1.1">
+    <f:flowInformation>
+        <f:dataSetInformation>
+            <common:UUID>d71fef59-2e93-450f-b18f-72981f58e312</common:UUID>
+            <f:name>
+                <f:baseName xml:lang="en">Steam (MJ)</f:baseName>
+            </f:name>
+            <f:classificationInformation>
+                <common:classification>
+                    <common:class level="0" classId="5039ae43-057b-3a7e-9c37-e956aa5bf26b">Product flows</common:class>
+                    <common:class level="1" classId="3f25d092-b00d-388c-b413-52daed855e75">Energy carriers and technologies</common:class>
+                    <common:class level="2" classId="4527c40e-2898-3c27-86a1-f4f0da02bc32">Heat and steam</common:class>
+                </common:classification>
+            </f:classificationInformation>
+        </f:dataSetInformation>
+        <f:quantitativeReference>
+            <f:referenceToReferenceFlowProperty>0</f:referenceToReferenceFlowProperty>
+        </f:quantitativeReference>
+    </f:flowInformation>
+    <f:modellingAndValidation>
+        <f:LCIMethod>
+            <f:typeOfDataSet>Product flow</f:typeOfDataSet>
+        </f:LCIMethod>
+    </f:modellingAndValidation>
+    <f:administrativeInformation>
+        <f:dataEntryBy>
+            <common:timeStamp>2019-02-01T00:00:00.000+01:00</common:timeStamp>
+            <common:referenceToDataSetFormat type="source data set" refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40" version="01.01.000" uri="../sources/a97a0155-0234-4b87-b4ce-a45da52f2a40_01.01.000.xml">
+                <common:shortDescription xml:lang="en">ILCD format</common:shortDescription>
+            </common:referenceToDataSetFormat>
+        </f:dataEntryBy>
+        <f:publicationAndOwnership>
+            <common:dataSetVersion>38.00.000</common:dataSetVersion>
+            <common:permanentDataSetURI>http://openlca.org/ilcd/resource/flows/d71fef59-2e93-450f-b18f-72981f58e312</common:permanentDataSetURI>
+        </f:publicationAndOwnership>
+    </f:administrativeInformation>
+    <f:flowProperties>
+        <f:flowProperty dataSetInternalID="1">
+            <f:referenceToFlowPropertyDataSet type="flow property data set" refObjectId="bcf81c0a-9fe9-4b88-a25b-99e0dd64ddaa" version="01.00.000" uri="../flowproperties/bcf81c0a-9fe9-4b88-a25b-99e0dd64ddaa">
+                <common:shortDescription xml:lang="en">Price</common:shortDescription>
+            </f:referenceToFlowPropertyDataSet>
+            <f:meanValue>0.00511291881196219</f:meanValue>
+        </f:flowProperty>
+        <f:flowProperty dataSetInternalID="0">
+            <f:referenceToFlowPropertyDataSet type="flow property data set" refObjectId="e4c75fcd-0d8b-4bb3-a766-563daffab9f9" version="01.00.000" uri="../flowproperties/e4c75fcd-0d8b-4bb3-a766-563daffab9f9">
+                <common:shortDescription xml:lang="en">Energy (net calorific value)</common:shortDescription>
+            </f:referenceToFlowPropertyDataSet>
+            <f:meanValue>1.0</f:meanValue>
+        </f:flowProperty>
+        <f:flowProperty dataSetInternalID="2">
+            <f:referenceToFlowPropertyDataSet type="flow property data set" refObjectId="c9b392a2-c340-4aa8-9190-ec14461e24c7" version="01.00.000" uri="../flowproperties/c9b392a2-c340-4aa8-9190-ec14461e24c7">
+                <common:shortDescription xml:lang="en">Energy (gross calorific value)</common:shortDescription>
+            </f:referenceToFlowPropertyDataSet>
+            <f:meanValue>1.0</f:meanValue>
+        </f:flowProperty>
+        <f:flowProperty dataSetInternalID="3">
+            <f:referenceToFlowPropertyDataSet type="flow property data set" refObjectId="7e18d0ad-e78e-47a0-8e96-1c0a581902e2" version="01.00.000" uri="../flowproperties/7e18d0ad-e78e-47a0-8e96-1c0a581902e2">
+                <common:shortDescription xml:lang="en">Mass</common:shortDescription>
+            </f:referenceToFlowPropertyDataSet>
+            <f:meanValue>0.0</f:meanValue>
+        </f:flowProperty>
+    </f:flowProperties>
+</f:flowDataSet>

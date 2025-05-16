@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<f:flowDataSet xmlns:m="http://lca.jrc.it/ILCD/LCIAMethod" xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:s="http://lca.jrc.it/ILCD/Source" xmlns:c="http://lca.jrc.it/ILCD/Contact" xmlns:f="http://lca.jrc.it/ILCD/Flow" xmlns="http://lca.jrc.it/ILCD/Process" xmlns:fp="http://lca.jrc.it/ILCD/FlowProperty" xmlns:u="http://lca.jrc.it/ILCD/UnitGroup" version="1.1">
+    <f:flowInformation>
+        <f:dataSetInformation>
+            <common:UUID>fa9470ee-6d4b-446e-a1c0-c7da7fdbc36b</common:UUID>
+            <f:name>
+                <f:baseName xml:lang="en">Lake water to turbine, regionalized, BG</f:baseName>
+            </f:name>
+            <f:classificationInformation>
+                <common:elementaryFlowCategorization>
+                    <common:category level="0" catId="f318fa60-bae9-361f-ad5a-5066a0e2a9d1">Elementary flows</common:category>
+                    <common:category level="1" catId="e1340bc4-6a33-3f32-9cc9-57d37ff98b02">Resources</common:category>
+                    <common:category level="2" catId="4b802976-db3e-3f7b-966b-40894ef7a31f">Water</common:category>
+                </common:elementaryFlowCategorization>
+            </f:classificationInformation>
+        </f:dataSetInformation>
+        <f:quantitativeReference>
+            <f:referenceToReferenceFlowProperty>0</f:referenceToReferenceFlowProperty>
+        </f:quantitativeReference>
+    </f:flowInformation>
+    <f:modellingAndValidation>
+        <f:LCIMethod>
+            <f:typeOfDataSet>Elementary flow</f:typeOfDataSet>
+        </f:LCIMethod>
+    </f:modellingAndValidation>
+    <f:administrativeInformation>
+        <f:dataEntryBy>
+            <common:timeStamp>2019-04-01T00:00:00.000+02:00</common:timeStamp>
+            <common:referenceToDataSetFormat type="source data set" refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40" version="01.01.000" uri="../sources/a97a0155-0234-4b87-b4ce-a45da52f2a40_01.01.000.xml">
+                <common:shortDescription xml:lang="en">ILCD format</common:shortDescription>
+            </common:referenceToDataSetFormat>
+        </f:dataEntryBy>
+        <f:publicationAndOwnership>
+            <common:dataSetVersion>38.00.000</common:dataSetVersion>
+            <common:permanentDataSetURI>http://openlca.org/ilcd/resource/flows/fa9470ee-6d4b-446e-a1c0-c7da7fdbc36b</common:permanentDataSetURI>
+        </f:publicationAndOwnership>
+    </f:administrativeInformation>
+    <f:flowProperties>
+        <f:flowProperty dataSetInternalID="1">
+            <f:referenceToFlowPropertyDataSet type="flow property data set" refObjectId="cb9c387f-9128-4f9f-a2ba-8142d64f6a6b" version="01.00.000" uri="../flowproperties/cb9c387f-9128-4f9f-a2ba-8142d64f6a6b">
+                <common:shortDescription xml:lang="en">Volume</common:shortDescription>
+            </f:referenceToFlowPropertyDataSet>
+            <f:meanValue>0.001</f:meanValue>
+        </f:flowProperty>
+        <f:flowProperty dataSetInternalID="0">
+            <f:referenceToFlowPropertyDataSet type="flow property data set" refObjectId="7e18d0ad-e78e-47a0-8e96-1c0a581902e2" version="01.00.000" uri="../flowproperties/7e18d0ad-e78e-47a0-8e96-1c0a581902e2">
+                <common:shortDescription xml:lang="en">Mass</common:shortDescription>
+            </f:referenceToFlowPropertyDataSet>
+            <f:meanValue>1.0</f:meanValue>
+        </f:flowProperty>
+    </f:flowProperties>
+</f:flowDataSet>

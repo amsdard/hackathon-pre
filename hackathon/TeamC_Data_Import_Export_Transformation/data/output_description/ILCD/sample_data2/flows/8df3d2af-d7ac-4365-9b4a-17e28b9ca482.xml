@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<f:flowDataSet xmlns:m="http://lca.jrc.it/ILCD/LCIAMethod" xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:s="http://lca.jrc.it/ILCD/Source" xmlns:c="http://lca.jrc.it/ILCD/Contact" xmlns:f="http://lca.jrc.it/ILCD/Flow" xmlns="http://lca.jrc.it/ILCD/Process" xmlns:fp="http://lca.jrc.it/ILCD/FlowProperty" xmlns:u="http://lca.jrc.it/ILCD/UnitGroup" version="1.1">
+    <f:flowInformation>
+        <f:dataSetInformation>
+            <common:UUID>8df3d2af-d7ac-4365-9b4a-17e28b9ca482</common:UUID>
+            <f:name>
+                <f:baseName xml:lang="en">Radioactive tailings</f:baseName>
+            </f:name>
+            <f:classificationInformation>
+                <common:classification>
+                    <common:class level="0" classId="7c32fea7-1028-39bf-91a6-a4ad8ea5b154">Waste flows</common:class>
+                    <common:class level="1" classId="0d067909-19d2-3d95-86a4-a1d0fef57686">Wastes</common:class>
+                    <common:class level="2" classId="8ffaea00-a01c-3449-bf03-68f1ebb72a5d">Radioactive waste</common:class>
+                </common:classification>
+            </f:classificationInformation>
+        </f:dataSetInformation>
+        <f:quantitativeReference>
+            <f:referenceToReferenceFlowProperty>0</f:referenceToReferenceFlowProperty>
+        </f:quantitativeReference>
+    </f:flowInformation>
+    <f:modellingAndValidation>
+        <f:LCIMethod>
+            <f:typeOfDataSet>Waste flow</f:typeOfDataSet>
+        </f:LCIMethod>
+    </f:modellingAndValidation>
+    <f:administrativeInformation>
+        <f:dataEntryBy>
+            <common:timeStamp>2019-02-01T00:00:00.000+01:00</common:timeStamp>
+            <common:referenceToDataSetFormat type="source data set" refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40" version="01.01.000" uri="../sources/a97a0155-0234-4b87-b4ce-a45da52f2a40_01.01.000.xml">
+                <common:shortDescription xml:lang="en">ILCD format</common:shortDescription>
+            </common:referenceToDataSetFormat>
+        </f:dataEntryBy>
+        <f:publicationAndOwnership>
+            <common:dataSetVersion>36.00.000</common:dataSetVersion>
+            <common:permanentDataSetURI>http://openlca.org/ilcd/resource/flows/8df3d2af-d7ac-4365-9b4a-17e28b9ca482</common:permanentDataSetURI>
+        </f:publicationAndOwnership>
+    </f:administrativeInformation>
+    <f:flowProperties>
+        <f:flowProperty dataSetInternalID="1">
+            <f:referenceToFlowPropertyDataSet type="flow property data set" refObjectId="e08bcebd-b02f-49b6-a411-ce3817d975b0" version="01.00.000" uri="../flowproperties/e08bcebd-b02f-49b6-a411-ce3817d975b0">
+                <common:shortDescription xml:lang="en">Cost</common:shortDescription>
+            </f:referenceToFlowPropertyDataSet>
+            <f:meanValue>0.0</f:meanValue>
+        </f:flowProperty>
+        <f:flowProperty dataSetInternalID="0">
+            <f:referenceToFlowPropertyDataSet type="flow property data set" refObjectId="7e18d0ad-e78e-47a0-8e96-1c0a581902e2" version="01.00.000" uri="../flowproperties/7e18d0ad-e78e-47a0-8e96-1c0a581902e2">
+                <common:shortDescription xml:lang="en">Mass</common:shortDescription>
+            </f:referenceToFlowPropertyDataSet>
+            <f:meanValue>1.0</f:meanValue>
+        </f:flowProperty>
+    </f:flowProperties>
+</f:flowDataSet>

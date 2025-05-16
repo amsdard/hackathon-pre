@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<u:unitGroupDataSet xmlns:m="http://lca.jrc.it/ILCD/LCIAMethod" xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:s="http://lca.jrc.it/ILCD/Source" xmlns:c="http://lca.jrc.it/ILCD/Contact" xmlns:f="http://lca.jrc.it/ILCD/Flow" xmlns="http://lca.jrc.it/ILCD/Process" xmlns:fp="http://lca.jrc.it/ILCD/FlowProperty" xmlns:u="http://lca.jrc.it/ILCD/UnitGroup" version="1.1">
+    <u:unitGroupInformation>
+        <u:dataSetInformation>
+            <common:UUID>c20a03d7-bd90-4569-bc94-66cfd364dfc8</common:UUID>
+            <common:name xml:lang="en">Unit of area</common:name>
+            <u:classificationInformation>
+                <common:classification>
+                    <common:class level="0" classId="00d44049-4768-313c-b2a5-c2d545f8e0ec">Technical unit groups</common:class>
+                </common:classification>
+            </u:classificationInformation>
+        </u:dataSetInformation>
+        <u:quantitativeReference>
+            <u:referenceToReferenceUnit>0</u:referenceToReferenceUnit>
+        </u:quantitativeReference>
+    </u:unitGroupInformation>
+    <u:administrativeInformation>
+        <u:dataEntryBy>
+            <common:timeStamp>2017-01-01T00:00:00.000+01:00</common:timeStamp>
+            <common:referenceToDataSetFormat type="source data set" refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40" version="01.01.000" uri="../sources/a97a0155-0234-4b87-b4ce-a45da52f2a40_01.01.000.xml">
+                <common:shortDescription xml:lang="en">ILCD format</common:shortDescription>
+            </common:referenceToDataSetFormat>
+        </u:dataEntryBy>
+        <u:publicationAndOwnership>
+            <common:dataSetVersion>00.00.000</common:dataSetVersion>
+            <common:permanentDataSetURI>http://openlca.org/ilcd/resource/unitgroups/c20a03d7-bd90-4569-bc94-66cfd364dfc8</common:permanentDataSetURI>
+        </u:publicationAndOwnership>
+    </u:administrativeInformation>
+    <u:units>
+        <u:unit xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="1" olca:unitId="8e93c2e4-7006-46cf-a485-fcd0a0f9be32">
+            <u:name>sqft</u:name>
+            <u:meanValue>0.0929030401442212</u:meanValue>
+        </u:unit>
+        <u:unit xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="0" olca:unitId="ad1c641f-6aef-4443-8a79-804041eaba14">
+            <u:name>sqm</u:name>
+            <u:meanValue>1.0</u:meanValue>
+        </u:unit>
+        <u:unit xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="2" olca:unitId="edd5f431-d4db-41a0-a837-a22011a0767c">
+            <u:name>qkm</u:name>
+            <u:meanValue>1000000.0</u:meanValue>
+        </u:unit>
+        <u:unit xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="3" olca:unitId="0dc0bee6-85b9-4f8b-b021-e47e56bc9247">
+            <u:name>m2</u:name>
+            <u:meanValue>1.0</u:meanValue>
+        </u:unit>
+        <u:unit xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="4" olca:unitId="e2e7986f-8b42-4de7-b9ec-a58f623b6183">
+            <u:name>ha</u:name>
+            <u:meanValue>10000.0</u:meanValue>
+        </u:unit>
+    </u:units>
+</u:unitGroupDataSet>

@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<processDataSet xmlns:m="http://lca.jrc.it/ILCD/LCIAMethod" xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:s="http://lca.jrc.it/ILCD/Source" xmlns:c="http://lca.jrc.it/ILCD/Contact" xmlns:f="http://lca.jrc.it/ILCD/Flow" xmlns="http://lca.jrc.it/ILCD/Process" xmlns:fp="http://lca.jrc.it/ILCD/FlowProperty" xmlns:u="http://lca.jrc.it/ILCD/UnitGroup" version="1.1">
+    <processInformation>
+        <dataSetInformation>
+            <common:UUID>20727948-0184-4a14-b07d-9acdb1bf0ab5</common:UUID>
+            <name>
+                <baseName xml:lang="en">Truck, Euro 5, 14 - 20t gross weight / 11.4t payload capacity, consumption mix, diesel driven, Euro 5, cargo, 14 - 20t gross weight / 11.4t payload capacity</baseName>
+            </name>
+            <classificationInformation>
+                <common:classification>
+                    <common:class level="0" classId="f984e8e5-d8df-31f9-9826-59e325624411">Transport services</common:class>
+                    <common:class level="1" classId="462bd94c-1d21-3c92-ac49-42263f473d5b">Road</common:class>
+                </common:classification>
+            </classificationInformation>
+            <common:generalComment xml:lang="en">- average emission values Euro 5 SCR (non-tampered)&#xD;
+- source emissions/driving share: HBEFA 3.3, status April 2017&#xD;
+- input parameter: distance [km], payload [t], utilisation [-], sulphur content diesel [ppm], driving share motorway/rural/urban&#xD;
+- average sulphur content: EU = 10 ppm</common:generalComment>
+        </dataSetInformation>
+        <quantitativeReference type="Reference flow(s)">
+            <referenceToReferenceFlow>14</referenceToReferenceFlow>
+        </quantitativeReference>
+        <time xmlns:olca="http://openlca.org/ilcd-extensions" olca:startDate="1514761200000" olca:endDate="1609455600000">
+            <common:referenceYear>2018</common:referenceYear>
+            <common:dataSetValidUntil>2021</common:dataSetValidUntil>
+            <common:timeRepresentativenessDescription xml:lang="en">annual average</common:timeRepresentativenessDescription>
+        </time>
+        <geography>
+            <locationOfOperationSupplyOrProduction location="GLO">
+                <descriptionOfRestrictions xml:lang="en">The data set is representative for the mentioned region.</descriptionOfRestrictions>
+            </locationOfOperationSupplyOrProduction>
+        </geography>
+        <technology>
+            <technologyDescriptionAndIncludedProcesses xml:lang="en">Truck as heavy or light duty vehicle for road transport. Variable parameters are: payload, utilisation ratio, distance, sulphur content of fuel and driving share urban/interurban/motorway. Inputs: diesel and cargo. Outputs: cargo and combustion emissions (ammonia, benzene, carbon dioxide, carbon monoxide, methane, nitrogen monoxide, nitrogen dioxide, nitrous oxide, NMVOC, particulate PM 2.5, sulphur dioxide). NMVOC emissions of the truck result from imperfect combustion and evaporation losses via diffusion through the tank. Truck production, end-of-life treatment of the truck and the fuel supply chain (emissions of exploration, refinery, transportation etc.) are not included in the data set.									&#xD;
+For more information please refer to: http://www.gabi-software.com/index.php?id=8375</technologyDescriptionAndIncludedProcesses>
+        </technology>
+        <mathematicalRelations>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="utilisation" olca:scope="process">
+                <meanValue>0.53</meanValue>
+                <comment xml:lang="en">[-] utilisation by mass, default = 0.53</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_CO2_bio" olca:scope="process">
+                <formula>spec_CO2_tot * share_CO2_bio</formula>
+                <meanValue>0.472273151262594</meanValue>
+                <comment xml:lang="en">[gCO2/kg] weighted CO2 emission, biogenic CO2 share of CO2 emission</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_CH4_ru" olca:scope="process">
+                <formula>(3.48789035342634E-4 + (3.88417334761471E-4 - 3.48789035342634E-4) * utilisation) / (payload * 1000 * utilisation)</formula>
+                <meanValue>6.1203580608179E-8</meanValue>
+                <comment xml:lang="en">[gCH4/(kg*km)] CH4 emission rural</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_NO2_ru" olca:scope="process">
+                <formula>(0.124599568545818 + (0.10102866590023 - 0.124599568545818) * utilisation) / (payload * 1000 * utilisation)</formula>
+                <meanValue>1.85546160449613E-5</meanValue>
+                <comment xml:lang="en">[gNO2/(kg*km)] NO2 emissions rural</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="ppm_sulfur" olca:scope="process">
+                <meanValue>10.0</meanValue>
+                <comment xml:lang="en">[ppm] sulphur content in diesel, default Europe = 10 ppm</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_SO2_mw" olca:scope="process">
+                <formula>(ppm_sulfur / 1000000) * 2 * spec_diesel_mw</formula>
+                <meanValue>5.90445214492208E-10</meanValue>
+                <comment xml:lang="en">[kgSO2/(kg*km)] SO2 emission motorway</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_CH4_tot" olca:scope="process">
+                <formula>((share_mw * spec_CH4_mw) + (share_ru * spec_CH4_ru) + (share_ur * spec_CH4_ur)) * distance</formula>
+                <meanValue>6.42200825529839E-6</meanValue>
+                <comment xml:lang="en">[gCH4/kg] CH4 emission weighted</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="distance" olca:scope="process">
+                <meanValue>100.0</meanValue>
+                <comment xml:lang="en">[km] distance start - end, default = 100 km</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_CO2_ru" olca:scope="process">
+                <formula>(474.083526611328 + (616.829528808594 - 474.083526611328) * utilisation) / (payload * 1000 * utilisation)</formula>
+                <meanValue>0.0909862475630386</meanValue>
+                <comment xml:lang="en">[gCO2/(kg*km)] CO2 emission rural</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_diesel_ru" olca:scope="process">
+                <formula>(149.127899169922 + (194.030120849609 - 149.127899169922) * utilisation) / (payload * 1000 * utilisation) / 1000</formula>
+                <meanValue>2.86206680999927E-5</meanValue>
+                <comment xml:lang="en">[kgdiesel/(kg*km)] diesel consumption rural</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_CH4_mw" olca:scope="process">
+                <formula>(3.59896570444107E-4 + (3.84081125957891E-4 - 3.59896570444107E-4) * utilisation) / (payload * 1000 * utilisation)</formula>
+                <meanValue>6.16872533708065E-8</meanValue>
+                <comment xml:lang="en">[gCH4/(kg*km)] CH4 emission motorway</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_CH4_ur" olca:scope="process">
+                <formula>(5.76509337406605E-4 + (6.22596882749349E-4 - 5.76509337406605E-4) * utilisation) / (payload * 1000 * utilisation)</formula>
+                <meanValue>9.94597379076894E-8</meanValue>
+                <comment xml:lang="en">[gCH4/(kg*km)] CH4 emission urban</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_NO_mw" olca:scope="process">
+                <formula>(1.45056114345789 + (1.2470656633377 - 1.45056114345789) * utilisation) / (payload * 1000 * utilisation)</formula>
+                <meanValue>2.22229152432007E-4</meanValue>
+                <comment xml:lang="en">[gNO/(kg*km)] NO emission motorway</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="share_CO2_bio" olca:scope="process">
+                <meanValue>0.05</meanValue>
+                <comment xml:lang="en">[-] share of biogenic C in fuel</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_N2O_ur" olca:scope="process">
+                <formula>(0.037103608250618) / (1000 * tonnage)</formula>
+                <meanValue>6.1409480719328E-6</meanValue>
+                <comment xml:lang="en">[gN2O/(kg*km)] N2O emission urban</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_NMVOC_ru" olca:scope="process">
+                <formula>(0.0141840884461999 + (0.0157956387847662 - 0.0141840884461999) * utilisation) / (payload * 1000 * utilisation)</formula>
+                <meanValue>2.4889457341344E-6</meanValue>
+                <comment xml:lang="en">[gNMVOC/(kg*km)] NMVOC emission rural (without benzene)</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="share_mw" olca:scope="process">
+                <meanValue>0.7</meanValue>
+                <comment xml:lang="en">[-] driving share motorway , default = 0,70</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_N2O_ru" olca:scope="process">
+                <formula>(0.036029264330864) / (1000 * tonnage)</formula>
+                <meanValue>5.96313544039457E-6</meanValue>
+                <comment xml:lang="en">[gN2O/(kg*km)] N2O emission rural</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_benzene_to" olca:scope="process">
+                <formula>((share_mw * spec_benzene_mw) + (share_ru * spec_benzene_ru) + (share_ur * spec_benzene_ur)) * distance</formula>
+                <meanValue>4.46864729439375E-6</meanValue>
+                <comment xml:lang="en">[gbenzene/kg] benzene emission weighted</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_NMVOC_mw" olca:scope="process">
+                <formula>(0.0146357947960496 + (0.0156192984431982 - 0.0146357947960496) * utilisation) / (payload * 1000 * utilisation)</formula>
+                <meanValue>2.50861498329003E-6</meanValue>
+                <comment xml:lang="en">[gNMVOC/(kg*km)] NMVOC emission motorway (without benzene)</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_CO_ru" olca:scope="process">
+                <formula>(0.978865921497344 + (1.13633215427399 - 0.978865921497344) * utilisation) / (payload * 1000 * utilisation)</formula>
+                <meanValue>1.75823075946535E-4</meanValue>
+                <comment xml:lang="en">[gCO/(kg*km)] CO emission rural</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_benzene_ur" olca:scope="process">
+                <formula>(4.01154364226386E-4 + (4.33223671279848E-4 - 4.01154364226386E-4) * utilisation) / (payload * 1000 * utilisation)</formula>
+                <meanValue>6.92073977101491E-8</meanValue>
+                <comment xml:lang="en">[gbenzene/(kg*km)] benzene emission urban</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_NO_tot" olca:scope="process">
+                <formula>((share_mw * spec_NO_mw) + (share_ru * spec_NO_ru) + (share_ur * spec_NO_ur)) * distance</formula>
+                <meanValue>0.0268107252716845</meanValue>
+                <comment xml:lang="en">[gNO/kg] NO emission weighted</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_CO2_ur" olca:scope="process">
+                <formula>(568.56689453125 + (771.14697265625 - 568.56689453125) * utilisation) / (payload * 1000 * utilisation)</formula>
+                <meanValue>0.11187261435576</meanValue>
+                <comment xml:lang="en">[gCO2/(kg*km)] CO2 emission urban</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_NO_ru" olca:scope="process">
+                <formula>(1.65539432317018 + (1.3422379642725 - 1.65539432317018) * utilisation) / (payload * 1000 * utilisation)</formula>
+                <meanValue>2.46511329519101E-4</meanValue>
+                <comment xml:lang="en">[gNO/(kg*km)] NO emission rural</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_NO2_mw" olca:scope="process">
+                <formula>(0.109182022511959 + (0.0938651561737061 - 0.109182022511959) * utilisation) / (payload * 1000 * utilisation)</formula>
+                <meanValue>1.67269254142147E-5</meanValue>
+                <comment xml:lang="en">[gNO2/(kg*km)] NO2 emissions motorway</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_CO2_mw" olca:scope="process">
+                <formula>(508.9248046875 + (618.607177734375 - 508.9248046875) * utilisation) / (payload * 1000 * utilisation)</formula>
+                <meanValue>0.0938524432973095</meanValue>
+                <comment xml:lang="en">[gCO2/(kg*km)] CO2 emission motorway</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_NO2_tot" olca:scope="process">
+                <formula>((share_mw * spec_NO2_mw) + (share_ru * spec_NO2_ru) + (share_ur * spec_NO2_ur)) * distance</formula>
+                <meanValue>0.00201801157995777</meanValue>
+                <comment xml:lang="en">[gNO2/kg] NO2 emissions weighted</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_diesel_tot" olca:scope="process">
+                <formula>((share_mw * spec_Diesel_mw) + (share_ru * spec_Diesel_ru) + (share_ur * spec_Diesel_ur)) * distance</formula>
+                <meanValue>0.00297116845876876</meanValue>
+                <comment xml:lang="en">[kgdiesel/kg] diesel consumption weighted</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="payload" olca:scope="process">
+                <meanValue>11.4</meanValue>
+                <comment xml:lang="en">[t] default = 11,4 t</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_CO_mw" olca:scope="process">
+                <formula>(0.894388139247894 + (0.943169593811035 - 0.894388139247894) * utilisation) / (payload * 1000 * utilisation)</formula>
+                <meanValue>1.52307565403237E-4</meanValue>
+                <comment xml:lang="en">[gCO/(kg*km)] CO emission motorway</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_part_tot" olca:scope="process">
+                <formula>((share_mw * spec_Part_mw) + (share_ru * spec_Part_ru) + (share_ur * spec_Part_ur)) * distance</formula>
+                <meanValue>4.60932782229353E-4</meanValue>
+                <comment xml:lang="en">[gparticle/kg] particle emission weighted</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="share_check" olca:scope="process">
+                <formula>share_mw + share_ru + share_ur</formula>
+                <meanValue>1.0</meanValue>
+                <comment xml:lang="en">Check - value must be 1</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_benzene_mw" olca:scope="process">
+                <formula>(2.5042804190889E-4 + (2.67256429651752E-4 - 2.5042804190889E-4) * utilisation) / (payload * 1000 * utilisation)</formula>
+                <meanValue>4.29240462450524E-8</meanValue>
+                <comment xml:lang="en">[gbenzene/(kg*km)] benzene emission motorway</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_CO2_tot" olca:scope="process">
+                <formula>((share_mw * spec_CO2_mw) + (share_ru * spec_CO2_ru) + (share_ur * spec_CO2_ur)) * distance</formula>
+                <meanValue>9.44546302525187</meanValue>
+                <comment xml:lang="en">[gCO2/kg] CO2 emission weighted</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_diesel_mw" olca:scope="process">
+                <formula>(160.087585449219 + (194.589309692383 - 160.087585449219) * utilisation) / (payload * 1000 * utilisation) / 1000</formula>
+                <meanValue>2.95222607246104E-5</meanValue>
+                <comment xml:lang="en">[kgdiesel/(kg*km)] diesel consumption motorway</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_SO2_ru" olca:scope="process">
+                <formula>(ppm_sulfur / 1000000) * 2 * spec_diesel_ru</formula>
+                <meanValue>5.72413361999855E-10</meanValue>
+                <comment xml:lang="en">[kgSO2/(kg*km)] SO2 emission rural</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_NMVOC_ur" olca:scope="process">
+                <formula>(0.0234447121620178 + (0.0253189411014318 - 0.0234447121620178) * utilisation) / (payload * 1000 * utilisation)</formula>
+                <meanValue>4.04469604434082E-6</meanValue>
+                <comment xml:lang="en">[gNMVOC/(kg*km)] NMVOC emission urban (without benzene)</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_NH3" olca:scope="process">
+                <formula>(0.00300000002607703 * distance) / (1000 * tonnage)</formula>
+                <meanValue>4.96524334008115E-5</meanValue>
+                <comment xml:lang="en">[gNH3/kg)] NH3 emission in all traffic situations</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_CO2_fos" olca:scope="process">
+                <formula>spec_CO2_tot * (1 - share_CO2_bio)</formula>
+                <meanValue>8.97318987398928</meanValue>
+                <comment xml:lang="en">[gCO2/kg] weighted CO2 emission, fossil CO2 share of CO2 emission</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_SO2_ur" olca:scope="process">
+                <formula>(ppm_sulfur / 1000000) * 2 * spec_diesel_ur</formula>
+                <meanValue>7.03813833560584E-10</meanValue>
+                <comment xml:lang="en">[kgSO2/(kg*km)] SO2 emission urban</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="tonnage" olca:scope="process">
+                <formula>utilisation * payload</formula>
+                <meanValue>6.042</meanValue>
+                <comment xml:lang="en">[t]</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_NO_ur" olca:scope="process">
+                <formula>(4.91660463809967 + (4.73543980717659 - 4.91660463809967) * utilisation) / (payload * 1000 * utilisation)</formula>
+                <meanValue>7.97846288929235E-4</meanValue>
+                <comment xml:lang="en">[gNO/(kg*km)] NO emission urban</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_CO_tot" olca:scope="process">
+                <formula>((share_mw * spec_CO_mw) + (share_ru * spec_CO_ru) + (share_ur * spec_CO_ur)) * distance</formula>
+                <meanValue>0.0165192154813428</meanValue>
+                <comment xml:lang="en">[gCO/kg] CO emission weighted</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_diesel_ur" olca:scope="process">
+                <formula>(178.848617553711 + (242.572280883789 - 178.848617553711) * utilisation) / (payload * 1000 * utilisation) / 1000</formula>
+                <meanValue>3.51906916780292E-5</meanValue>
+                <comment xml:lang="en">[kgdiesel/(kg*km)] diesel consumption urban</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_benzene_ru" olca:scope="process">
+                <formula>(2.42699039517902E-4 + (2.70273711066693E-4 - 2.42699039517902E-4) * utilisation) / (payload * 1000 * utilisation)</formula>
+                <meanValue>4.25874901421319E-8</meanValue>
+                <comment xml:lang="en">[gbenzene/(kg*km)] benzene emission rural</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="share_ur" olca:scope="process">
+                <meanValue>0.07</meanValue>
+                <comment xml:lang="en">[-] driving share urban , default = 0,07</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_N2O_tot" olca:scope="process">
+                <formula>((share_mw * spec_N2O_mw) + (share_ru * spec_N2O_ru) + (share_ur * spec_N2O_ur)) * distance</formula>
+                <meanValue>5.71025693921686E-4</meanValue>
+                <comment xml:lang="en">[gN2O/kg] N2O emission weighted</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_part_ru" olca:scope="process">
+                <formula>(0.0274235457181931 + (0.0295224618166685 - 0.0274235457181931) * utilisation) / (payload * 1000 * utilisation)</formula>
+                <meanValue>4.72293466573735E-6</meanValue>
+                <comment xml:lang="en">[gparticle/(kg*km)] particle emission rural</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_SO2_tot" olca:scope="process">
+                <formula>((share_mw * spec_SO2_mw) + (share_ru * spec_SO2_ru) + (share_ur * spec_SO2_ur)) * distance</formula>
+                <meanValue>5.94233691753753E-8</meanValue>
+                <comment xml:lang="en">[kgSO2/kg] SO2 emission weighted</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_NO2_ur" olca:scope="process">
+                <formula>(0.370067000389099 + (0.356430977582932 - 0.370067000389099) * utilisation) / (payload * 1000 * utilisation)</formula>
+                <meanValue>6.00529474183764E-5</meanValue>
+                <comment xml:lang="en">[gNO2/(kg*km)] NO2 emissions urban</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_part_mw" olca:scope="process">
+                <formula>(0.0261647962033749 + (0.0263338405638933 - 0.0261647962033749) * utilisation) / (payload * 1000 * utilisation)</formula>
+                <meanValue>4.34531441814791E-6</meanValue>
+                <comment xml:lang="en">[gparticle/(kg*km)] particle emission motorway</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_CO_ur" olca:scope="process">
+                <formula>(1.36513388156891 + (1.743239402771 - 1.36513388156891) * utilisation) / (payload * 1000 * utilisation)</formula>
+                <meanValue>2.5910787947799E-4</meanValue>
+                <comment xml:lang="en">[gCO/(kg*km)] CO emission urban</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="share_ru" olca:scope="process">
+                <meanValue>0.23</meanValue>
+                <comment xml:lang="en">[-] driving share rural , default = 0,23</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_part_ur" olca:scope="process">
+                <formula>(0.0371254496276379 + (0.0454659089446068 - 0.0371254496276379) * utilisation) / (payload * 1000 * utilisation)</formula>
+                <meanValue>6.87618223529153E-6</meanValue>
+                <comment xml:lang="en">[gparticle/(kg*km)] particle emission urban</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_NMVOC_tot" olca:scope="process">
+                <formula>((share_mw * spec_NMVOC_mw) + (share_ru * spec_NMVOC_ru) + (share_ur * spec_NMVOC_ur)) * distance</formula>
+                <meanValue>2.61161673025779E-4</meanValue>
+                <comment xml:lang="en">[gNMVOC/kg] NMVOC emission weighted (without benzene)</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="spec_N2O_mw" olca:scope="process">
+                <formula>(0.0337391272187233) / (1000 * tonnage)</formula>
+                <meanValue>5.58409917555831E-6</meanValue>
+                <comment xml:lang="en">[gN2O/(kg*km)] N2O emission motorway</comment>
+            </variableParameter>
+            <variableParameter name="temp_olca_param57">
+                <formula>0.001 * spec_CH4_tot</formula>
+                <meanValue>6.42200825529839E-9</meanValue>
+            </variableParameter>
+            <variableParameter name="temp_olca_param58">
+                <formula>0.001 * spec_NH3</formula>
+                <meanValue>4.96524334008115E-8</meanValue>
+            </variableParameter>
+            <variableParameter name="temp_olca_param59">
+                <formula>0.001 * spec_part_tot</formula>
+                <meanValue>4.60932782229353E-7</meanValue>
+            </variableParameter>
+            <variableParameter name="temp_olca_param60">
+                <formula>0.001 * spec_NO_tot</formula>
+                <meanValue>2.68107252716845E-5</meanValue>
+            </variableParameter>
+            <variableParameter name="temp_olca_param61">
+                <formula>spec_diesel_tot</formula>
+                <meanValue>0.00297116845876876</meanValue>
+            </variableParameter>
+            <variableParameter name="temp_olca_param62">
+                <formula>0.001 * spec_CO_tot</formula>
+                <meanValue>1.65192154813428E-5</meanValue>
+            </variableParameter>
+            <variableParameter name="temp_olca_param63">
+                <formula>0.001 * spec_CO2_bio</formula>
+                <meanValue>4.72273151262594E-4</meanValue>
+            </variableParameter>
+            <variableParameter name="temp_olca_param64">
+                <formula>spec_SO2_tot</formula>
+                <meanValue>5.94233691753753E-8</meanValue>
+            </variableParameter>
+            <variableParameter name="temp_olca_param65">
+                <formula>0.001 * spec_benzene_to</formula>
+                <meanValue>4.46864729439375E-9</meanValue>
+            </variableParameter>
+            <variableParameter name="temp_olca_param66">
+                <formula>0.001 * spec_NMVOC_tot</formula>
+                <meanValue>2.61161673025779E-7</meanValue>
+            </variableParameter>
+            <variableParameter name="temp_olca_param67">
+                <formula>0.001 * spec_NO2_tot</formula>
+                <meanValue>2.01801157995777E-6</meanValue>
+            </variableParameter>
+            <variableParameter name="temp_olca_param68">
+                <formula>0.001 * spec_N2O_tot</formula>
+                <meanValue>5.71025693921686E-7</meanValue>
+            </variableParameter>
+            <variableParameter name="temp_olca_param69">
+                <formula>0.001 * spec_CO2_fos</formula>
+                <meanValue>0.00897318987398928</meanValue>
+            </variableParameter>
+        </mathematicalRelations>
+    </processInformation>
+    <modellingAndValidation>
+        <LCIMethodAndAllocation>
+            <typeOfDataSet>Unit process, black box</typeOfDataSet>
+            <LCIMethodPrinciple>Other</LCIMethodPrinciple>
+            <deviationsFromLCIMethodPrinciple xml:lang="en">None</deviationsFromLCIMethodPrinciple>
+            <modellingConstants xml:lang="en">All data used in the calculation of the LCI results refer to net calorific value.</modellingConstants>
+        </LCIMethodAndAllocation>
+        <dataSourcesTreatmentAndRepresentativeness>
+            <dataCutOffAndCompletenessPrinciples xml:lang="en">Cut-off rules for each unit process: Coverage of at least 95 % of mass and energy of the input and output flows, and 98 % of their environmental relevance (according to expert judgement).									&#xD;
+For further details please see the document "GaBi Databases Modelling Principles"</dataCutOffAndCompletenessPrinciples>
+            <deviationsFromCutOffAndCompletenessPrinciples xml:lang="en">None.</deviationsFromCutOffAndCompletenessPrinciples>
+            <dataSelectionAndCombinationPrinciples xml:lang="en">All relevant background data such as energy and auxiliary material are taken from the GaBi Databases, keeping consistency.</dataSelectionAndCombinationPrinciples>
+            <deviationsFromSelectionAndCombinationPrinciples xml:lang="en">None.</deviationsFromSelectionAndCombinationPrinciples>
+            <dataTreatmentAndExtrapolationsPrinciples xml:lang="en">For details please see the document "GaBi Databases Modelling Principles"</dataTreatmentAndExtrapolationsPrinciples>
+            <referenceToDataSource type="source data set" refObjectId="26ee155a-3896-11dd-ae16-0800200c9a66" version="01.00.000" uri="../sources/26ee155a-3896-11dd-ae16-0800200c9a66">
+                <common:shortDescription xml:lang="en">TREMOVE 2.7 / EMISSIONS, 2007</common:shortDescription>
+            </referenceToDataSource>
+            <referenceToDataSource type="source data set" refObjectId="aa740d46-4748-4006-a204-9570f5e0acc2" version="01.00.000" uri="../sources/aa740d46-4748-4006-a204-9570f5e0acc2">
+                <common:shortDescription xml:lang="en">Transport_Truck</common:shortDescription>
+            </referenceToDataSource>
+            <referenceToDataSource type="source data set" refObjectId="c7ecab59-3e94-46c6-9dbe-20a5ed8cc184" version="01.00.000" uri="../sources/c7ecab59-3e94-46c6-9dbe-20a5ed8cc184">
+                <common:shortDescription xml:lang="en">Handbuch Emissionsfaktoren des Straßenverkehrs, Version 3.3, 2017</common:shortDescription>
+            </referenceToDataSource>
+            <referenceToDataSource type="source data set" refObjectId="d2737042-5fbd-11db-b0de-0800200c9a66" version="01.00.000" uri="../sources/d2737042-5fbd-11db-b0de-0800200c9a66">
+                <common:shortDescription xml:lang="en">Modell zur Simulierung umweltrelevanter Auswirkungen von Transportprozessen</common:shortDescription>
+            </referenceToDataSource>
+            <referenceToDataSource type="source data set" refObjectId="d2737043-5fbd-11db-b0de-0800200c9a66" version="01.00.000" uri="../sources/d2737043-5fbd-11db-b0de-0800200c9a66">
+                <common:shortDescription xml:lang="en">Basisdaten für ökol. Bilanzierungen,Einsatz v. Nutzfahrzeugen in Transport,Landwirtschaft u. Bergbau</common:shortDescription>
+            </referenceToDataSource>
+            <referenceToDataSource type="source data set" refObjectId="d2737044-5fbd-11db-b0de-0800200c9a66" version="01.00.000" uri="../sources/d2737044-5fbd-11db-b0de-0800200c9a66">
+                <common:shortDescription xml:lang="en">BGL - Daten und Fakten, 2006</common:shortDescription>
+            </referenceToDataSource>
+            <referenceToDataSource type="source data set" refObjectId="d2737046-5fbd-11db-b0de-0800200c9a66" version="01.00.000" uri="../sources/d2737046-5fbd-11db-b0de-0800200c9a66">
+                <common:shortDescription xml:lang="en">Richtlinie 2003/17/EG: Änderung der R 98/70/EG über die Qualität von Otto- und Dieselkraftstoffen</common:shortDescription>
+            </referenceToDataSource>
+            <referenceToDataSource type="source data set" refObjectId="d2737047-5fbd-11db-b0de-0800200c9a66" version="01.00.000" uri="../sources/d2737047-5fbd-11db-b0de-0800200c9a66">
+                <common:shortDescription xml:lang="en">EUROPA - Environment - Auto-Oil II Programme, 2000</common:shortDescription>
+            </referenceToDataSource>
+            <referenceToDataSource type="source data set" refObjectId="d2737048-5fbd-11db-b0de-0800200c9a66" version="01.00.000" uri="../sources/d2737048-5fbd-11db-b0de-0800200c9a66">
+                <common:shortDescription xml:lang="en">Emission functions for Heavy Duty Vehicles – Update Handbook Emission Factors for Road Traffic</common:shortDescription>
+            </referenceToDataSource>
+            <referenceToDataSource type="source data set" refObjectId="d2737049-5fbd-11db-b0de-0800200c9a66" version="01.00.000" uri="../sources/d2737049-5fbd-11db-b0de-0800200c9a66">
+                <common:shortDescription xml:lang="en">Statistische Mitteilungen, Reihe 2: Kraftfahrzeuge, 2003</common:shortDescription>
+            </referenceToDataSource>
+            <referenceToDataSource type="source data set" refObjectId="d273704a-5fbd-11db-b0de-0800200c9a66" version="01.00.000" uri="../sources/d273704a-5fbd-11db-b0de-0800200c9a66">
+                <common:shortDescription xml:lang="en">Emissionen und Minderungspotential von HFKW, FKW und SF6 in Deutschland Im Auftrag des UBA(29841256)</common:shortDescription>
+            </referenceToDataSource>
+            <referenceToDataSource type="source data set" refObjectId="d273704c-5fbd-11db-b0de-0800200c9a66" version="01.00.000" uri="../sources/d273704c-5fbd-11db-b0de-0800200c9a66">
+                <common:shortDescription xml:lang="en">Umweltlexikon: Betankungsverlust, 2006</common:shortDescription>
+            </referenceToDataSource>
+            <referenceToDataSource type="source data set" refObjectId="d273704d-5fbd-11db-b0de-0800200c9a66" version="01.00.000" uri="../sources/d273704d-5fbd-11db-b0de-0800200c9a66">
+                <common:shortDescription xml:lang="en">Spezifischer Energieeinsatz im Verkehr, Ermittlung und Vergl. der spezifischen Energieverbräuche</common:shortDescription>
+            </referenceToDataSource>
+            <referenceToDataSource type="source data set" refObjectId="d27433a5-5fbd-11db-b0de-0800200c9a66" version="01.00.000" uri="../sources/d27433a5-5fbd-11db-b0de-0800200c9a66">
+                <common:shortDescription xml:lang="en">The Auto-Oil II Programme</common:shortDescription>
+            </referenceToDataSource>
+            <referenceToDataSource type="source data set" refObjectId="10f467f6-6bee-4e67-a187-d06383b2984b" version="01.00.000" uri="../sources/10f467f6-6bee-4e67-a187-d06383b2984b">
+                <common:shortDescription xml:lang="en">UNEP SETAC Life Cycle Initiative</common:shortDescription>
+            </referenceToDataSource>
+            <referenceToDataSource type="source data set" refObjectId="6a08f8f9-58c3-492c-8c34-6df3dd69a326" version="01.00.000" uri="../sources/6a08f8f9-58c3-492c-8c34-6df3dd69a326">
+                <common:shortDescription xml:lang="en">GaBi conformity system</common:shortDescription>
+            </referenceToDataSource>
+            <referenceToDataSource type="source data set" refObjectId="d92a1a12-2545-49e2-a585-55c259997756" version="01.00.000" uri="../sources/d92a1a12-2545-49e2-a585-55c259997756">
+                <common:shortDescription xml:lang="en">ILCD Data Network - Entry-level</common:shortDescription>
+            </referenceToDataSource>
+            <referenceToDataSource type="source data set" refObjectId="1a453aa5-4e46-468f-b441-17fb02054ac3" version="01.00.000" uri="../sources/1a453aa5-4e46-468f-b441-17fb02054ac3">
+                <common:shortDescription xml:lang="en">GaBi Refinery Modelling Principles</common:shortDescription>
+            </referenceToDataSource>
+            <referenceToDataSource type="source data set" refObjectId="2f4e6329-f31d-44dc-8933-f4e6608590f5" version="01.00.000" uri="../sources/2f4e6329-f31d-44dc-8933-f4e6608590f5">
+                <common:shortDescription xml:lang="en">GaBi Water Modelling Principles</common:shortDescription>
+            </referenceToDataSource>
+            <referenceToDataSource type="source data set" refObjectId="3c6b1a84-fc51-463c-a66f-eaacfde2cb2f" version="01.00.000" uri="../sources/3c6b1a84-fc51-463c-a66f-eaacfde2cb2f">
+                <common:shortDescription xml:lang="en">GaBi Energy Modelling Principles</common:shortDescription>
+            </referenceToDataSource>
+            <referenceToDataSource type="source data set" refObjectId="57a2608f-18fc-454f-998a-1657376a4322" version="01.00.000" uri="../sources/57a2608f-18fc-454f-998a-1657376a4322">
+                <common:shortDescription xml:lang="en">GaBi Land Use Change Model Documentation</common:shortDescription>
+            </referenceToDataSource>
+            <referenceToDataSource type="source data set" refObjectId="69cb87e8-2532-455d-b7d3-18eced579e8f" version="01.00.000" uri="../sources/69cb87e8-2532-455d-b7d3-18eced579e8f">
+                <common:shortDescription xml:lang="en">GaBi Agriculture Model Documentation</common:shortDescription>
+            </referenceToDataSource>
+            <referenceToDataSource type="source data set" refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40" version="01.00.000" uri="../sources/a97a0155-0234-4b87-b4ce-a45da52f2a40">
+                <common:shortDescription xml:lang="en">ILCD format</common:shortDescription>
+            </referenceToDataSource>
+            <referenceToDataSource type="source data set" refObjectId="f2b512cd-43b2-4260-9882-eebc06731274" version="01.00.000" uri="../sources/f2b512cd-43b2-4260-9882-eebc06731274">
+                <common:shortDescription xml:lang="en">GaBi Modelling Principles</common:shortDescription>
+            </referenceToDataSource>
+            <referenceToDataSource type="source data set" refObjectId="61875b4e-7249-444b-8691-e4a04e6d3c47" version="01.00.000" uri="../sources/61875b4e-7249-444b-8691-e4a04e6d3c47">
+                <common:shortDescription xml:lang="en">GaBi databases</common:shortDescription>
+            </referenceToDataSource>
+        </dataSourcesTreatmentAndRepresentativeness>
+        <validation>
+            <review type="Not reviewed">
+                <common:reviewDetails xml:lang="en">The LCI method applied is in compliance with ISO 14040 and 14044. The documentation includes all relevant information in view of the data quality and scope of the application of the respective LCI result / data set. The dataset represents the state-of-the-art in view of the referenced functional unit.</common:reviewDetails>
+                <common:referenceToNameOfReviewerAndInstitution type="contact data set" refObjectId="d7fa0337-f279-430d-becf-7f3111a85010" version="01.00.000" uri="../contacts/d7fa0337-f279-430d-becf-7f3111a85010">
+                    <common:shortDescription xml:lang="en">thinkstep AG</common:shortDescription>
+                </common:referenceToNameOfReviewerAndInstitution>
+            </review>
+        </validation>
+    </modellingAndValidation>
+    <administrativeInformation>
+        <common:commissionerAndGoal>
+            <common:intendedApplications xml:lang="en">The data set represents a gate to gate inventory for air transportation. It can be used to characterise the supply chain situation of the respective commodity in a representative manner. Combination with individual unit processes using this commodity enables the generation of user-specific (product) LCAs. The data set does not necessarily fit for any possible specific supply situation - especially if significantly different technology routes exist - but is representative for a common supply chain situation.</common:intendedApplications>
+        </common:commissionerAndGoal>
+        <dataGenerator>
+            <common:referenceToPersonOrEntityGeneratingTheDataSet type="contact data set" refObjectId="de53c560-d6a9-11da-a94d-0800200c9a66" version="01.00.000" uri="../contacts/de53c560-d6a9-11da-a94d-0800200c9a66">
+                <common:shortDescription xml:lang="en">Institute for Acoustics and Building Physics, Life Cycle Engineering (GaBi), Universitaet Stuttgart</common:shortDescription>
+            </common:referenceToPersonOrEntityGeneratingTheDataSet>
+        </dataGenerator>
+        <dataEntryBy>
+            <common:timeStamp>2019-08-12T17:51:19.144+02:00</common:timeStamp>
+            <common:referenceToDataSetFormat type="source data set" refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40" version="01.01.000" uri="../sources/a97a0155-0234-4b87-b4ce-a45da52f2a40_01.01.000.xml">
+                <common:shortDescription xml:lang="en">ILCD format</common:shortDescription>
+            </common:referenceToDataSetFormat>
+            <common:referenceToPersonOrEntityEnteringTheData type="contact data set" refObjectId="d7fa0337-f279-430d-becf-7f3111a85010" version="01.00.000" uri="../contacts/d7fa0337-f279-430d-becf-7f3111a85010">
+                <common:shortDescription xml:lang="en">thinkstep AG</common:shortDescription>
+            </common:referenceToPersonOrEntityEnteringTheData>
+        </dataEntryBy>
+        <publicationAndOwnership>
+            <common:dateOfLastRevision>2019-02-01T00:00:00.000+01:00</common:dateOfLastRevision>
+            <common:dataSetVersion>00.00.001</common:dataSetVersion>
+            <common:referenceToUnchangedRepublication type="source data set" refObjectId="61875b4e-7249-444b-8691-e4a04e6d3c47" version="01.00.000" uri="../sources/61875b4e-7249-444b-8691-e4a04e6d3c47">
+                <common:shortDescription xml:lang="en">GaBi databases</common:shortDescription>
+            </common:referenceToUnchangedRepublication>
+            <common:referenceToOwnershipOfDataSet type="contact data set" refObjectId="d7fa0337-f279-430d-becf-7f3111a85010" version="01.00.000" uri="../contacts/d7fa0337-f279-430d-becf-7f3111a85010">
+                <common:shortDescription xml:lang="en">thinkstep AG</common:shortDescription>
+            </common:referenceToOwnershipOfDataSet>
+            <common:copyright>true</common:copyright>
+            <common:accessRestrictions xml:lang="en">GaBi (source code, database including extension modules and single data sets, documentation) remains property of thinkstep AG. thinkstep AG delivers GaBi licenses comprising data storage medium and manual as ordered by the customer. The license guarantees the right of use for one installation of GaBi. Further installations using the same license are not permitted. Additional licenses are only valid if the licensee holds at least one main license. Licenses are not transferable and must only be used within the licensee's organisation. Data sets may be copied for internal use. The number of copies is restricted to the number of licenses of the software system GaBi the licensee owns. The right of use is exclusively valid for the licensee. All rights reserved.</common:accessRestrictions>
+        </publicationAndOwnership>
+    </administrativeInformation>
+    <exchanges>
+        <exchange xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="14" olca:unitId="8fc3ea11-7909-4761-bba8-92ea5a103dd6" olca:propertyId="7e18d0ad-e78e-47a0-8e96-1c0a581902e2" olca:amount="1.0">
+            <referenceToFlowDataSet type="flow data set" refObjectId="e9fd08fb-8067-4d90-91e3-4c92fc1803f7" version="01.00.000" uri="../flows/e9fd08fb-8067-4d90-91e3-4c92fc1803f7">
+                <common:shortDescription xml:lang="en">Cargo</common:shortDescription>
+            </referenceToFlowDataSet>
+            <exchangeDirection>Output</exchangeDirection>
+            <meanAmount>1.0</meanAmount>
+            <resultingAmount>1.0</resultingAmount>
+        </exchange>
+        <exchange xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="9" olca:formula="0.001 * spec_benzene_to" olca:unitId="8fc3ea11-7909-4761-bba8-92ea5a103dd6" olca:propertyId="7e18d0ad-e78e-47a0-8e96-1c0a581902e2" olca:amount="4.46864729439375E-9">
+            <referenceToFlowDataSet type="flow data set" refObjectId="ddc0f956-61be-4716-b0a1-4e006804600f" version="01.00.000" uri="../flows/ddc0f956-61be-4716-b0a1-4e006804600f">
+                <common:shortDescription xml:lang="en">Benzene</common:shortDescription>
+            </referenceToFlowDataSet>
+            <exchangeDirection>Output</exchangeDirection>
+            <referenceToVariable>temp_olca_param65</referenceToVariable>
+            <meanAmount>1.0</meanAmount>
+            <resultingAmount>4.46864729439375E-9</resultingAmount>
+        </exchange>
+        <exchange xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="7" olca:formula="0.001 * spec_part_tot" olca:unitId="8fc3ea11-7909-4761-bba8-92ea5a103dd6" olca:propertyId="7e18d0ad-e78e-47a0-8e96-1c0a581902e2" olca:amount="4.60932782229353E-7">
+            <referenceToFlowDataSet type="flow data set" refObjectId="054a89af-2d3a-4503-8959-4e96d1cc6c0f" version="01.00.000" uri="../flows/054a89af-2d3a-4503-8959-4e96d1cc6c0f">
+                <common:shortDescription xml:lang="en">Dust (PM2.5)</common:shortDescription>
+            </referenceToFlowDataSet>
+            <exchangeDirection>Output</exchangeDirection>
+            <referenceToVariable>temp_olca_param59</referenceToVariable>
+            <meanAmount>1.0</meanAmount>
+            <resultingAmount>4.60932782229353E-7</resultingAmount>
+        </exchange>
+        <exchange xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="8" olca:formula="0.001 * spec_NO_tot" olca:unitId="8fc3ea11-7909-4761-bba8-92ea5a103dd6" olca:propertyId="7e18d0ad-e78e-47a0-8e96-1c0a581902e2" olca:amount="2.68107252716845E-5">
+            <referenceToFlowDataSet type="flow data set" refObjectId="a6f25d9e-b726-468f-844a-f71ee05b6432" version="01.00.000" uri="../flows/a6f25d9e-b726-468f-844a-f71ee05b6432">
+                <common:shortDescription xml:lang="en">Nitrogen monoxide</common:shortDescription>
+            </referenceToFlowDataSet>
+            <exchangeDirection>Output</exchangeDirection>
+            <referenceToVariable>temp_olca_param60</referenceToVariable>
+            <meanAmount>1.0</meanAmount>
+            <resultingAmount>2.68107252716845E-5</resultingAmount>
+        </exchange>
+        <exchange xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="12" olca:formula="0.001 * spec_CO_tot" olca:unitId="8fc3ea11-7909-4761-bba8-92ea5a103dd6" olca:propertyId="7e18d0ad-e78e-47a0-8e96-1c0a581902e2" olca:amount="1.65192154813428E-5">
+            <referenceToFlowDataSet type="flow data set" refObjectId="7eb72e44-2c1a-4b98-b6ed-960557f93faa" version="01.00.000" uri="../flows/7eb72e44-2c1a-4b98-b6ed-960557f93faa">
+                <common:shortDescription xml:lang="en">Carbon monoxide</common:shortDescription>
+            </referenceToFlowDataSet>
+            <exchangeDirection>Output</exchangeDirection>
+            <referenceToVariable>temp_olca_param62</referenceToVariable>
+            <meanAmount>1.0</meanAmount>
+            <resultingAmount>1.65192154813428E-5</resultingAmount>
+        </exchange>
+        <exchange xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="11" olca:formula="0.001 * spec_NMVOC_tot" olca:unitId="8fc3ea11-7909-4761-bba8-92ea5a103dd6" olca:propertyId="7e18d0ad-e78e-47a0-8e96-1c0a581902e2" olca:amount="2.61161673025779E-7">
+            <referenceToFlowDataSet type="flow data set" refObjectId="bc7c5427-2e91-4a6f-9c6f-5abc8db24c28" version="01.00.000" uri="../flows/bc7c5427-2e91-4a6f-9c6f-5abc8db24c28">
+                <common:shortDescription xml:lang="en">NMVOC (unspecified)</common:shortDescription>
+            </referenceToFlowDataSet>
+            <exchangeDirection>Output</exchangeDirection>
+            <referenceToVariable>temp_olca_param66</referenceToVariable>
+            <meanAmount>1.0</meanAmount>
+            <resultingAmount>2.61161673025779E-7</resultingAmount>
+        </exchange>
+        <exchange xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="1" olca:unitId="8fc3ea11-7909-4761-bba8-92ea5a103dd6" olca:propertyId="7e18d0ad-e78e-47a0-8e96-1c0a581902e2" olca:amount="1.0">
+            <referenceToFlowDataSet type="flow data set" refObjectId="e9fd08fb-8067-4d90-91e3-4c92fc1803f7" version="01.00.000" uri="../flows/e9fd08fb-8067-4d90-91e3-4c92fc1803f7">
+                <common:shortDescription xml:lang="en">Cargo</common:shortDescription>
+            </referenceToFlowDataSet>
+            <exchangeDirection>Input</exchangeDirection>
+            <meanAmount>1.0</meanAmount>
+            <resultingAmount>1.0</resultingAmount>
+        </exchange>
+        <exchange xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="3" olca:formula="0.001 * spec_NH3" olca:unitId="8fc3ea11-7909-4761-bba8-92ea5a103dd6" olca:propertyId="7e18d0ad-e78e-47a0-8e96-1c0a581902e2" olca:amount="4.96524334008115E-8">
+            <referenceToFlowDataSet type="flow data set" refObjectId="c544326f-fd3d-4125-aee1-b5e8f14364b4" version="01.00.000" uri="../flows/c544326f-fd3d-4125-aee1-b5e8f14364b4">
+                <common:shortDescription xml:lang="en">Ammonia</common:shortDescription>
+            </referenceToFlowDataSet>
+            <exchangeDirection>Output</exchangeDirection>
+            <referenceToVariable>temp_olca_param58</referenceToVariable>
+            <meanAmount>1.0</meanAmount>
+            <resultingAmount>4.96524334008115E-8</resultingAmount>
+        </exchange>
+        <exchange xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="5" olca:formula="0.001 * spec_N2O_tot" olca:unitId="8fc3ea11-7909-4761-bba8-92ea5a103dd6" olca:propertyId="7e18d0ad-e78e-47a0-8e96-1c0a581902e2" olca:amount="5.71025693921686E-7">
+            <referenceToFlowDataSet type="flow data set" refObjectId="341ee869-d55d-42e6-8a35-61a69c7114a8" version="01.00.000" uri="../flows/341ee869-d55d-42e6-8a35-61a69c7114a8">
+                <common:shortDescription xml:lang="en">Nitrous oxide (laughing gas)</common:shortDescription>
+            </referenceToFlowDataSet>
+            <exchangeDirection>Output</exchangeDirection>
+            <referenceToVariable>temp_olca_param68</referenceToVariable>
+            <meanAmount>1.0</meanAmount>
+            <resultingAmount>5.71025693921686E-7</resultingAmount>
+        </exchange>
+        <exchange xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="2" olca:formula="0.001 * spec_CH4_tot" olca:unitId="8fc3ea11-7909-4761-bba8-92ea5a103dd6" olca:propertyId="7e18d0ad-e78e-47a0-8e96-1c0a581902e2" olca:amount="6.42200825529839E-9">
+            <referenceToFlowDataSet type="flow data set" refObjectId="2a531b07-ace1-4103-82e5-701df69686f6" version="01.00.000" uri="../flows/2a531b07-ace1-4103-82e5-701df69686f6">
+                <common:shortDescription xml:lang="en">Methane</common:shortDescription>
+            </referenceToFlowDataSet>
+            <exchangeDirection>Output</exchangeDirection>
+            <referenceToVariable>temp_olca_param57</referenceToVariable>
+            <meanAmount>1.0</meanAmount>
+            <resultingAmount>6.42200825529839E-9</resultingAmount>
+        </exchange>
+        <exchange xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="4" olca:formula="0.001 * spec_CO2_bio" olca:unitId="8fc3ea11-7909-4761-bba8-92ea5a103dd6" olca:propertyId="7e18d0ad-e78e-47a0-8e96-1c0a581902e2" olca:amount="4.72273151262594E-4">
+            <referenceToFlowDataSet type="flow data set" refObjectId="66b32ef6-850f-42ce-b2ba-cf81ed338ea5" version="01.00.000" uri="../flows/66b32ef6-850f-42ce-b2ba-cf81ed338ea5">
+                <common:shortDescription xml:lang="en">Carbon dioxide (biotic)</common:shortDescription>
+            </referenceToFlowDataSet>
+            <exchangeDirection>Output</exchangeDirection>
+            <referenceToVariable>temp_olca_param63</referenceToVariable>
+            <meanAmount>1.0</meanAmount>
+            <resultingAmount>4.72273151262594E-4</resultingAmount>
+        </exchange>
+        <exchange xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="13" olca:formula="0.001 * spec_CO2_fos" olca:unitId="8fc3ea11-7909-4761-bba8-92ea5a103dd6" olca:propertyId="7e18d0ad-e78e-47a0-8e96-1c0a581902e2" olca:amount="0.00897318987398928">
+            <referenceToFlowDataSet type="flow data set" refObjectId="5858ac4c-d8dd-4d08-b1c2-3b0215f757cb" version="01.00.000" uri="../flows/5858ac4c-d8dd-4d08-b1c2-3b0215f757cb">
+                <common:shortDescription xml:lang="en">Carbon dioxide</common:shortDescription>
+            </referenceToFlowDataSet>
+            <exchangeDirection>Output</exchangeDirection>
+            <referenceToVariable>temp_olca_param69</referenceToVariable>
+            <meanAmount>1.0</meanAmount>
+            <resultingAmount>0.00897318987398928</resultingAmount>
+        </exchange>
+        <exchange xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="15" olca:formula="spec_diesel_tot" olca:unitId="8fc3ea11-7909-4761-bba8-92ea5a103dd6" olca:propertyId="7e18d0ad-e78e-47a0-8e96-1c0a581902e2" olca:amount="0.00297116845876876">
+            <referenceToFlowDataSet type="flow data set" refObjectId="55a4c166-2eb6-43a3-9a13-2e4f2c4fee60" version="01.00.000" uri="../flows/55a4c166-2eb6-43a3-9a13-2e4f2c4fee60">
+                <common:shortDescription xml:lang="en">Diesel</common:shortDescription>
+            </referenceToFlowDataSet>
+            <exchangeDirection>Input</exchangeDirection>
+            <referenceToVariable>temp_olca_param61</referenceToVariable>
+            <meanAmount>1.0</meanAmount>
+            <resultingAmount>0.00297116845876876</resultingAmount>
+        </exchange>
+        <exchange xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="10" olca:formula="0.001 * spec_NO2_tot" olca:unitId="8fc3ea11-7909-4761-bba8-92ea5a103dd6" olca:propertyId="7e18d0ad-e78e-47a0-8e96-1c0a581902e2" olca:amount="2.01801157995777E-6">
+            <referenceToFlowDataSet type="flow data set" refObjectId="7cf07cf6-acb2-471b-82a6-2b5a228deff9" version="01.00.000" uri="../flows/7cf07cf6-acb2-471b-82a6-2b5a228deff9">
+                <common:shortDescription xml:lang="en">Nitrogen dioxide</common:shortDescription>
+            </referenceToFlowDataSet>
+            <exchangeDirection>Output</exchangeDirection>
+            <referenceToVariable>temp_olca_param67</referenceToVariable>
+            <meanAmount>1.0</meanAmount>
+            <resultingAmount>2.01801157995777E-6</resultingAmount>
+        </exchange>
+        <exchange xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="6" olca:formula="spec_SO2_tot" olca:unitId="8fc3ea11-7909-4761-bba8-92ea5a103dd6" olca:propertyId="7e18d0ad-e78e-47a0-8e96-1c0a581902e2" olca:amount="5.94233691753753E-8">
+            <referenceToFlowDataSet type="flow data set" refObjectId="3577c1ef-e0f0-4453-9459-173ece5cb3c2" version="01.00.000" uri="../flows/3577c1ef-e0f0-4453-9459-173ece5cb3c2">
+                <common:shortDescription xml:lang="en">Sulphur dioxide</common:shortDescription>
+            </referenceToFlowDataSet>
+            <exchangeDirection>Output</exchangeDirection>
+            <referenceToVariable>temp_olca_param64</referenceToVariable>
+            <meanAmount>1.0</meanAmount>
+            <resultingAmount>5.94233691753753E-8</resultingAmount>
+        </exchange>
+    </exchanges>
+</processDataSet>

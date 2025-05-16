@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<processDataSet xmlns:m="http://lca.jrc.it/ILCD/LCIAMethod" xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:s="http://lca.jrc.it/ILCD/Source" xmlns:c="http://lca.jrc.it/ILCD/Contact" xmlns:f="http://lca.jrc.it/ILCD/Flow" xmlns="http://lca.jrc.it/ILCD/Process" xmlns:fp="http://lca.jrc.it/ILCD/FlowProperty" xmlns:u="http://lca.jrc.it/ILCD/UnitGroup" version="1.1">
+    <processInformation>
+        <dataSetInformation>
+            <common:UUID>fc5b65bd-a5b3-47a2-833a-b61041f75e19</common:UUID>
+            <name>
+                <baseName xml:lang="en">Recycling of Aliphatic/aromatic copolyester - scrap credit (open loop) ; including CO2 Adjustment</baseName>
+            </name>
+            <classificationInformation>
+                <common:classification>
+                    <common:class level="0" classId="73666065-e104-3744-a559-2213a920ae9d">End-of-life treatment</common:class>
+                    <common:class level="1" classId="4f3c2cbd-ded1-3053-a254-f87c6bf9152f">Material recycling</common:class>
+                </common:classification>
+            </classificationInformation>
+            <common:generalComment xml:lang="en">Auxiliary process, no documentation needed.</common:generalComment>
+        </dataSetInformation>
+        <quantitativeReference type="Reference flow(s)">
+            <referenceToReferenceFlow>1</referenceToReferenceFlow>
+        </quantitativeReference>
+        <time xmlns:olca="http://openlca.org/ilcd-extensions" olca:startDate="1514761200000" olca:endDate="1609455600000">
+            <common:referenceYear>2018</common:referenceYear>
+            <common:dataSetValidUntil>2021</common:dataSetValidUntil>
+            <common:timeRepresentativenessDescription xml:lang="en">annual average</common:timeRepresentativenessDescription>
+        </time>
+        <geography>
+            <locationOfOperationSupplyOrProduction location="GLO"/>
+        </geography>
+        <mathematicalRelations>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="value" olca:scope="process">
+                <meanValue>1.0</meanValue>
+                <comment xml:lang="en">[0..1] value correction substitution factor, per default 1 ; adjustable between 0 and 1</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="plastic" olca:scope="process">
+                <meanValue>1.0</meanValue>
+                <comment xml:lang="en">[kg] plastic material without value correction substitution factor</comment>
+            </variableParameter>
+            <variableParameter xmlns:olca="http://openlca.org/ilcd-extensions" name="plastic_value" olca:scope="process">
+                <formula>plastic * value</formula>
+                <meanValue>1.0</meanValue>
+                <comment xml:lang="en">[kg] plastic material including value correction substitution factor</comment>
+            </variableParameter>
+            <variableParameter name="temp_olca_param3">
+                <formula>plastic_value</formula>
+                <meanValue>1.0</meanValue>
+            </variableParameter>
+            <variableParameter name="temp_olca_param4">
+                <formula>plastic</formula>
+                <meanValue>1.0</meanValue>
+            </variableParameter>
+        </mathematicalRelations>
+    </processInformation>
+    <modellingAndValidation>
+        <LCIMethodAndAllocation>
+            <typeOfDataSet>Unit process, black box</typeOfDataSet>
+            <LCIMethodPrinciple>Other</LCIMethodPrinciple>
+            <deviationsFromLCIMethodPrinciple xml:lang="en">none</deviationsFromLCIMethodPrinciple>
+            <modellingConstants xml:lang="en">None</modellingConstants>
+        </LCIMethodAndAllocation>
+        <dataSourcesTreatmentAndRepresentativeness>
+            <deviationsFromCutOffAndCompletenessPrinciples xml:lang="en">None.</deviationsFromCutOffAndCompletenessPrinciples>
+            <deviationsFromSelectionAndCombinationPrinciples xml:lang="en">None.</deviationsFromSelectionAndCombinationPrinciples>
+            <referenceToDataSource type="source data set" refObjectId="1a453aa5-4e46-468f-b441-17fb02054ac3" version="01.00.000" uri="../sources/1a453aa5-4e46-468f-b441-17fb02054ac3">
+                <common:shortDescription xml:lang="en">GaBi Refinery Modelling Principles</common:shortDescription>
+            </referenceToDataSource>
+            <referenceToDataSource type="source data set" refObjectId="2f4e6329-f31d-44dc-8933-f4e6608590f5" version="01.00.000" uri="../sources/2f4e6329-f31d-44dc-8933-f4e6608590f5">
+                <common:shortDescription xml:lang="en">GaBi Water Modelling Principles</common:shortDescription>
+            </referenceToDataSource>
+            <referenceToDataSource type="source data set" refObjectId="3c6b1a84-fc51-463c-a66f-eaacfde2cb2f" version="01.00.000" uri="../sources/3c6b1a84-fc51-463c-a66f-eaacfde2cb2f">
+                <common:shortDescription xml:lang="en">GaBi Energy Modelling Principles</common:shortDescription>
+            </referenceToDataSource>
+            <referenceToDataSource type="source data set" refObjectId="57a2608f-18fc-454f-998a-1657376a4322" version="01.00.000" uri="../sources/57a2608f-18fc-454f-998a-1657376a4322">
+                <common:shortDescription xml:lang="en">GaBi Land Use Change Model Documentation</common:shortDescription>
+            </referenceToDataSource>
+            <referenceToDataSource type="source data set" refObjectId="69cb87e8-2532-455d-b7d3-18eced579e8f" version="01.00.000" uri="../sources/69cb87e8-2532-455d-b7d3-18eced579e8f">
+                <common:shortDescription xml:lang="en">GaBi Agriculture Model Documentation</common:shortDescription>
+            </referenceToDataSource>
+            <referenceToDataSource type="source data set" refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40" version="01.00.000" uri="../sources/a97a0155-0234-4b87-b4ce-a45da52f2a40">
+                <common:shortDescription xml:lang="en">ILCD format</common:shortDescription>
+            </referenceToDataSource>
+            <referenceToDataSource type="source data set" refObjectId="f2b512cd-43b2-4260-9882-eebc06731274" version="01.00.000" uri="../sources/f2b512cd-43b2-4260-9882-eebc06731274">
+                <common:shortDescription xml:lang="en">GaBi Modelling Principles</common:shortDescription>
+            </referenceToDataSource>
+            <referenceToDataSource type="source data set" refObjectId="61875b4e-7249-444b-8691-e4a04e6d3c47" version="01.00.000" uri="../sources/61875b4e-7249-444b-8691-e4a04e6d3c47">
+                <common:shortDescription xml:lang="en">GaBi databases</common:shortDescription>
+            </referenceToDataSource>
+        </dataSourcesTreatmentAndRepresentativeness>
+    </modellingAndValidation>
+    <administrativeInformation>
+        <common:commissionerAndGoal>
+            <common:intendedApplications xml:lang="en">This background LCI data set can be used for any types of LCA studies.</common:intendedApplications>
+        </common:commissionerAndGoal>
+        <dataGenerator>
+            <common:referenceToPersonOrEntityGeneratingTheDataSet type="contact data set" refObjectId="d7fa0337-f279-430d-becf-7f3111a85010" version="01.00.000" uri="../contacts/d7fa0337-f279-430d-becf-7f3111a85010">
+                <common:shortDescription xml:lang="en">thinkstep AG</common:shortDescription>
+            </common:referenceToPersonOrEntityGeneratingTheDataSet>
+        </dataGenerator>
+        <dataEntryBy>
+            <common:timeStamp>2019-08-12T17:51:59.689+02:00</common:timeStamp>
+            <common:referenceToDataSetFormat type="source data set" refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40" version="01.01.000" uri="../sources/a97a0155-0234-4b87-b4ce-a45da52f2a40_01.01.000.xml">
+                <common:shortDescription xml:lang="en">ILCD format</common:shortDescription>
+            </common:referenceToDataSetFormat>
+            <common:referenceToPersonOrEntityEnteringTheData type="contact data set" refObjectId="d7fa0337-f279-430d-becf-7f3111a85010" version="01.00.000" uri="../contacts/d7fa0337-f279-430d-becf-7f3111a85010">
+                <common:shortDescription xml:lang="en">thinkstep AG</common:shortDescription>
+            </common:referenceToPersonOrEntityEnteringTheData>
+        </dataEntryBy>
+        <publicationAndOwnership>
+            <common:dateOfLastRevision>2019-02-01T00:00:00.000+01:00</common:dateOfLastRevision>
+            <common:dataSetVersion>00.00.001</common:dataSetVersion>
+            <common:referenceToUnchangedRepublication type="source data set" refObjectId="61875b4e-7249-444b-8691-e4a04e6d3c47" version="01.00.000" uri="../sources/61875b4e-7249-444b-8691-e4a04e6d3c47">
+                <common:shortDescription xml:lang="en">GaBi databases</common:shortDescription>
+            </common:referenceToUnchangedRepublication>
+            <common:referenceToOwnershipOfDataSet type="contact data set" refObjectId="d7fa0337-f279-430d-becf-7f3111a85010" version="01.00.000" uri="../contacts/d7fa0337-f279-430d-becf-7f3111a85010">
+                <common:shortDescription xml:lang="en">thinkstep AG</common:shortDescription>
+            </common:referenceToOwnershipOfDataSet>
+            <common:copyright>true</common:copyright>
+            <common:accessRestrictions xml:lang="en">GaBi (source code, database including extension modules and single data sets, documentation) remains property of thinkstep AG. thinkstep AG delivers GaBi licenses comprising data storage medium and manual as ordered by the customer. The license guarantees the right of use for one installation of GaBi. Further installations using the same license are not permitted. Additional licenses are only valid if the licensee holds at least one main license. Licenses are not transferable and must only be used within the licensee's organisation. Data sets may be copied for internal use. The number of copies is restricted to the number of licenses of the software system GaBi the licensee owns. The right of use is exclusively valid for the licensee. All rights reserved.</common:accessRestrictions>
+        </publicationAndOwnership>
+    </administrativeInformation>
+    <exchanges>
+        <exchange xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="2" olca:formula="plastic" olca:unitId="8fc3ea11-7909-4761-bba8-92ea5a103dd6" olca:propertyId="7e18d0ad-e78e-47a0-8e96-1c0a581902e2" olca:amount="1.0">
+            <referenceToFlowDataSet type="flow data set" refObjectId="dad7268b-41ef-46e0-9641-48e431bbf937" version="01.00.000" uri="../flows/dad7268b-41ef-46e0-9641-48e431bbf937">
+                <common:shortDescription xml:lang="en">Plastic granulate (unspecified)</common:shortDescription>
+            </referenceToFlowDataSet>
+            <exchangeDirection>Input</exchangeDirection>
+            <referenceToVariable>temp_olca_param4</referenceToVariable>
+            <meanAmount>1.0</meanAmount>
+            <resultingAmount>1.0</resultingAmount>
+        </exchange>
+        <exchange xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="1" olca:formula="plastic_value" olca:unitId="8fc3ea11-7909-4761-bba8-92ea5a103dd6" olca:propertyId="7e18d0ad-e78e-47a0-8e96-1c0a581902e2" olca:amount="1.0">
+            <referenceToFlowDataSet type="flow data set" refObjectId="dad7268b-41ef-46e0-9641-48e431bbf937" version="01.00.000" uri="../flows/dad7268b-41ef-46e0-9641-48e431bbf937">
+                <common:shortDescription xml:lang="en">Plastic granulate (unspecified)</common:shortDescription>
+            </referenceToFlowDataSet>
+            <exchangeDirection>Output</exchangeDirection>
+            <referenceToVariable>temp_olca_param3</referenceToVariable>
+            <meanAmount>1.0</meanAmount>
+            <resultingAmount>1.0</resultingAmount>
+        </exchange>
+    </exchanges>
+</processDataSet>

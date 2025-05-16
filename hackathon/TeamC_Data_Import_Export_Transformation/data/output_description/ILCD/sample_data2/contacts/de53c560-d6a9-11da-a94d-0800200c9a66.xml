@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<c:contactDataSet xmlns:m="http://lca.jrc.it/ILCD/LCIAMethod" xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:s="http://lca.jrc.it/ILCD/Source" xmlns:c="http://lca.jrc.it/ILCD/Contact" xmlns:f="http://lca.jrc.it/ILCD/Flow" xmlns="http://lca.jrc.it/ILCD/Process" xmlns:fp="http://lca.jrc.it/ILCD/FlowProperty" xmlns:u="http://lca.jrc.it/ILCD/UnitGroup" version="1.1">
+    <c:contactInformation>
+        <c:dataSetInformation>
+            <common:UUID>de53c560-d6a9-11da-a94d-0800200c9a66</common:UUID>
+            <common:name xml:lang="en">Institute for Acoustics and Building Physics, Life Cycle Engineering (GaBi), Universitaet Stuttgart</common:name>
+            <c:classificationInformation>
+                <common:classification>
+                    <common:class level="0" classId="5c21f393-1d9c-39c9-b313-5c4a7c32c79c">Organisations</common:class>
+                    <common:class level="1" classId="be2b27ec-bede-31ba-8a5d-22aee54ae3fe">Governmental organisations</common:class>
+                </common:classification>
+            </c:classificationInformation>
+            <c:contactAddress xml:lang="en">IABP-GaBi, Wankelstraße 5, D-70563 Stuttgart, Germany</c:contactAddress>
+            <c:telephone>+49 (0) 711 970-3150</c:telephone>
+            <c:telefax>+49 (0) 711 970-3190</c:telefax>
+            <c:email>gabi@lbp-gabi.de</c:email>
+            <c:WWWAddress>http://www.LBPGABI.uni-stuttgart.de</c:WWWAddress>
+        </c:dataSetInformation>
+    </c:contactInformation>
+    <c:administrativeInformation>
+        <c:dataEntryBy>
+            <common:timeStamp>2018-02-01T00:00:00.000+01:00</common:timeStamp>
+            <common:referenceToDataSetFormat type="source data set" refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40" version="01.01.000" uri="../sources/a97a0155-0234-4b87-b4ce-a45da52f2a40_01.01.000.xml">
+                <common:shortDescription xml:lang="en">ILCD format</common:shortDescription>
+            </common:referenceToDataSetFormat>
+        </c:dataEntryBy>
+        <c:publicationAndOwnership>
+            <common:dataSetVersion>35.00.000</common:dataSetVersion>
+            <common:permanentDataSetURI>http://openlca.org/ilcd/resource/contacts/de53c560-d6a9-11da-a94d-0800200c9a66</common:permanentDataSetURI>
+        </c:publicationAndOwnership>
+    </c:administrativeInformation>
+</c:contactDataSet>

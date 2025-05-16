@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<u:unitGroupDataSet xmlns:m="http://lca.jrc.it/ILCD/LCIAMethod" xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:s="http://lca.jrc.it/ILCD/Source" xmlns:c="http://lca.jrc.it/ILCD/Contact" xmlns:f="http://lca.jrc.it/ILCD/Flow" xmlns="http://lca.jrc.it/ILCD/Process" xmlns:fp="http://lca.jrc.it/ILCD/FlowProperty" xmlns:u="http://lca.jrc.it/ILCD/UnitGroup" version="1.1">
+    <u:unitGroupInformation>
+        <u:dataSetInformation>
+            <common:UUID>de5104d8-3de0-4218-a29d-b7123ce9ca3c</common:UUID>
+            <common:name xml:lang="en">Unit of energy</common:name>
+            <u:classificationInformation>
+                <common:classification>
+                    <common:class level="0" classId="00d44049-4768-313c-b2a5-c2d545f8e0ec">Technical unit groups</common:class>
+                </common:classification>
+            </u:classificationInformation>
+        </u:dataSetInformation>
+        <u:quantitativeReference>
+            <u:referenceToReferenceUnit>0</u:referenceToReferenceUnit>
+        </u:quantitativeReference>
+    </u:unitGroupInformation>
+    <u:administrativeInformation>
+        <u:dataEntryBy>
+            <common:timeStamp>2017-12-08T14:27:04.000+01:00</common:timeStamp>
+            <common:referenceToDataSetFormat type="source data set" refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40" version="01.01.000" uri="../sources/a97a0155-0234-4b87-b4ce-a45da52f2a40_01.01.000.xml">
+                <common:shortDescription xml:lang="en">ILCD format</common:shortDescription>
+            </common:referenceToDataSetFormat>
+        </u:dataEntryBy>
+        <u:publicationAndOwnership>
+            <common:dataSetVersion>00.00.000</common:dataSetVersion>
+            <common:permanentDataSetURI>http://openlca.org/ilcd/resource/unitgroups/de5104d8-3de0-4218-a29d-b7123ce9ca3c</common:permanentDataSetURI>
+        </u:publicationAndOwnership>
+    </u:administrativeInformation>
+    <u:units>
+        <u:unit xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="1" olca:unitId="ec6998b7-5e50-4f78-bd9d-ad28be72f5d7">
+            <u:name>MMBtu</u:name>
+            <u:meanValue>1055.0</u:meanValue>
+        </u:unit>
+        <u:unit xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="2" olca:unitId="d3f6ed5d-7776-45e0-b967-baa0851545c1">
+            <u:name>Btu</u:name>
+            <u:meanValue>0.0010550971744497668</u:meanValue>
+        </u:unit>
+        <u:unit xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="3" olca:unitId="fa72959f-65df-405b-9fe4-9debfa95cf0a">
+            <u:name>TOE</u:name>
+            <u:meanValue>41867.280720117225</u:meanValue>
+        </u:unit>
+        <u:unit xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="0" olca:unitId="9d48daa1-a35c-45ca-ac01-9813bada8547">
+            <u:name>MJ</u:name>
+            <u:meanValue>1.0</u:meanValue>
+        </u:unit>
+        <u:unit xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="4" olca:unitId="8f8db56b-70e7-4449-bfee-cad59579a71b">
+            <u:name>eV</u:name>
+            <u:meanValue>1.6022046335758002E-25</u:meanValue>
+        </u:unit>
+        <u:unit xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="5" olca:unitId="a8776bc8-daac-496a-a0c0-42ea529e927f">
+            <u:name>GWh</u:name>
+            <u:meanValue>3599999.999999997</u:meanValue>
+        </u:unit>
+        <u:unit xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="6" olca:unitId="1a5391f1-25ce-4dc6-95dc-4945cec01307">
+            <u:name>kWh</u:name>
+            <u:meanValue>3.599999999999997</u:meanValue>
+        </u:unit>
+        <u:unit xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="7" olca:unitId="50ac0e33-62c1-429d-ba38-8f5bf42da58c">
+            <u:name>J</u:name>
+            <u:meanValue>1.0E-6</u:meanValue>
+        </u:unit>
+        <u:unit xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="8" olca:unitId="95bdab56-496b-4995-9939-e0a673feaf09">
+            <u:name>cal</u:name>
+            <u:meanValue>4.186728072011723E-6</u:meanValue>
+        </u:unit>
+        <u:unit xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="9" olca:unitId="ed1da8af-d374-4290-8bd8-6cc4a0b7cb58">
+            <u:name>erg</u:name>
+            <u:meanValue>1.0E-13</u:meanValue>
+        </u:unit>
+        <u:unit xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="10" olca:unitId="7d9b1b08-e5e2-4b97-b451-7389ac3a3f32">
+            <u:name>TJ</u:name>
+            <u:meanValue>1000000.0</u:meanValue>
+        </u:unit>
+        <u:unit xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="11" olca:unitId="65348a85-3389-4305-b6b0-fcac943d1665">
+            <u:name>GJ</u:name>
+            <u:meanValue>1000.0</u:meanValue>
+        </u:unit>
+        <u:unit xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="12" olca:unitId="29580c24-480c-48f3-b375-bb8e573ef4fd">
+            <u:name>MWh</u:name>
+            <u:meanValue>3599.9999999999973</u:meanValue>
+        </u:unit>
+        <u:unit xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="13" olca:unitId="191c2311-d642-4562-8721-2ca965aad8b4">
+            <u:name>TWh</u:name>
+            <u:meanValue>3.599999999999997E9</u:meanValue>
+        </u:unit>
+        <u:unit xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="14" olca:unitId="7780e85b-621e-4a03-82df-053571807c22">
+            <u:name>kpm</u:name>
+            <u:meanValue>9.806805923310778E-6</u:meanValue>
+        </u:unit>
+        <u:unit xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="15" olca:unitId="a958d674-1426-4115-a7b4-cbeff788426b">
+            <u:name>kJ</u:name>
+            <u:meanValue>0.001</u:meanValue>
+        </u:unit>
+        <u:unit xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="16" olca:unitId="27d707d1-155b-4c32-a1bf-41a25ff3398c">
+            <u:name>PJ</u:name>
+            <u:meanValue>1.0E9</u:meanValue>
+        </u:unit>
+        <u:unit xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="17" olca:unitId="9ded5f46-239b-4a8f-ab6e-d3904b1b36cb">
+            <u:name>Nm</u:name>
+            <u:meanValue>1.0E-6</u:meanValue>
+        </u:unit>
+        <u:unit xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="18" olca:unitId="f00a40ee-7a1d-453d-b926-aca963bb0cf0">
+            <u:name>PSh</u:name>
+            <u:meanValue>2.6478142293536686E-6</u:meanValue>
+        </u:unit>
+    </u:units>
+</u:unitGroupDataSet>

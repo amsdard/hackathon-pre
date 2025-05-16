@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<s:sourceDataSet xmlns:m="http://lca.jrc.it/ILCD/LCIAMethod" xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:s="http://lca.jrc.it/ILCD/Source" xmlns:c="http://lca.jrc.it/ILCD/Contact" xmlns:f="http://lca.jrc.it/ILCD/Flow" xmlns="http://lca.jrc.it/ILCD/Process" xmlns:fp="http://lca.jrc.it/ILCD/FlowProperty" xmlns:u="http://lca.jrc.it/ILCD/UnitGroup" version="1.1">
+    <s:sourceInformation>
+        <s:dataSetInformation>
+            <common:UUID>1a433db5-054d-4795-adc2-1618b790eca2</common:UUID>
+            <common:shortName xml:lang="en">Emissoes dos Gases Geradores do Efeito Estufa por Termel‚ctricas no Periodo 2000 a 2020</common:shortName>
+            <s:classificationInformation>
+                <common:classification>
+                    <common:class level="0" classId="750cd105-2489-3255-adfa-f1c2899a8a38">Publications and communications</common:class>
+                </common:classification>
+            </s:classificationInformation>
+            <s:sourceCitation>Ministerio da Ciencia e Tecnologia, Emissoes dos Gases Geradores do Efeito Estufa por Termeléctricas no Periodo 2000 a 2020, Brasilia, Brazil, 2000</s:sourceCitation>
+        </s:dataSetInformation>
+    </s:sourceInformation>
+    <s:administrativeInformation>
+        <s:dataEntryBy>
+            <common:timeStamp>2011-10-31T23:00:00.000+01:00</common:timeStamp>
+            <common:referenceToDataSetFormat type="source data set" refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40" version="01.01.000" uri="../sources/a97a0155-0234-4b87-b4ce-a45da52f2a40_01.01.000.xml">
+                <common:shortDescription xml:lang="en">ILCD format</common:shortDescription>
+            </common:referenceToDataSetFormat>
+        </s:dataEntryBy>
+        <s:publicationAndOwnership>
+            <common:dataSetVersion>35.00.000</common:dataSetVersion>
+            <common:permanentDataSetURI>http://openlca.org/ilcd/resource/sources/1a433db5-054d-4795-adc2-1618b790eca2</common:permanentDataSetURI>
+        </s:publicationAndOwnership>
+    </s:administrativeInformation>
+</s:sourceDataSet>

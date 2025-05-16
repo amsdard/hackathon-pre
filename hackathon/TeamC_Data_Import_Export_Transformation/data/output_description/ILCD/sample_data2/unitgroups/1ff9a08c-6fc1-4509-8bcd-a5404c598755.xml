@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<u:unitGroupDataSet xmlns:m="http://lca.jrc.it/ILCD/LCIAMethod" xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:s="http://lca.jrc.it/ILCD/Source" xmlns:c="http://lca.jrc.it/ILCD/Contact" xmlns:f="http://lca.jrc.it/ILCD/Flow" xmlns="http://lca.jrc.it/ILCD/Process" xmlns:fp="http://lca.jrc.it/ILCD/FlowProperty" xmlns:u="http://lca.jrc.it/ILCD/UnitGroup" version="1.1">
+    <u:unitGroupInformation>
+        <u:dataSetInformation>
+            <common:UUID>1ff9a08c-6fc1-4509-8bcd-a5404c598755</common:UUID>
+            <common:name xml:lang="en">Unit of standard volume</common:name>
+            <u:classificationInformation>
+                <common:classification>
+                    <common:class level="0" classId="00d44049-4768-313c-b2a5-c2d545f8e0ec">Technical unit groups</common:class>
+                </common:classification>
+            </u:classificationInformation>
+        </u:dataSetInformation>
+        <u:quantitativeReference>
+            <u:referenceToReferenceUnit>0</u:referenceToReferenceUnit>
+        </u:quantitativeReference>
+    </u:unitGroupInformation>
+    <u:administrativeInformation>
+        <u:dataEntryBy>
+            <common:timeStamp>2017-01-01T00:00:00.000+01:00</common:timeStamp>
+            <common:referenceToDataSetFormat type="source data set" refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40" version="01.01.000" uri="../sources/a97a0155-0234-4b87-b4ce-a45da52f2a40_01.01.000.xml">
+                <common:shortDescription xml:lang="en">ILCD format</common:shortDescription>
+            </common:referenceToDataSetFormat>
+        </u:dataEntryBy>
+        <u:publicationAndOwnership>
+            <common:dataSetVersion>00.00.000</common:dataSetVersion>
+            <common:permanentDataSetURI>http://openlca.org/ilcd/resource/unitgroups/1ff9a08c-6fc1-4509-8bcd-a5404c598755</common:permanentDataSetURI>
+        </u:publicationAndOwnership>
+    </u:administrativeInformation>
+    <u:units>
+        <u:unit xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="1" olca:unitId="888a0393-0b82-4199-956c-e42f33232ca0">
+            <u:name>Nft3</u:name>
+            <u:meanValue>0.02831657935721365</u:meanValue>
+        </u:unit>
+        <u:unit xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="0" olca:unitId="6e7b83b3-74e1-445c-8187-4cf8eebbc89b">
+            <u:name>Nm3</u:name>
+            <u:meanValue>1.0</u:meanValue>
+        </u:unit>
+    </u:units>
+</u:unitGroupDataSet>

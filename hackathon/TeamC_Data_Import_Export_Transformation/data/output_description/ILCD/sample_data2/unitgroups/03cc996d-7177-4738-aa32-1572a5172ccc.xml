@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<u:unitGroupDataSet xmlns:m="http://lca.jrc.it/ILCD/LCIAMethod" xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:s="http://lca.jrc.it/ILCD/Source" xmlns:c="http://lca.jrc.it/ILCD/Contact" xmlns:f="http://lca.jrc.it/ILCD/Flow" xmlns="http://lca.jrc.it/ILCD/Process" xmlns:fp="http://lca.jrc.it/ILCD/FlowProperty" xmlns:u="http://lca.jrc.it/ILCD/UnitGroup" version="1.1">
+    <u:unitGroupInformation>
+        <u:dataSetInformation>
+            <common:UUID>03cc996d-7177-4738-aa32-1572a5172ccc</common:UUID>
+            <common:name xml:lang="en">Unit of currency</common:name>
+            <u:classificationInformation>
+                <common:classification>
+                    <common:class level="0" classId="9a0997cc-7271-3ba1-b905-bfc8b81bd927">Economic unit groups</common:class>
+                </common:classification>
+            </u:classificationInformation>
+        </u:dataSetInformation>
+        <u:quantitativeReference>
+            <u:referenceToReferenceUnit>0</u:referenceToReferenceUnit>
+        </u:quantitativeReference>
+    </u:unitGroupInformation>
+    <u:administrativeInformation>
+        <u:dataEntryBy>
+            <common:timeStamp>2011-11-01T00:00:00.000+01:00</common:timeStamp>
+            <common:referenceToDataSetFormat type="source data set" refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40" version="01.01.000" uri="../sources/a97a0155-0234-4b87-b4ce-a45da52f2a40_01.01.000.xml">
+                <common:shortDescription xml:lang="en">ILCD format</common:shortDescription>
+            </common:referenceToDataSetFormat>
+        </u:dataEntryBy>
+        <u:publicationAndOwnership>
+            <common:dataSetVersion>03.00.002</common:dataSetVersion>
+            <common:permanentDataSetURI>http://openlca.org/ilcd/resource/unitgroups/03cc996d-7177-4738-aa32-1572a5172ccc</common:permanentDataSetURI>
+        </u:publicationAndOwnership>
+    </u:administrativeInformation>
+    <u:units>
+        <u:unit xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="0" olca:unitId="f373360b-2cf0-4380-9511-aa769f159695">
+            <u:name>EUR</u:name>
+            <u:meanValue>1.0</u:meanValue>
+        </u:unit>
+        <u:unit xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="1" olca:unitId="a39e59c2-daa1-4ff6-800c-52e76fa41aa2">
+            <u:name>DM</u:name>
+            <u:meanValue>1.95583</u:meanValue>
+        </u:unit>
+        <u:unit xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="2" olca:unitId="ea03d3ed-6f32-4c8e-8d8c-0d3ac303042b">
+            <u:name>sFr</u:name>
+            <u:meanValue>1.6617122846</u:meanValue>
+        </u:unit>
+        <u:unit xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="3" olca:unitId="ec68b490-3a56-4317-9e79-a4a417589d79">
+            <u:name>Yen</u:name>
+            <u:meanValue>100.0</u:meanValue>
+        </u:unit>
+        <u:unit xmlns:olca="http://openlca.org/ilcd-extensions" dataSetInternalID="4" olca:unitId="e9d61dc5-33c4-4c3d-8f2d-9a7d95904f3a">
+            <u:name>$</u:name>
+            <u:meanValue>1.1573037276</u:meanValue>
+        </u:unit>
+    </u:units>
+</u:unitGroupDataSet>

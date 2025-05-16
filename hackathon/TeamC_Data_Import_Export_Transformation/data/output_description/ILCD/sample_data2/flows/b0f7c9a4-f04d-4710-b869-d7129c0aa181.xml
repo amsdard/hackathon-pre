@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<f:flowDataSet xmlns:m="http://lca.jrc.it/ILCD/LCIAMethod" xmlns:common="http://lca.jrc.it/ILCD/Common" xmlns:s="http://lca.jrc.it/ILCD/Source" xmlns:c="http://lca.jrc.it/ILCD/Contact" xmlns:f="http://lca.jrc.it/ILCD/Flow" xmlns="http://lca.jrc.it/ILCD/Process" xmlns:fp="http://lca.jrc.it/ILCD/FlowProperty" xmlns:u="http://lca.jrc.it/ILCD/UnitGroup" version="1.1">
+    <f:flowInformation>
+        <f:dataSetInformation>
+            <common:UUID>b0f7c9a4-f04d-4710-b869-d7129c0aa181</common:UUID>
+            <f:name>
+                <f:baseName xml:lang="en">Caprolactam</f:baseName>
+            </f:name>
+            <f:classificationInformation>
+                <common:elementaryFlowCategorization>
+                    <common:category level="0" catId="f318fa60-bae9-361f-ad5a-5066a0e2a9d1">Elementary flows</common:category>
+                    <common:category level="1" catId="c15233df-8be1-3e42-8f4f-6d1ef526f2d2">Emissions</common:category>
+                    <common:category level="2" catId="ee118ede-3cf6-39c2-a5f3-a854184a7d03">Emissions to air</common:category>
+                    <common:category level="3" catId="ceb8db2c-3331-3e19-b9d7-3062efc4d895">Group NMVOC to air</common:category>
+                </common:elementaryFlowCategorization>
+            </f:classificationInformation>
+            <f:CASNumber>000105-60-2</f:CASNumber>
+            <f:sumFormula>C6H11NO</f:sumFormula>
+        </f:dataSetInformation>
+        <f:quantitativeReference>
+            <f:referenceToReferenceFlowProperty>0</f:referenceToReferenceFlowProperty>
+        </f:quantitativeReference>
+    </f:flowInformation>
+    <f:modellingAndValidation>
+        <f:LCIMethod>
+            <f:typeOfDataSet>Elementary flow</f:typeOfDataSet>
+        </f:LCIMethod>
+    </f:modellingAndValidation>
+    <f:administrativeInformation>
+        <f:dataEntryBy>
+            <common:timeStamp>2019-02-01T00:00:00.000+01:00</common:timeStamp>
+            <common:referenceToDataSetFormat type="source data set" refObjectId="a97a0155-0234-4b87-b4ce-a45da52f2a40" version="01.01.000" uri="../sources/a97a0155-0234-4b87-b4ce-a45da52f2a40_01.01.000.xml">
+                <common:shortDescription xml:lang="en">ILCD format</common:shortDescription>
+            </common:referenceToDataSetFormat>
+        </f:dataEntryBy>
+        <f:publicationAndOwnership>
+            <common:dataSetVersion>36.00.000</common:dataSetVersion>
+            <common:permanentDataSetURI>http://openlca.org/ilcd/resource/flows/b0f7c9a4-f04d-4710-b869-d7129c0aa181</common:permanentDataSetURI>
+        </f:publicationAndOwnership>
+    </f:administrativeInformation>
+    <f:flowProperties>
+        <f:flowProperty dataSetInternalID="0">
+            <f:referenceToFlowPropertyDataSet type="flow property data set" refObjectId="7e18d0ad-e78e-47a0-8e96-1c0a581902e2" version="01.00.000" uri="../flowproperties/7e18d0ad-e78e-47a0-8e96-1c0a581902e2">
+                <common:shortDescription xml:lang="en">Mass</common:shortDescription>
+            </f:referenceToFlowPropertyDataSet>
+            <f:meanValue>1.0</f:meanValue>
+        </f:flowProperty>
+        <f:flowProperty dataSetInternalID="1">
+            <f:referenceToFlowPropertyDataSet type="flow property data set" refObjectId="bc471439-1dc7-4335-8cbb-ac8cd8d94db8" version="01.00.000" uri="../flowproperties/bc471439-1dc7-4335-8cbb-ac8cd8d94db8">
+                <common:shortDescription xml:lang="en">Environmental cost of air emissions (UBA, version 3.0, 2018)</common:shortDescription>
+            </f:referenceToFlowPropertyDataSet>
+            <f:meanValue>1.1</f:meanValue>
+        </f:flowProperty>
+    </f:flowProperties>
+</f:flowDataSet>
