@@ -3,7 +3,7 @@
   "build": {
     "dockerfile": "../../Dockerfile"
   },
-  "workspaceFolder": "/workspaces/PRe-hackathon/hackathon/TeamC_Data_Import_Export_Transformation",
+  "workspaceFolder": "/workspaces/hackathon-pre/hackathon/TeamC_Data_Import_Export_Transformation",
   "customizations": {
     "vscode": {
       "extensions": [
