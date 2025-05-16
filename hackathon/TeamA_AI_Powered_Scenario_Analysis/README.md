@@ -95,6 +95,14 @@ Delivery costs and transport CO2 emissions are calculated per supplier, not per 
   - Convergence threshold
 - Multi-objective optimization for cost and CO2 emissions
 
+## Recommended way of remote working
 
-## Getting Started
-bla bla bla
+The hackathon is about working together. To make this day efficient for you we prose following plan:
+1. Start with warm up notebook and introduction to the AI optimizations
+2. Brainstorm your ideas for solving the main goal
+3. Assign clear roles: split backend/frontend/data and presenting tasks. Agree on common way of working (Python script vs notebook, frontend technology, etc.)
+4. Data person can start with familiarization and understanding the data. Backend and fronted teams can work independently. Backend team should work together until implementation of otpimization algorithm is ready, then first part of the backend team can add constraints, others ones can check if the algorithm is doing what it is supposed to do and improve it
+5. Sync regulary: organize at least one sync meeting to share your progress and help others in case of any troubles
+6. Do not wait till the last moment to share your progress with the team
+7. Tomasz is assigned as first contact person. In case of any problems, reach out to him
+   
