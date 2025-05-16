@@ -3,7 +3,7 @@
   "build": {
     "dockerfile": "../../Dockerfile"
   },
-  "workspaceFolder": "/workspaces/PRe-hackathon/hackathon/TeamA_AI_Powered_Scenario_Analysis",
+  "workspaceFolder": "/workspaces/hackathon-pre/hackathon/TeamA_AI_Powered_Scenario_Analysis",
   "customizations": {
     "vscode": {
       "extensions": [
