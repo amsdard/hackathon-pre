@@ -4,7 +4,7 @@
     "dockerfile": "../../Dockerfile",
     "context": "../.."
   },
-  "workspaceFolder": "/workspaces/PRe-hackathon/hackathon/TeamB_BoM_Enrichment_And_Generation",
+  "workspaceFolder": "/workspaces/hackathon-pre/hackathon/TeamB_BoM_Enrichment_And_Generation",
   "customizations": {
     "vscode": {
       "extensions": [
